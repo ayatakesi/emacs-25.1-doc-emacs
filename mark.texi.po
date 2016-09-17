@@ -3,48 +3,47 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-07-03 16:30+0900\n"
+"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
+"Language-Team: Japanese <h1r0p@outlook.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: node
 #: original_texis/mark.texi:5
 #, no-wrap
 msgid "Mark"
-msgstr ""
+msgstr "Mark"
 
 #. type: chapter
 #: original_texis/mark.texi:6
 #, no-wrap
 msgid "The Mark and the Region"
-msgstr ""
+msgstr "The Mark and the Region"
 
 #. type: cindex
 #: original_texis/mark.texi:7
 #, no-wrap
 msgid "mark"
-msgstr ""
+msgstr "mark"
 
 #. type: cindex
 #: original_texis/mark.texi:8
 #, no-wrap
 msgid "setting a mark"
-msgstr ""
+msgstr "setting a mark"
 
 #. type: cindex
 #: original_texis/mark.texi:9
 #, no-wrap
 msgid "region"
-msgstr ""
+msgstr "region"
 
 #. type: Plain text
 #: original_texis/mark.texi:18
@@ -56,12 +55,19 @@ msgid ""
 "extends between point and the mark, no matter which one comes earlier in the "
 "text; each time you move point, the region changes."
 msgstr ""
+"Emacsのコマンドには、現在のバッファー内の、任意の連続する領域(region)を操作す"
+"るものがたくさんあります。そのようなコマンドが操作するテキストを指定するに"
+"は、領域の一方の端に@dfn{マーク(mark)}をセットし、もう一方の端にポイントを移"
+"動します。ポイントとマークの間のテキストを、@dfn{リージョン(region)}と呼びま"
+"す。リージョンは常にポイントとマークの間で拡張され、それは一方がテキストの先"
+"頭にある場合も変わりません。ポイントを移動すれば、常にリージョンは変化しま"
+"す。"
 
 #. type: cindex
 #: original_texis/mark.texi:19
 #, no-wrap
 msgid "active region"
-msgstr ""
+msgstr "active region"
 
 #. type: Plain text
 #: original_texis/mark.texi:24
@@ -71,6 +77,10 @@ msgid ""
 "its extent by highlighting the text within it, using the @code{region} face "
 "(@pxref{Face Customization})."
 msgstr ""
+"テキストのある位置にマークをセットすると、マークは@dfn{アクティブ(active)}に"
+"なります。マークがアクティブのときは、リージョンもアクティブになります。Emacs"
+"はアクティブなリージョンの中にあるテキストを、フェイス@code{region}でハイライ"
+"ト表示します(@ref{Face Customization}を参照してください)。"
 
 #. type: Plain text
 #: original_texis/mark.texi:30
@@ -80,6 +90,11 @@ msgid ""
 "turns off the highlighting.  You can also explicitly deactivate the mark at "
 "any time, by typing @kbd{C-g} (@pxref{Quitting})."
 msgstr ""
+"バッファーのテキストを変更するコマンドを含む、特定の非移動系コマンド(non-"
+"motion commands)の後で、Emacsは自動的にマークを@dfn{非アクティブ"
+"(deactivates)}にし、これによりハイライトも解除されます。@kbd{C-g}をタイプすれ"
+"ば、いつでも明示的に非アクティブにすることができます(@ref{Quitting}を参照して"
+"ください)。"
 
 #. type: Plain text
 #: original_texis/mark.texi:35
@@ -88,12 +103,15 @@ msgid ""
 "Transient Mark mode switches Emacs to an alternative behavior, in which the "
 "region is usually not highlighted.  @xref{Disabled Transient Mark}."
 msgstr ""
+"上記のデフォルト動作は、Transient Markモード(暫定マークモード)という名で知ら"
+"れています。Transient Markモードを無効にすると、Emacsは通常ではリージョンをハ"
+"イライトしなくなります。@ref{Disabled Transient Mark}を参照してください。"
 
 #. type: vindex
 #: original_texis/mark.texi:36
 #, no-wrap
 msgid "highlight-nonselected-windows"
-msgstr ""
+msgstr "highlight-nonselected-windows"
 
 #. type: Plain text
 #: original_texis/mark.texi:45
@@ -103,131 +121,144 @@ msgid ""
 "place as before.  When multiple windows show the same buffer, they can have "
 "different values of point, and thus different regions, but they all share "
 "one common mark position.  @xref{Windows}.  Ordinarily, only the selected "
-"window highlights its region; however, if the variable "
-"@code{highlight-nonselected-windows} is non-@code{nil}, each window "
-"highlights its own region."
+"window highlights its region; however, if the variable @code{highlight-"
+"nonselected-windows} is non-@code{nil}, each window highlights its own "
+"region."
 msgstr ""
+"あるバッファーでマークをセットしても、他のバッファーのマークは影響を受けませ"
+"ん。アクティブなマークがあるバッファーに戻ったとき、マークは以前と同じ場所に"
+"あります。複数のウィンドウで同じバッファーを表示しているとき、これらのウィン"
+"ドウはそれぞれのポイント位置をもっているので、リージョンも異なります。しかし"
+"これらのウィンドウでは、マークの位置は共通です。@ref{Windows}を参照してくださ"
+"い。通常、選択されたウィンドウのリージョンだけがハイライトされます。しかし変"
+"数@code{highlight-nonselected-windows}が非@code{nil}の場合、各ウィンドウの"
+"リージョンがハイライトされます。"
 
 #. type: Plain text
 #: original_texis/mark.texi:48
-msgid "There is another kind of region: the rectangular region.  @xref{Rectangles}."
+msgid ""
+"There is another kind of region: the rectangular region.  @xref{Rectangles}."
 msgstr ""
+"rectangular region(矩形リージョン)という、違う種類のリージョンもあります。"
+"@ref{Rectangles}を参照してください。"
 
 #. type: node
 #: original_texis/mark.texi:57 original_texis/mark.texi:59
 #, no-wrap
 msgid "Setting Mark"
-msgstr ""
+msgstr "Setting Mark"
 
 #. type: menuentry
 #: original_texis/mark.texi:57
 msgid "Commands to set the mark."
-msgstr ""
+msgstr "マークをセットするコマンド。"
 
 #. type: node
 #: original_texis/mark.texi:57 original_texis/mark.texi:156
 #, no-wrap
 msgid "Marking Objects"
-msgstr ""
+msgstr "Marking Objects"
 
 #. type: menuentry
 #: original_texis/mark.texi:57
 msgid "Commands to put region around textual units."
-msgstr ""
+msgstr "テキスト単位の周辺にリージョンをセットするコマンド。"
 
 #. type: node
 #: original_texis/mark.texi:57 original_texis/mark.texi:220
 #, no-wrap
 msgid "Using Region"
-msgstr ""
+msgstr "Using Region"
 
 #. type: menuentry
 #: original_texis/mark.texi:57
 msgid "Summary of ways to operate on contents of the region."
-msgstr ""
+msgstr "リージョンの内容を操作する方法の要約。"
 
 #. type: node
 #: original_texis/mark.texi:57 original_texis/mark.texi:297
 #, no-wrap
 msgid "Mark Ring"
-msgstr ""
+msgstr "Mark Ring"
 
 #. type: menuentry
 #: original_texis/mark.texi:57
 msgid "Previous mark positions saved so you can go back there."
-msgstr ""
+msgstr "後で戻れるように保存された以前のマーク位置。"
 
 #. type: node
 #: original_texis/mark.texi:57 original_texis/mark.texi:356
 #, no-wrap
 msgid "Global Mark Ring"
-msgstr ""
+msgstr "Global Mark Ring"
 
 #. type: menuentry
 #: original_texis/mark.texi:57
 msgid "Previous mark positions in various buffers."
-msgstr ""
+msgstr "さまざまなバッファーの以前のマーク位置。"
 
 #. type: section
-#: original_texis/mark.texi:57 original_texis/mark.texi:377 original_texis/mark.texi:378
+#: original_texis/mark.texi:57 original_texis/mark.texi:377
+#: original_texis/mark.texi:378
 #, no-wrap
 msgid "Shift Selection"
-msgstr ""
+msgstr "Shift Selection"
 
 #. type: menuentry
 #: original_texis/mark.texi:57
 msgid "Using shifted cursor motion keys."
-msgstr ""
+msgstr "シフトを押してカーソル移動キーを使う。"
 
 #. type: node
 #: original_texis/mark.texi:57 original_texis/mark.texi:411
 #, no-wrap
 msgid "Disabled Transient Mark"
-msgstr ""
+msgstr "Disabled Transient Mark"
 
 #. type: menuentry
 #: original_texis/mark.texi:57
 msgid "Leaving regions unhighlighted by default."
-msgstr ""
+msgstr "デフォルトでリージョンをハイライトせずにおく。"
 
 #. type: section
 #: original_texis/mark.texi:60
 #, no-wrap
 msgid "Setting the Mark"
-msgstr ""
+msgstr "Setting the Mark"
 
 #. type: Plain text
 #: original_texis/mark.texi:63
 msgid "Here are some commands for setting the mark:"
-msgstr ""
+msgstr "マークをセットするためのコマンドがいくつかあります:"
 
 #. type: item
 #: original_texis/mark.texi:65
 #, no-wrap
 msgid "C-@key{SPC}"
-msgstr ""
+msgstr "C-@key{SPC}"
 
 #. type: table
 #: original_texis/mark.texi:67
 msgid "Set the mark at point, and activate it (@code{set-mark-command})."
 msgstr ""
+"ポイント位置にマークをセットしてアクティブにします(@code{set-mark-command})。"
 
 #. type: kindex
 #: original_texis/mark.texi:67 original_texis/mark.texi:83
 #, no-wrap
 msgid "C-@@"
-msgstr ""
+msgstr "C-@@"
 
 #. type: table
 #: original_texis/mark.texi:69
 msgid "The same."
-msgstr ""
+msgstr "同じです。"
 
 #. type: kindex
 #: original_texis/mark.texi:69 original_texis/mark.texi:112
 #, no-wrap
 msgid "C-x C-x"
-msgstr ""
+msgstr "C-x C-x"
 
 #. type: table
 #: original_texis/mark.texi:72
@@ -235,36 +266,40 @@ msgid ""
 "Set the mark at point, and activate it; then move point where the mark used "
 "to be (@code{exchange-point-and-mark})."
 msgstr ""
+"ポイント位置にマークをセットしてアクティブにしてから、以前のマークがあった位"
+"置にポイントを移動します(@code{exchange-point-and-mark})。"
 
 #. type: item
 #: original_texis/mark.texi:72
 #, no-wrap
 msgid "Drag-mouse-1"
-msgstr ""
+msgstr "Drag-mouse-1"
 
 #. type: table
 #: original_texis/mark.texi:74
 msgid "Set point and the mark around the text you drag across."
-msgstr ""
+msgstr "ドラッグしたテキストの周りにポイントとマークをセットします。"
 
 #. type: item
 #: original_texis/mark.texi:74
 #, no-wrap
 msgid "mouse-3"
-msgstr ""
+msgstr "mouse-3"
 
 #. type: table
 #: original_texis/mark.texi:77
 msgid ""
-"Set the mark at point, then move point to where you click "
-"(@code{mouse-save-then-kill})."
+"Set the mark at point, then move point to where you click (@code{mouse-save-"
+"then-kill})."
 msgstr ""
+"ポイント位置にマークをセットしてから、クリックした場所にポイントを移動します"
+"(@code{mouse-save-then-kill})。"
 
 #. type: samp{#1}
 #: original_texis/mark.texi:77
 #, no-wrap
 msgid "Shifted cursor motion keys"
-msgstr ""
+msgstr "シフトを押したカーソル移動キー"
 
 #. type: table
 #: original_texis/mark.texi:80
@@ -272,41 +307,56 @@ msgid ""
 "Set the mark at point if the mark is inactive, then move point.  @xref{Shift "
 "Selection}."
 msgstr ""
+"マークが非アクティブなら、ポイント位置にマークをセットしてポイントを移動しま"
+"す。@ref{Shift Selection}を参照してください。"
 
 #. type: kindex
 #: original_texis/mark.texi:82
 #, no-wrap
 msgid "C-SPC"
-msgstr ""
+msgstr "C-SPC"
 
 #. type: findex
 #: original_texis/mark.texi:84
 #, no-wrap
 msgid "set-mark-command"
-msgstr ""
+msgstr "set-mark-command"
 
 #. type: Plain text
 #: original_texis/mark.texi:94
 msgid ""
-"The most common way to set the mark is with @kbd{C-@key{SPC}} "
-"(@code{set-mark-command})@footnote{There is no @kbd{C-@key{SPC}} character "
-"in @acronym{ASCII}; usually, typing @kbd{C-@key{SPC}} on a text terminal "
-"gives the character @kbd{C-@@}.  This key is also bound to "
-"@code{set-mark-command}, so unless you are unlucky enough to have a text "
-"terminal that behaves differently, you might as well think of @kbd{C-@@} as "
-"@kbd{C-@key{SPC}}.}.  This sets the mark where point is, and activates it.  "
-"You can then move point away, leaving the mark behind."
+"The most common way to set the mark is with @kbd{C-@key{SPC}} (@code{set-"
+"mark-command})@footnote{There is no @kbd{C-@key{SPC}} character in "
+"@acronym{ASCII}; usually, typing @kbd{C-@key{SPC}} on a text terminal gives "
+"the character @kbd{C-@@}.  This key is also bound to @code{set-mark-"
+"command}, so unless you are unlucky enough to have a text terminal that "
+"behaves differently, you might as well think of @kbd{C-@@} as @kbd{C-"
+"@key{SPC}}.}.  This sets the mark where point is, and activates it.  You can "
+"then move point away, leaving the mark behind."
 msgstr ""
+"マークをセットするもっとも一般的な方法は、@kbd{C-@key{SPC}} (@code{set-mark-"
+"command})です@footnote{@acronym{ASCII}には、文字@kbd{C-@key{SPC}}はありませ"
+"ん。テキスト端末で@kbd{C-@key{SPC}}をタイプすると、通常は文字@kbd{C-@@}が与え"
+"られます。このキーも@code{set-mark-command}にバインドされているので、もし異な"
+"る挙動を示すテキスト端末の場合は、@kbd{C-@key{SPC}}のかわりに@kbd{C-@@}を使う"
+"ことを考えるのがよいかもしれません。}。これはポイントがある位置にマークをセッ"
+"トしてから、アクティブにします。その後、マークをそこに残したままポイントを移"
+"動できます。"
 
 #. type: Plain text
 #: original_texis/mark.texi:101
 msgid ""
 "For example, suppose you wish to convert part of the buffer to upper case.  "
-"To accomplish this, go to one end of the desired text, type "
-"@kbd{C-@key{SPC}}, and move point until the desired portion of text is "
+"To accomplish this, go to one end of the desired text, type @kbd{C-"
+"@key{SPC}}, and move point until the desired portion of text is "
 "highlighted.  Now type @kbd{C-x C-u} (@code{upcase-region}).  This converts "
 "the text in the region to upper case, and then deactivates the mark."
 msgstr ""
+"たとえばバッファーの一部を大文字に変換したいとします。これを行うには対象のテ"
+"キストの一方の端に移動して、@kbd{C-@key{SPC}}をタイプし、対象のテキストがハイ"
+"ライトされるまでポイントを移動します。そして@kbd{C-x C-u} (@code{upcase-"
+"region})をタイプすると、リージョンのテキストが大文字に変換されて、マークが非"
+"アクティブになります。"
 
 #. type: Plain text
 #: original_texis/mark.texi:106
@@ -315,21 +365,29 @@ msgid ""
 "(@pxref{Quitting}).  Most commands that operate on the region also "
 "automatically deactivate the mark, like @kbd{C-x C-u} in the above example."
 msgstr ""
+"マークがアクティブなときに非アクティブにしたいときは、@kbd{C-g}をタイプします"
+"(@ref{Quitting}を参照してください)。リージョンにたいして操作を行うほとんどの"
+"コマンドは、上記の例の@kbd{C-x C-u}のように、自動的にマークを非アクティブにし"
+"ます。"
 
 #. type: Plain text
 #: original_texis/mark.texi:111
 msgid ""
 "Instead of setting the mark in order to operate on a region, you can also "
-"use it to remember a position in the buffer (by typing @kbd{C-@key{SPC} "
-"C-@key{SPC}}), and later jump back there (by typing @kbd{C-u C-@key{SPC}}).  "
+"use it to remember a position in the buffer (by typing @kbd{C-@key{SPC} C-"
+"@key{SPC}}), and later jump back there (by typing @kbd{C-u C-@key{SPC}}).  "
 "@xref{Mark Ring}, for details."
 msgstr ""
+"リージョンにたいしての操作は行わず、バッファーの位置を覚えておくためにマーク"
+"をセット(@kbd{C-@key{SPC} C-@key{SPC}}とタイプ)して、後でそこに戻る(@kbd{C-u "
+"C-@key{SPC}}とタイプ)こともできます。詳細については、@ref{Mark Ring}を参照し"
+"てください。"
 
 #. type: findex
 #: original_texis/mark.texi:113
 #, no-wrap
 msgid "exchange-point-and-mark"
-msgstr ""
+msgstr "exchange-point-and-mark"
 
 #. type: Plain text
 #: original_texis/mark.texi:125
@@ -345,6 +403,15 @@ msgid ""
 "mark inactive and the region unhighlighted; you can use this to jump to the "
 "mark in a manner similar to @kbd{C-u C-@key{SPC}}."
 msgstr ""
+"コマンド@kbd{C-x C-x} (@code{exchange-point-and-mark})は、ポイントとマークの"
+"位置を交換します。ポイントの位置に問題はないが、リージョンのもう一方の端にポ"
+"イントを移動したいとき@kbd{C-x C-x}は便利です。2回目の@kbd{C-x C-x}で、マーク"
+"を新しいポイント位置にマークをセットしてから、ポイントを元の位置に戻すことが"
+"できます。このコマンドはマークが非アクティブのとき、最初にマークをアクティブ"
+"にします。これはマークが最後にどこにセットされたかを明確にするために、リー"
+"ジョンをハイライトするためです。しかしプレフィクス引数とともに呼び出せば、"
+"マークは非アクティブのままでリージョンもハイライトされません。これを使えば"
+"@kbd{C-u C-@key{SPC}}と同様の方法で、マークの位置にジャンプできます。"
 
 #. type: Plain text
 #: original_texis/mark.texi:133
@@ -357,12 +424,18 @@ msgid ""
 "clicked.  @xref{Mouse Commands}, for a more detailed description of these "
 "mouse commands."
 msgstr ""
+"マウスでマークをセットすることもできます。マウスの左ボタン(@kbd{down-"
+"mouse-1})をクリックしてから、テキスト範囲をドラッグすると、最初にマウスボタン"
+"を押した位置にマークがセットされ、マウスボタンを話した位置にポイントが置かれ"
+"ます。かわりにマウスの右ボタン(@kbd{mouse-3})をクリックすれば、ポイントのある"
+"位置にマークがセットされ、クリックした位置にポイントが移動します。これらのマ"
+"ウスコマンドに関する詳細な説明は、@ref{Mouse Commands}を参照してください。"
 
 #. type: cindex
 #: original_texis/mark.texi:134 original_texis/mark.texi:379
 #, no-wrap
 msgid "shift-selection"
-msgstr ""
+msgstr "shift-selection"
 
 #. type: Plain text
 #: original_texis/mark.texi:143
@@ -376,6 +449,13 @@ msgid ""
 "cursor motion command deactivates it automatically.  For details, "
 "@xref{Shift Selection}."
 msgstr ""
+"最後にシフトキーを押しながらカーソルを移動するコマンド(@kbd{S-@key{RIGHT}}、"
+"@kbd{S-C-f}、@kbd{S-C-n}など)でマークをセットできます。これは@dfn{シフト選択"
+"(shift-selection)}と呼ばれ、(シフト選択するときにアクティブなマークがないとき"
+"に限り)ポイントを移動する前の位置にマークをセットします。マウスコマンドやシフ"
+"ト選択によるマークのセットは、通常のマークとは少し異なります。続けてシフトを"
+"押さないカーソル移動コマンドを実行するにより、マークは自動的に非アクティブに"
+"なります。詳細は、@ref{Shift Selection}を参照してください。"
 
 #. type: Plain text
 #: original_texis/mark.texi:149
@@ -385,12 +465,17 @@ msgid ""
 "lets you easily return to that position (@pxref{Mark Ring}).  You can tell "
 "that a command does this when it shows @samp{Mark set} in the echo area."
 msgstr ""
+"@kbd{C-y} (@code{yank})のようなテキストを挿入するコマンドの多くは、挿入された"
+"テキストの先頭に、非アクティブなマークをセットします。これにより簡単にその位"
+"置に戻ることができます(@ref{Mark Ring}を参照してください)。コマンドがこれを"
+"行っていることは、エコーエリアに@samp{Mark set}が表示されることで見分けること"
+"ができます。"
 
 #. type: cindex
 #: original_texis/mark.texi:150
 #, no-wrap
 msgid "primary selection"
-msgstr ""
+msgstr "primary selection"
 
 #. type: Plain text
 #: original_texis/mark.texi:155
@@ -399,18 +484,22 @@ msgid ""
 "region to the @dfn{primary selection}.  This lets you insert that text into "
 "other X applications with @kbd{mouse-2} clicks.  @xref{Primary Selection}."
 msgstr ""
+"Xではアクティブなリージョンが変化するたびに、Emacsはリージョンのテキストを"
+"@dfn{プライマリー選択(primary selection)}に保存します。これにより"
+"@kbd{mouse-2}をクリックして、他のXアプリケーションへテキストを挿入することが"
+"できるようになります。@ref{Primary Selection}を参照してください。"
 
 #. type: section
 #: original_texis/mark.texi:157
 #, no-wrap
 msgid "Commands to Mark Textual Objects"
-msgstr ""
+msgstr "Commands to Mark Textual Objects"
 
 #. type: cindex
 #: original_texis/mark.texi:159
 #, no-wrap
 msgid "marking sections of text"
-msgstr ""
+msgstr "marking sections of text"
 
 #. type: Plain text
 #: original_texis/mark.texi:162
@@ -418,12 +507,14 @@ msgid ""
 "Here are commands for placing point and the mark around a textual object "
 "such as a word, list, paragraph or page:"
 msgstr ""
+"単語(word)、リスト(list)、パラグラフ(paragraph: 段落)、ページ(page)などのテキ"
+"ストオブジェクトの周辺に、ポイントを配置してマークするコマンドがあります:"
 
 #. type: kindex
 #: original_texis/mark.texi:164 original_texis/mark.texi:184
 #, no-wrap
 msgid "M-@@"
-msgstr ""
+msgstr "M-@@"
 
 #. type: table
 #: original_texis/mark.texi:167
@@ -431,12 +522,14 @@ msgid ""
 "Set mark after end of next word (@code{mark-word}).  This does not move "
 "point."
 msgstr ""
+"次の単語の末尾の後にマークをセットします(@code{mark-word})。ポイントは移動し"
+"ません。"
 
 #. type: kindex
 #: original_texis/mark.texi:167 original_texis/mark.texi:197
 #, no-wrap
 msgid "C-M-@@"
-msgstr ""
+msgstr "C-M-@@"
 
 #. type: table
 #: original_texis/mark.texi:170
@@ -444,12 +537,14 @@ msgid ""
 "Set mark after end of following balanced expression (@code{mark-sexp}).  "
 "This does not move point."
 msgstr ""
+"次の対応のとれた式の後にマークをセットします(@code{mark-sexp})。ポイントは移"
+"動しません。"
 
 #. type: item
 #: original_texis/mark.texi:170
 #, no-wrap
 msgid "M-h"
-msgstr ""
+msgstr "M-h"
 
 #. type: table
 #: original_texis/mark.texi:173
@@ -457,12 +552,14 @@ msgid ""
 "Move point to the beginning of the current paragraph, and set mark at the "
 "end (@code{mark-paragraph})."
 msgstr ""
+"ポイントを現在のパラグラフの先頭に移動して、パラグラフの最後にマークをセット"
+"します(@code{mark-paragraph})。"
 
 #. type: item
 #: original_texis/mark.texi:173
 #, no-wrap
 msgid "C-M-h"
-msgstr ""
+msgstr "C-M-h"
 
 #. type: table
 #: original_texis/mark.texi:176
@@ -470,12 +567,14 @@ msgid ""
 "Move point to the beginning of the current defun, and set mark at the end "
 "(@code{mark-defun})."
 msgstr ""
+"ポイントを現在のdefunの先頭に移動して、defunの最後にマークをセットします"
+"(@code{mark-defun})。"
 
 #. type: item
 #: original_texis/mark.texi:176
 #, no-wrap
 msgid "C-x C-p"
-msgstr ""
+msgstr "C-x C-p"
 
 #. type: table
 #: original_texis/mark.texi:179
@@ -483,12 +582,14 @@ msgid ""
 "Move point to the beginning of the current page, and set mark at the end "
 "(@code{mark-page})."
 msgstr ""
+"ポイントを現在のページの先頭に移動して、ページの最後にマークをセットします"
+"(@code{mark-page})。"
 
 #. type: kindex
 #: original_texis/mark.texi:179 original_texis/mark.texi:214
 #, no-wrap
 msgid "C-x h"
-msgstr ""
+msgstr "C-x h"
 
 #. type: table
 #: original_texis/mark.texi:182
@@ -496,12 +597,14 @@ msgid ""
 "Move point to the beginning of the buffer, and set mark at the end "
 "(@code{mark-whole-buffer})."
 msgstr ""
+"ポイントを現在のバッファーの先頭に移動して、バッファーの最後にマークをセット"
+"します(@code{mark-whole-buffer})。"
 
 #. type: findex
 #: original_texis/mark.texi:185
 #, no-wrap
 msgid "mark-word"
-msgstr ""
+msgstr "mark-word"
 
 #. type: Plain text
 #: original_texis/mark.texi:192
@@ -512,6 +615,11 @@ msgid ""
 "exception, if the mark is active and located before point, @kbd{M-@@} moves "
 "the mark backwards from its current position one word at a time."
 msgstr ""
+"@kbd{M-@@} (@code{mark-word})は、次の単語の最後にマークをセットします(単語に"
+"ついての情報は、@ref{Words}を参照してください)。繰り返し呼び出されると、マー"
+"クを1度に1単語進めてリージョンを拡張します。例外として、マークがアクティブで"
+"ポイントの前にある場合、@kbd{M-@@}はマークを現在の位置から1単語後方に移動しま"
+"す。"
 
 #. type: Plain text
 #: original_texis/mark.texi:196
@@ -520,12 +628,14 @@ msgid ""
 "advance the mark by @var{n} words.  A negative argument moves the mark back "
 "by @var{n} words."
 msgstr ""
+"このコマンドに数引数@var{n}を指定することにより、@var{n}単語進めてマークする"
+"よう指定できます。負の引数は@var{n}単語後方にマークを移動します。"
 
 #. type: findex
 #: original_texis/mark.texi:198
 #, no-wrap
 msgid "mark-sexp"
-msgstr ""
+msgstr "mark-sexp"
 
 #. type: Plain text
 #: original_texis/mark.texi:204
@@ -536,30 +646,41 @@ msgid ""
 "arguments move the mark forward or backward by the specified number of "
 "expressions."
 msgstr ""
+"同様に@kbd{C-M-@@} (@code{mark-sexp})は、対応のとれた式の最後にマークをセット"
+"します(@ref{Expressions}を参照してください)。繰り返し呼び出すことにより、後続"
+"の式にリージョンを拡張します。正または負の数引数を指定するとその数に応じて前"
+"方または後方にマークを移動します。"
 
 #. type: Plain text
 #: original_texis/mark.texi:213
 msgid ""
 "The other commands in the above list set both point and mark, so as to "
 "delimit an object in the buffer.  @kbd{M-h} (@code{mark-paragraph})  marks "
-"paragraphs (@pxref{Paragraphs}), @kbd{C-M-h} (@code{mark-defun})  marks "
-"top-level definitions (@pxref{Moving by Defuns}), and @kbd{C-x C-p} "
-"(@code{mark-page}) marks pages (@pxref{Pages}).  Repeated invocations again "
-"play the same role, extending the region to consecutive objects; similarly, "
-"numeric arguments specify how many objects to move the mark by."
+"paragraphs (@pxref{Paragraphs}), @kbd{C-M-h} (@code{mark-defun})  marks top-"
+"level definitions (@pxref{Moving by Defuns}), and @kbd{C-x C-p} (@code{mark-"
+"page}) marks pages (@pxref{Pages}).  Repeated invocations again play the "
+"same role, extending the region to consecutive objects; similarly, numeric "
+"arguments specify how many objects to move the mark by."
 msgstr ""
+"上記のリストの他のコマンドは、ポイントとマークの両方をセットするので、バッ"
+"ファー内のオブジェクトを区切るコマンドです。@kbd{M-h} (@code{mark-paragraph})"
+"はパラグラフ(@ref{Paragraphs}を参照してください)、@kbd{C-M-h} (@code{mark-"
+"defun})はトップレベルの関数定義(@ref{Moving by Defuns}を参照してください)、"
+"@kbd{C-x C-p} (@code{mark-page})はページ(@ref{Pages}を参照してください)をマー"
+"クします。繰り返して呼び出すと、同種の連続するオブジェクトへと、リージョンを"
+"拡張します。数引数も同様で、マークを移動したいオブジェクトの数を指定します。"
 
 #. type: findex
 #: original_texis/mark.texi:215
 #, no-wrap
 msgid "mark-whole-buffer"
-msgstr ""
+msgstr "mark-whole-buffer"
 
 #. type: cindex
 #: original_texis/mark.texi:216
 #, no-wrap
 msgid "select all"
-msgstr ""
+msgstr "select all"
 
 #. type: Plain text
 #: original_texis/mark.texi:219
@@ -567,97 +688,126 @@ msgid ""
 "@kbd{C-x h} (@code{mark-whole-buffer}) sets up the entire buffer as the "
 "region, by putting point at the beginning and the mark at the end."
 msgstr ""
+"@kbd{C-x h} (@code{mark-whole-buffer})はポイントをバッファーの先頭、マークを"
+"最後にセットすることによりバッファー全体をリージョンとします。"
 
 #. type: section
 #: original_texis/mark.texi:221
 #, no-wrap
 msgid "Operating on the Region"
-msgstr ""
+msgstr "Operating on the Region"
 
 #. type: cindex
 #: original_texis/mark.texi:223
 #, no-wrap
 msgid "operations on a marked region"
-msgstr ""
+msgstr "operations on a marked region"
 
 #. type: Plain text
 #: original_texis/mark.texi:226
-msgid "Once you have a region, here are some of the ways you can operate on it:"
-msgstr ""
+msgid ""
+"Once you have a region, here are some of the ways you can operate on it:"
+msgstr "一度リージョンを設定すると、それを処理するいくつかの方法があります:"
 
 #. type: itemize
 #: original_texis/mark.texi:230
 msgid "Kill it with @kbd{C-w} (@pxref{Killing})."
-msgstr ""
+msgstr "@kbd{C-w} (@pxref{Killing})でkillします。"
 
 #. type: itemize
 #: original_texis/mark.texi:232
 msgid "Copy it to the kill ring with @kbd{M-w} (@pxref{Yanking})."
 msgstr ""
+"@kbd{M-w} でkillリングにコピーします(@ref{Yanking}を参照してください)。"
 
 #. type: itemize
 #: original_texis/mark.texi:234
 msgid "Convert case with @kbd{C-x C-l} or @kbd{C-x C-u} (@pxref{Case})."
 msgstr ""
+"@kbd{C-x C-l}または@kbd{C-x C-u}で、大文字小文字を変換します(@ref{Case}を参照"
+"してください)。"
 
 #. type: itemize
 #: original_texis/mark.texi:236
 msgid "Undo changes within it using @kbd{C-u C-/} (@pxref{Undo})."
 msgstr ""
+"@kbd{C-u C-/}で変更をアンドゥ(undo)します(@ref{Undo}を参照してください)。"
 
 #. type: itemize
 #: original_texis/mark.texi:238
 msgid "Replace text within it using @kbd{M-%} (@pxref{Query Replace})."
 msgstr ""
+"@kbd{M-%}でリージョンの中のテキストを置換します(@ref{Query Replace}を参照して"
+"ください)。"
 
 #. type: itemize
 #: original_texis/mark.texi:240
-msgid "Indent it with @kbd{C-x @key{TAB}} or @kbd{C-M-\\} (@pxref{Indentation})."
+msgid ""
+"Indent it with @kbd{C-x @key{TAB}} or @kbd{C-M-\\} (@pxref{Indentation})."
 msgstr ""
+"@kbd{C-x @key{TAB}}または@kbd{C-M-\\}でインデントします(@ref{Indentation}を参"
+"照してください)。"
 
 #. type: itemize
 #: original_texis/mark.texi:242
 msgid "Fill it as text with @kbd{M-x fill-region} (@pxref{Filling})."
 msgstr ""
+"@kbd{M-x fill-region}でテキストとしてフィルします(@ref{Filling}を参照してくだ"
+"さい)。"
 
 #. type: itemize
 #: original_texis/mark.texi:244
-msgid "Check the spelling of words within it with @kbd{M-$} (@pxref{Spelling})."
+msgid ""
+"Check the spelling of words within it with @kbd{M-$} (@pxref{Spelling})."
 msgstr ""
+"@kbd{M-$}で単語のスペルをチェックします(@ref{Spelling}を参照してください)。"
 
 #. type: itemize
 #: original_texis/mark.texi:246
-msgid "Evaluate it as Lisp code with @kbd{M-x eval-region} (@pxref{Lisp Eval})."
+msgid ""
+"Evaluate it as Lisp code with @kbd{M-x eval-region} (@pxref{Lisp Eval})."
 msgstr ""
+"@kbd{M-x eval-region}でLispコードとして評価します(@ref{Lisp Eval}を参照してく"
+"ださい)。"
 
 #. type: itemize
 #: original_texis/mark.texi:248
 msgid "Save it in a register with @kbd{C-x r s} (@pxref{Registers})."
 msgstr ""
+"@kbd{C-x r s}でレジスターに保存します(@ref{Registers}を参照してください)。"
 
 #. type: itemize
 #: original_texis/mark.texi:250
 msgid "Save it in a buffer or a file (@pxref{Accumulating Text})."
 msgstr ""
+"バッファーまたはファイルに保存します(@ref{Accumulating Text}を参照してくださ"
+"い)。"
 
 #. type: Plain text
 #: original_texis/mark.texi:260
 msgid ""
 "Some commands have a default behavior when the mark is inactive, but operate "
-"on the region if the mark is active.  For example, @kbd{M-$} "
-"(@code{ispell-word}) normally checks the spelling of the word at point, but "
-"it checks the text in the region if the mark is active (@pxref{Spelling}).  "
-"Normally, such commands use their default behavior if the region is empty "
-"(i.e., if mark and point are at the same position).  If you want them to "
-"operate on the empty region, change the variable "
-"@code{use-empty-active-region} to @code{t}."
+"on the region if the mark is active.  For example, @kbd{M-$} (@code{ispell-"
+"word}) normally checks the spelling of the word at point, but it checks the "
+"text in the region if the mark is active (@pxref{Spelling}).  Normally, such "
+"commands use their default behavior if the region is empty (i.e., if mark "
+"and point are at the same position).  If you want them to operate on the "
+"empty region, change the variable @code{use-empty-active-region} to @code{t}."
 msgstr ""
+"マークが非アクティブのときにはデフォルトの動作をするが、マークがアクティブの"
+"ときはリージョンを処理するコマンドがいくつかあります。たとえば@kbd{M-$} "
+"(@code{ispell-word})は、通常はポイントのある単語のスペルをチェックしますが、"
+"マークがアクティブのときはリージョンの中のテキストをチェックします"
+"(@ref{Spelling}を参照してください)。通常そのようなコマンドはリージョンが空の"
+"とき(たとえばマークとポイントが同じ位置のとき)は、デフォルトの動作をします。"
+"空のリージョンにたいして処理を行いたいときは、変数@code{use-empty-active-"
+"region}を@code{t}に変更してください。"
 
 #. type: vindex
 #: original_texis/mark.texi:261
 #, no-wrap
 msgid "delete-active-region"
-msgstr ""
+msgstr "delete-active-region"
 
 #. type: Plain text
 #: original_texis/mark.texi:272
@@ -672,12 +822,20 @@ msgid ""
 "active.  If you change the value to @code{kill}, these commands @dfn{kill} "
 "the region instead of deleting it (@pxref{Killing})."
 msgstr ""
+"@ref{Erasing}で説明したように、@key{DEL} (@code{backward-delete-char})と"
+"@key{delete} (@code{delete-forward-char})もこの方法で動作します。マークがアク"
+"ティブのときはリージョンのテキストを削除します(例外として数引数@var{n}に1以外"
+"が指定されたとき、これらのコマンドはマークがアクティブか関係なく、@var{n}文字"
+"を削除します)。変数@code{delete-active-region}を@code{nil}に変更すると、これ"
+"らのコマンドはマークがアクティブのとき異なる動作をしなくなります。これを"
+"@code{kill}に変更するとリージョンを削除するかわりに、@dfn{kill}するようになり"
+"ます(@ref{Killing}を参照してください)。"
 
 #. type: vindex
 #: original_texis/mark.texi:273
 #, no-wrap
 msgid "mark-even-if-inactive"
-msgstr ""
+msgstr "mark-even-if-inactive"
 
 #. type: Plain text
 #: original_texis/mark.texi:283
@@ -691,24 +849,32 @@ msgid ""
 "@code{mark-even-if-inactive} to @code{nil}.  Then these commands will "
 "instead signal an error if the mark is inactive."
 msgstr ""
+"その他のコマンドにはデフォルトの動作はなく、常にリージョンを処理します。通常"
+"このようなコマンドには、@kbd{C-w} (@code{kill-region})や@code{C-x C-u} "
+"(@code{upcase-region})のように、名前に@code{region}がついています。マークが非"
+"アクティブのときは@dfn{非アクティブなリージョン}、すなわちポイントと最後に"
+"マークをセットした位置の間にあるテキストにたいして処理を行います(@ref{Mark "
+"Ring}を参照してください)。この動作を無効にするには、変数@code{mark-even-if-"
+"inactive}を@code{nil}に変更してください。そうするとこれらのコマンドはマークが"
+"非アクティブのときエラーをシグナルします。"
 
 #. type: cindex
 #: original_texis/mark.texi:284
 #, no-wrap
 msgid "Delete Selection mode"
-msgstr ""
+msgstr "Delete Selection mode"
 
 #. type: cindex
 #: original_texis/mark.texi:285
 #, no-wrap
 msgid "mode, Delete Selection"
-msgstr ""
+msgstr "mode, Delete Selection"
 
 #. type: findex
 #: original_texis/mark.texi:286
 #, no-wrap
 msgid "delete-selection-mode"
-msgstr ""
+msgstr "delete-selection-mode"
 
 #. type: Plain text
 #: original_texis/mark.texi:296
@@ -722,18 +888,26 @@ msgid ""
 "entire region instead.  To toggle Delete Selection mode on or off, type "
 "@kbd{M-x delete-selection-mode}."
 msgstr ""
+"デフォルトでは、マークがアクティブでもテキストの挿入は普通に行われます。たと"
+"えば@kbd{a}をタイプすると、@samp{a}が挿入されてからマークが非アクティブになり"
+"ます。マイナーモードのDelete Selectionモードは、この振る舞いを変更します。"
+"Delete Selectionモードが有効な場合、マークがアクティブなときは、最初にリー"
+"ジョンのテキストを削除してから、テキストが挿入されます。@kbd{C-d}や"
+"@kbd{@key{DEL}}のような、通常は1文字だけを削除するコマンドも、リージョン全体"
+"を削除するようになります。Delete Selectionモードをオフにするには、@kbd{M-x "
+"delete-selection-mode}とタイプしてください。"
 
 #. type: section
 #: original_texis/mark.texi:298
 #, no-wrap
 msgid "The Mark Ring"
-msgstr ""
+msgstr "The Mark Ring"
 
 #. type: cindex
 #: original_texis/mark.texi:300
 #, no-wrap
 msgid "mark ring"
-msgstr ""
+msgstr "mark ring"
 
 #. type: Plain text
 #: original_texis/mark.texi:305
@@ -743,23 +917,29 @@ msgid ""
 "One of the uses of the mark ring is to remember spots that you may want to "
 "go back to."
 msgstr ""
+"各バッファーは、@dfn{マークリング(mark ring)}の中に、以前のマークの位置を記録"
+"しています。マークをセットするコマンドは、古いマークをこのリングにpushしま"
+"す。マークリングの1つの使い方として、後で戻りたい場所を記録させる使い方があり"
+"ます。"
 
 #. type: kindex
-#: original_texis/mark.texi:307 original_texis/mark.texi:451 original_texis/mark.texi:452
+#: original_texis/mark.texi:307 original_texis/mark.texi:451
+#: original_texis/mark.texi:452
 #, no-wrap
 msgid "C-@key{SPC} C-@key{SPC}"
-msgstr ""
+msgstr "C-@key{SPC} C-@key{SPC}"
 
 #. type: table
 #: original_texis/mark.texi:309
 msgid "Set the mark, pushing it onto the mark ring, without activating it."
 msgstr ""
+"マークをアクティブにせずにマークをセットしてから、マークリングにpushします。"
 
 #. type: item
 #: original_texis/mark.texi:309
 #, no-wrap
 msgid "C-u C-@key{SPC}"
-msgstr ""
+msgstr "C-u C-@key{SPC}"
 
 #. type: table
 #: original_texis/mark.texi:312
@@ -767,12 +947,14 @@ msgid ""
 "Move point to where the mark was, and restore the mark from the ring of "
 "former marks."
 msgstr ""
+"マークがあった場所にポイントを移動し、マークリングから1つ前のマークを復元しま"
+"す。"
 
 #. type: kindex
 #: original_texis/mark.texi:314
 #, no-wrap
 msgid "C-SPC C-SPC"
-msgstr ""
+msgstr "C-SPC C-SPC"
 
 #. type: Plain text
 #: original_texis/mark.texi:324
@@ -781,44 +963,60 @@ msgid ""
 "mark to remember a position to which you may wish to return.  It pushes the "
 "current point onto the mark ring, without activating the mark (which would "
 "cause Emacs to highlight the region).  This is actually two consecutive "
-"invocations of @kbd{C-@key{SPC}} (@code{set-mark-command}); the first "
-"@kbd{C-@key{SPC}} sets the mark, and the second @kbd{C-@key{SPC}} "
-"deactivates it.  (When Transient Mark mode is off, @kbd{C-@key{SPC} "
-"C-@key{SPC}} instead activates Transient Mark mode temporarily; "
-"@pxref{Disabled Transient Mark}.)"
+"invocations of @kbd{C-@key{SPC}} (@code{set-mark-command}); the first @kbd{C-"
+"@key{SPC}} sets the mark, and the second @kbd{C-@key{SPC}} deactivates it.  "
+"(When Transient Mark mode is off, @kbd{C-@key{SPC} C-@key{SPC}} instead "
+"activates Transient Mark mode temporarily; @pxref{Disabled Transient Mark}.)"
 msgstr ""
+"コマンド@kbd{C-@key{SPC} C-@key{SPC}}は、後で戻ってきたい位置をマークするとき"
+"に便利です。これは現在の位置をマークを(Emacsがリージョンをハイライト表示して"
+"しまう)アクティブにすることなく、マークリングにpushします。実際にこれは"
+"@kbd{C-@key{SPC}} (@code{set-mark-command})を連続して2回呼び出しています。最"
+"初の@kbd{C-@key{SPC}}はマークをセットし、2回目の@kbd{C-@key{SPC}}はそれを非ア"
+"クティブにしています(Transient Markモードがオフの場合、@kbd{C-@key{SPC} C-"
+"@key{SPC}}は一時的にTransient Markモードを有効にします。@ref{Disabled "
+"Transient Mark}を参照してください)。"
 
 #. type: kindex
 #: original_texis/mark.texi:325
 #, no-wrap
 msgid "C-u C-SPC"
-msgstr ""
+msgstr "C-u C-SPC"
 
 #. type: Plain text
 #: original_texis/mark.texi:332
 msgid ""
 "To return to a marked position, use @code{set-mark-command} with a prefix "
 "argument: @kbd{C-u C-@key{SPC}}.  This moves point to where the mark was, "
-"and deactivates the mark if it was active.  Each subsequent @kbd{C-u "
-"C-@key{SPC}} jumps to a prior position stored in the mark ring.  The "
-"positions you move through in this way are not lost; they go to the end of "
-"the ring."
+"and deactivates the mark if it was active.  Each subsequent @kbd{C-u C-"
+"@key{SPC}} jumps to a prior position stored in the mark ring.  The positions "
+"you move through in this way are not lost; they go to the end of the ring."
 msgstr ""
+"マークした位置に戻るには、@kbd{C-u C-@key{SPC}}のようにプレフィクス引数を指定"
+"して、@code{set-mark-command}を使います。これはマークがあった場所にポイントを"
+"移動して、もしマークがアクティブのときは非アクティブにします。@kbd{C-u C-"
+"@key{SPC}}を連続して呼び出すと、マークリングに保存された前の位置へジャンプし"
+"ていきます。この方法で移動した位置の情報は失われません。それらはリングの最後"
+"に移動します。"
 
 #. type: vindex
 #: original_texis/mark.texi:333
 #, no-wrap
 msgid "set-mark-command-repeat-pop"
-msgstr ""
+msgstr "set-mark-command-repeat-pop"
 
 #. type: Plain text
 #: original_texis/mark.texi:339
 msgid ""
 "If you set @code{set-mark-command-repeat-pop} to non-@code{nil}, then "
-"immediately after you type @kbd{C-u C-@key{SPC}}, you can type "
-"@kbd{C-@key{SPC}} instead of @kbd{C-u C-@key{SPC}} to cycle through the mark "
-"ring.  By default, @code{set-mark-command-repeat-pop} is @code{nil}."
+"immediately after you type @kbd{C-u C-@key{SPC}}, you can type @kbd{C-"
+"@key{SPC}} instead of @kbd{C-u C-@key{SPC}} to cycle through the mark ring.  "
+"By default, @code{set-mark-command-repeat-pop} is @code{nil}."
 msgstr ""
+"@code{set-mark-command-repeat-pop}を非@code{nil}にセットすると、@kbd{C-u C-"
+"@key{SPC}}の後に続けて、@kbd{C-u C-@key{SPC}}ではなく、@kbd{C-@key{SPC}}で"
+"マークリングを巡回できます。デフォルトでは@code{set-mark-command-repeat-pop}"
+"は@code{nil}です。"
 
 #. type: Plain text
 #: original_texis/mark.texi:343
@@ -827,12 +1025,15 @@ msgid ""
 "buffer's mark ring.  In particular, @kbd{C-u C-@key{SPC}} always stays in "
 "the same buffer."
 msgstr ""
+"各バッファーは自身のマークリングを持ちます。すべての編集コマンドは現在のバッ"
+"ファーのマークリングを使います。特に@kbd{C-u C-@key{SPC}}は常に同じバッファー"
+"に留まります。"
 
 #. type: vindex
 #: original_texis/mark.texi:344
 #, no-wrap
 msgid "mark-ring-max"
-msgstr ""
+msgstr "mark-ring-max"
 
 #. type: Plain text
 #: original_texis/mark.texi:350
@@ -843,6 +1044,10 @@ msgid ""
 "Repeating @kbd{C-u C-@key{SPC}} cycles through the positions currently in "
 "the ring."
 msgstr ""
+"変数@code{mark-ring-max}は、マークリングに保持する最大のエントリー数を指定し"
+"ます。デフォルトは16エントリーです。もしエントリー数が最大の場合、他のエント"
+"リーをpushするとリストの一番古いものが捨てられます。@kbd{C-u C-@key{SPC}}を繰"
+"り返すと、リングの現在位置を巡回します。"
 
 #. type: Plain text
 #: original_texis/mark.texi:355
@@ -852,24 +1057,27 @@ msgid ""
 "for later retrieval (@pxref{Position Registers,, Saving Positions in "
 "Registers})."
 msgstr ""
+"もし何度も同じ場所に戻りたいときは、マークリングでは不十分でしょう。そのよう"
+"な場合は後で使うために、その位置をレジスターに記録できます(@ref{Position "
+"Registers}を参照してください)。"
 
 #. type: section
 #: original_texis/mark.texi:357
 #, no-wrap
 msgid "The Global Mark Ring"
-msgstr ""
+msgstr "The Global Mark Ring"
 
 #. type: cindex
 #: original_texis/mark.texi:358
 #, no-wrap
 msgid "global mark ring"
-msgstr ""
+msgstr "global mark ring"
 
 #. type: vindex
 #: original_texis/mark.texi:360
 #, no-wrap
 msgid "global-mark-ring-max"
-msgstr ""
+msgstr "global-mark-ring-max"
 
 #. type: Plain text
 #: original_texis/mark.texi:369
@@ -880,21 +1088,27 @@ msgid ""
 "if you have switched buffers since the previous mark setting.  Hence, the "
 "global mark ring records a sequence of buffers that you have been in, and, "
 "for each buffer, a place where you set the mark.  The length of the global "
-"mark ring is controlled by @code{global-mark-ring-max}, and is 16 by "
-"default."
+"mark ring is controlled by @code{global-mark-ring-max}, and is 16 by default."
 msgstr ""
+"各バッファーに属する普通のマークリングに加えて、Emacsには@dfn{グローバルマー"
+"クリング(global mark ring)}が1つあります。以前マークをセットしてからバッ"
+"ファーを切り替えた場合、マークをセットすると、マークはカレントバッファーの"
+"マークリングに加えて、グローバルマークリングにも記録されます。その結果、グ"
+"ローバルマークリングには訪れていたバッファーの系列が記録され、各バッファーで"
+"はマークを設定した箇所が記録されます。グローバルマークリングの長さは、"
+"@code{global-mark-ring-max}で制御され、デフォルトは16です。"
 
 #. type: kindex
 #: original_texis/mark.texi:370
 #, no-wrap
 msgid "C-x C-@key{SPC}"
-msgstr ""
+msgstr "C-x C-@key{SPC}"
 
 #. type: findex
 #: original_texis/mark.texi:371
 #, no-wrap
 msgid "pop-global-mark"
-msgstr ""
+msgstr "pop-global-mark"
 
 #. type: Plain text
 #: original_texis/mark.texi:376
@@ -904,6 +1118,10 @@ msgid ""
 "the ring, so that successive uses of @kbd{C-x C-@key{SPC}} take you to "
 "earlier buffers and mark positions."
 msgstr ""
+"コマンド@kbd{C-x C-@key{SPC}} (@code{pop-global-mark})は、グローバルリングの"
+"最新のバッファー位置にジャンプします。これもリングを巡回するので、連続して"
+"@kbd{C-x C-@key{SPC}}を使うことにより、古いバッファーのマーク位置に移動しま"
+"す。"
 
 #. type: Plain text
 #: original_texis/mark.texi:386
@@ -914,18 +1132,29 @@ msgid ""
 "as @dfn{shift-selection}.  It is similar to the way text is selected in "
 "other editors."
 msgstr ""
+"シフトキーを押しながらカーソル移動コマンドをタイプすると、ポイントを移動する"
+"前の位置にマークをセットするので、リージョンが元のポイント位置から新しいポイ"
+"ント位置に拡張されます。この機能は@dfn{シフト選択(shift-selection)}と呼ばれま"
+"す。これは他のエディターでテキストを選択する方法と似ています。"
 
 #. type: Plain text
 #: original_texis/mark.texi:394
 msgid ""
 "The mark set via shift-selection behaves a little differently from what we "
 "have described above.  Firstly, in addition to the usual ways of "
-"deactivating the mark (such as changing the buffer text or typing "
-"@kbd{C-g}), the mark is deactivated by any @emph{unshifted} cursor motion "
-"command.  Secondly, any subsequent @emph{shifted} cursor motion command "
-"avoids setting the mark anew.  Therefore, a series of shifted cursor motion "
-"commands will continuously adjust the region."
+"deactivating the mark (such as changing the buffer text or typing @kbd{C-"
+"g}), the mark is deactivated by any @emph{unshifted} cursor motion command.  "
+"Secondly, any subsequent @emph{shifted} cursor motion command avoids setting "
+"the mark anew.  Therefore, a series of shifted cursor motion commands will "
+"continuously adjust the region."
 msgstr ""
+"シフト選択によるマークのセットは、これまでの説明とは少し異なる振る舞いをしま"
+"す。最初に、マークを非アクティブにする通常の方法(バッファーのテキストを変更し"
+"たり@kbd{C-g}をタイプするなど)に加え、@emph{シフトキーを押さない(unshifted)}"
+"カーソル移動コマンドでも、マークが非アクティブになります。次に、連続する"
+"@emph{シフトキーを押した(shifted)}カーソル移動コマンドでは、マークの更新はさ"
+"れません。つまりシフトキーを押しながらカーソル移動コマンドを繰り返すと、リー"
+"ジョンは継続的に変更されます。"
 
 #. type: Plain text
 #: original_texis/mark.texi:400
@@ -933,19 +1162,29 @@ msgid ""
 "Shift-selection only works if the shifted cursor motion key is not already "
 "bound to a separate command (@pxref{Customization}).  For example, if you "
 "bind @kbd{S-C-f} to another command, typing @kbd{S-C-f} runs that command "
-"instead of performing a shift-selected version of @kbd{C-f} "
-"(@code{forward-char})."
+"instead of performing a shift-selected version of @kbd{C-f} (@code{forward-"
+"char})."
 msgstr ""
+"シフト選択は、シフトキーを押したカーソル移動キーが、別のコマンドにバインドさ"
+"れていない場合のみ動作します(@ref{Customization}を参照してください)。たとえば"
+"@kbd{S-C-f}を他のコマンドにバインドしていると、@kbd{S-C-f}はシフト選択バー"
+"ジョンの@kbd{C-f} (@code{forward-char})ではなく、バインドされたコマンドを実行"
+"します。"
 
 #. type: Plain text
 #: original_texis/mark.texi:406
 msgid ""
-"A mark set via mouse commands behaves the same as a mark set via "
-"shift-selection (@pxref{Setting Mark}).  For example, if you specify a "
-"region by dragging the mouse, you can continue to extend the region using "
-"shifted cursor motion commands.  In either case, any unshifted cursor motion "
-"command deactivates the mark."
+"A mark set via mouse commands behaves the same as a mark set via shift-"
+"selection (@pxref{Setting Mark}).  For example, if you specify a region by "
+"dragging the mouse, you can continue to extend the region using shifted "
+"cursor motion commands.  In either case, any unshifted cursor motion command "
+"deactivates the mark."
 msgstr ""
+"マウスコマンドによるマークのセットも、シフト選択によるマークのセットと同様で"
+"す(@ref{Setting Mark}を参照してください)。たとえばマウスをドラッグしてリー"
+"ジョンを指定すると、シフトキーを押したカーソル移動コマンドを使って、そのリー"
+"ジョンの拡張を続けることができます。どちらのケースも、シフトキーを押さない"
+"カーソル移動コマンドで、マークが非アクティブになります。"
 
 #. type: Plain text
 #: original_texis/mark.texi:410
@@ -953,48 +1192,51 @@ msgid ""
 "To turn off shift-selection, set @code{shift-select-mode} to @code{nil}.  "
 "Doing so does not disable setting the mark via mouse commands."
 msgstr ""
+"シフト選択をオフにするには、@code{shift-select-mode}を@code{nil}にセットして"
+"ください。これをセットしても、マウスコマンドによるマークのセッティングは無効"
+"になりません。"
 
 #. type: section
 #: original_texis/mark.texi:412
 #, no-wrap
 msgid "Disabling Transient Mark Mode"
-msgstr ""
+msgstr "Disabling Transient Mark Mode"
 
 #. type: cindex
 #: original_texis/mark.texi:413
 #, no-wrap
 msgid "mode, Transient Mark"
-msgstr ""
+msgstr "mode, Transient Mark"
 
 #. type: cindex
 #: original_texis/mark.texi:414
 #, no-wrap
 msgid "Transient Mark mode"
-msgstr ""
+msgstr "Transient Mark mode"
 
 #. type: cindex
 #: original_texis/mark.texi:415
 #, no-wrap
 msgid "highlighting region"
-msgstr ""
+msgstr "highlighting region"
 
 #. type: cindex
 #: original_texis/mark.texi:416
 #, no-wrap
 msgid "region highlighting"
-msgstr ""
+msgstr "region highlighting"
 
 #. type: cindex
 #: original_texis/mark.texi:417
 #, no-wrap
 msgid "Zmacs mode"
-msgstr ""
+msgstr "Zmacs mode"
 
 #. type: findex
 #: original_texis/mark.texi:418
 #, no-wrap
 msgid "transient-mark-mode"
-msgstr ""
+msgstr "transient-mark-mode"
 
 #. type: Plain text
 #: original_texis/mark.texi:426
@@ -1006,6 +1248,11 @@ msgid ""
 "item in the @samp{Options} menu.  Turning it off switches Emacs to an "
 "alternative mode of operation:"
 msgstr ""
+"マークとリージョンのデフォルト動作では、マークをアクティブにセットすると、"
+"リージョンがハイライトされます。これはTransient Markモードと呼ばれます。これ"
+"はデフォルトで有効になっているマイナーモードです。@kbd{M-x transient-mark-"
+"mode}、または@samp{Options}メニューの@samp{Active Region Highlighting}で切り"
+"替えることができます。オフにすることによりEmacsの操作モードは変更されます。"
 
 #. type: itemize
 #: original_texis/mark.texi:432
@@ -1014,6 +1261,9 @@ msgid ""
 "does not highlight the region.  Therefore, you can't tell by looking where "
 "the mark is located; you have to remember."
 msgstr ""
+"@kbd{C-@key{SPC}}や@kbd{C-x C-x}のようなコマンドでマークをセットしても、リー"
+"ジョンはハイライトされません。そのためマークがどこにあるか見分けることができ"
+"ないので、覚えている必要があります。"
 
 #. type: itemize
 #: original_texis/mark.texi:437
@@ -1023,6 +1273,9 @@ msgid ""
 "using @kbd{C-x C-x}, which exchanges the positions of the point and the mark "
 "(@pxref{Setting Mark})."
 msgstr ""
+"マークをセットしたらどこにセットしたか忘れる前にすぐ使うというのが、この問題"
+"にたいする通常の解決策です。ポイントとマークの位置を交換する@kbd{C-x C-x}で、"
+"マークがどこかチェックすることもできます。"
 
 #. type: itemize
 #: original_texis/mark.texi:445
@@ -1034,6 +1287,12 @@ msgid ""
 "buffer.  Commands that act this way are identified in their own "
 "documentation."
 msgstr ""
+"通常マークがアクティブのときリージョンにたいして処理を行ういくつかのコマンド"
+"は、そのような振る舞いをしなくなります。たとえば普通@kbd{M-%} (@code{query-"
+"replace})は、マークがアクティブのときはリージョンにたいして置換を行います。"
+"Transient Markがオフだと、常にポイントからバッファーの最後までを処理します。"
+"このような方法で動作するコマンドは、コマンド自身のドキュメントにより識別でき"
+"ます。"
 
 #. type: Plain text
 #: original_texis/mark.texi:449
@@ -1041,6 +1300,8 @@ msgid ""
 "While Transient Mark mode is off, you can activate it temporarily using "
 "@kbd{C-@key{SPC} C-@key{SPC}} or @kbd{C-u C-x C-x}."
 msgstr ""
+"Transient Markモードがオフのときは、@kbd{C-@key{SPC} C-@key{SPC}}または"
+"@kbd{C-u C-x C-x}を使って一時的にアクティブにすることができます。"
 
 #. type: table
 #: original_texis/mark.texi:457
@@ -1049,12 +1310,15 @@ msgid ""
 "Mark mode just once, until the mark is deactivated.  (This is not really a "
 "separate command; you are using the @kbd{C-@key{SPC}} command twice.)"
 msgstr ""
+"ポイント位置にマークをセット(普通の@kbd{C-@key{SPC}}と同様)して、マークが非ア"
+"クティブになるまでの間、1度だけTransient Markモードを有効にします(実際にはこ"
+"れは独立したコマンドではなく@kbd{C-@key{SPC}}コマンドを2回行っています)。"
 
 #. type: kindex
 #: original_texis/mark.texi:458 original_texis/mark.texi:459
 #, no-wrap
 msgid "C-u C-x C-x"
-msgstr ""
+msgstr "C-u C-x C-x"
 
 #. type: table
 #: original_texis/mark.texi:464
@@ -1063,6 +1327,10 @@ msgid ""
 "temporarily, until the mark is next deactivated.  (This is the @kbd{C-x C-x} "
 "command, @code{exchange-point-and-mark}, with a prefix argument.)"
 msgstr ""
+"ポイントとマークを交換してからマークをアクティブにして、次にマークが非アク"
+"ティブになるまでの間、Transient Markモードを一時的に有効にします(これはプレ"
+"フィクス引数を指定した@kbd{C-x C-x} (@code{exchange-point-and-mark})コマンド"
+"です)。"
 
 #. type: Plain text
 #: original_texis/mark.texi:471
@@ -1073,6 +1341,11 @@ msgid ""
 "Transient Mark mode is off.  Enabling Transient Mark mode momentarily gives "
 "you a way to use these commands on the region."
 msgstr ""
+"これらのコマンドはマークをセットまたはアクティブにして、マークが非アクティブ"
+"になるまでの間Transient Markモードを有効にします。これらを使う1つの理由は、い"
+"くつかのコマンドはTransient Markモードがオフのとき、リージョンにたいしてでは"
+"なくバッファー全体を処理するからです。Transient Markモードを一時的に有効にで"
+"きれば、これらのコマンドをリージョンにたいして処理させることができます。"
 
 #. type: Plain text
 #: original_texis/mark.texi:474
@@ -1081,3 +1354,6 @@ msgid ""
 "shift-selection (@pxref{Shift Selection}), this likewise activates Transient "
 "Mark mode temporarily and highlights the region."
 msgstr ""
+"リージョンをマウス(@ref{Setting Mark}を参照してください)、またはシフト選択"
+"(@ref{Shift Selection}を参照してください)で指定したときも、一時的にTransient "
+"Markモードが有効になり、リージョンがハイライトされます。"

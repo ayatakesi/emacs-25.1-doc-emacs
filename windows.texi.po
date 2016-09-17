@@ -3,42 +3,41 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-07-03 16:25+0900\n"
+"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
+"Language-Team: Japanese <h1r0p@outlook.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: node
 #: original_texis/windows.texi:5
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: chapter
 #: original_texis/windows.texi:6
 #, no-wrap
 msgid "Multiple Windows"
-msgstr ""
+msgstr "Multiple Windows"
 
 #. type: cindex
 #: original_texis/windows.texi:7
 #, no-wrap
 msgid "windows in Emacs"
-msgstr ""
+msgstr "windows in Emacs"
 
 #. type: cindex
 #: original_texis/windows.texi:8
 #, no-wrap
 msgid "multiple windows in Emacs"
-msgstr ""
+msgstr "multiple windows in Emacs"
 
 #. type: Plain text
 #: original_texis/windows.texi:15
@@ -48,89 +47,93 @@ msgid ""
 "Multiple frames always imply multiple windows, because each frame has its "
 "own set of windows.  Each window belongs to one and only one frame."
 msgstr ""
+"Emacsのフレームは、2つ以上のウィンドウに分割できます。複数のウィンドウで異な"
+"るバッファーを表示したり、1つのバッファーの異なる部分を表示できます。複数フ"
+"レームは自ずと複数ウィンドウになります。なぜならフレームには、それぞれウィン"
+"ドウがあるからです。ウィンドウは1つのフレームだけに属します。"
 
 #. type: node
 #: original_texis/windows.texi:24 original_texis/windows.texi:26
 #, no-wrap
 msgid "Basic Window"
-msgstr ""
+msgstr "Basic Window"
 
 #. type: menuentry
 #: original_texis/windows.texi:24
 msgid "Introduction to Emacs windows."
-msgstr ""
+msgstr "Emacsウィンドウの紹介。"
 
 #. type: node
 #: original_texis/windows.texi:24 original_texis/windows.texi:64
 #, no-wrap
 msgid "Split Window"
-msgstr ""
+msgstr "Split Window"
 
 #. type: menuentry
 #: original_texis/windows.texi:24
 msgid "New windows are made by splitting existing windows."
-msgstr ""
+msgstr "既存のウィンドウを分割して新しいウィンドウを作る。"
 
 #. type: node
 #: original_texis/windows.texi:24 original_texis/windows.texi:153
 #, no-wrap
 msgid "Other Window"
-msgstr ""
+msgstr "Other Window"
 
 #. type: menuentry
 #: original_texis/windows.texi:24
 msgid "Moving to another window or doing something to it."
-msgstr ""
+msgstr "他のウィンドウへの移動と操作。"
 
 #. type: node
 #: original_texis/windows.texi:24 original_texis/windows.texi:197
 #, no-wrap
 msgid "Pop Up Window"
-msgstr ""
+msgstr "Pop Up Window"
 
 #. type: menuentry
 #: original_texis/windows.texi:24
 msgid "Finding a file or buffer in another window."
-msgstr ""
+msgstr "他のウィンドウのファイルまたはバッファーの検索。"
 
 #. type: node
 #: original_texis/windows.texi:24 original_texis/windows.texi:246
 #, no-wrap
 msgid "Change Window"
-msgstr ""
+msgstr "Change Window"
 
 #. type: menuentry
 #: original_texis/windows.texi:24
 msgid "Deleting windows and changing their sizes."
-msgstr ""
+msgstr "ウィンドウの削除とサイズ変更。"
 
 #. type: node
 #: original_texis/windows.texi:24 original_texis/windows.texi:339
 #, no-wrap
 msgid "Displaying Buffers"
-msgstr ""
+msgstr "Displaying Buffers"
 
 #. type: menuentry
 #: original_texis/windows.texi:24
 msgid "How Emacs picks a window for displaying a buffer."
-msgstr ""
+msgstr "Emacsがバッファーを表示するためにウィンドウを選択する方法。"
 
 #. type: node
 #: original_texis/windows.texi:24 original_texis/windows.texi:504
 #, no-wrap
 msgid "Window Convenience"
-msgstr ""
+msgstr "Window Convenience"
 
 #. type: menuentry
 #: original_texis/windows.texi:24
 msgid "Convenience functions for window handling."
-msgstr ""
+msgstr "ウィンドウ処理の便利な機能。"
 
 #. type: section
 #: original_texis/windows.texi:27
 #, no-wrap
 msgid "Concepts of Emacs Windows"
-msgstr ""
+msgstr "Concepts of Emacs Windows"
 
 #. type: Plain text
 #: original_texis/windows.texi:34
@@ -141,12 +144,17 @@ msgid ""
 "different parts of the buffer, because each window has its own value of "
 "point."
 msgstr ""
+"Emacsの各ウィンドウには、常に1つのEmacsバッファーが表示されます。1つのバッ"
+"ファーは、複数のウィンドウに表示される場合があります。この場合、バッファーの"
+"テキストへの任意の変更は、それが表示されているすべてのウィンドウで表示されま"
+"す。しかし各ウィンドウは独自にポイント値をもっているので、ウィンドウごとに"
+"バッファーの異なる部分を表示できます。"
 
 #. type: cindex
 #: original_texis/windows.texi:35
 #, no-wrap
 msgid "selected window"
-msgstr ""
+msgstr "selected window"
 
 #. type: Plain text
 #: original_texis/windows.texi:42
@@ -157,6 +165,12 @@ msgid ""
 "a hollow box in non-selected windows.  On text terminals, the cursor is "
 "drawn only in the selected window.  @xref{Cursor Display}."
 msgstr ""
+"常に1つのEmacsウィンドウが、@dfn{選択されたウィンドウ}となります。このウィン"
+"ドウに表示されているバッファーが、カレントバッファーとなります。グラフィカル"
+"なディスプレーでは、選択されたウィンドウのカーソルは、点滅する塗りつぶされた"
+"カーソルとなり、選択されていないウィンドウでは、中抜きボックスのカーソルにな"
+"ります。テキスト端末では、カーソルは選択されたウィンドウだけで描画されます。"
+"@ref{Cursor Display}を参照してください。"
 
 #. type: Plain text
 #: original_texis/windows.texi:53
@@ -167,11 +181,19 @@ msgid ""
 "commands such as @kbd{C-x b}; they do not affect other windows at all.  "
 "However, there are other commands such as @kbd{C-x 4 b} that select a "
 "different window and switch buffers in it.  Also, all commands that display "
-"information in a window, including (for example) @kbd{C-h f} "
-"(@code{describe-function}) and @kbd{C-x C-b} (@code{list-buffers}), work by "
-"switching buffers in a nonselected window without affecting the selected "
-"window."
+"information in a window, including (for example) @kbd{C-h f} (@code{describe-"
+"function}) and @kbd{C-x C-b} (@code{list-buffers}), work by switching "
+"buffers in a nonselected window without affecting the selected window."
 msgstr ""
+"ポイントを移動するコマンドは、選択されたEmacsウィンドウのポイント値だけに影響"
+"します。他のEmacsウィンドウのポイント値は、たとえ同じバッファーを表示していた"
+"としても変更されません。これと同じことは、@kbd{C-x b}のようなバッファー切り替"
+"えコマンドについても言えます。これらは他のウィンドウには影響を与えません。し"
+"かし@kbd{C-x 4 b}のような、別のウィンドウを選択して、バッファーを切り替えるコ"
+"マンドもあります。(たとえば)@kbd{C-h f} (@code{describe-function})や@kbd{C-x "
+"C-b} (@code{list-buffers})を含む、ウィンドウで情報を表示するコマンドは、選択"
+"されたウィンドウに影響を与えることなく、選択されていないウィンドウのバッ"
+"ファーを切り替えます。"
 
 #. type: Plain text
 #: original_texis/windows.texi:58
@@ -180,6 +202,10 @@ msgid ""
 "because they can have different values of point.  However, they all have the "
 "same value for the mark, because each buffer has only one mark position."
 msgstr ""
+"複数ウィンドウで同じバッファーを表示しているとき、これらは異なるリージョンを"
+"持ちます。なぜなら、それらは異なるポイント値を持つことができるからです。しか"
+"しバッファーごとにマーク位置は1つだけなので、これらは同じマーク位置をもちま"
+"す。"
 
 #. type: Plain text
 #: original_texis/windows.texi:63
@@ -189,55 +215,59 @@ msgid ""
 "displayed in the window.  The selected window's mode line appears in a "
 "different color.  @xref{Mode Line}, for details."
 msgstr ""
+"それぞれのウィンドウには、独自のモードラインがあり、それにはバッファー名、変"
+"更状態、そのウィンドウに表示されているバッファーのメジャーモードとマイナー"
+"モードが表示されます。選択されたウィンドウのモードラインは、異なる色で表示さ"
+"れます。詳細については、@ref{Mode Line}を参照してください。"
 
 #. type: section
 #: original_texis/windows.texi:65
 #, no-wrap
 msgid "Splitting Windows"
-msgstr ""
+msgstr "Splitting Windows"
 
 #. type: kindex
 #: original_texis/windows.texi:68 original_texis/windows.texi:78
 #, no-wrap
 msgid "C-x 2"
-msgstr ""
+msgstr "C-x 2"
 
 #. type: table
 #: original_texis/windows.texi:71
 msgid ""
-"Split the selected window into two windows, one above the other "
-"(@code{split-window-below})."
-msgstr ""
+"Split the selected window into two windows, one above the other (@code{split-"
+"window-below})."
+msgstr "選択されたウィンドウを上下に2分割します(@code{split-window-below})。"
 
 #. type: kindex
 #: original_texis/windows.texi:71 original_texis/windows.texi:100
 #, no-wrap
 msgid "C-x 3"
-msgstr ""
+msgstr "C-x 3"
 
 #. type: table
 #: original_texis/windows.texi:74
 msgid ""
 "Split the selected window into two windows, positioned side by side "
 "(@code{split-window-right})."
-msgstr ""
+msgstr "選択されたウィンドウを左右に2分割します(@code{split-window-right})。"
 
 #. type: item
 #: original_texis/windows.texi:74
 #, no-wrap
 msgid "C-mouse-2"
-msgstr ""
+msgstr "C-mouse-2"
 
 #. type: table
 #: original_texis/windows.texi:76
 msgid "In the mode line of a window, split that window."
-msgstr ""
+msgstr "ウィンドウのモードライン上では、ウィンドウを分割します。"
 
 #. type: findex
 #: original_texis/windows.texi:79
 #, no-wrap
 msgid "split-window-below"
-msgstr ""
+msgstr "split-window-below"
 
 #. type: Plain text
 #: original_texis/windows.texi:90
@@ -252,12 +282,20 @@ msgid ""
 "lines to give to the top window; a negative numeric argument specifies how "
 "many lines to give to the bottom window."
 msgstr ""
+"@kbd{C-x 2} (@code{split-window-below})は、選択されたウィンドウを上下に2つの"
+"ウィンドウに分割します。分割した後は、上が選択されたウィンドウになり、新たに"
+"分割されたウィンドウが下になります。2つのウィンドウは最初同じポイント値をも"
+"ち、(可能な限り)同じバッファー部分を表示します。必要ならポイントをスクリーン"
+"上に残したまま、ウィンドウをスクロールできます。デフォルトでは2つのウィンドウ"
+"の高さは、元のウィンドウの高さの半分になります。正の数引数は上のウィンドウの"
+"高さが何行分かを指定し、負の数引数は下のウィンドウが何行分の高さかを指定しま"
+"す。"
 
 #. type: vindex
 #: original_texis/windows.texi:91
 #, no-wrap
 msgid "split-window-keep-point"
-msgstr ""
+msgstr "split-window-keep-point"
 
 #. type: Plain text
 #: original_texis/windows.texi:99
@@ -269,12 +307,17 @@ msgid ""
 "if point was in the lower half of the original window, the bottom window is "
 "selected instead of the upper one."
 msgstr ""
+"変数@code{split-window-keep-point}を@code{nil}に変更すると、@kbd{C-x 2}はスク"
+"リーンに表示されるテキストができるだけ前と同じになるように、ウィンドウに表示"
+"されるバッファー部分と、各ウィンドウのポイント位置を調整します。さらにポイン"
+"トが元のウィンドウの下半分にあったときは、上ではなく下のウィンドウが選択され"
+"ます。"
 
 #. type: findex
 #: original_texis/windows.texi:101
 #, no-wrap
 msgid "split-window-right"
-msgstr ""
+msgstr "split-window-right"
 
 #. type: Plain text
 #: original_texis/windows.texi:108
@@ -286,12 +329,17 @@ msgid ""
 "left window; a negative numeric argument specifies how many columns to give "
 "the right window."
 msgstr ""
+"@kbd{C-x 3} (@code{split-window-right})は、選択されたウィンドウを左右に2つの"
+"ウィンドウに分割します。左のウィンドウが選択されたウィンドウとなり、右のウィ"
+"ンドウには同じバッファーの同じ部分が表示され、ポイント位置も同じです。正の数"
+"引数は左のウィンドウの幅を列数で指定し、負の数引数は右のウィンドウの幅を数引"
+"数で指定します。"
 
 #. type: vindex
 #: original_texis/windows.texi:109
 #, no-wrap
 msgid "truncate-partial-width-windows"
-msgstr ""
+msgstr "truncate-partial-width-windows"
 
 #. type: Plain text
 #: original_texis/windows.texi:128
@@ -301,19 +349,33 @@ msgid ""
 "may be difficult to read if continuation lines are in use "
 "(@pxref{Continuation Lines}).  Therefore, Emacs automatically switches to "
 "line truncation if the window width becomes narrower than 50 columns.  This "
-"truncation occurs regardless of the value of the variable "
-"@code{truncate-lines} (@pxref{Line Truncation}); it is instead controlled by "
-"the variable @code{truncate-partial-width-windows}.  If the value of this "
-"variable is a positive integer (the default is 50), that specifies the "
-"minimum total width for a partial-width window before automatic line "
-"truncation occurs; if the value is @code{nil}, automatic line truncation is "
-"disabled; and for any other non-@code{nil} value, Emacs truncates lines in "
-"every partial-width window regardless of its width.  The total width of a "
-"window is in column units as reported by @code{window-total-width} "
-"(@pxref{Window Sizes,,, elisp, The Emacs Lisp Reference Manual}), it "
-"includes the fringes, the continuation and truncation glyphs, the margins, "
-"and the scroll bar."
+"truncation occurs regardless of the value of the variable @code{truncate-"
+"lines} (@pxref{Line Truncation}); it is instead controlled by the variable "
+"@code{truncate-partial-width-windows}.  If the value of this variable is a "
+"positive integer (the default is 50), that specifies the minimum total width "
+"for a partial-width window before automatic line truncation occurs; if the "
+"value is @code{nil}, automatic line truncation is disabled; and for any "
+"other non-@code{nil} value, Emacs truncates lines in every partial-width "
+"window regardless of its width.  The total width of a window is in column "
+"units as reported by @code{window-total-width} (@pxref{Window Sizes,,, "
+"elisp, The Emacs Lisp Reference Manual}), it includes the fringes, the "
+"continuation and truncation glyphs, the margins, and the scroll bar."
 msgstr ""
+"ウィンドウを@kbd{C-x 3}で分割すると、分割されたウィンドウの幅はフレーム全体の"
+"幅より小さくなります。ウィンドウの幅が狭くなりすぎると、継続行が使われたバッ"
+"ファーを読むことが困難になる場合があります(@ref{Continuation Lines}を参照して"
+"ください)。したがってウィンドウの幅が50列より狭くなったとき、Emacsは自動的に"
+"行を切り詰めに切り替えます。この切り詰めは、変数@code{truncate-lines}の値に関"
+"係なく発生します(@ref{Line Truncation}を参照してください)。@code{truncate-"
+"lines}のかわりに、この自動切り詰めを制御するのは、変数@code{truncate-partial-"
+"width-windows}です。この変数の値が正の整数(デフォルトは50)の場合、それは自動"
+"的な行切り詰めが発生する前の、分割ウィンドウの最小のトータル幅(total width)を"
+"指定します。この値が@code{nil}の場合、自動的な行切り詰めは無効です。他の非"
+"@code{nil}値では、分割されたウィンドウの幅に関係なく、Emacsは行を切り詰めま"
+"す。ウィンドウのトータル幅(total width)とは、@code{window-total-width} "
+"(@ref{Window Sizes,,, elisp, The Emacs Lisp Reference Manual}を参照してくださ"
+"い)で報告される列単位の値で、これにはフリンジと、継続および切り詰めのためのグ"
+"リフ、マージン、スクロールバーが含まれます。"
 
 #. type: Plain text
 #: original_texis/windows.texi:131
@@ -321,18 +383,20 @@ msgid ""
 "On text terminals, side-by-side windows are separated by a vertical divider "
 "which is drawn using the @code{vertical-border} face."
 msgstr ""
+"テキスト端末では、左右に分割されたウィンドウを垂直に分割する分割線は、"
+"@code{vertical-border}フェイスで描画されます。"
 
 #. type: kindex
 #: original_texis/windows.texi:132
 #, no-wrap
 msgid "C-mouse-2 @r{(mode line)}"
-msgstr ""
+msgstr "C-mouse-2 @r{(mode line)}"
 
 #. type: kindex
 #: original_texis/windows.texi:133
 #, no-wrap
 msgid "C-mouse-2 @r{(scroll bar)}"
-msgstr ""
+msgstr "C-mouse-2 @r{(scroll bar)}"
 
 #. type: Plain text
 #: original_texis/windows.texi:140
@@ -343,12 +407,17 @@ msgid ""
 "scroll bar, which puts a horizontal divider where you click (this feature "
 "does not work when Emacs uses GTK+ scroll bars)."
 msgstr ""
+"ウィンドウのモードライン上で@kbd{C-mouse-2}をクリックすると、クリックした位置"
+"に垂直分割線を配してウィンドウを分割します。Emacsがコンパイルされた方法に依存"
+"しますが、ウィンドウのスクロールバー上で@kbd{C-mouse-2}をクリックすると、ク"
+"リックした位置に水平分割線を配してウィンドウを分割します(この機能は、Emacsが"
+"GTK+のスクロールバーを使っているときは機能しません)。"
 
 #. type: vindex
 #: original_texis/windows.texi:141
 #, no-wrap
 msgid "window-resize-pixelwise"
-msgstr ""
+msgstr "window-resize-pixelwise"
 
 #. type: Plain text
 #: original_texis/windows.texi:152
@@ -363,40 +432,48 @@ msgid ""
 "frame's character size, at least one window may get resized pixelwise even "
 "if this option is @code{nil}."
 msgstr ""
+"デフォルトでは、ウィンドウを分割したとき、Emacsは分割されたウィンドウのサイズ"
+"をフレームのデフォルトフォントの整数倍にします。これによりスクリーンが正確に2"
+"分割されない場合があります。変数@code{window-resize-pixelwise}を非@code{nil}"
+"値にセットすると、Emacsは分割されたウィンドウのサイズを、同じピクセル数にしま"
+"す(元のサイズが奇数のピクセル数の場合、1ピクセル増減されます)。フレームのピク"
+"セル数がフレームの文字サイズ倍でない場合、このオプションが@code{nil}でも、少"
+"なくとも1つのウィンドウがピクセル幅のサイズ変更をされることに注意してくださ"
+"い。"
 
 #. type: section
 #: original_texis/windows.texi:154
 #, no-wrap
 msgid "Using Other Windows"
-msgstr ""
+msgstr "Using Other Windows"
 
 #. type: kindex
 #: original_texis/windows.texi:157 original_texis/windows.texi:167
 #, no-wrap
 msgid "C-x o"
-msgstr ""
+msgstr "C-x o"
 
 #. type: table
 #: original_texis/windows.texi:159
 msgid "Select another window (@code{other-window})."
-msgstr ""
+msgstr "他のウィンドウを選択します(@code{other-window})。"
 
 #. type: kindex
 #: original_texis/windows.texi:159 original_texis/windows.texi:182
 #, no-wrap
 msgid "C-M-v"
-msgstr ""
+msgstr "C-M-v"
 
 #. type: table
 #: original_texis/windows.texi:161
 msgid "Scroll the next window (@code{scroll-other-window})."
-msgstr ""
+msgstr "次のウィンドウをスクロールします(@code{scroll-other-window})。"
 
 #. type: item
 #: original_texis/windows.texi:161
 #, no-wrap
 msgid "mouse-1"
-msgstr ""
+msgstr "Mouse-1"
 
 #. type: table
 #: original_texis/windows.texi:165
@@ -405,20 +482,23 @@ msgid ""
 "point to the position clicked.  Clicking in the mode line selects the window "
 "without moving point in it."
 msgstr ""
+"ウィンドウのテキスト領域を@kbd{mouse-1}でクリックすると、そのウィンドウを選択"
+"してクリックした位置にポイントを移動します。モードラインをクリックすると、ポ"
+"イントを移動せずにそのウィンドウを選択します。"
 
 #. type: findex
 #: original_texis/windows.texi:168
 #, no-wrap
 msgid "other-window"
-msgstr ""
+msgstr "other-window"
 
 #. type: Plain text
 #: original_texis/windows.texi:181
 msgid ""
-"With the keyboard, you can switch windows by typing @kbd{C-x o} "
-"(@code{other-window}).  That is an @kbd{o}, for ``other'', not a zero.  When "
-"there are more than two windows, this command moves through all the windows "
-"in a cyclic order, generally top to bottom and left to right.  After the "
+"With the keyboard, you can switch windows by typing @kbd{C-x o} (@code{other-"
+"window}).  That is an @kbd{o}, for ``other'', not a zero.  When there are "
+"more than two windows, this command moves through all the windows in a "
+"cyclic order, generally top to bottom and left to right.  After the "
 "rightmost and bottommost window, it goes back to the one at the upper left "
 "corner.  A numeric argument means to move several steps in the cyclic order "
 "of windows.  A negative argument moves around the cycle in the opposite "
@@ -427,12 +507,21 @@ msgid ""
 "windows, and later switch back and finish supplying the minibuffer argument "
 "that is requested.  @xref{Minibuffer Edit}."
 msgstr ""
+"キーボードで@kbd{C-x o} (@code{other-window})をタイプして、ウィンドウを切り替"
+"えることができます。@kbd{o}は``other''のoで、0(ゼロ)ではありません。2つ以上の"
+"ウィンドウがある時、このコマンドはすべてのウィンドウを順繰りに選択します(一般"
+"的に上からした、左から右)。一番右または一番下のウィンドウの後は、左上のウィン"
+"ドウに戻ります。数引数は上記の順番で何番目のウィンドウに移動するかを意味しま"
+"す。負の引数は逆向きで同じことを行います。ミニバッファーがアクティブのとき、"
+"ミニバッファーはこの順番では最後のウィンドウになります。ミニバッファーのウィ"
+"ンドウから他のウィンドウに切り替えて、後からミニバッファーに戻って引数の入力"
+"を終了させることができます。@ref{Minibuffer Edit}を参照してください。"
 
 #. type: findex
 #: original_texis/windows.texi:183
 #, no-wrap
 msgid "scroll-other-window"
-msgstr ""
+msgstr "scroll-other-window"
 
 #. type: Plain text
 #: original_texis/windows.texi:191
@@ -445,12 +534,19 @@ msgid ""
 "minibuffer, if any, rather than the next window in the standard cyclic "
 "order; @pxref{Minibuffer Edit}.)"
 msgstr ""
+"通常のスクロールコマンド(@ref{Display}を参照してください)は、選択されたウィン"
+"ドウだけに適用されますが、次のウィンドウをスクロールするコマンドが1つありま"
+"す。@kbd{C-M-v} (@code{scroll-other-window})は、@kbd{C-x o}が選択するウィンド"
+"ウをスクロールします(このコマンドは@kbd{C-v}のように正または負の引数をとりま"
+"す。ミニバッファーでの@kbd{C-M-v}は、ミニバッファーに関連付けられたヘルプウィ"
+"ンドウがあれば、標準的な次のウィンドウではなくヘルプウィンドウをスクロールし"
+"ます。@ref{Minibuffer Edit}を参照してください)。"
 
 #. type: vindex
 #: original_texis/windows.texi:192
 #, no-wrap
 msgid "mouse-autoselect-window"
-msgstr ""
+msgstr "mouse-autoselect-window"
 
 #. type: Plain text
 #: original_texis/windows.texi:196
@@ -459,24 +555,27 @@ msgid ""
 "the mouse over a different window selects that window.  This feature is off "
 "by default."
 msgstr ""
+"@code{mouse-autoselect-window}を非@code{nil}値にセットしている場合、マウスが"
+"選択されたウィンドウ以外のウィンドウに移動すると、そのウィンドウが選択されま"
+"す。この機能はデフォルトでオフです。"
 
 #. type: section
 #: original_texis/windows.texi:198
 #, no-wrap
 msgid "Displaying in Another Window"
-msgstr ""
+msgstr "Displaying in Another Window"
 
 #. type: cindex
 #: original_texis/windows.texi:200
 #, no-wrap
 msgid "selecting buffers in other windows"
-msgstr ""
+msgstr "selecting buffers in other windows"
 
 #. type: kindex
 #: original_texis/windows.texi:201
 #, no-wrap
 msgid "C-x 4"
-msgstr ""
+msgstr "C-x 4"
 
 #. type: Plain text
 #: original_texis/windows.texi:206
@@ -486,43 +585,49 @@ msgid ""
 "window created by splitting the selected window.  @xref{Window Choice}, for "
 "how Emacs picks or creates the window to use."
 msgstr ""
+"@kbd{C-x 4}は、異なるウィンドウ(他の既存のウィンドウや、選択されたウィンドウ"
+"を分割することにより新たに作成されたウィンドウ)のバッファーに切り替える、さま"
+"ざまなコマンドのプレフィクスキーです。Emacsがウィンドウを選択または作成する方"
+"法については、@ref{Window Choice}を参照してください。"
 
 #. type: findex
 #: original_texis/windows.texi:208
 #, no-wrap
 msgid "switch-to-buffer-other-window"
-msgstr ""
+msgstr "switch-to-buffer-other-window"
 
 #. type: item
 #: original_texis/windows.texi:209
 #, no-wrap
 msgid "C-x 4 b @var{bufname} @key{RET}"
-msgstr ""
+msgstr "C-x 4 b @var{bufname} @key{RET}"
 
 #. type: table
 #: original_texis/windows.texi:212
 msgid ""
-"Select buffer @var{bufname} in another window "
-"(@code{switch-to-buffer-other-window})."
+"Select buffer @var{bufname} in another window (@code{switch-to-buffer-other-"
+"window})."
 msgstr ""
+"他のウィンドウのバッファー@var{bufname}を選択します(@code{switch-to-buffer-"
+"other-window})。"
 
 #. type: findex
 #: original_texis/windows.texi:213
 #, no-wrap
 msgid "display-buffer @r{(command)}"
-msgstr ""
+msgstr "display-buffer @r{(command)}"
 
 #. type: item
 #: original_texis/windows.texi:214
 #, no-wrap
 msgid "C-x 4 C-o @var{bufname} @key{RET}"
-msgstr ""
+msgstr "C-x 4 C-o @var{bufname} @key{RET}"
 
 #. type: kindex
 #: original_texis/windows.texi:215
 #, no-wrap
 msgid "C-x 4 C-o"
-msgstr ""
+msgstr "C-x 4 C-o"
 
 #. type: table
 #: original_texis/windows.texi:219
@@ -531,18 +636,21 @@ msgid ""
 "(@code{display-buffer}).  @xref{Displaying Buffers}, for details about how "
 "the window is chosen."
 msgstr ""
+"バッファー@var{bufname}を選択せずに、別のウィンドウに表示します"
+"(@code{display-buffer})。ウィンドウが選択される方法についての詳細は、"
+"@ref{Displaying Buffers}を参照してください。"
 
 #. type: findex
 #: original_texis/windows.texi:220
 #, no-wrap
 msgid "find-file-other-window"
-msgstr ""
+msgstr "find-file-other-window"
 
 #. type: item
 #: original_texis/windows.texi:221
 #, no-wrap
 msgid "C-x 4 f @var{filename} @key{RET}"
-msgstr ""
+msgstr "C-x 4 f @var{filename} @key{RET}"
 
 #. type: table
 #: original_texis/windows.texi:224
@@ -550,18 +658,20 @@ msgid ""
 "Visit file @var{filename} and select its buffer in another window "
 "(@code{find-file-other-window}).  @xref{Visiting}."
 msgstr ""
+"ファイル@var{filename}をvisitして、他のウィンドウでバッファーを選択します"
+"(@code{find-file-other-window}).  @ref{Visiting}を参照してください。"
 
 #. type: findex
 #: original_texis/windows.texi:225
 #, no-wrap
 msgid "dired-other-window"
-msgstr ""
+msgstr "dired-other-window"
 
 #. type: item
 #: original_texis/windows.texi:226
 #, no-wrap
 msgid "C-x 4 d @var{directory} @key{RET}"
-msgstr ""
+msgstr "C-x 4 d @var{directory} @key{RET}"
 
 #. type: table
 #: original_texis/windows.texi:229
@@ -569,12 +679,14 @@ msgid ""
 "Select a Dired buffer for directory @var{directory} in another window "
 "(@code{dired-other-window}).  @xref{Dired}."
 msgstr ""
+"@var{directory}のDiredバッファーを、別のウィンドウで選択します(@code{dired-"
+"other-window})。@ref{Dired}を参照してください。"
 
 #. type: item
 #: original_texis/windows.texi:232
 #, no-wrap
 msgid "C-x 4 m"
-msgstr ""
+msgstr "C-x 4 m"
 
 #. type: table
 #: original_texis/windows.texi:235
@@ -582,18 +694,21 @@ msgid ""
 "Start composing a mail message, similar to @kbd{C-x m} (@pxref{Sending "
 "Mail}), but in another window (@code{compose-mail-other-window})."
 msgstr ""
+"@kbd{C-x m} (@ref{Sending Mail}を参照してください)と同様に、メールメッセージ"
+"の編集を開始しますが、別のウィンドウで行います(@code{compose-mail-other-"
+"window})。"
 
 #. type: findex
 #: original_texis/windows.texi:236
 #, no-wrap
 msgid "find-tag-other-window"
-msgstr ""
+msgstr "find-tag-other-window"
 
 #. type: item
 #: original_texis/windows.texi:237
 #, no-wrap
 msgid "C-x 4 ."
-msgstr ""
+msgstr "C-x 4 ."
 
 #. type: table
 #: original_texis/windows.texi:241
@@ -601,12 +716,14 @@ msgid ""
 "Find the definition of an identifier, similar to @kbd{M-.} (@pxref{Xref}), "
 "but in another window (@code{xref-find-definitions-other-window})."
 msgstr ""
+"@kbd{M-.} (@ref{Xref}を参照してください)と同様に、識別子の定義を検索します"
+"が、別のウィンドウで行います(@code{xref-find-definitions-other-window})。"
 
 #. type: item
 #: original_texis/windows.texi:241
 #, no-wrap
 msgid "C-x 4 r @var{filename} @key{RET}"
-msgstr ""
+msgstr "C-x 4 r @var{filename} @key{RET}"
 
 #. type: table
 #: original_texis/windows.texi:244
@@ -614,41 +731,44 @@ msgid ""
 "Visit file @var{filename} read-only, and select its buffer in another window "
 "(@code{find-file-read-only-other-window}).  @xref{Visiting}."
 msgstr ""
+"ファイル@var{filename}を読み取り専用でvisitして、別のウィンドウでバッファーを"
+"選択します(@code{find-file-read-only-other-window})。@ref{Visiting}を参照して"
+"ください。"
 
 #. type: section
 #: original_texis/windows.texi:247
 #, no-wrap
 msgid "Deleting and Resizing Windows"
-msgstr ""
+msgstr "Deleting and Resizing Windows"
 
 #. type: cindex
 #: original_texis/windows.texi:249
 #, no-wrap
 msgid "delete window"
-msgstr ""
+msgstr "delete window"
 
 #. type: cindex
 #: original_texis/windows.texi:250
 #, no-wrap
 msgid "deleting windows"
-msgstr ""
+msgstr "deleting windows"
 
 #. type: kindex
 #: original_texis/windows.texi:252 original_texis/windows.texi:274
 #, no-wrap
 msgid "C-x 0"
-msgstr ""
+msgstr "C-x 0"
 
 #. type: table
 #: original_texis/windows.texi:254
 msgid "Delete the selected window (@code{delete-window})."
-msgstr ""
+msgstr "選択されたウィンドウを削除します(@code{delete-window})。"
 
 #. type: kindex
 #: original_texis/windows.texi:254 original_texis/windows.texi:289
 #, no-wrap
 msgid "C-x 1"
-msgstr ""
+msgstr "C-x 1"
 
 #. type: table
 #: original_texis/windows.texi:257
@@ -656,12 +776,14 @@ msgid ""
 "Delete all windows in the selected frame except the selected window "
 "(@code{delete-other-windows})."
 msgstr ""
+"フレームから選択されたウィンドウ以外のすべてのウィンドウを削除します"
+"(@code{delete-other-windows})。"
 
 #. type: kindex
 #: original_texis/windows.texi:257 original_texis/windows.texi:284
 #, no-wrap
 msgid "C-x 4 0"
-msgstr ""
+msgstr "C-x 4 0"
 
 #. type: table
 #: original_texis/windows.texi:261
@@ -670,69 +792,75 @@ msgid ""
 "(@code{kill-buffer-and-window}).  The last character in this key sequence is "
 "a zero."
 msgstr ""
+"選択されていたウィンドウを削除して、それに表示されていたバッファーをkillしま"
+"す(@code{kill-buffer-and-window})。このキーシーケンスの最後の文字はゼロです。"
 
 #. type: kindex
 #: original_texis/windows.texi:261 original_texis/windows.texi:298
 #, no-wrap
 msgid "C-x ^"
-msgstr ""
+msgstr "C-x ^"
 
 #. type: table
 #: original_texis/windows.texi:263
 msgid "Make selected window taller (@code{enlarge-window})."
-msgstr ""
+msgstr "選択されたウィンドウの高さを増やします(@code{enlarge-window})。"
 
 #. type: kindex
 #: original_texis/windows.texi:263 original_texis/windows.texi:300
 #, no-wrap
 msgid "C-x @}"
-msgstr ""
+msgstr "C-x @}"
 
 #. type: table
 #: original_texis/windows.texi:265
 msgid "Make selected window wider (@code{enlarge-window-horizontally})."
 msgstr ""
+"選択されたウィンドウの幅を増やします(@code{enlarge-window-horizontally})。"
 
 #. type: item
 #: original_texis/windows.texi:265
 #, no-wrap
 msgid "C-x @{"
-msgstr ""
+msgstr "C-x @{"
 
 #. type: table
 #: original_texis/windows.texi:267
 msgid "Make selected window narrower (@code{shrink-window-horizontally})."
 msgstr ""
+"選択されたウィンドウの幅を減らします(@code{shrink-window-horizontally})。"
 
 #. type: kindex
 #: original_texis/windows.texi:267 original_texis/windows.texi:327
 #, no-wrap
 msgid "C-x -"
-msgstr ""
+msgstr "C-x -"
 
 #. type: table
 #: original_texis/windows.texi:270
 msgid ""
-"Shrink this window if its buffer doesn't need so many lines "
-"(@code{shrink-window-if-larger-than-buffer})."
+"Shrink this window if its buffer doesn't need so many lines (@code{shrink-"
+"window-if-larger-than-buffer})."
 msgstr ""
+"バッファーに多くの行数が必要ない場合、そのウィンドウを縮小します"
+"(@code{shrink-window-if-larger-than-buffer})。"
 
 #. type: kindex
 #: original_texis/windows.texi:270 original_texis/windows.texi:334
 #, no-wrap
 msgid "C-x +"
-msgstr ""
+msgstr "C-x +"
 
 #. type: table
 #: original_texis/windows.texi:272
 msgid "Make all windows the same height (@code{balance-windows})."
-msgstr ""
+msgstr "すべてのウィンドウの高さを同じにします(@code{balance-windows})。"
 
 #. type: findex
 #: original_texis/windows.texi:275
 #, no-wrap
 msgid "delete-window"
-msgstr ""
+msgstr "delete-window"
 
 #. type: Plain text
 #: original_texis/windows.texi:282
@@ -744,12 +872,18 @@ msgid ""
 "used to display; the buffer continues to exist, and you can still switch to "
 "it with @kbd{C-x b}."
 msgstr ""
+"選択されたウィンドウを削除するには、@kbd{C-x 0} (@code{delete-window})とタイ"
+"プします(これはゼロです)。一度ウィンドウが削除されると、そのウィンドウが占め"
+"ていたスペースは隣接したウィンドウに与えられます(しかしミニバッファーの場合、"
+"それがアクティブな場合でも適用されません)。ウィンドウの削除は、ウィンドウを表"
+"示用に使っていたバッファーに影響を与えません。そのバッファーは存在し続け、"
+"@kbd{C-x b}で切り替えることができます。"
 
 #. type: findex
 #: original_texis/windows.texi:283
 #, no-wrap
 msgid "kill-buffer-and-window"
-msgstr ""
+msgstr "kill-buffer-and-window"
 
 #. type: Plain text
 #: original_texis/windows.texi:288
@@ -758,12 +892,15 @@ msgid ""
 "@kbd{C-x 0}; it kills the current buffer and then deletes the selected "
 "window."
 msgstr ""
+"@kbd{C-x 4 0} (@code{kill-buffer-and-window})は、コマンド@kbd{C-x 0}より強力"
+"なコマンドです。これはカレントバッファーをkillしてから、選択されたウィンドウ"
+"を削除します。"
 
 #. type: findex
 #: original_texis/windows.texi:290
 #, no-wrap
 msgid "delete-other-windows"
-msgstr ""
+msgstr "delete-other-windows"
 
 #. type: Plain text
 #: original_texis/windows.texi:295
@@ -773,30 +910,34 @@ msgid ""
 "frame.  (This command cannot be used while the minibuffer window is active; "
 "attempting to do so signals an error.)"
 msgstr ""
+"@kbd{C-x 1} (@code{delete-other-windows})は、選択されたウィンドウ@emph{以外}"
+"のすべてのウィンドウを削除します。選択されたウィンドウはフレーム全体に拡張さ"
+"れます(このコマンドは、ミニバッファーのウィンドウがアクティブのとき使うことが"
+"できません。これを試みるとエラーがシグナルされます)。"
 
 #. type: cindex
 #: original_texis/windows.texi:296
 #, no-wrap
 msgid "resize window"
-msgstr ""
+msgstr "resize window"
 
 #. type: cindex
 #: original_texis/windows.texi:297
 #, no-wrap
 msgid "resizing windows"
-msgstr ""
+msgstr "resizing windows"
 
 #. type: findex
 #: original_texis/windows.texi:299
 #, no-wrap
 msgid "enlarge-window"
-msgstr ""
+msgstr "enlarge-window"
 
 #. type: vindex
 #: original_texis/windows.texi:301
 #, no-wrap
 msgid "window-min-height"
-msgstr ""
+msgstr "window-min-height"
 
 #. type: Plain text
 #: original_texis/windows.texi:312
@@ -811,24 +952,32 @@ msgid ""
 "reduce the height of any window below a certain minimum number of lines, "
 "specified by the variable @code{window-min-height} (the default is 4)."
 msgstr ""
+"コマンド@kbd{C-x ^} (@code{enlarge-window})は、フレームの高さを変えずに垂直方"
+"向に隣接するウィンドウのスペースを縮小して、選択されたウィンドウの高さを増や"
+"します。正の数引数を与えると、このコマンドは指定した行数分ウィンドウの高さを"
+"増やします。負の数引数を与えると、指定した行数分ウィンドウの高さを増やしま"
+"す。垂直方向に隣接するウィンドウが存在しない場合(たとえばウィンドウの高さがフ"
+"レーム全体の高さと同じとき)、エラーをシグナルします。このコマンドは変数"
+"@code{window-min-height}(デフォルトは4)で指定された、最小行数よりウィンドウの"
+"高さを縮小しようとしても、エラーをシグナルします。"
 
 #. type: findex
 #: original_texis/windows.texi:313
 #, no-wrap
 msgid "enlarge-window-horizontally"
-msgstr ""
+msgstr "enlarge-window-horizontally"
 
 #. type: findex
 #: original_texis/windows.texi:314
 #, no-wrap
 msgid "shrink-window-horizontally"
-msgstr ""
+msgstr "shrink-window-horizontally"
 
 #. type: vindex
 #: original_texis/windows.texi:315
 #, no-wrap
 msgid "window-min-width"
-msgstr ""
+msgstr "window-min-width"
 
 #. type: Plain text
 #: original_texis/windows.texi:322
@@ -839,6 +988,10 @@ msgid ""
 "the width of any window below a certain minimum number of columns, specified "
 "by the variable @code{window-min-width} (the default is 10)."
 msgstr ""
+"同様に@kbd{C-x @}} (@code{enlarge-window-horizontally})は、選択されたウィンド"
+"ウの幅を増やし、@kbd{C-x @{} (@code{shrink-window-horizontally})は幅を減らし"
+"ます。これらのコマンドは、変数@code{window-min-width}(デフォルトは10)で指定さ"
+"れた最小列数よりウィンドウの幅を縮小すると、エラーをシグナルします。"
 
 #. type: Plain text
 #: original_texis/windows.texi:326
@@ -847,12 +1000,16 @@ msgid ""
 "dividers (@pxref{Window Dividers}) provide another way to change window "
 "heights and to split or delete windows."
 msgstr ""
+"モードライン(@ref{Mode Line Mouse}を参照してください)、またはウィンドウ分割線"
+"(window dividers。@ref{Window Dividers}を参照してください)をマウスでクリック"
+"することにより、ウィンドウの高さの変更およびウィンドウの分割や削除を行なう、"
+"別の方法を提供します。"
 
 #. type: findex
 #: original_texis/windows.texi:328
 #, no-wrap
 msgid "shrink-window-if-larger-than-buffer"
-msgstr ""
+msgstr "shrink-window-if-larger-than-buffer"
 
 #. type: Plain text
 #: original_texis/windows.texi:333
@@ -862,12 +1019,16 @@ msgid ""
 "text of the buffer it is displaying.  It gives the extra lines to other "
 "windows in the frame."
 msgstr ""
+"@kbd{C-x -} (@code{shrink-window-if-larger-than-buffer})は、バッファー全体を"
+"表示するのに必要な高さより選択されたウィンドウの高さが大きいときは、選択され"
+"たウィンドウの高さを減らします。余った行数はフレームの他のウィンドウに与えら"
+"れます。"
 
 #. type: findex
 #: original_texis/windows.texi:335
 #, no-wrap
 msgid "balance-windows"
-msgstr ""
+msgstr "balance-windows"
 
 #. type: Plain text
 #: original_texis/windows.texi:338
@@ -875,12 +1036,14 @@ msgid ""
 "You can also use @kbd{C-x +} (@code{balance-windows}) to even out the "
 "heights of all the windows in the selected frame."
 msgstr ""
+"@kbd{C-x +} (@code{balance-windows})を使って、選択されたフレームのすべての"
+"ウィンドウの高さを均等にすることもできます。"
 
 #. type: section
 #: original_texis/windows.texi:340
 #, no-wrap
 msgid "Displaying a Buffer in a Window"
-msgstr ""
+msgstr "Displaying a Buffer in a Window"
 
 #. type: Plain text
 #: original_texis/windows.texi:345
@@ -889,6 +1052,9 @@ msgid ""
 "to a user command.  There are several different ways in which commands do "
 "this."
 msgstr ""
+"ユーザーのコマンドの結果として、任意のバッファーが表示またはポップアップされ"
+"るのは、Emacsでは一般的な処理です。コマンドがこれを行うには、いくつかの異なる"
+"方法があります。"
 
 #. type: Plain text
 #: original_texis/windows.texi:351
@@ -898,6 +1064,10 @@ msgid ""
 "will be diverted to that buffer.  These commands usually work by calling "
 "@code{switch-to-buffer} internally (@pxref{Select Buffer})."
 msgstr ""
+"@kbd{C-x C-f} (@code{find-file})のような多くのコマンドは、選択されたウィンド"
+"ウを``乗っ取って''バッファーを表示します。これらのコマンドは通常、"
+"@code{switch-to-buffer}を内部的に呼び出すことにより機能します(@ref{Select "
+"Buffer}を参照してください)。"
 
 #. type: Plain text
 #: original_texis/windows.texi:357
@@ -908,6 +1078,11 @@ msgid ""
 "commands (@pxref{Help}), work by calling @code{display-buffer} internally.  "
 "@xref{Window Choice}, for details."
 msgstr ""
+"選択されたウィンドウを乗っ取らずに、たとえばウィンドウを分割して新しいウィド"
+"ウを作り、そこにバッファーを表示するといったような、利口な表示を試みるコマン"
+"ドがいくつかあります。さまざまなヘルプコマンド(@ref{Help})を含む、そのような"
+"コマンドは内部的に@code{display-buffer}を呼び出すことにより機能します。詳細"
+"は、@ref{Window Choice}を参照してください"
 
 #. type: Plain text
 #: original_texis/windows.texi:365
@@ -919,61 +1094,77 @@ msgid ""
 "@xref{Switching Buffers,,Switching to a Buffer in a Window, elisp, The Emacs "
 "Lisp Reference Manual}."
 msgstr ""
+"他のコマンドは@code{display-buffer}と同じことを行いますが、それに加えてバッ"
+"ファーの編集を開始できるように、表示されたウィンドウを選択します。コマンド"
+"@kbd{C-x `} (@code{next-error})が1つの例です(@ref{Compilation Mode}を参照して"
+"ください)。そのようなコマンドは、内部的に関数@code{pop-to-buffer}を呼び出すこ"
+"とにより機能します。@ref{Switching Buffers,,Switching to a Buffer in a "
+"Window, elisp, The Emacs Lisp Reference Manual}を参照してください。"
 
 #. type: Plain text
 #: original_texis/windows.texi:370
 msgid ""
-"Commands with names ending in @code{-other-window} behave like "
-"@code{display-buffer}, except that they never display in the selected "
-"window.  Several of these commands are bound in the @kbd{C-x 4} prefix key "
-"(@pxref{Pop Up Window})."
+"Commands with names ending in @code{-other-window} behave like @code{display-"
+"buffer}, except that they never display in the selected window.  Several of "
+"these commands are bound in the @kbd{C-x 4} prefix key (@pxref{Pop Up "
+"Window})."
 msgstr ""
+"名前が@code{-other-window}で終わるコマンドは、@code{display-buffer}と同じよう"
+"に振る舞います。例外はそれらが決して選択されたウィンドウに表示しない点です。"
+"これらのコマンドのいくつかは、プレフィクスキー@kbd{C-x 4}にバインドされていま"
+"す(@ref{Pop Up Window}を参照してください)。"
 
 #. type: Plain text
 #: original_texis/windows.texi:377
 msgid ""
-"Commands with names ending in @code{-other-frame} behave like "
-"@code{display-buffer}, except that they (i) never display in the selected "
-"window and (ii) prefer to create a new frame to display the desired buffer "
-"instead of splitting a window---as though the variable @code{pop-up-frames} "
-"is set to @code{t} (@pxref{Window Choice}).  Several of these commands are "
-"bound in the @kbd{C-x 5} prefix key."
+"Commands with names ending in @code{-other-frame} behave like @code{display-"
+"buffer}, except that they (i) never display in the selected window and (ii) "
+"prefer to create a new frame to display the desired buffer instead of "
+"splitting a window---as though the variable @code{pop-up-frames} is set to "
+"@code{t} (@pxref{Window Choice}).  Several of these commands are bound in "
+"the @kbd{C-x 5} prefix key."
 msgstr ""
+"名前が@code{-other-frame}で終わるコマンドは、@code{display-buffer}と同じよう"
+"に振る舞います。例外は、i)選択されたウィンドウに決して表示しない、ii)ウィンド"
+"ウを分割してバッファーを表示するのではなく新しいフレームを作成して表示する(あ"
+"たかも変数@code{pop-up-frames}が@code{t}されているかのように)、という2点です"
+"(@ref{Window Choice}を参照してください)。これらのコマンドのいくつかは、プレ"
+"フィクスキー@kbd{C-x 5}にバインドされています。"
 
 #. type: node
 #: original_texis/windows.texi:381 original_texis/windows.texi:383
 #, no-wrap
 msgid "Window Choice"
-msgstr ""
+msgstr "Window Choice"
 
 #. type: menuentry
 #: original_texis/windows.texi:381
 msgid "How @code{display-buffer} works."
-msgstr ""
+msgstr "@code{display-buffer}が機能する方法。"
 
 #. type: node
 #: original_texis/windows.texi:381 original_texis/windows.texi:453
 #, no-wrap
 msgid "Temporary Displays"
-msgstr ""
+msgstr "Temporary Displays"
 
 #. type: subsection
 #: original_texis/windows.texi:381 original_texis/windows.texi:454
 #, no-wrap
 msgid "Displaying non-editable buffers."
-msgstr ""
+msgstr "Displaying non-editable buffers."
 
 #. type: subsection
 #: original_texis/windows.texi:384
 #, no-wrap
 msgid "How @code{display-buffer} works"
-msgstr ""
+msgstr "How @code{display-buffer} works"
 
 #. type: findex
 #: original_texis/windows.texi:385
 #, no-wrap
 msgid "display-buffer, detailed description"
-msgstr ""
+msgstr "display-buffer, detailed description"
 
 #. type: Plain text
 #: original_texis/windows.texi:392
@@ -983,18 +1174,23 @@ msgid ""
 "@xref{Choosing Window,,Choosing a Window for Display, elisp, The Emacs Lisp "
 "Reference Manual}, for details about how to alter this sequence of steps."
 msgstr ""
+"@code{display-buffer}コマンド(およびこのコマンドを内部的に呼び出すコマンド)"
+"は、以下で与えられたステップに従って、表示するウィンドウを選択します。このス"
+"テップの順番を変更する方法については、@ref{Choosing Window,,Choosing a "
+"Window for Display, elisp, The Emacs Lisp Reference Manual}を参照してくださ"
+"い。"
 
 #. type: vindex
 #: original_texis/windows.texi:394
 #, no-wrap
 msgid "same-window-buffer-names"
-msgstr ""
+msgstr "same-window-buffer-names"
 
 #. type: vindex
 #: original_texis/windows.texi:395
 #, no-wrap
 msgid "same-window-regexps"
-msgstr ""
+msgstr "same-window-regexps"
 
 #. type: itemize
 #: original_texis/windows.texi:403
@@ -1002,34 +1198,47 @@ msgid ""
 "First, check if the buffer should be displayed in the selected window "
 "regardless of other considerations.  You can tell Emacs to do this by adding "
 "the desired buffer's name to the list @code{same-window-buffer-names}, or "
-"adding a matching regular expression to the list "
-"@code{same-window-regexps}.  By default, these variables are @code{nil}, so "
-"this step is skipped."
+"adding a matching regular expression to the list @code{same-window-"
+"regexps}.  By default, these variables are @code{nil}, so this step is "
+"skipped."
 msgstr ""
+"最初に、他のバッファーを考慮せずに、そのバッファーが選択されたウィンドウに表"
+"示されるべきかをチェックします。これを行うようEmacsに指示するには、望むバッ"
+"ファー名をリスト@code{same-window-buffer-names}に加えるか、リスト@code{same-"
+"window-regexps}にバッファー名にマッチする正規表現を追加します。デフォルトでは"
+"これらの変数は@code{nil}なので、このステップはスキップされます。"
 
 #. type: itemize
 #: original_texis/windows.texi:409
 msgid ""
 "Otherwise, if the buffer is already displayed in an existing window, reuse "
 "that window.  Normally, only windows on the selected frame are considered, "
-"but windows on other frames are also reusable if you change "
-"@code{pop-up-frames} (see below) to @code{t}."
+"but windows on other frames are also reusable if you change @code{pop-up-"
+"frames} (see below) to @code{t}."
 msgstr ""
+"上記以外の場合、バッファーがすでに既存のウィンドウに表示されているときは、そ"
+"のウィンドウを再利用します。通常は選択されたフレームのウィンドウだけが考慮さ"
+"れますが、変数@code{pop-up-frames}を@code{t}に変更している場合(以下参照)、他"
+"のフレームのウィンドウも再利用可能です、"
 
 #. type: vindex
 #: original_texis/windows.texi:410
 #, no-wrap
 msgid "pop-up-frames"
-msgstr ""
+msgstr "pop-up-frames"
 
 #. type: itemize
 #: original_texis/windows.texi:416
 msgid ""
 "Otherwise, optionally create a new frame and display the buffer there.  By "
-"default, this step is skipped.  To enable it, change the variable "
-"@code{pop-up-frames} to a non-@code{nil} value.  The special value "
-"@code{graphic-only} means to do this only on graphical displays."
+"default, this step is skipped.  To enable it, change the variable @code{pop-"
+"up-frames} to a non-@code{nil} value.  The special value @code{graphic-only} "
+"means to do this only on graphical displays."
 msgstr ""
+"上記以外の場合、オプションで新しいフレームを作成して、バッファーをそこに表示"
+"します。デフォルトではこのステップはスキップされます。これを有効にするには変"
+"数@code{pop-up-frames}を非@code{nil}値に変更します。特別な値@code{graphic-"
+"only}は、グラフィカルなディスプレーだけで、これを行うことを意味します。"
 
 #. type: itemize
 #: original_texis/windows.texi:420
@@ -1037,18 +1246,21 @@ msgid ""
 "Otherwise, try to create a new window by splitting a window on the selected "
 "frame, and display the buffer in that new window."
 msgstr ""
+"上記以外の場合、選択されたフレームのウィンドウを分割することにより、新しい"
+"ウィンドウを作成して、バッファーを新しく作成したウィンドウに表示しようと試み"
+"ます。"
 
 #. type: vindex
 #: original_texis/windows.texi:421
 #, no-wrap
 msgid "split-height-threshold"
-msgstr ""
+msgstr "split-height-threshold"
 
 #. type: vindex
 #: original_texis/windows.texi:422
 #, no-wrap
 msgid "split-width-threshold"
-msgstr ""
+msgstr "split-width-threshold"
 
 #. type: itemize
 #: original_texis/windows.texi:432
@@ -1062,20 +1274,33 @@ msgid ""
 "condition holds, Emacs tries to split so that the new window is below---but "
 "only if the window was not split before (to avoid excessive splitting)."
 msgstr ""
+"分割は垂直または水平に行われる可能性があり、それは変数@code{split-height-"
+"threshold}および@code{split-width-threshold}に依存します。これらの変数には整"
+"数値を指定します。@code{split-height-threshold}が選択されたウィンドウの高さよ"
+"り小さい場合、分割により下が新しいウィンドウになります。上記以外の場合、"
+"@code{split-width-threshold}が選択されたウィンドウの幅より小さい場合、分割に"
+"より右が新しいウィンドウになります。どちらの条件も適用できなかったとき、Emacs"
+"は分割により下を新しいウィンドウにしようと試みますが、それは選択されたウィン"
+"ドウが以前に分割されていなかった場合に限られます(過剰な分割を避けるため)。"
 
 #. type: itemize
 #: original_texis/windows.texi:438
 msgid ""
 "Otherwise, display the buffer in a window previously showing it.  Normally, "
-"only windows on the selected frame are considered, but if "
-"@code{pop-up-frames} is non-@code{nil} the window may be also on another "
-"frame."
+"only windows on the selected frame are considered, but if @code{pop-up-"
+"frames} is non-@code{nil} the window may be also on another frame."
 msgstr ""
+"上記以外の場合、そのウィンドウに前に表示されていたバッファーを表示します。通"
+"常は選択されたフレームのウィンドウだけが考慮されますが、変数@code{pop-up-"
+"frames}が非@code{nil}の場合、他のフレームのウィンドウかもしれません。"
 
 #. type: itemize
 #: original_texis/windows.texi:442
-msgid "Otherwise, display the buffer in an existing window on the selected frame."
+msgid ""
+"Otherwise, display the buffer in an existing window on the selected frame."
 msgstr ""
+"上記以外の場合、選択されたフレームの既存のウィンドウのバッファーを表示しま"
+"す。"
 
 #. type: itemize
 #: original_texis/windows.texi:446
@@ -1083,26 +1308,31 @@ msgid ""
 "If all the above methods fail for whatever reason, create a new frame and "
 "display the buffer there."
 msgstr ""
+"何らかの理由により上記すべてが失敗した場合、新しいフレームを作成して、そこに"
+"バッファーを表示します。"
 
 #. type: Plain text
 #: original_texis/windows.texi:451
 msgid ""
-"A more advanced and flexible way to customize the behavior of "
-"@code{display-buffer} is by using the option @code{display-buffer-alist} "
-"mentioned in the next section."
+"A more advanced and flexible way to customize the behavior of @code{display-"
+"buffer} is by using the option @code{display-buffer-alist} mentioned in the "
+"next section."
 msgstr ""
+"@code{display-buffer}の振る舞いをカスタマイズするための、より上級かつ柔軟な方"
+"法は、次のセクションで言及されているオプション@code{display-buffer-alist}を使"
+"用する方法です。"
 
 #. type: cindex
 #: original_texis/windows.texi:455
 #, no-wrap
 msgid "pop-up windows"
-msgstr ""
+msgstr "pop-up windows"
 
 #. type: cindex
 #: original_texis/windows.texi:456
 #, no-wrap
 msgid "temporary windows"
-msgstr ""
+msgstr "temporary windows"
 
 #. type: Plain text
 #: original_texis/windows.texi:463
@@ -1113,6 +1343,11 @@ msgid ""
 "@file{*Completions*} instead.  Such buffers are usually displayed only for a "
 "short period of time."
 msgstr ""
+"ウィンドウに表示されるバッファーの中には、編集のためではなく閲覧するためのも"
+"のがあります。Helpコマンド(@pxref{Help})は通常、この目的のために@file{*Help*}"
+"と呼ばれるバッファーを使用し、ミニバッファーの補完(@pxref{Completion})は別の"
+"@file{*Completions*}と呼ばれるバッファーを使用します。このようなバッファーは"
+"通常、短時間しか表示されません。"
 
 #. type: Plain text
 #: original_texis/windows.texi:469
@@ -1123,6 +1358,10 @@ msgid ""
 "selected frame, regardless of the number of windows already shown on that "
 "frame."
 msgstr ""
+"Emacsは通常、このような一時的に表示されるウィンドウを、上述した@code{display-"
+"buffer}を通じて表示します。一方、@file{*Completions*}バッファーは通常、そのフ"
+"レームにいくつウィンドウが表示されているかに関わらず、選択されたフレームの最"
+"下のウィンドウに表示されます。"
 
 #. type: Plain text
 #: original_texis/windows.texi:477
@@ -1134,6 +1373,12 @@ msgid ""
 "splitting a window as described in the previous section, use the following "
 "form in your initialization file (@pxref{Init File}):"
 msgstr ""
+"一時的なバッファーを他のやり方でEmacsに表示させたい場合、わたしたちは変数"
+"@code{display-buffer-alist}　(@ref{Choosing Window,,Choosing a Window for "
+"Display, elisp, The Emacs Lisp Reference Manual}を参照してください)のカスタマ"
+"イズを推奨します。たとえば、前のセクションで説明したようにウィンドウを分割す"
+"ることにより@file{*Completions*}を表示するには、初期化ファイル(@ref{Init "
+"File}を参照してください)で以下のフォームを使用します:"
 
 #. type: group
 #: original_texis/windows.texi:483
@@ -1143,12 +1388,15 @@ msgid ""
 " 'display-buffer-alist\n"
 " '((\"\\\\*Completions\\\\*\" display-buffer-pop-up-window)))\n"
 msgstr ""
+"(customize-set-variable\n"
+" 'display-buffer-alist\n"
+" '((\"\\\\*Completions\\\\*\" display-buffer-pop-up-window)))\n"
 
 #. type: findex
 #: original_texis/windows.texi:486
 #, no-wrap
 msgid "temp-buffer-resize-mode"
-msgstr ""
+msgstr "temp-buffer-resize-mode"
 
 #. type: Plain text
 #: original_texis/windows.texi:494
@@ -1160,18 +1408,24 @@ msgid ""
 "(@pxref{Minor Modes})  @code{temp-buffer-resize-mode} (@pxref{Temporary "
 "Displays,,Temporary Displays, elisp, The Emacs Lisp Reference Manual})."
 msgstr ""
+"Emacsは通常、バッファーの内容のすべてを表示するのに必要な大きさのウィンドウを"
+"作成するという点において、@file{*Completions*}バッファーは特別です。たとえば"
+"@file{*Help*}バッファーなど、他の一時表示でこのようなウィンドウのリサイズを行"
+"なうには、マイナーモード(@ref{Minor Modes}を参照してください)の@code{temp-"
+"buffer-resize-mode} (@ref{Temporary Displays,,Temporary Displays, elisp, The "
+"Emacs Lisp Reference Manual}を参照してください)に切り替えます。"
 
 #. type: vindex
 #: original_texis/windows.texi:495
 #, no-wrap
 msgid "temp-buffer-max-height"
-msgstr ""
+msgstr "temp-buffer-max-height"
 
 #. type: vindex
 #: original_texis/windows.texi:496
 #, no-wrap
 msgid "temp-buffer-max-width"
-msgstr ""
+msgstr "temp-buffer-max-width"
 
 #. type: Plain text
 #: original_texis/windows.texi:502
@@ -1182,42 +1436,47 @@ msgid ""
 "elisp, The Emacs Lisp Reference Manual}) and cannot exceed the size of the "
 "containing frame."
 msgstr ""
+"@code{temp-buffer-resize-mode}でリサイズされるウィンドウの最大サイズは、オプ"
+"ション@code{temp-buffer-max-height}と@code{temp-buffer-max-width} "
+"(@pxref{Temporary Displays,,Temporary Displays, elisp, The Emacs Lisp "
+"Reference Manual})で制御できます。最大サイズは、ウィンドウが含まれるフレーム"
+"のサイズを超えることはできません。"
 
 #. type: section
 #: original_texis/windows.texi:505
 #, no-wrap
 msgid "Convenience Features for Window Handling"
-msgstr ""
+msgstr "Convenience Features for Window Handling"
 
 #. type: findex
 #: original_texis/windows.texi:507
 #, no-wrap
 msgid "winner-mode"
-msgstr ""
+msgstr "winner-mode"
 
 #. type: cindex
 #: original_texis/windows.texi:508
 #, no-wrap
 msgid "Winner mode"
-msgstr ""
+msgstr "Winner mode"
 
 #. type: cindex
 #: original_texis/windows.texi:509
 #, no-wrap
 msgid "mode, Winner"
-msgstr ""
+msgstr "mode, Winner"
 
 #. type: cindex
 #: original_texis/windows.texi:510
 #, no-wrap
 msgid "undoing window configuration changes"
-msgstr ""
+msgstr "undoing window configuration changes"
 
 #. type: cindex
 #: original_texis/windows.texi:511
 #, no-wrap
 msgid "window configuration changes, undoing"
-msgstr ""
+msgstr "window configuration changes, undoing"
 
 #. type: Plain text
 #: original_texis/windows.texi:520
@@ -1230,6 +1489,13 @@ msgid ""
 "configuration change.  If you change your mind while undoing, you can redo "
 "the changes you had undone using @kbd{C-c right} (@code{M-x winner-redo})."
 msgstr ""
+"Winnerモードは、ウィンドウの設定変更(たとえばフレームのウィンドウがどのように"
+"分割されたか)を記録するグローバルマイナーモードなので、それらをundoできます。"
+"Winnerモードは@kbd{M-x winner-mode}、または変数@code{winner-mode}をカスタマイ"
+"ズすることにより、切り替えることができます。このモードが有効な場合、@kbd{C-c "
+"left} (@code{winner-undo})は、左のウィンドウの設定変更をundoします。undoして"
+"から気が変わった場合、@kbd{C-c right} (@code{M-x winner-redo})を使って、undo"
+"した変更を再実行することができます。"
 
 #. type: Plain text
 #: original_texis/windows.texi:524
@@ -1238,30 +1504,33 @@ msgid ""
 "buffer so that they always display adjacent sections of that buffer.  "
 "@xref{Follow Mode}."
 msgstr ""
+"Followモード(@kbd{M-x follow-mode})は、複数のウィンドウの同じバッファーを同期"
+"するので、バッファーの隣接した部分が常に表示されます。@ref{Follow Mode}を参照"
+"してください。"
 
 #. type: cindex
 #: original_texis/windows.texi:525
 #, no-wrap
 msgid "Windmove package"
-msgstr ""
+msgstr "Windmove package"
 
 #. type: cindex
 #: original_texis/windows.texi:526
 #, no-wrap
 msgid "directional window selection"
-msgstr ""
+msgstr "directional window selection"
 
 #. type: findex
 #: original_texis/windows.texi:527
 #, no-wrap
 msgid "windmove-right"
-msgstr ""
+msgstr "windmove-right"
 
 #. type: findex
 #: original_texis/windows.texi:528
 #, no-wrap
 msgid "windmove-default-keybindings"
-msgstr ""
+msgstr "windmove-default-keybindings"
 
 #. type: Plain text
 #: original_texis/windows.texi:536
@@ -1273,6 +1542,11 @@ msgid ""
 "binds these commands to @kbd{S-right} etc.; doing so disables shift "
 "selection for those keys (@pxref{Shift Selection})."
 msgstr ""
+"Windmoveパッケージは、フレーム内の隣接したウィンドウ間を直接移動するコマンド"
+"を定義します。rightの部分をleft、up、downに置き換えると、対応する方向の隣接す"
+"るウィンドウを選択します。@kbd{M-x windmove-default-keybindings}は、これらの"
+"コマンドを@kbd{S-right}などにバインドします。これにより、これらのキーを使った"
+"シフト選択が無効になります(@ref{Shift Selection}を参照してください)。"
 
 #. type: Plain text
 #: original_texis/windows.texi:539
@@ -1280,30 +1554,32 @@ msgid ""
 "The command @kbd{M-x compare-windows} lets you compare the text shown in "
 "different windows.  @xref{Comparing Files}."
 msgstr ""
+"コマンド@kbd{M-x compare-windows}は、異なるウィンドウに表示されたテキストを比"
+"較します。@ref{Comparing Files}を参照してください。"
 
 #. type: vindex
 #: original_texis/windows.texi:540
 #, no-wrap
 msgid "scroll-all-mode"
-msgstr ""
+msgstr "scroll-all-mode"
 
 #. type: cindex
 #: original_texis/windows.texi:541
 #, no-wrap
 msgid "scrolling windows together"
-msgstr ""
+msgstr "scrolling windows together"
 
 #. type: cindex
 #: original_texis/windows.texi:542
 #, no-wrap
 msgid "Scroll-all mode"
-msgstr ""
+msgstr "Scroll-all mode"
 
 #. type: cindex
 #: original_texis/windows.texi:543
 #, no-wrap
 msgid "mode, Scroll-all"
-msgstr ""
+msgstr "mode, Scroll-all"
 
 #. type: Plain text
 #: original_texis/windows.texi:546
@@ -1312,3 +1588,6 @@ msgid ""
 "causes scrolling commands and point motion commands to apply to every single "
 "window."
 msgstr ""
+"Scroll Allモード(@kbd{M-x scroll-all-mode})は、スクロールおよびポイント移動コ"
+"マンドが、表示されているすべてのウィンドウに適用されるグローバルマイナーモー"
+"ドです。"

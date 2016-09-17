@@ -3,54 +3,53 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-07-03 16:27+0900\n"
+"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
+"Language-Team: Japanese <h1r0p@outlook.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: cindex
 #: original_texis/rmail.texi:5 original_texis/rmail.texi:7
 #, no-wrap
 msgid "Rmail"
-msgstr ""
+msgstr "Rmail"
 
 #. type: chapter
 #: original_texis/rmail.texi:6
 #, no-wrap
 msgid "Reading Mail with Rmail"
-msgstr ""
+msgstr "Reading Mail with Rmail"
 
 #. type: cindex
 #: original_texis/rmail.texi:8
 #, no-wrap
 msgid "reading mail"
-msgstr ""
+msgstr "reading mail"
 
 #. type: findex
 #: original_texis/rmail.texi:9
 #, no-wrap
 msgid "rmail"
-msgstr ""
+msgstr "rmail"
 
 #. type: findex
 #: original_texis/rmail.texi:10
 #, no-wrap
 msgid "rmail-mode"
-msgstr ""
+msgstr "rmail-mode"
 
 #. type: vindex
 #: original_texis/rmail.texi:11
 #, no-wrap
 msgid "rmail-mode-hook"
-msgstr ""
+msgstr "rmail-mode-hook"
 
 #. type: Plain text
 #: original_texis/rmail.texi:17
@@ -60,233 +59,238 @@ msgid ""
 "the messages in an Rmail file is done in a special major mode, Rmail mode, "
 "which redefines most letters to run commands for managing mail."
 msgstr ""
+"Rmailは、メールを閲覧したり処理するための、Emacsのサブシステムです。Rmailは、"
+"Rmailファイルを呼ばれるファイルに、メールメッセージを保存します。Rmailファイ"
+"ルの中のメッセージの閲覧は、Rmailモードという特別なメジャーモードで行なわれま"
+"す。このモードはメールを管理するために実行するコマンドのために、多くの文字を"
+"再定義します。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Basic: Rmail Basics"
-msgstr ""
+msgstr "Basic: Rmail Basics"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Basic concepts of Rmail, and simple use."
-msgstr ""
+msgstr "Rmailの基本的な概念と簡単な使い方。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Scroll: Rmail Scrolling"
-msgstr ""
+msgstr "Scroll: Rmail Scrolling"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Scrolling through a message."
-msgstr ""
+msgstr "メッセージをスクロールする。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Motion: Rmail Motion"
-msgstr ""
+msgstr "Motion: Rmail Motion"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Moving to another message."
-msgstr ""
+msgstr "他のメッセージへの移動。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Deletion: Rmail Deletion"
-msgstr ""
+msgstr "Deletion: Rmail Deletion"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Deleting and expunging messages."
-msgstr ""
+msgstr "メッセージの削除と完全な削除。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Inbox: Rmail Inbox"
-msgstr ""
+msgstr "Inbox: Rmail Inbox"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "How mail gets into the Rmail file."
-msgstr ""
+msgstr "メールがRmailファイルに取り込まれる方法。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Files: Rmail Files"
-msgstr ""
+msgstr "Files: Rmail Files"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Using multiple Rmail files."
-msgstr ""
+msgstr "複数のRmailファイルの使用。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Output: Rmail Output"
-msgstr ""
+msgstr "Output: Rmail Output"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Copying messages out to files."
-msgstr ""
+msgstr "ファイルの外へメッセージをコピーする。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Labels: Rmail Labels"
-msgstr ""
+msgstr "Labels: Rmail Labels"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Classifying messages by labeling them."
-msgstr ""
+msgstr "メッセージにラベルをつけて分類する。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Attrs: Rmail Attributes"
-msgstr ""
+msgstr "Attrs: Rmail Attributes"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Certain standard labels, called attributes."
-msgstr ""
+msgstr "属性と呼ばれる標準的なラベル。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Reply: Rmail Reply"
-msgstr ""
+msgstr "Reply: Rmail Reply"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Sending replies to messages you are viewing."
-msgstr ""
+msgstr "閲覧しているメッセージにたいして返信する。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Summary: Rmail Summary"
-msgstr ""
+msgstr "Summary: Rmail Summary"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Summaries show brief info on many messages."
-msgstr ""
+msgstr "多くのメッセージの簡単な情報の要約。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Sort: Rmail Sorting"
-msgstr ""
+msgstr "Sort: Rmail Sorting"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Sorting messages in Rmail."
-msgstr ""
+msgstr "Rmailでのメッセージのソート。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Display: Rmail Display"
-msgstr ""
+msgstr "Display: Rmail Display"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "How Rmail displays a message; customization."
-msgstr ""
+msgstr "Rmailがメッセージを表示する方法とカスタマイズ。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Coding: Rmail Coding"
-msgstr ""
+msgstr "Coding: Rmail Coding"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "How Rmail handles decoding character sets."
-msgstr ""
+msgstr "Rmailがデコードされた文字セットを扱う方法。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Editing: Rmail Editing"
-msgstr ""
+msgstr "Editing: Rmail Editing"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Editing message text and headers in Rmail."
-msgstr ""
+msgstr "Rmailでのメッセージのテキストとヘッダーの編集。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Digest: Rmail Digest"
-msgstr ""
+msgstr "Digest: Rmail Digest"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Extracting the messages from a digest message."
-msgstr ""
+msgstr "メッセージのダイジェストからメッセージを抽出する。"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Rot13: Rmail Rot13"
-msgstr ""
+msgstr "Rot13: Rmail Rot13"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Reading messages encoded in the rot13 code."
-msgstr ""
+msgstr "rot13コードでエンコードされたメッセージの閲覧。"
 
 #. type: node
 #: original_texis/rmail.texi:39 original_texis/rmail.texi:1375
 #, no-wrap
 msgid "Movemail"
-msgstr ""
+msgstr "Movemail"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "More details of fetching new mail."
-msgstr ""
+msgstr "新たなメールのフェッチに関する詳細。"
 
 #. type: node
 #: original_texis/rmail.texi:39 original_texis/rmail.texi:1481
 #, no-wrap
 msgid "Remote Mailboxes"
-msgstr ""
+msgstr "Remote Mailboxes"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Retrieving mail from remote mailboxes."
-msgstr ""
+msgstr "リモートmailboxからのメールの取得について。"
 
 #. type: node
 #: original_texis/rmail.texi:39 original_texis/rmail.texi:1571
 #, no-wrap
 msgid "Other Mailbox Formats"
-msgstr ""
+msgstr "Other Mailbox Formats"
 
 #. type: menuentry
 #: original_texis/rmail.texi:39
 msgid "Retrieving mail from local mailboxes in various formats."
-msgstr ""
+msgstr "さまざまなフォーマットのローカルmailboxからのメールの取得。"
 
 #. type: node
 #: original_texis/rmail.texi:41
 #, no-wrap
 msgid "Rmail Basics"
-msgstr ""
+msgstr "Rmail Basics"
 
 #. type: section
 #: original_texis/rmail.texi:42
 #, no-wrap
 msgid "Basic Concepts of Rmail"
-msgstr ""
+msgstr "Basic Concepts of Rmail"
 
 #. type: cindex
 #: original_texis/rmail.texi:44
 #, no-wrap
 msgid "primary Rmail file"
-msgstr ""
+msgstr "primary Rmail file"
 
 #. type: vindex
 #: original_texis/rmail.texi:45
 #, no-wrap
 msgid "rmail-file-name"
-msgstr ""
+msgstr "rmail-file-name"
 
 #. type: Plain text
 #: original_texis/rmail.texi:52
@@ -298,6 +302,12 @@ msgid ""
 "yet, and lets you begin reading.  The variable @code{rmail-file-name} "
 "specifies the name of the primary Rmail file."
 msgstr ""
+"もっとも簡単な方法でRmailを使用するには、メールが保存される@file{~/RMAIL}とい"
+"うRmailファイルを使用します。これは@dfn{プライマリーRmailファイル(primary "
+"Rmail file)}と呼ばれます。コマンド@kbd{M-x rmail}はプライマリーRmailファイル"
+"を読み込み、inbox(受信箱)から新しいメールをマージして、未読の最初のメッセージ"
+"を表示して、それを閲覧出きるようにします。変数@code{rmail-file-name}はプライ"
+"マリーRmailファイルの名前を指定します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:59
@@ -308,12 +318,18 @@ msgid ""
 "another file, send a reply, or move to another message.  You can also create "
 "multiple Rmail files and use Rmail to move messages between them."
 msgstr ""
+"Rmailは、Rmailファイルのメッセージを、1度に1つだけ表示します。表示されている"
+"メッセージは、@dfn{カレントメッセージ(current message: 現在のメッセージ)}と呼"
+"ばれます。Rmailモードの特別なコマンドは、カレントメッセージの削除、他のファイ"
+"ルへのコピー、返信、他のメッセージへの移動を行なうことができます。複数のRmail"
+"ファイルを作成して、それらの間でメッセージの移動をするのに、Rmailを使用するこ"
+"とができます。"
 
 #. type: cindex
 #: original_texis/rmail.texi:60
 #, no-wrap
 msgid "message number"
-msgstr ""
+msgstr "message number"
 
 #. type: Plain text
 #: original_texis/rmail.texi:68
@@ -326,18 +342,24 @@ msgid ""
 "You can move to a message by specifying its message number with the @kbd{j} "
 "key (@pxref{Rmail Motion})."
 msgstr ""
+"Rmailファイルでは通常、メッセージは受信した順になっています。それらをソートす"
+"る他の方法を指定できます(@ref{Rmail Sorting}を参照してください)。メッセージは"
+"連続する整数で識別され、それは@dfn{メッセージナンバー(message numbers)}と呼ば"
+"れます。カレントメッセージのナンバーはRmailのモードラインに表示され、その後に"
+"はファイル内のメッセージの総数が続きます。@kbd{j}でメッセージナンバーを指定し"
+"て、そのメッセージに移動できます(@ref{Rmail Motion}を参照してください)。"
 
 #. type: kindex
 #: original_texis/rmail.texi:69
 #, no-wrap
 msgid "s @r{(Rmail)}"
-msgstr ""
+msgstr "s @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:70
 #, no-wrap
 msgid "rmail-expunge-and-save"
-msgstr ""
+msgstr "rmail-expunge-and-save"
 
 #. type: Plain text
 #: original_texis/rmail.texi:77
@@ -349,30 +371,36 @@ msgid ""
 "expunging, use @kbd{C-x C-s}.  Rmail also saves the Rmail file after merging "
 "new mail from an inbox file (@pxref{Rmail Inbox})."
 msgstr ""
+"通常のEmacsの慣例にしたがい、Rmailでの変更は、そのファイルを保存したときだけ"
+"永続化されます。@kbd{s} (@code{rmail-expunge-and-save})で、ファイルを保存する"
+"ことができます、これは最初に削除されたメッセージをファイルから完全に削除しま"
+"す(@ref{Rmail Deletion}を参照してください)。完全な削除を行なわずにファイルを"
+"保存するには、@kbd{C-x C-s}を使用します。Rmailは、inboxファイルから新しいメー"
+"ルをマージした後にも、Rmailファイルを保存します。"
 
 #. type: kindex
 #: original_texis/rmail.texi:78
 #, no-wrap
 msgid "q @r{(Rmail)}"
-msgstr ""
+msgstr "q @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:79
 #, no-wrap
 msgid "rmail-quit"
-msgstr ""
+msgstr "rmail-quit"
 
 #. type: kindex
 #: original_texis/rmail.texi:80
 #, no-wrap
 msgid "b @r{(Rmail)}"
-msgstr ""
+msgstr "b @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:81
 #, no-wrap
 msgid "rmail-bury"
-msgstr ""
+msgstr "rmail-bury"
 
 #. type: Plain text
 #: original_texis/rmail.texi:91
@@ -387,18 +415,27 @@ msgid ""
 "buries the Rmail buffer and its summary without expunging and saving the "
 "Rmail file."
 msgstr ""
+"Rmailをexitするには、@kbd{q} (@code{rmail-quit})を使用します。これはRmailにた"
+"いして完全な削除と保存を行い、Rmailバッファーと、(表示されていれば)サマリー"
+"バッファーを隠します(@ref{Rmail Summary}を参照してください)。しかし正式にexit"
+"する必要はありません。Rmailから他のバッファーを編集するために切り替えて、2度"
+"とRmailに戻らなければ、それはexitしたことになります。(他の変更したファイルと"
+"同様に)最終的にRmailファイルを確実に保存することだけが重要です。これを行なう"
+"には@kbd{C-x s}が適しています(@ref{Save Commands}を参照してください)。Rmailコ"
+"マンドの@kbd{b} @code{rmail-bury}は、Rmailファイルにたいする完全な削除と保存"
+"を行なわずに、Rmailバッファーとサマリーを隠します。"
 
 #. type: node
 #: original_texis/rmail.texi:92
 #, no-wrap
 msgid "Rmail Scrolling"
-msgstr ""
+msgstr "Rmail Scrolling"
 
 #. type: section
 #: original_texis/rmail.texi:93
 #, no-wrap
 msgid "Scrolling Within a Message"
-msgstr ""
+msgstr "Scrolling Within a Message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:99
@@ -408,107 +445,116 @@ msgid ""
 "@kbd{M-v} and @kbd{M-<}, but in Rmail scrolling is so frequent that it "
 "deserves to be easier."
 msgstr ""
+"Rmailが画面に収まらないメッセージを表示しているときは、残りを読むためにスク"
+"ロールしなければなりません。@kbd{C-v}、@kbd{M-v}、@kbd{M-<}などでこれを行なう"
+"ことができますが、Rmailでのスクロールは頻繁に行なわれるので、簡単に行なえるよ"
+"うにする価値があります。"
 
 #. type: key{#1}
 #: original_texis/rmail.texi:101
 #, no-wrap
 msgid "SPC"
-msgstr ""
+msgstr "SPC"
 
 #. type: table
 #: original_texis/rmail.texi:103
 msgid "Scroll forward (@code{scroll-up-command})."
-msgstr ""
+msgstr "前方にスクロールします(@code{scroll-up-command})。"
 
 #. type: key{#1}
 #: original_texis/rmail.texi:103
 #, no-wrap
 msgid "DEL"
-msgstr ""
+msgstr "DEL"
 
 #. type: itemx
 #: original_texis/rmail.texi:104
 #, no-wrap
 msgid "S-@key{SPC}"
-msgstr ""
+msgstr "S-@key{SPC}"
 
 #. type: table
 #: original_texis/rmail.texi:106
 msgid "Scroll backward (@code{scroll-down-command})."
-msgstr ""
+msgstr "後方にスクロールします(@code{scroll-down-command})。"
 
 #. type: item
 #: original_texis/rmail.texi:106
 #, no-wrap
 msgid "."
-msgstr ""
+msgstr "."
 
 #. type: table
 #: original_texis/rmail.texi:108
 msgid "Scroll to start of message (@code{rmail-beginning-of-message})."
 msgstr ""
+"メッセージの最初にスクロールします(@code{rmail-beginning-of-message})。"
 
 #. type: item
 #: original_texis/rmail.texi:108
 #, no-wrap
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #. type: table
 #: original_texis/rmail.texi:110
 msgid "Scroll to end of message (@code{rmail-end-of-message})."
-msgstr ""
+msgstr "メッセージの最後にスクロールします(@code{rmail-end-of-message})。"
 
 #. type: kindex
 #: original_texis/rmail.texi:112
 #, no-wrap
 msgid "SPC @r{(Rmail)}"
-msgstr ""
+msgstr "SPC @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:113
 #, no-wrap
 msgid "DEL @r{(Rmail)}"
-msgstr ""
+msgstr "DEL @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:114
 #, no-wrap
 msgid "S-SPC @r{(Rmail)}"
-msgstr ""
+msgstr "S-SPC @r{(Rmail)}"
 
 #. type: Plain text
 #: original_texis/rmail.texi:119
 msgid ""
 "Since the most common thing to do while reading a message is to scroll "
-"through it by screenfuls, Rmail makes @key{SPC} and @key{DEL} (or "
-"@kbd{S-@key{SPC}}) do the same as @kbd{C-v} (@code{scroll-up-command})  and "
-"@kbd{M-v} (@code{scroll-down-command}) respectively."
+"through it by screenfuls, Rmail makes @key{SPC} and @key{DEL} (or @kbd{S-"
+"@key{SPC}}) do the same as @kbd{C-v} (@code{scroll-up-command})  and @kbd{M-"
+"v} (@code{scroll-down-command}) respectively."
 msgstr ""
+"メッセージを読むときにもっとも一般的に行なうのは、画面単位でメッセージをスク"
+"ロールすることなので、Rmailは@key{SPC}と@key{DEL}(または@kbd{S-@key{SPC}})"
+"で、@kbd{C-v} (@code{scroll-up-command})と@kbd{M-v} (@code{scroll-down-"
+"command})と同じことを行なうようにしています。"
 
 #. type: kindex
 #: original_texis/rmail.texi:120
 #, no-wrap
 msgid ". @r{(Rmail)}"
-msgstr ""
+msgstr ". @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:121
 #, no-wrap
 msgid "/ @r{(Rmail)}"
-msgstr ""
+msgstr "/ @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:122
 #, no-wrap
 msgid "rmail-beginning-of-message"
-msgstr ""
+msgstr "rmail-beginning-of-message"
 
 #. type: findex
 #: original_texis/rmail.texi:123
 #, no-wrap
 msgid "rmail-end-of-message"
-msgstr ""
+msgstr "rmail-end-of-message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:132
@@ -520,18 +566,24 @@ msgid ""
 "command @kbd{/} (@code{rmail-end-of-message}) scrolls forward to the end of "
 "the selected message."
 msgstr ""
+"コマンド@kbd{.} (@code{rmail-beginning-of-message})は、選択されたメッセージの"
+"最初に、後方へスクロールします。これは@kbd{M-<}とまったく同じではありません。"
+"このコマンドはマークをセットしません。他にも、カレントメッセージのバッファー"
+"境界を変更していた場合は、それをリセットします。同様に、コマンド@kbd{/} "
+"(@code{rmail-end-of-message})は、選択されたメッセージの最後に、前方へスクロー"
+"ルします。"
 
 #. type: node
 #: original_texis/rmail.texi:133
 #, no-wrap
 msgid "Rmail Motion"
-msgstr ""
+msgstr "Rmail Motion"
 
 #. type: section
 #: original_texis/rmail.texi:134
 #, no-wrap
 msgid "Moving Among Messages"
-msgstr ""
+msgstr "Moving Among Messages"
 
 #. type: Plain text
 #: original_texis/rmail.texi:144
@@ -544,12 +596,18 @@ msgid ""
 "@samp{unseen} attribute; @pxref{Rmail Attributes}).  Move forward to see the "
 "other new messages; move backward to re-examine old messages."
 msgstr ""
+"メッセージにたいして行なうもっとも基本的なことは、それを読むことです。Rmailで"
+"これを行なうために、そのメッセージをカレントにします。通常の方法はファイル"
+"を、受信したメッセージ順に移動していく方法です(その最初のメッセージは"
+"@samp{unseen}(未読)の属性をもちます。@ref{Rmail Attributes}を参照してくださ"
+"い)。他の新しいメッセージを読むには、前方に移動します。古いメッセージを再読す"
+"るには後方に移動します。"
 
 #. type: item
 #: original_texis/rmail.texi:146 original_texis/rmail.texi:1002
 #, no-wrap
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #. type: table
 #: original_texis/rmail.texi:149
@@ -557,51 +615,59 @@ msgid ""
 "Move to the next nondeleted message, skipping any intervening deleted "
 "messages (@code{rmail-next-undeleted-message})."
 msgstr ""
+"間にある削除されたメッセージをスキップして、次の削除されていないメッセージに"
+"移動します(@code{rmail-next-undeleted-message})。"
 
 #. type: item
 #: original_texis/rmail.texi:149 original_texis/rmail.texi:1005
 #, no-wrap
 msgid "p"
-msgstr ""
+msgstr "p"
 
 #. type: table
 #: original_texis/rmail.texi:152
 msgid ""
-"Move to the previous nondeleted message "
-"(@code{rmail-previous-undeleted-message})."
+"Move to the previous nondeleted message (@code{rmail-previous-undeleted-"
+"message})."
 msgstr ""
+"前の削除されていないメッセージに移動します(@code{rmail-previous-undeleted-"
+"message})。"
 
 #. type: item
 #: original_texis/rmail.texi:152 original_texis/rmail.texi:1008
 #, no-wrap
 msgid "M-n"
-msgstr ""
+msgstr "M-n"
 
 #. type: table
 #: original_texis/rmail.texi:155
 msgid ""
-"Move to the next message, including deleted messages "
-"(@code{rmail-next-message})."
+"Move to the next message, including deleted messages (@code{rmail-next-"
+"message})."
 msgstr ""
+"削除されたメッセージも含めて、次のメッセージに移動します(@code{rmail-next-"
+"message})。"
 
 #. type: item
 #: original_texis/rmail.texi:155 original_texis/rmail.texi:1010
 #, no-wrap
 msgid "M-p"
-msgstr ""
+msgstr "M-p"
 
 #. type: table
 #: original_texis/rmail.texi:158
 msgid ""
-"Move to the previous message, including deleted messages "
-"(@code{rmail-previous-message})."
+"Move to the previous message, including deleted messages (@code{rmail-"
+"previous-message})."
 msgstr ""
+"削除されたメッセージも含めて、前のメッセージに移動します(@code{rmail-"
+"previous-message})。"
 
 #. type: item
 #: original_texis/rmail.texi:158
 #, no-wrap
 msgid "C-c C-n"
-msgstr ""
+msgstr "C-c C-n"
 
 #. type: table
 #: original_texis/rmail.texi:161
@@ -609,12 +675,14 @@ msgid ""
 "Move to the next message with the same subject as the current one "
 "(@code{rmail-next-same-subject})."
 msgstr ""
+"カレントメッセージと同じsubjectの、次のメッセージに移動します(@code{rmail-"
+"next-same-subject})。"
 
 #. type: item
 #: original_texis/rmail.texi:161
 #, no-wrap
 msgid "C-c C-p"
-msgstr ""
+msgstr "C-c C-p"
 
 #. type: table
 #: original_texis/rmail.texi:164
@@ -622,12 +690,14 @@ msgid ""
 "Move to the previous message with the same subject as the current one "
 "(@code{rmail-previous-same-subject})."
 msgstr ""
+"カレントメッセージと同じsubjectの、前のメッセージに移動します(@code{rmail-"
+"previous-same-subject})。"
 
 #. type: item
 #: original_texis/rmail.texi:164 original_texis/rmail.texi:1019
 #, no-wrap
 msgid "j"
-msgstr ""
+msgstr "j"
 
 #. type: table
 #: original_texis/rmail.texi:167
@@ -635,100 +705,104 @@ msgid ""
 "Move to the first message.  With argument @var{n}, move to message number "
 "@var{n} (@code{rmail-show-message})."
 msgstr ""
+"最初のメッセージに移動します。引数@var{n}を指定すると、@var{n}番目のメッセー"
+"ジに移動します(@code{rmail-show-message})。"
 
 #. type: item
 #: original_texis/rmail.texi:167 original_texis/rmail.texi:1013
 #, no-wrap
 msgid ">"
-msgstr ""
+msgstr ">"
 
 #. type: table
 #: original_texis/rmail.texi:169
 msgid "Move to the last message (@code{rmail-last-message})."
-msgstr ""
+msgstr "最後のメッセージに移動します(@code{rmail-last-message})。"
 
 #. type: item
 #: original_texis/rmail.texi:169 original_texis/rmail.texi:1016
 #, no-wrap
 msgid "<"
-msgstr ""
+msgstr "<"
 
 #. type: table
 #: original_texis/rmail.texi:171
 msgid "Move to the first message (@code{rmail-first-message})."
-msgstr ""
+msgstr "最初のメッセージに移動します(@code{rmail-first-message})。"
 
 #. type: item
 #: original_texis/rmail.texi:172
 #, no-wrap
 msgid "M-s @var{regexp} @key{RET}"
-msgstr ""
+msgstr "M-s @var{regexp} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:175
 msgid ""
-"Move to the next message containing a match for @var{regexp} "
-"(@code{rmail-search})."
+"Move to the next message containing a match for @var{regexp} (@code{rmail-"
+"search})."
 msgstr ""
+"@var{regexp}へのマッチを含む、次のメッセージに移動します(@code{rmail-"
+"search})。"
 
 #. type: item
 #: original_texis/rmail.texi:176
 #, no-wrap
 msgid "- M-s @var{regexp} @key{RET}"
-msgstr ""
+msgstr "- M-s @var{regexp} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:178
 msgid "Move to the previous message containing a match for @var{regexp}."
-msgstr ""
+msgstr "@var{regexp}へのマッチを含む、前のメッセージに移動します。"
 
 #. type: kindex
 #: original_texis/rmail.texi:180
 #, no-wrap
 msgid "n @r{(Rmail)}"
-msgstr ""
+msgstr "n @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:181
 #, no-wrap
 msgid "p @r{(Rmail)}"
-msgstr ""
+msgstr "p @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:182
 #, no-wrap
 msgid "M-n @r{(Rmail)}"
-msgstr ""
+msgstr "M-n @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:183
 #, no-wrap
 msgid "M-p @r{(Rmail)}"
-msgstr ""
+msgstr "M-p @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:184
 #, no-wrap
 msgid "rmail-next-undeleted-message"
-msgstr ""
+msgstr "rmail-next-undeleted-message"
 
 #. type: findex
 #: original_texis/rmail.texi:185
 #, no-wrap
 msgid "rmail-previous-undeleted-message"
-msgstr ""
+msgstr "rmail-previous-undeleted-message"
 
 #. type: findex
 #: original_texis/rmail.texi:186
 #, no-wrap
 msgid "rmail-next-message"
-msgstr ""
+msgstr "rmail-next-message"
 
 #. type: findex
 #: original_texis/rmail.texi:187
 #, no-wrap
 msgid "rmail-previous-message"
-msgstr ""
+msgstr "rmail-previous-message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:198
@@ -736,13 +810,20 @@ msgid ""
 "@kbd{n} and @kbd{p} are the usual way of moving among messages in Rmail.  "
 "They move through the messages sequentially, but skip over deleted messages, "
 "which is usually what you want to do.  Their command definitions are named "
-"@code{rmail-next-undeleted-message} and "
-"@code{rmail-previous-undeleted-message}.  If you do not want to skip deleted "
-"messages---for example, if you want to move to a message to undelete "
-"it---use the variants @kbd{M-n} and @kbd{M-p} (@code{rmail-next-message} and "
-"@code{rmail-previous-message}).  A numeric argument to any of these commands "
-"serves as a repeat count."
+"@code{rmail-next-undeleted-message} and @code{rmail-previous-undeleted-"
+"message}.  If you do not want to skip deleted messages---for example, if you "
+"want to move to a message to undelete it---use the variants @kbd{M-n} and "
+"@kbd{M-p} (@code{rmail-next-message} and @code{rmail-previous-message}).  A "
+"numeric argument to any of these commands serves as a repeat count."
 msgstr ""
+"@kbd{n}と@kbd{p}は、Rmailでメッセージを移動する通常の方法です。これらは、(通"
+"常そうしたいように)削除されたメッセージをスキップして、メッセージを順番に移動"
+"していきます。これらのコマンドの定義には、@code{rmail-next-undeleted-message}"
+"および@code{rmail-previous-undeleted-message}という名前がつけられています。削"
+"除されたメッセージをスキップしたくない場合 --- たとえばメッセージの削除を取り"
+"消すために --- は、変種の@kbd{M-n}と@kbd{M-p}(@code{rmail-next-message}と"
+"@code{rmail-previous-message})を使います。これらのコマンドへの数引数は、繰り"
+"返し回数を指定します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:201
@@ -750,24 +831,26 @@ msgid ""
 "In Rmail, you can specify a numeric argument by typing just the digits.  You "
 "don't need to type @kbd{C-u} first."
 msgstr ""
+"Rmailでは数引数の指定は、単に数字をタイプして行なうことができます。最初に"
+"@kbd{C-u}をタイプする必要はありません。"
 
 #. type: kindex
 #: original_texis/rmail.texi:202
 #, no-wrap
 msgid "M-s @r{(Rmail)}"
-msgstr ""
+msgstr "M-s @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:203
 #, no-wrap
 msgid "rmail-search"
-msgstr ""
+msgstr "rmail-search"
 
 #. type: cindex
 #: original_texis/rmail.texi:204
 #, no-wrap
 msgid "searching in Rmail"
-msgstr ""
+msgstr "searching in Rmail"
 
 #. type: Plain text
 #: original_texis/rmail.texi:213
@@ -780,6 +863,12 @@ msgid ""
 "message for a match.  It then selects that message.  If @var{regexp} is "
 "empty, @kbd{M-s} reuses the regexp used the previous time."
 msgstr ""
+"@kbd{M-s} (@code{rmail-search})は、Rmail版の検索コマンドです。通常のインクリ"
+"メンタル検索@kbd{C-s}は機能しますが、これはカレントメッセージだけを検索しま"
+"す。@kbd{M-s}の目的は、他のメッセージにたいする検索です。これは非インクリメン"
+"タルに正規表現(@ref{Regexps}を参照してください)を読み取り、後続のメッセージの"
+"先頭から検索を開始して、見つかったらそのメッセージを選択します。@var{regexp}"
+"が空の場合、@kbd{M-s}は前回使用したregexpを再使用します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:217
@@ -788,37 +877,40 @@ msgid ""
 "negative argument.  In Rmail you can do this with @kbd{- M-s}.  This begins "
 "searching from the end of the previous message."
 msgstr ""
+"ファイルの中の他のメッセージにたいして後方に検索するには、@kbd{M-s}に負の引数"
+"を与えます。Rmailでは@kbd{- M-s}でこれを行なうことができます。これは前のメッ"
+"セージの最後から検索を開始します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:220
 msgid ""
 "It is also possible to search for a message based on labels.  @xref{Rmail "
 "Labels}."
-msgstr ""
+msgstr "ラベルにもとづく検索も可能です。@ref{Rmail Labels}を参照してください。"
 
 #. type: kindex
 #: original_texis/rmail.texi:221
 #, no-wrap
 msgid "C-c C-n @r{(Rmail)}"
-msgstr ""
+msgstr "C-c C-n @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:222
 #, no-wrap
 msgid "C-c C-p @r{(Rmail)}"
-msgstr ""
+msgstr "C-c C-p @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:223
 #, no-wrap
 msgid "rmail-next-same-subject"
-msgstr ""
+msgstr "rmail-next-same-subject"
 
 #. type: findex
 #: original_texis/rmail.texi:224
 #, no-wrap
 msgid "rmail-previous-same-subject"
-msgstr ""
+msgstr "rmail-previous-same-subject"
 
 #. type: Plain text
 #: original_texis/rmail.texi:231
@@ -830,70 +922,80 @@ msgid ""
 "comparing subjects, these commands ignore the prefixes typically added to "
 "the subjects of replies."
 msgstr ""
+"@kbd{C-c C-n} (@code{rmail-next-same-subject})コマンドは、カレントメッセージ"
+"と同じsubjectをもつ、次のメッセージに移動します。プレフィクス引数は繰り返し回"
+"数として使用されます。負の引数を指定すると、@kbd{C-c C-p} (@code{rmail-"
+"previous-same-subject})のように、後方に移動します。subjectを比較するとき、"
+"subjectへの返信に通常付加されるようなプレフィクスは無視します。"
 
 #. type: kindex
 #: original_texis/rmail.texi:232
 #, no-wrap
 msgid "j @r{(Rmail)}"
-msgstr ""
+msgstr "j @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:233
 #, no-wrap
 msgid "> @r{(Rmail)}"
-msgstr ""
+msgstr "> @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:234
 #, no-wrap
 msgid "< @r{(Rmail)}"
-msgstr ""
+msgstr "< @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:235
 #, no-wrap
 msgid "rmail-show-message"
-msgstr ""
+msgstr "rmail-show-message"
 
 #. type: findex
 #: original_texis/rmail.texi:236
 #, no-wrap
 msgid "rmail-last-message"
-msgstr ""
+msgstr "rmail-last-message"
 
 #. type: findex
 #: original_texis/rmail.texi:237
 #, no-wrap
 msgid "rmail-first-message"
-msgstr ""
+msgstr "rmail-first-message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:243
 msgid ""
 "To move to a message specified by absolute message number, use @kbd{j} "
 "(@code{rmail-show-message}) with the message number as argument.  With no "
-"argument, @kbd{j} selects the first message.  @kbd{<} "
-"(@code{rmail-first-message}) also selects the first message.  @kbd{>} "
-"(@code{rmail-last-message}) selects the last message."
+"argument, @kbd{j} selects the first message.  @kbd{<} (@code{rmail-first-"
+"message}) also selects the first message.  @kbd{>} (@code{rmail-last-"
+"message}) selects the last message."
 msgstr ""
+"メッセージの絶対番号を指定してメッセージに移動するには、メッセージ番号を引数"
+"として、@kbd{j} (@code{rmail-show-message})を使用します。引数を与えない場合、"
+"@kbd{j}は最初のメッセージに移動します。@kbd{<} (@code{rmail-first-message})も"
+"最初のメッセージを選択します。@kbd{>} (@code{rmail-last-message})は最後のメッ"
+"セージを選択します。"
 
 #. type: node
 #: original_texis/rmail.texi:244
 #, no-wrap
 msgid "Rmail Deletion"
-msgstr ""
+msgstr "Rmail Deletion"
 
 #. type: section
 #: original_texis/rmail.texi:245
 #, no-wrap
 msgid "Deleting Messages"
-msgstr ""
+msgstr "Deleting Messages"
 
 #. type: cindex
 #: original_texis/rmail.texi:247
 #, no-wrap
 msgid "deletion (Rmail)"
-msgstr ""
+msgstr "deletion (Rmail)"
 
 #. type: Plain text
 #: original_texis/rmail.texi:252
@@ -903,12 +1005,16 @@ msgid ""
 "present; but it still has its place in the Rmail file, and still has its "
 "message number."
 msgstr ""
+"メッセージを残す必要がなくなったとき、それを@dfn{削除(delete)}できます。これ"
+"はそのメッセージを無視するフラグをつけ、いくつかのRmailコマンドは、そのメッ"
+"セージが存在しないかのように振る舞います。しかし、そのメッセージはまだRmail"
+"ファイルの中にあり、メッセージ番号ももっています。"
 
 #. type: cindex
 #: original_texis/rmail.texi:253
 #, no-wrap
 msgid "expunging (Rmail)"
-msgstr ""
+msgstr "expunging (Rmail)"
 
 #. type: Plain text
 #: original_texis/rmail.texi:260
@@ -916,12 +1022,15 @@ msgid ""
 "@dfn{Expunging} the Rmail file actually removes the deleted messages.  The "
 "remaining messages are renumbered consecutively."
 msgstr ""
+"Rmailファイルにたいして@dfn{完全な削除(expunging)}を行なうことにより、削除さ"
+"れたメッセージを実際に消去します。残ったメッセージには新たに連番が振られま"
+"す。"
 
 #. type: item
 #: original_texis/rmail.texi:262
 #, no-wrap
 msgid "d"
-msgstr ""
+msgstr "d"
 
 #. type: table
 #: original_texis/rmail.texi:265
@@ -929,12 +1038,14 @@ msgid ""
 "Delete the current message, and move to the next nondeleted message "
 "(@code{rmail-delete-forward})."
 msgstr ""
+"カレントメッセージを削除して、次の削除されていないメッセージに移動します"
+"(@code{rmail-delete-forward})。"
 
 #. type: item
 #: original_texis/rmail.texi:265
 #, no-wrap
 msgid "C-d"
-msgstr ""
+msgstr "C-d"
 
 #. type: table
 #: original_texis/rmail.texi:268
@@ -942,12 +1053,14 @@ msgid ""
 "Delete the current message, and move to the previous nondeleted message "
 "(@code{rmail-delete-backward})."
 msgstr ""
+"カレントメッセージを削除して、前の削除されていないメッセージに移動します"
+"(@code{rmail-delete-backward})。"
 
 #. type: item
 #: original_texis/rmail.texi:268
 #, no-wrap
 msgid "u"
-msgstr ""
+msgstr "u"
 
 #. type: table
 #: original_texis/rmail.texi:271
@@ -955,41 +1068,44 @@ msgid ""
 "Undelete the current message, or move back to the previous deleted message "
 "and undelete it (@code{rmail-undelete-previous-message})."
 msgstr ""
+"カレントメッセージの削除を取り消すか、前の削除されたメッセージに後方へ移動し"
+"て、そのメッセージの削除を取り消します(@code{rmail-undelete-previous-"
+"message})。"
 
 #. type: item
 #: original_texis/rmail.texi:271
 #, no-wrap
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #. type: table
 #: original_texis/rmail.texi:273
 msgid "Expunge the Rmail file (@code{rmail-expunge})."
-msgstr ""
+msgstr "Rmailファイルにたいして完全な削除を行ないます(@code{rmail-expunge})。"
 
 #. type: kindex
 #: original_texis/rmail.texi:275
 #, no-wrap
 msgid "d @r{(Rmail)}"
-msgstr ""
+msgstr "d @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:276
 #, no-wrap
 msgid "C-d @r{(Rmail)}"
-msgstr ""
+msgstr "C-d @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:277
 #, no-wrap
 msgid "rmail-delete-forward"
-msgstr ""
+msgstr "rmail-delete-forward"
 
 #. type: findex
 #: original_texis/rmail.texi:278
 #, no-wrap
 msgid "rmail-delete-backward"
-msgstr ""
+msgstr "rmail-delete-backward"
 
 #. type: Plain text
 #: original_texis/rmail.texi:288
@@ -1003,51 +1119,62 @@ msgid ""
 "serves as a repeat count, to allow deletion of several messages in a single "
 "command.  A negative argument reverses the meaning of @kbd{d} and @kbd{C-d}."
 msgstr ""
+"Rmailには、メッセージを削除するためのコマンドが2つあります。両方ともカレント"
+"メッセージを削除して、他のメッセージを選択します。@kbd{d} (@code{rmail-"
+"delete-forward})は、すでに削除されたメッセージをスキップして次のメッセージに"
+"移動し、@kbd{C-d} (@code{rmail-delete-backward})は、前の削除されていないメッ"
+"セージに移動します。指定方向に、移動先となる削除されていないメッセージが存在"
+"しない場合は、単にそのメッセージを削除するだけで、カレントメッセージはその"
+"メッセージのままです。数引数は繰り返し回数を指定します。これにより1つのコマン"
+"ドで複数のメッセージを削除できます。負の引数は@kbd{d}と@kbd{C-d}の意味を逆転"
+"します。"
 
 #. type: vindex
 #: original_texis/rmail.texi:290
 #, no-wrap
 msgid "rmail-delete-message-hook"
-msgstr ""
+msgstr "rmail-delete-message-hook"
 
 #. type: Plain text
 #: original_texis/rmail.texi:295
 msgid ""
-"Whenever Rmail deletes a message, it runs the hook "
-"@code{rmail-delete-message-hook}.  When the hook functions are invoked, the "
-"message has been marked deleted, but it is still the current message in the "
-"Rmail buffer."
+"Whenever Rmail deletes a message, it runs the hook @code{rmail-delete-"
+"message-hook}.  When the hook functions are invoked, the message has been "
+"marked deleted, but it is still the current message in the Rmail buffer."
 msgstr ""
+"Rmailがメッセージを削除するときは、フック@code{rmail-delete-message-hook}が実"
+"行されます。フック関数が呼び出されるとき、そのメッセージは削除とマークされま"
+"すが、そのメッセージがRmailバッファーのカレントメッセージのままです。"
 
 #. type: cindex
 #: original_texis/rmail.texi:296
 #, no-wrap
 msgid "undeletion (Rmail)"
-msgstr ""
+msgstr "undeletion (Rmail)"
 
 #. type: kindex
 #: original_texis/rmail.texi:297
 #, no-wrap
 msgid "x @r{(Rmail)}"
-msgstr ""
+msgstr "x @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:298
 #, no-wrap
 msgid "rmail-expunge"
-msgstr ""
+msgstr "rmail-expunge"
 
 #. type: kindex
 #: original_texis/rmail.texi:299
 #, no-wrap
 msgid "u @r{(Rmail)}"
-msgstr ""
+msgstr "u @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:300
 #, no-wrap
 msgid "rmail-undelete-previous-message"
-msgstr ""
+msgstr "rmail-undelete-previous-message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:310
@@ -1062,6 +1189,15 @@ msgid ""
 "numeric prefix argument serves as a repeat count, to allow deletion of "
 "several messages in a single command."
 msgstr ""
+"すべての削除されたメッセージを最終的にRmailファイルから消すには、@kbd{x} "
+"(@code{rmail-expunge})とタイプします。これを行なうまでは、削除されたメッセー"
+"ジの@dfn{削除を取り消す(undelete)}ことができます。削除の取り消しコマンド"
+"@kbd{u} (@code{rmail-undelete-previous-message})は、ほとんどのケースにおいて"
+"@kbd{d}コマンドの効果を取り消すようにデザインされています。カレントメッセージ"
+"が削除されている場合は、カレントメッセージの削除を取り消します。そうでない場"
+"合は、削除されたメッセージが見つかるまで後方に移動して、そのメッセージの削除"
+"を取り消します。数引数は繰り返し回数を指定します。これにより1つのコマンドで複"
+"数のメッセージを削除できます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:320
@@ -1073,9 +1209,16 @@ msgid ""
 "messages that were skipped.  There is no clean way to avoid this problem.  "
 "However, by repeating the @kbd{u} command, you can eventually get back to "
 "the message that you intend to undelete.  You can also select a particular "
-"deleted message with the @kbd{M-p} command, then type @kbd{u} to undelete "
-"it."
+"deleted message with the @kbd{M-p} command, then type @kbd{u} to undelete it."
 msgstr ""
+"通常、@kbd{d}を@kbd{u}で取り消すことができます。なぜなら@kbd{u}は後方に移動し"
+"て、@kbd{d}で削除されたメッセージの削除を取り消すからです。しかしこれは、削除"
+"するメッセージの前にすでに削除されたメッセージがある場合、@kbd{d}はこれらの"
+"メッセージをスキップするのでうまく機能しません。その後で@kbd{u}コマンドを実行"
+"すると、スキップされた最後のメッセージの削除を取り消すからです。この問題を避"
+"ける明解な方法はありません。しかし@kbd{u}コマンドを繰り返すことにより、削除を"
+"取り消したいメッセージに戻ることができます。@kbd{M-p}コマンドで特定の削除され"
+"たメッセージを選択してから、@kbd{u}をタイプして削除を取り消すこともできます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:325
@@ -1085,24 +1228,28 @@ msgid ""
 "deleted.  In fact, deleting or undeleting a message is nothing more than "
 "adding or removing this attribute.  @xref{Rmail Attributes}."
 msgstr ""
+"削除されたメッセージは@samp{deleted}の属性をもち、結果として、カレントメッ"
+"セージが削除されている場合はモードラインに@samp{deleted}が表示されます。実際"
+"のところ、メッセージの削除と削除の取り消しは、この属性の追加または削除に過ぎ"
+"ません。@ref{Rmail Attributes}を参照してください。"
 
 #. type: node
 #: original_texis/rmail.texi:326
 #, no-wrap
 msgid "Rmail Inbox"
-msgstr ""
+msgstr "Rmail Inbox"
 
 #. type: section
 #: original_texis/rmail.texi:327
 #, no-wrap
 msgid "Rmail Files and Inboxes"
-msgstr ""
+msgstr "Rmail Files and Inboxes"
 
 #. type: cindex
 #: original_texis/rmail.texi:328
 #, no-wrap
 msgid "inbox file"
-msgstr ""
+msgstr "inbox file"
 
 #. type: Plain text
 #: original_texis/rmail.texi:338
@@ -1115,18 +1262,26 @@ msgid ""
 "read the mail with Rmail.  This operation is called @dfn{getting new mail}.  "
 "You can get new mail at any time in Rmail by typing @kbd{g}."
 msgstr ""
+"ローカルでメールを受信したとき、オペレーティングシステムは受信メールを、私た"
+"ちが@dfn{inbox}と呼ぶファイルに配します。Rmailを開始したとき、@code{movemail}"
+"と呼ばれるCプログラムを実行して、ローカルのinboxから新しいメッセージを、Rmail"
+"セッションのRmailファイルにコピーします。このRmailファイルには、以前のRmail"
+"セッションの他のメッセージも含まれています。Rmailで実際に読むメールは、この"
+"ファイルの中にあります。この操作は@dfn{新しいメールの取得(getting new mail)}"
+"と呼ばれます。@kbd{g}とタイプすることにより、いつでも新しいメールを取得できま"
+"す。"
 
 #. type: vindex
 #: original_texis/rmail.texi:339
 #, no-wrap
 msgid "rmail-primary-inbox-list"
-msgstr ""
+msgstr "rmail-primary-inbox-list"
 
 #. type: cindex
 #: original_texis/rmail.texi:340
 #, no-wrap
 msgid "@env{MAIL} environment variable"
-msgstr ""
+msgstr "@env{MAIL} environment variable"
 
 #. type: Plain text
 #: original_texis/rmail.texi:349
@@ -1135,10 +1290,16 @@ msgid ""
 "that are inboxes for your primary Rmail file.  If you don't set this "
 "variable explicitly, Rmail uses the @env{MAIL} environment variable, or, as "
 "a last resort, a default inbox based on @code{rmail-spool-directory}.  The "
-"default inbox file depends on your operating system; often it is "
-"@file{/var/mail/@var{username}}, @file{/var/spool/mail/@var{username}}, or "
-"@file{/usr/spool/mail/@var{username}}."
+"default inbox file depends on your operating system; often it is @file{/var/"
+"mail/@var{username}}, @file{/var/spool/mail/@var{username}}, or @file{/usr/"
+"spool/mail/@var{username}}."
 msgstr ""
+"変数@code{rmail-primary-inbox-list}は、プライマリーRmailファイルにたいする"
+"inboxファイルのリストを含みます。この変数を明示的にセットしない場合、Rmailは"
+"環境変数@env{MAIL}を使用するか、最後の手段として@code{rmail-spool-directory}"
+"にもとづく、デフォルトのinboxを使用します。デフォルトのinboxはオペレーティン"
+"グシステムに依存し、それは@file{/var/mail/@var{username}}、@file{/var/spool/"
+"mail/@var{username}}、@file{/usr/spool/mail/@var{username}}などです。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:353
@@ -1146,11 +1307,14 @@ msgid ""
 "You can specify the inbox file(s) for any Rmail file for the current session "
 "with the command @code{set-rmail-inbox-list}; see @ref{Rmail Files}."
 msgstr ""
+"コマンド@code{set-rmail-inbox-list}で、カレントセッションでの任意のRmailファ"
+"イルにたいするinboxファイルを指定できます。@ref{Rmail Files}を参照してくださ"
+"い。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:355
 msgid "There are two reasons for having separate Rmail files and inboxes."
-msgstr ""
+msgstr "inboxとは別にRmailファイルをもつべき理由が2つあります。"
 
 #. type: enumerate
 #: original_texis/rmail.texi:362
@@ -1160,6 +1324,10 @@ msgid ""
 "alternatives, and it need only understand how to convert all of them to "
 "Rmail's own format."
 msgstr ""
+"inboxファイルのフォーマットは、オペレーティングシステムと、それを使用する他の"
+"メールソフトによりさまざまです。Rmailの一部だけがそれらの候補を理解していれば"
+"よく、それらすべてをRmail自身のフォーマットに変換する方法だけを理解すればよい"
+"からです。"
 
 #. type: enumerate
 #: original_texis/rmail.texi:370
@@ -1171,18 +1339,23 @@ msgid ""
 "Rmail file avoids the need for interlocking in all the rest of Rmail, since "
 "only Rmail operates on the Rmail file."
 msgstr ""
+"メールを紛失せずにinboxにアクセスするのは厄介です。なぜならそれはメール配信と"
+"インターロック(連動)する必要があるからです。さらにオペレーティングシステムご"
+"とに、異なるインターロック技術が使用されています。inboxから別のRmailファイル"
+"に1度メールを移動する方法により、Rmailの残りのすべてがインターロックの必要性"
+"を無視できます。なぜならRmailはRmailファイルだけを操作すればよいからです。"
 
 #. type: cindex
 #: original_texis/rmail.texi:373
 #, no-wrap
 msgid "Babyl files"
-msgstr ""
+msgstr "Babyl files"
 
 #. type: cindex
 #: original_texis/rmail.texi:374
 #, no-wrap
 msgid "mbox files"
-msgstr ""
+msgstr "mbox files"
 
 #. type: Plain text
 #: original_texis/rmail.texi:382
@@ -1193,27 +1366,36 @@ msgid ""
 "Emacs 23 Rmail uses that as its internal format.  The Rmail file is still "
 "separate from the inbox file, even though their format is the same."
 msgstr ""
+"Rmailのオリジナルは、内部形式としてBabylフォーマットを使用して記述されていま"
+"した。その後、わたしたちはUnixおよびGNUシステムの通常のinboxフォーマット"
+"(@samp{mbox})が処理に適していると気づき、Emacs23以降のRmailでは内部形式として"
+"mboxを使用しています。それらのフォーマットは同じになりましたが、Rmailファイル"
+"の形式はまだmboxフォーマットとは異なります。"
 
 #. type: vindex
 #: original_texis/rmail.texi:382
 #, no-wrap
 msgid "rmail-mbox-format"
-msgstr ""
+msgstr "rmail-mbox-format"
 
 #. type: Plain text
 #: original_texis/rmail.texi:387
 msgid ""
 "(In fact, there are a few slightly different mbox formats.  The differences "
-"are not very important, but you can set the variable "
-"@code{rmail-mbox-format} to tell Rmail which form your system uses.  See "
-"that variable's documentation for more details.)"
+"are not very important, but you can set the variable @code{rmail-mbox-"
+"format} to tell Rmail which form your system uses.  See that variable's "
+"documentation for more details.)"
 msgstr ""
+"(実際のところ、mboxフォーマットとは若干の違いがあります。その違いは重要ではあ"
+"りませんが、変数@code{rmail-mbox-format}をセットすることにより、あなたのシス"
+"テムが使用するフォーマットをRmailに指定できます。詳細は、変数のドキュメントを"
+"参照してください)。"
 
 #. type: vindex
 #: original_texis/rmail.texi:388
 #, no-wrap
 msgid "rmail-preserve-inbox"
-msgstr ""
+msgstr "rmail-preserve-inbox"
 
 #. type: Plain text
 #: original_texis/rmail.texi:398
@@ -1221,13 +1403,21 @@ msgid ""
 "When getting new mail, Rmail first copies the new mail from the inbox file "
 "to the Rmail file; then it saves the Rmail file; then it clears out the "
 "inbox file.  This way, a system crash may cause duplication of mail between "
-"the inbox and the Rmail file, but cannot lose mail.  If "
-"@code{rmail-preserve-inbox} is non-@code{nil}, then Rmail does not clear out "
-"the inbox file when it gets new mail.  You may wish to set this, for "
-"example, on a portable computer you use to check your mail via POP while "
-"traveling, so that your mail will remain on the server and you can save it "
-"later on your workstation."
+"the inbox and the Rmail file, but cannot lose mail.  If @code{rmail-preserve-"
+"inbox} is non-@code{nil}, then Rmail does not clear out the inbox file when "
+"it gets new mail.  You may wish to set this, for example, on a portable "
+"computer you use to check your mail via POP while traveling, so that your "
+"mail will remain on the server and you can save it later on your workstation."
 msgstr ""
+"新しいメールを受信したとき、Rmailは最初にその新しいメールをinboxファイルから"
+"Rmailファイルにコピーします。それからRmailファイルを保存して、その後でinbox"
+"ファイルからそれをクリアーします。この方法では、システムのクラッシュにより、"
+"inboxとRmailファイルの間でメールの重複は発生するかもしれませんが、メールを失"
+"うことはあり得ません。@code{rmail-preserve-inbox}が非@code{nil}の場合、Rmail"
+"は新しいメールを受信したときにinboxファイルをクリアーしません。旅行の際など、"
+"携帯用のコンピューターでPOPを通じてメールをチェックするときは、この変数をセッ"
+"トすれば、メールはサーバーに残るので、あとであなたのワークステーションに保存"
+"することができます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:407
@@ -1240,6 +1430,13 @@ msgid ""
 "is a crash at the wrong time, this file continues to exist, and Rmail will "
 "use it again the next time it gets new mail from that inbox."
 msgstr ""
+"Rmailがinboxファイルから間接的に新しいメールをコピーするケースがあります。最"
+"初に@code{movemail}プログラムを実行してinboxから、Rmailファイルと同じディレク"
+"トリーにある、@file{.newmail-@var{inboxname}}と呼ばれる中間ファイルにメールを"
+"移動します。その後、Rmailは、そのファイルから新しいメールをマージして、Rmail"
+"ファイルを保存し、中間ファイルの削除はその後にだけ行なわれます。悪いタイミン"
+"グでクラッシュが発生した場合、中間ファイルは残っているので、Rmailは次にinbox"
+"ファイルから新しいメールを取得するとき、それを再使用します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:416
@@ -1252,18 +1449,24 @@ msgid ""
 "character, octal code 037), and delete it.  Then you can use @kbd{1 g} to "
 "get new mail from the corrected file."
 msgstr ""
+"Rmailが@file{.newmail-@var{inboxname}}の中のデータをmbox形式に変換できない場"
+"合、ファイルを@file{RMAILOSE.@var{n}}(@var{n}はファイル名を一意にするために選"
+"ばれます)にリネームするので、Rmailはそのデータで再度問題を起こすことはなくな"
+"ります。メッセージの何がRmailを混乱させたか調べて、それを削除すべきです(大抵"
+"は8進コード037のcontrol-underscoreがメッセージに含まれている場合です)。その"
+"後、修正されたファイルから@kbd{1 g}を使って新しいメールを取得できます。"
 
 #. type: node
 #: original_texis/rmail.texi:417
 #, no-wrap
 msgid "Rmail Files"
-msgstr ""
+msgstr "Rmail Files"
 
 #. type: section
 #: original_texis/rmail.texi:418
 #, no-wrap
 msgid "Multiple Rmail Files"
-msgstr ""
+msgstr "Multiple Rmail Files"
 
 #. type: Plain text
 #: original_texis/rmail.texi:425
@@ -1274,64 +1477,75 @@ msgid ""
 "files can receive mail through their own inboxes, or you can move messages "
 "into them with explicit Rmail commands (@pxref{Rmail Output})."
 msgstr ""
+"Rmailはデフォルトで、あなたの@dfn{プライマリーRmailファイル(primary Rmail "
+"file)}を操作します。これは@file{~/RMAIL}というファイルで、inboxファイルから"
+"メールを受け取ります。しかし他のRmailファイルを所有して。Rmailでそれを編集す"
+"ることができます。これらのファイルは、それら自身のinboxからメールを受け取った"
+"り、明示的なRmailコマンドでメッセージを移動することができます(@ref{Rmail "
+"Output}を参照してください)。"
 
 #. type: item
 #: original_texis/rmail.texi:427
 #, no-wrap
 msgid "i @var{file} @key{RET}"
-msgstr ""
+msgstr "i @var{file} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:429
 msgid "Read @var{file} into Emacs and run Rmail on it (@code{rmail-input})."
 msgstr ""
+"@var{file}をEmacsに読み込んで、それにたいしてRmailを実行します(@code{rmail-"
+"input})。"
 
 #. type: item
 #: original_texis/rmail.texi:430
 #, no-wrap
 msgid "M-x set-rmail-inbox-list @key{RET} @var{files} @key{RET}"
-msgstr ""
+msgstr "M-x set-rmail-inbox-list @key{RET} @var{files} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:432
 msgid "Specify inbox file names for current Rmail file to get mail from."
 msgstr ""
+"カレントRmailファイルにたいしてinboxファイル名を指定して、それからメールを取"
+"得します。"
 
 #. type: item
 #: original_texis/rmail.texi:433
 #, no-wrap
 msgid "g"
-msgstr ""
+msgstr "g"
 
 #. type: table
 #: original_texis/rmail.texi:436
 msgid ""
-"Merge new mail from current Rmail file's inboxes "
-"(@code{rmail-get-new-mail})."
+"Merge new mail from current Rmail file's inboxes (@code{rmail-get-new-mail})."
 msgstr ""
+"カレントRmailファイルのinboxから、新しいメールをマージします(@code{rmail-get-"
+"new-mail})。"
 
 #. type: item
 #: original_texis/rmail.texi:437
 #, no-wrap
 msgid "C-u g @var{file} @key{RET}"
-msgstr ""
+msgstr "C-u g @var{file} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:439
 msgid "Merge new mail from inbox file @var{file}."
-msgstr ""
+msgstr "inboxファイル@var{file}から新しいメールをマージします。"
 
 #. type: kindex
 #: original_texis/rmail.texi:441
 #, no-wrap
 msgid "i @r{(Rmail)}"
-msgstr ""
+msgstr "i @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:442
 #, no-wrap
 msgid "rmail-input"
-msgstr ""
+msgstr "rmail-input"
 
 #. type: Plain text
 #: original_texis/rmail.texi:448
@@ -1341,6 +1555,11 @@ msgid ""
 "Rmail mode.  You can use @kbd{M-x rmail-input} even when not in Rmail, but "
 "it is easier to type @kbd{C-u M-x rmail}, which does the same thing."
 msgstr ""
+"プライマリーRmailファイル以外のファイルでRmailを実行するために、Rmailで"
+"@kbd{i} (@code{rmail-input})コマンドを使用できます。これは、そのファイルを"
+"Rmailモードでvisitします。Rmailの外からでも@kbd{M-x rmail-input}を使用するこ"
+"とができますが、同じことを行なう@kbd{C-u M-x rmail}の方が簡単にタイプできま"
+"す。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:453
@@ -1350,6 +1569,10 @@ msgid ""
 "converted text in the buffer.  If you save the buffer, that converts the "
 "file."
 msgstr ""
+"通常@kbd{i}で読み込むファイルは、有効なmboxファイルであるべきです。そうでない"
+"場合、Rmailはそのファイルのテキストをmbox形式に変換しようと試み、そのバッ"
+"ファーで変換されたテキストをvisitします。バッファーを保存すると、そのファイル"
+"が変換されます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:456
@@ -1357,64 +1580,78 @@ msgid ""
 "If you specify a file name that doesn't exist, @kbd{i} initializes a new "
 "buffer for creating a new Rmail file."
 msgstr ""
+"存在しないファイル名を指定した場合、@kbd{i}は新しいRmailファイルを作成するた"
+"めに、新しいバッファーを初期化します。"
 
 #. type: vindex
 #: original_texis/rmail.texi:457
 #, no-wrap
 msgid "rmail-secondary-file-directory"
-msgstr ""
+msgstr "rmail-secondary-file-directory"
 
 #. type: vindex
 #: original_texis/rmail.texi:458
 #, no-wrap
 msgid "rmail-secondary-file-regexp"
-msgstr ""
+msgstr "rmail-secondary-file-regexp"
 
 #. type: Plain text
 #: original_texis/rmail.texi:469
 msgid ""
 "You can also select an Rmail file from a menu.  In the Classify menu, choose "
 "the Input Rmail File item; then choose the Rmail file you want.  The "
-"variables @code{rmail-secondary-file-directory} and "
-"@code{rmail-secondary-file-regexp} specify which files to offer in the menu: "
-"the first variable says which directory to find them in; the second says "
-"which files in that directory to offer (all those that match the regular "
-"expression).  If no files match, you cannot select this menu item.  These "
-"variables also apply to choosing a file for output (@pxref{Rmail Output})."
+"variables @code{rmail-secondary-file-directory} and @code{rmail-secondary-"
+"file-regexp} specify which files to offer in the menu: the first variable "
+"says which directory to find them in; the second says which files in that "
+"directory to offer (all those that match the regular expression).  If no "
+"files match, you cannot select this menu item.  These variables also apply "
+"to choosing a file for output (@pxref{Rmail Output})."
 msgstr ""
+"メニューからRmailファイルを選択することもできます。メニューClassifyの、アイテ"
+"ムInput Rmail Fileを選択して、Rmailファイルを選択します。変数@code{rmail-"
+"secondary-file-directory}および@code{rmail-secondary-file-regexp}は、メニュー"
+"がどのファイルを表示するかを指定します。最初の変数はファイルを探すディレクト"
+"リーを指定し、2番目の変数はそのディレクトリーのどのファイル(正規表現にマッチ"
+"するファイルすべて)を表示するかを指定します。マッチするファイルがない場合、こ"
+"のメニューアイテムは選択できません。これらの変数は、出力するファイルの選択に"
+"も適用されます(@ref{Rmail Output}を参照してください)。"
 
 #. type: findex
 #: original_texis/rmail.texi:471
 #, no-wrap
 msgid "set-rmail-inbox-list"
-msgstr ""
+msgstr "set-rmail-inbox-list"
 
 #. type: vindex
 #: original_texis/rmail.texi:480
 #, no-wrap
 msgid "rmail-inbox-list"
-msgstr ""
+msgstr "rmail-inbox-list"
 
 #. type: Plain text
 #: original_texis/rmail.texi:486
 msgid ""
-"The inbox files to use are specified by the variable "
-"@code{rmail-inbox-list}, which is buffer-local in Rmail mode.  As a special "
-"exception, if you have specified no inbox files for your primary Rmail file, "
-"it uses the @env{MAIL} environment variable, or your standard system inbox."
+"The inbox files to use are specified by the variable @code{rmail-inbox-"
+"list}, which is buffer-local in Rmail mode.  As a special exception, if you "
+"have specified no inbox files for your primary Rmail file, it uses the "
+"@env{MAIL} environment variable, or your standard system inbox."
 msgstr ""
+"使用するinboxファイルは変数@code{rmail-inbox-list}により指定され、これはRmail"
+"モードではバッファーローカルな変数です。特別な例外として、プライマリーRmail"
+"ファイルにinboxを指定していない場合、これは環境変数@env{MAIL}、またはシステム"
+"標準のinboxを使用します。"
 
 #. type: kindex
 #: original_texis/rmail.texi:487
 #, no-wrap
 msgid "g @r{(Rmail)}"
-msgstr ""
+msgstr "g @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:488
 #, no-wrap
 msgid "rmail-get-new-mail"
-msgstr ""
+msgstr "rmail-get-new-mail"
 
 #. type: Plain text
 #: original_texis/rmail.texi:493
@@ -1424,6 +1661,10 @@ msgid ""
 "nothing.  The command @kbd{M-x rmail} also merges new mail into your primary "
 "Rmail file."
 msgstr ""
+"@kbd{g} (@code{rmail-get-new-mail})コマンドは、inboxのメールを、カレントRmail"
+"ファイルにマージします。Rmailファイルにinboxがない場合、@kbd{g}は何もしませ"
+"ん。コマンド@kbd{M-x rmail}も、新しいメールをプライマリーRmailファイルにマー"
+"ジします。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:499
@@ -1434,29 +1675,35 @@ msgid ""
 "when @kbd{g} with an argument is used.  This is, therefore, a general way of "
 "merging one file of messages into another."
 msgstr ""
+"通常のinboxではないファイルからメールをマージするには、@kbd{C-u g}のように"
+"@kbd{g}キーに数引数を与えます。するとファイル名を読み取り、そのファイルから"
+"メールをマージします。引数を使用して@kbd{g}を使用しても、inboxファイルの削"
+"除・変更はされません。したがって、これはあるファイルのメッセージを、他のファ"
+"イルにマージする一般的な方法です。"
 
 #. type: node
 #: original_texis/rmail.texi:500
 #, no-wrap
 msgid "Rmail Output"
-msgstr ""
+msgstr "Rmail Output"
 
 #. type: section
 #: original_texis/rmail.texi:501
 #, no-wrap
 msgid "Copying Messages Out to Files"
-msgstr ""
+msgstr "Copying Messages Out to Files"
 
 #. type: Plain text
 #: original_texis/rmail.texi:504
 msgid "These commands copy messages from an Rmail file into another file."
 msgstr ""
+"以下はRmailファイルから他のファイルにメッセージをコピーするコマンドです。"
 
 #. type: item
 #: original_texis/rmail.texi:506
 #, no-wrap
 msgid "o @var{file} @key{RET}"
-msgstr ""
+msgstr "o @var{file} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:509
@@ -1464,12 +1711,14 @@ msgid ""
 "Append a full copy of the current message to the file @var{file} "
 "(@code{rmail-output})."
 msgstr ""
+"カレントメッセージの完全なコピーを、ファイル@var{file}に追加します"
+"(@code{rmail-output})。"
 
 #. type: item
 #: original_texis/rmail.texi:510
 #, no-wrap
 msgid "C-o @var{file} @key{RET}"
-msgstr ""
+msgstr "C-o @var{file} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:513
@@ -1477,12 +1726,14 @@ msgid ""
 "Append a copy of the current message, as displayed, to the file @var{file} "
 "(@code{rmail-output-as-seen})."
 msgstr ""
+"カレントメッセージの表示にしたがい、ファイル@var{file}に追加します"
+"(@code{rmail-output-as-seen})。"
 
 #. type: item
 #: original_texis/rmail.texi:514
 #, no-wrap
 msgid "w @var{file} @key{RET}"
-msgstr ""
+msgstr "w @var{file} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:517
@@ -1490,30 +1741,32 @@ msgid ""
 "Output just the message body to the file @var{file}, taking the default file "
 "name from the message @samp{Subject} header."
 msgstr ""
+"メッセージの本文だけをファイル@var{file}に出力します。デフォルトのファイル名"
+"は、そのメッセージの@samp{Subject}ヘッダーからとられます。"
 
 #. type: kindex
 #: original_texis/rmail.texi:519
 #, no-wrap
 msgid "o @r{(Rmail)}"
-msgstr ""
+msgstr "o @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:520
 #, no-wrap
 msgid "rmail-output-as-seen"
-msgstr ""
+msgstr "rmail-output-as-seen"
 
 #. type: kindex
 #: original_texis/rmail.texi:521
 #, no-wrap
 msgid "C-o @r{(Rmail)}"
-msgstr ""
+msgstr "C-o @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:522
 #, no-wrap
 msgid "rmail-output"
-msgstr ""
+msgstr "rmail-output"
 
 #. type: Plain text
 #: original_texis/rmail.texi:532
@@ -1526,6 +1779,13 @@ msgid ""
 "to Babyl format (used by Rmail in Emacs version 22 and before) if the file "
 "is in Babyl format; @kbd{C-o} cannot output to Babyl files at all."
 msgstr ""
+"コマンド@kbd{o}および@kbd{C-o}は、カレントメッセージのコピーを指定したファイ"
+"ルの最後に追加します。2つのコマンドの主な違いは、どれだけコピーするかです。"
+"@kbd{C-o}が現在表示されているヘッダーだけをコピーするのにたいし、@kbd{o}は"
+"ヘッダーがすべて表示されていなくても、メッセージヘッダーを完全にコピーしま"
+"す。@ref{Rmail Display}を参照してください。加えて、ファイルがBabylフォーマッ"
+"トのとき、@kbd{o}はメッセージをBabylフォーマットに変換しますが、@kbd{C-o}は"
+"Babylファイルを出力できません。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:536
@@ -1534,18 +1794,21 @@ msgid ""
 "commands append the message to that buffer.  It is up to you to save the "
 "buffer eventually in its file."
 msgstr ""
+"Emacsバッファーで出力ファイルをvisitしていた場合、出力コマンドはメッセージを"
+"そのバッファーに追加します。最終的にそのバッファーをファイルに保存するかは、"
+"あなた次第です。"
 
 #. type: kindex
 #: original_texis/rmail.texi:537
 #, no-wrap
 msgid "w @r{(Rmail)}"
-msgstr ""
+msgstr "w @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:538
 #, no-wrap
 msgid "rmail-output-body-to-file"
-msgstr ""
+msgstr "rmail-output-body-to-file"
 
 #. type: Plain text
 #: original_texis/rmail.texi:546
@@ -1558,6 +1821,13 @@ msgid ""
 "file name.  However, the file name is read using the minibuffer, so you can "
 "specify a different name if you wish."
 msgstr ""
+"本文にファイル内容がそのまま記載されているようなメッセージを受信することがあ"
+"るかもしれません。そのような場合、@kbd{w} (@code{rmail-output-body-to-file})"
+"コマンドで、本文を(メッセージヘッダーを除いて)ファイルに保存できます。そのよ"
+"うなメッセージは@samp{Subject}フィールドにファイル名を意図した内容を含んでい"
+"る場合があるので、@kbd{w}コマンドはデフォルトの出力ファイル名に@samp{Subject}"
+"フィールドを使用します。しかし、ファイル名はミニバッファーを使って読み取られ"
+"るので、異なる名前を指定できます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:557
@@ -1571,12 +1841,21 @@ msgid ""
 "which files in that directory to offer (all those that match the regular "
 "expression).  If no files match, you cannot select this menu item."
 msgstr ""
+"メニューからRmailファイルを選択して、メッセージを出力することもできます。メ"
+"ニューClassifyの、メニューアイテムOutput Rmail Fileを選択して、出力したい"
+"Rmailファイルを選択します。これは@kbd{o}コマンドのように、カレントメッセージ"
+"をそのファイルに出力します。変数@code{rmail-secondary-file-directory}および"
+"@code{rmail-secondary-file-regexp}は、メニューがどのファイルを表示するかを指"
+"定します。最初の変数はファイルを探すディレクトリーを指定し、2番目の変数はその"
+"ディレクトリーのどのファイル(正規表現にマッチするファイルすべて)を表示するか"
+"を指定します。マッチするファイルがない場合、このメニューアイテムは選択できま"
+"せん。"
 
 #. type: vindex
 #: original_texis/rmail.texi:558
 #, no-wrap
 msgid "rmail-delete-after-output"
-msgstr ""
+msgstr "rmail-delete-after-output"
 
 #. type: Plain text
 #: original_texis/rmail.texi:562
@@ -1585,6 +1864,9 @@ msgid ""
 "message the @samp{filed} attribute, so that @samp{filed} appears in the mode "
 "line when such a message is current."
 msgstr ""
+"@kbd{o}または@kbd{C-o}でメッセージをコピーすることにより、メッセージのオリジ"
+"ナルコピーには属性@samp{filed}が与えられるので、そのメッセージがカレントのと"
+"きは、モードラインに@samp{filed}が表示されます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:567
@@ -1594,12 +1876,16 @@ msgid ""
 "@kbd{C-o} and @kbd{w} commands delete the original message after copying "
 "it.  (You can undelete it afterward if you wish.)"
 msgstr ""
+"各メールメッセージにたいして1つのコピーを保持したい場合は、変数@code{rmail-"
+"delete-after-output}に@code{t}をセットします。その場合、コマンド@kbd{o}、"
+"@kbd{C-o}および@kbd{w}は、コピー後にオリジナルのメッセージを削除します(望むな"
+"ら後で削除を取り消すことができます)。"
 
 #. type: vindex
 #: original_texis/rmail.texi:568
 #, no-wrap
 msgid "rmail-output-file-alist"
-msgstr ""
+msgstr "rmail-output-file-alist"
 
 #. type: Plain text
 #: original_texis/rmail.texi:573
@@ -1608,12 +1894,15 @@ msgid ""
 "defaults for the output file, based on the contents of the current message.  "
 "The value should be a list whose elements have this form:"
 msgstr ""
+"変数@code{rmail-output-file-alist}は、カレントメッセージの内容にもとづいて、"
+"理にかなったデフォルトの出力ファイルを指定できます。値は以下の形式をもつ要素"
+"のリストです:"
 
 #. type: example
 #: original_texis/rmail.texi:576
 #, no-wrap
 msgid "(@var{regexp} . @var{name-exp})\n"
-msgstr ""
+msgstr "(@var{regexp} . @var{name-exp})\n"
 
 #. type: Plain text
 #: original_texis/rmail.texi:586
@@ -1626,12 +1915,18 @@ msgid ""
 "name as a string.  @code{rmail-output-file-alist} applies to both @kbd{o} "
 "and @kbd{C-o}."
 msgstr ""
+"カレントメッセージに@var{regexp}にたいするマッチが存在する場合、デフォルトの"
+"出力ファイルは@var{name-exp}になります。複数の要素がそのメッセージにマッチす"
+"る場合、最初にマッチした要素がデフォルトのファイル名を決定します。式"
+"@var{name-exp}は使用するファイル名を与える文字列定数、またはより一般的に、"
+"ファイル名を文字列として返す任意のLisp式を指定できます。@code{rmail-output-"
+"file-alist}は、@kbd{o}と@kbd{C-o}の両方に適用されます。"
 
 #. type: vindex
 #: original_texis/rmail.texi:587
 #, no-wrap
 msgid "rmail-automatic-folder-directives"
-msgstr ""
+msgstr "rmail-automatic-folder-directives"
 
 #. type: Plain text
 #: original_texis/rmail.texi:602
@@ -1650,30 +1945,42 @@ msgid ""
 "you can use this feature to save messages from a particular address, or with "
 "a particular subject, to a dedicated file."
 msgstr ""
+"Rmailは、(@code{rmail-file-name}で指定される)プライマリーRmailファイルから、"
+"(変数@code{rmail-automatic-folder-directives}の値にもとづいて)他のファイルに"
+"メッセージを自動的に保存できます。この変数は、どのメッセージをどこに保存する"
+"かを指定する要素(@samp{directives})のリストです。各directiveは出力ファイルか"
+"らなるリストで、ヘッダー名と正規表現の組が1つ以上後に続きます。メッセージの"
+"ヘッダーが指定された正規表現にマッチする場合、そのメッセージは与えられたファ"
+"イルに保存されます。directiveが複数のヘッダーエントリーをもつ場合、それらすべ"
+"てがマッチしなければなりません。Rmailはファイル@code{rmail-file-name}からメッ"
+"セージを表示するときdirectiveをチェックして、(もしあれば)最初のマッチに適用し"
+"ます。出力ファイルが@code{nil}の場合、そのメッセージは削除され、保存されませ"
+"ん。たとえば特定のアドレスや、特定のsubjectのメッセージを保存するのに、この機"
+"能を使用することができます。"
 
 #. type: node
 #: original_texis/rmail.texi:603
 #, no-wrap
 msgid "Rmail Labels"
-msgstr ""
+msgstr "Rmail Labels"
 
 #. type: section
 #: original_texis/rmail.texi:604
 #, no-wrap
 msgid "Labels"
-msgstr ""
+msgstr "Labels"
 
 #. type: cindex
 #: original_texis/rmail.texi:605
 #, no-wrap
 msgid "label (Rmail)"
-msgstr ""
+msgstr "label (Rmail)"
 
 #. type: cindex
 #: original_texis/rmail.texi:606
 #, no-wrap
 msgid "attribute (Rmail)"
-msgstr ""
+msgstr "attribute (Rmail)"
 
 #. type: Plain text
 #: original_texis/rmail.texi:614
@@ -1685,48 +1992,57 @@ msgid ""
 "automatically by Rmail when appropriate; these special labels are called "
 "@dfn{attributes}."
 msgstr ""
+"各メッセージは、分類(classification)のために割り当てられる、さまざまな@dfn{ラ"
+"ベル(labels)}をもつことができます。各ラベルは名前をもち、名前が異なると違うラ"
+"ベルになります。任意のラベルは、特定のメッセージにたいして、付いているか付い"
+"ていないかのどちらかです。標準的な意味をもつラベル名がいくつかあり、それが適"
+"切なときは、Rmailにより自動的にメッセージに付与されます。これらの特別なラベル"
+"は、@dfn{属性(attribute)}と呼ばれます"
 
 #. type: ifnottex
 #: original_texis/rmail.texi:616
 msgid "(@xref{Rmail Attributes}.)"
-msgstr ""
+msgstr "(@ref{Rmail Attributes}を参照してください)。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:618
 msgid "All other labels are assigned only by users."
-msgstr ""
+msgstr "それ以外のすべてのラベルは、ユーザーにより付与されます。"
 
 #. type: item
 #: original_texis/rmail.texi:620
 #, no-wrap
 msgid "a @var{label} @key{RET}"
-msgstr ""
+msgstr "a @var{label} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:622
 msgid ""
-"Assign the label @var{label} to the current message "
-"(@code{rmail-add-label})."
+"Assign the label @var{label} to the current message (@code{rmail-add-label})."
 msgstr ""
+"カレントメッセージに、ラベル@var{label}を割り当てます(@code{rmail-add-"
+"label})。"
 
 #. type: item
 #: original_texis/rmail.texi:622
 #, no-wrap
 msgid "k @var{label} @key{RET}"
-msgstr ""
+msgstr "k @var{label} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:624
 msgid ""
-"Remove the label @var{label} from the current message "
-"(@code{rmail-kill-label})."
+"Remove the label @var{label} from the current message (@code{rmail-kill-"
+"label})."
 msgstr ""
+"カレントメッセージから、ラベル@var{label}を外します(@code{rmail-kill-"
+"label})。"
 
 #. type: item
 #: original_texis/rmail.texi:624 original_texis/rmail.texi:1032
 #, no-wrap
 msgid "C-M-n @var{labels} @key{RET}"
-msgstr ""
+msgstr "C-M-n @var{labels} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:627
@@ -1734,12 +2050,14 @@ msgid ""
 "Move to the next message that has one of the labels @var{labels} "
 "(@code{rmail-next-labeled-message})."
 msgstr ""
+"複数のラベル@var{labels}のどれか1つをもつ、次のメッセージに移動します"
+"(@code{rmail-next-labeled-message})。"
 
 #. type: item
 #: original_texis/rmail.texi:627 original_texis/rmail.texi:1037
 #, no-wrap
 msgid "C-M-p @var{labels} @key{RET}"
-msgstr ""
+msgstr "C-M-p @var{labels} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:630
@@ -1747,18 +2065,20 @@ msgid ""
 "Move to the previous message that has one of the labels @var{labels} "
 "(@code{rmail-previous-labeled-message})."
 msgstr ""
+"複数のラベル@var{labels}のどれか1つをもつ、前のメッセージに移動します"
+"(@code{rmail-previous-labeled-message})。"
 
 #. type: item
 #: original_texis/rmail.texi:630 original_texis/rmail.texi:894
 #, no-wrap
 msgid "l @var{labels} @key{RET}"
-msgstr ""
+msgstr "l @var{labels} @key{RET}"
 
 #. type: itemx
 #: original_texis/rmail.texi:631 original_texis/rmail.texi:895
 #, no-wrap
 msgid "C-M-l @var{labels} @key{RET}"
-msgstr ""
+msgstr "C-M-l @var{labels} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:634
@@ -1766,30 +2086,32 @@ msgid ""
 "Make a summary of all messages containing any of the labels @var{labels} "
 "(@code{rmail-summary-by-labels})."
 msgstr ""
+"複数のラベル@var{labels}のどれかを含む、すべてのメッセージのサマリーを作成し"
+"ます(@code{rmail-summary-by-labels})。"
 
 #. type: kindex
 #: original_texis/rmail.texi:636
 #, no-wrap
 msgid "a @r{(Rmail)}"
-msgstr ""
+msgstr "a @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:637
 #, no-wrap
 msgid "k @r{(Rmail)}"
-msgstr ""
+msgstr "k @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:638
 #, no-wrap
 msgid "rmail-add-label"
-msgstr ""
+msgstr "rmail-add-label"
 
 #. type: findex
 #: original_texis/rmail.texi:639
 #, no-wrap
 msgid "rmail-kill-label"
-msgstr ""
+msgstr "rmail-kill-label"
 
 #. type: Plain text
 #: original_texis/rmail.texi:645
@@ -1799,6 +2121,10 @@ msgid ""
 "the @var{label} argument is empty, it means to assign or remove the same "
 "label most recently assigned or removed."
 msgstr ""
+"コマンド@kbd{a} (@code{rmail-add-label})および@kbd{k} (@code{rmail-kill-"
+"label})で、カレントメッセージにたいして任意のラベルを割り当てたり、外すことが"
+"できます。引数@var{label}が空の場合、もっとも最近割り当てられた(または外され"
+"た)ラベルと同じラベルを、割り当てる(または外す)ことを意味します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:648
@@ -1806,51 +2132,62 @@ msgid ""
 "Once you have given messages labels to classify them as you wish, there are "
 "three ways to use the labels: in moving, in summaries, and in sorting."
 msgstr ""
+"メッセージを分類するためにラベルを割り当てた後、ラベルを使用する3つの方法 "
+"--- 移動、サマリー、ソート --- があります。"
 
 #. type: kindex
 #: original_texis/rmail.texi:649
 #, no-wrap
 msgid "C-M-n @r{(Rmail)}"
-msgstr ""
+msgstr "C-M-n @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:650
 #, no-wrap
 msgid "C-M-p @r{(Rmail)}"
-msgstr ""
+msgstr "C-M-p @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:651
 #, no-wrap
 msgid "rmail-next-labeled-message"
-msgstr ""
+msgstr "rmail-next-labeled-message"
 
 #. type: findex
 #: original_texis/rmail.texi:652
 #, no-wrap
 msgid "rmail-previous-labeled-message"
-msgstr ""
+msgstr "rmail-previous-labeled-message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:660
 msgid ""
 "@kbd{C-M-n @var{labels} @key{RET}} (@code{rmail-next-labeled-message}) moves "
 "to the next message that has one of the labels @var{labels}.  The argument "
-"@var{labels} specifies one or more label names, separated by commas.  "
-"@kbd{C-M-p} (@code{rmail-previous-labeled-message}) is similar, but moves "
-"backwards to previous messages.  A numeric argument to either command serves "
-"as a repeat count."
+"@var{labels} specifies one or more label names, separated by commas.  @kbd{C-"
+"M-p} (@code{rmail-previous-labeled-message}) is similar, but moves backwards "
+"to previous messages.  A numeric argument to either command serves as a "
+"repeat count."
 msgstr ""
+"@kbd{C-M-n @var{labels} @key{RET}} (@code{rmail-next-labeled-message})は、複"
+"数のラベル@var{labels}のうちどれか1つをもつ、次のメッセージに移動します。引数"
+"@var{labels}には、カンマで区切られた1つ以上のラベル名を指定します。@kbd{C-M-"
+"p} (@code{rmail-previous-labeled-message})も同様ですが、前のメッセージに後方"
+"へ移動します。どちらのコマンドも、数引数は繰り返し回数を指定します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:666
 msgid ""
-"The command @kbd{C-M-l @var{labels} @key{RET}} "
-"(@code{rmail-summary-by-labels}) displays a summary containing only the "
-"messages that have at least one of a specified set of labels.  The argument "
-"@var{labels} is one or more label names, separated by commas.  @xref{Rmail "
-"Summary}, for information on summaries."
+"The command @kbd{C-M-l @var{labels} @key{RET}} (@code{rmail-summary-by-"
+"labels}) displays a summary containing only the messages that have at least "
+"one of a specified set of labels.  The argument @var{labels} is one or more "
+"label names, separated by commas.  @xref{Rmail Summary}, for information on "
+"summaries."
 msgstr ""
+"コマンド@kbd{C-M-l @var{labels} @key{RET}} (@code{rmail-summary-by-labels})"
+"は、指定された複数のラベルのうち、少なくとも1つをもつメッセージだけを含むサマ"
+"リーを表示します。引数@var{labels}はカンマで区切られた1つ以上のラベル名です。"
+"サマリーについての詳細は、@ref{Rmail Summary}を参照してください。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:670
@@ -1859,17 +2196,22 @@ msgid ""
 "empty, it means to use the last set of labels specified for any of these "
 "commands."
 msgstr ""
+"@kbd{C-M-n}、@kbd{C-M-p}、@kbd{C-M-l}にたいして引数@var{labels}が空の場合は、"
+"それらのコマンドにたいして、もっとも最近に指定された@var{labels}を使うことを"
+"意味します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:672
 msgid "@xref{Rmail Sorting}, for information on sorting messages with labels."
 msgstr ""
+"ラベルでメッセージをソートする情報については、@ref{Rmail Sorting}を参照してく"
+"ださい。"
 
 #. type: section
 #: original_texis/rmail.texi:673 original_texis/rmail.texi:674
 #, no-wrap
 msgid "Rmail Attributes"
-msgstr ""
+msgstr "Rmail Attributes"
 
 #. type: Plain text
 #: original_texis/rmail.texi:680
@@ -1878,12 +2220,15 @@ msgid ""
 "and Rmail assigns them to messages automatically at appropriate times; these "
 "labels are called @dfn{attributes}.  Here is a list of Rmail attributes:"
 msgstr ""
+"@samp{deleted}や@samp{filed}のようないくつかのラベルはビルトインの意味をも"
+"ち、Rmailは適切なときに、それらをメッセージに割り当てます。これらのラベルは"
+"@dfn{属性(attributes)}と呼ばれます。以下はRmailの属性のリストです:"
 
 #. type: item
 #: original_texis/rmail.texi:682
 #, no-wrap
 msgid "unseen"
-msgstr ""
+msgstr "unseen"
 
 #. type: table
 #: original_texis/rmail.texi:687
@@ -1893,12 +2238,15 @@ msgid ""
 "you start Rmail, it initially shows the first message that has this "
 "attribute."
 msgstr ""
+"そのメッセージが1度もカレントになっていないことを意味します。inboxからメッ"
+"セージが到着したとき割り当てられ、そのメッセージがカレントになったときに外さ"
+"れます。Rmailを開始したとき、この属性をもつメッセージを最初に表示します。"
 
 #. type: item
 #: original_texis/rmail.texi:687
 #, no-wrap
 msgid "deleted"
-msgstr ""
+msgstr "deleted"
 
 #. type: table
 #: original_texis/rmail.texi:690
@@ -1906,12 +2254,14 @@ msgid ""
 "Means the message is deleted.  Assigned by deletion commands and removed by "
 "undeletion commands (@pxref{Rmail Deletion})."
 msgstr ""
+"メッセージが削除されたことを意味します。削除コマンドにより割り当てられ、削除"
+"を取り消すコマンドで外されます(@ref{Rmail Deletion}を参照してください)。"
 
 #. type: item
 #: original_texis/rmail.texi:690
 #, no-wrap
 msgid "filed"
-msgstr ""
+msgstr "filed"
 
 #. type: table
 #: original_texis/rmail.texi:693
@@ -1919,12 +2269,15 @@ msgid ""
 "Means the message has been copied to some other file.  Assigned by the "
 "@kbd{o} and @kbd{C-o} file output commands (@pxref{Rmail Output})."
 msgstr ""
+"そのメッセージが他のファイルにコピーされたことを意味します。ファイル出力コマ"
+"ンド@kbd{o}および@kbd{C-o}により割り当てられます(@ref{Rmail Output}を参照して"
+"ください)。"
 
 #. type: item
 #: original_texis/rmail.texi:693
 #, no-wrap
 msgid "answered"
-msgstr ""
+msgstr "answered"
 
 #. type: table
 #: original_texis/rmail.texi:696
@@ -1932,12 +2285,14 @@ msgid ""
 "Means you have mailed an answer to the message.  Assigned by the @kbd{r} "
 "command (@code{rmail-reply}).  @xref{Rmail Reply}."
 msgstr ""
+"メッセージへの返信をメールしたことを意味します。@kbd{r} (@code{rmail-reply})"
+"コマンドにより割り当てられます。@ref{Rmail Reply}を参照してください。"
 
 #. type: item
 #: original_texis/rmail.texi:696
 #, no-wrap
 msgid "forwarded"
-msgstr ""
+msgstr "forwarded"
 
 #. type: table
 #: original_texis/rmail.texi:699
@@ -1945,12 +2300,14 @@ msgid ""
 "Means you have forwarded the message.  Assigned by the @kbd{f} command "
 "(@code{rmail-forward}).  @xref{Rmail Reply}."
 msgstr ""
+"メッセージを転送したことを意味します。@kbd{f} (@code{rmail-forward})コマンド"
+"により割り当てられます。@ref{Rmail Reply}を参照してください。"
 
 #. type: item
 #: original_texis/rmail.texi:699
 #, no-wrap
 msgid "edited"
-msgstr ""
+msgstr "edited"
 
 #. type: table
 #: original_texis/rmail.texi:702
@@ -1958,25 +2315,29 @@ msgid ""
 "Means you have edited the text of the message within Rmail.  @xref{Rmail "
 "Editing}."
 msgstr ""
+"メッセージのテキストをRmailで編集したことを意味します。@ref{Rmail Editing}を"
+"参照してください。"
 
 #. type: item
 #: original_texis/rmail.texi:702
 #, no-wrap
 msgid "resent"
-msgstr ""
+msgstr "resent"
 
 #. type: table
 #: original_texis/rmail.texi:705
 msgid ""
-"Means you have resent the message.  Assigned by the command @kbd{M-x "
-"rmail-resend}.  @xref{Rmail Reply}."
+"Means you have resent the message.  Assigned by the command @kbd{M-x rmail-"
+"resend}.  @xref{Rmail Reply}."
 msgstr ""
+"メッセージを再送したことを意味します。コマンド@kbd{M-x rmail-resend}により割"
+"り当てられます。@ref{Rmail Reply}を参照してください。"
 
 #. type: item
 #: original_texis/rmail.texi:705
 #, no-wrap
 msgid "retried"
-msgstr ""
+msgstr "retried"
 
 #. type: table
 #: original_texis/rmail.texi:708
@@ -1984,6 +2345,8 @@ msgid ""
 "Means you have retried a failed outgoing message.  Assigned by the command "
 "@kbd{M-x rmail-retry-failure}.  @xref{Rmail Reply}."
 msgstr ""
+"送信に失敗したメッセージを再試行したことを意味します。コマンド@kbd{M-x rmail-"
+"retry-failure}により割り当てられます。@ref{Rmail Reply}を参照してください。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:712
@@ -1991,18 +2354,20 @@ msgid ""
 "All other labels are assigned or removed only by users, and have no standard "
 "meaning."
 msgstr ""
+"これ以外のすべてのラベルは、ユーザーだけが割り当てたり外すことができ、それら"
+"のラベルは標準的な意味をもちません。"
 
 #. type: node
 #: original_texis/rmail.texi:713
 #, no-wrap
 msgid "Rmail Reply"
-msgstr ""
+msgstr "Rmail Reply"
 
 #. type: section
 #: original_texis/rmail.texi:714
 #, no-wrap
 msgid "Sending Replies"
-msgstr ""
+msgstr "Sending Replies"
 
 #. type: Plain text
 #: original_texis/rmail.texi:722
@@ -2010,115 +2375,134 @@ msgid ""
 "Rmail has several commands to send outgoing mail.  @xref{Sending Mail}, for "
 "information on using Message mode, including certain features meant to work "
 "with Rmail.  What this section documents are the special commands of Rmail "
-"for entering the mail buffer.  Note that the usual keys for sending "
-"mail---@kbd{C-x m}, @kbd{C-x 4 m}, and @kbd{C-x 5 m}---also work normally in "
-"Rmail mode."
+"for entering the mail buffer.  Note that the usual keys for sending mail---"
+"@kbd{C-x m}, @kbd{C-x 4 m}, and @kbd{C-x 5 m}---also work normally in Rmail "
+"mode."
 msgstr ""
+"Rmailには、送信メールを送るための複数のコマンドがあります。Messageモードの使"
+"い方(Rmailでも動作する特別な機能を含む)に関する情報は、@ref{Sending Mail}を参"
+"照してください。このセクションではmailバッファーに入るための、Rmailの特別なコ"
+"マンドを説明します。メールを送信するための通常のキー --- @kbd{C-x m}、@kbd{C-"
+"x 4 m}、@kbd{C-x 5 m} --- は、Rmailモードでも通常どおり機能することに注意して"
+"ください。"
 
 #. type: item
 #: original_texis/rmail.texi:724
 #, no-wrap
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #. type: table
 #: original_texis/rmail.texi:726
 msgid "Send a message (@code{rmail-mail})."
-msgstr ""
+msgstr "メッセージを送信します(@code{rmail-mail})。"
 
 #. type: item
 #: original_texis/rmail.texi:726
 #, no-wrap
 msgid "c"
-msgstr ""
+msgstr "c"
 
 #. type: table
 #: original_texis/rmail.texi:728
 msgid ""
-"Continue editing the already started outgoing message "
-"(@code{rmail-continue})."
+"Continue editing the already started outgoing message (@code{rmail-"
+"continue})."
 msgstr ""
+"すでに編集を開始した送信メッセージの編集を続けます(@code{rmail-continue})。"
 
 #. type: item
 #: original_texis/rmail.texi:728
 #, no-wrap
 msgid "r"
-msgstr ""
+msgstr "r"
 
 #. type: table
 #: original_texis/rmail.texi:730
 msgid "Send a reply to the current Rmail message (@code{rmail-reply})."
 msgstr ""
+"カレントRmailメッセージにたいする返信を送信します(@code{rmail-reply})。"
 
 #. type: item
 #: original_texis/rmail.texi:730
 #, no-wrap
 msgid "f"
-msgstr ""
+msgstr "f"
 
 #. type: table
 #: original_texis/rmail.texi:732
 msgid "Forward the current message to other users (@code{rmail-forward})."
-msgstr ""
+msgstr "カレントメッセージを他のユーザーに転送します(@code{rmail-forward})。"
 
 #. type: item
 #: original_texis/rmail.texi:732
 #, no-wrap
 msgid "C-u f"
-msgstr ""
+msgstr "C-u f"
 
 #. type: table
 #: original_texis/rmail.texi:734
 msgid "Resend the current message to other users (@code{rmail-resend})."
-msgstr ""
+msgstr "カレントメッセージを他のユーザーに再送します(@code{rmail-resend})。"
 
 #. type: item
 #: original_texis/rmail.texi:734
 #, no-wrap
 msgid "M-m"
-msgstr ""
+msgstr "M-m"
 
 #. type: table
 #: original_texis/rmail.texi:736
-msgid "Try sending a bounced message a second time (@code{rmail-retry-failure})."
+msgid ""
+"Try sending a bounced message a second time (@code{rmail-retry-failure})."
 msgstr ""
+"送信に失敗して戻ってきたメッセージにたいして、2回目の送信を試みます"
+"(@code{rmail-retry-failure})。"
 
 #. type: kindex
 #: original_texis/rmail.texi:738
 #, no-wrap
 msgid "r @r{(Rmail)}"
-msgstr ""
+msgstr "r @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:739
 #, no-wrap
 msgid "rmail-reply"
-msgstr ""
+msgstr "rmail-reply"
 
 #. type: cindex
 #: original_texis/rmail.texi:740
 #, no-wrap
 msgid "reply to a message"
-msgstr ""
+msgstr "reply to a message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:750
 msgid ""
 "The most common reason to send a message while in Rmail is to reply to the "
 "message you are reading.  To do this, type @kbd{r} (@code{rmail-reply}).  "
-"This displays a mail composition buffer in another window, much like "
-"@kbd{C-x 4 m}, but preinitializes the @samp{Subject}, @samp{To}, @samp{CC}, "
+"This displays a mail composition buffer in another window, much like @kbd{C-"
+"x 4 m}, but preinitializes the @samp{Subject}, @samp{To}, @samp{CC}, "
 "@samp{In-reply-to} and @samp{References} header fields based on the message "
 "you are replying to.  The @samp{To} field starts out as the address of the "
 "person who sent the message you received, and the @samp{CC} field starts out "
 "with all the other recipients of that message."
 msgstr ""
+"Rmailにいるときにメッセージを送信する理由でもっとも一般的なのは、読んでいる"
+"メールに返信するときでしょう。これを行なうには、@kbd{r} (@code{rmail-reply})"
+"とタイプします。これは@kbd{C-x 4 m}のように、別ウィンドウにメール作成バッ"
+"ファーを表示しますが、ヘッダーフィールド@samp{Subject}、@samp{To}、"
+"@samp{CC}、@samp{In-reply-to}、@samp{References}は、返信するメッセージにもと"
+"づいて、事前に初期化されています。@samp{To}フィールドには、返信するメッセージ"
+"を送信した人のアドレスがセットされ、@samp{CC}にはそのメッセージを受け取った、"
+"他のすべての人のアドレスがセットされます。"
 
 #. type: vindex
 #: original_texis/rmail.texi:751
 #, no-wrap
 msgid "mail-dont-reply-to-names"
-msgstr ""
+msgstr "mail-dont-reply-to-names"
 
 #. type: Plain text
 #: original_texis/rmail.texi:759
@@ -2131,6 +2515,12 @@ msgid ""
 "then the first time you compose a reply it is initialized to a default value "
 "that matches your own address."
 msgstr ""
+"変数@code{mail-dont-reply-to-names}を使用して、自動的に返信に含まれる受信者か"
+"ら、特定の受信者を除外することができます。この変数の値には正規表現を指定しま"
+"す。正規表現にマッチする受信者は、@samp{CC}フィールドから除外されます。その受"
+"信者を除外することにより@samp{To}フィールドが空になる場合を除き、@samp{To}"
+"フィールドからも除外されます。この変数が@code{nil}の場合、最初に返信を作成す"
+"るときに、あなた自身のアドレスにマッチするデフォルト値に初期化されます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:763
@@ -2139,6 +2529,9 @@ msgid ""
 "reply command with a numeric argument: @kbd{C-u r} or @kbd{1 r}.  This means "
 "to reply only to the sender of the original message."
 msgstr ""
+"特定の返信にたいして@samp{CC}フィールドを完全に省略するには、@kbd{C-u r}また"
+"は@kbd{1 r}のように、返信コマンドに数引数を指定します。これは、元のメッセージ"
+"を送信した人だけに返信することを意味します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:771
@@ -2150,30 +2543,37 @@ msgid ""
 "(@pxref{Mail Commands}).  You can also switch to the Rmail buffer, select a "
 "different message there, switch back, and yank the new current message."
 msgstr ""
+"1度メール作成バッファーが初期化されると、後は通常どおりメールの編集と送信を行"
+"なうことができます(@ref{Sending Mail}を参照してください)。事前にセットされた"
+"ヘッダーフィールドが適切でない場合は、それを編集することができます。@kbd{C-c "
+"C-y}のようなコマンドを使うこともできます。これは返信するメッセージをyankしま"
+"す(@ref{Mail Commands}を参照してください)。Rmailバッファーに切り替えて、異な"
+"るメッセージを選択してから、また戻って新しいカレントメッセージにyankすること"
+"もできます。"
 
 #. type: kindex
 #: original_texis/rmail.texi:772
 #, no-wrap
 msgid "M-m @r{(Rmail)}"
-msgstr ""
+msgstr "M-m @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:773
 #, no-wrap
 msgid "rmail-retry-failure"
-msgstr ""
+msgstr "rmail-retry-failure"
 
 #. type: cindex
 #: original_texis/rmail.texi:774
 #, no-wrap
 msgid "retrying a failed message"
-msgstr ""
+msgstr "retrying a failed message"
 
 #. type: vindex
 #: original_texis/rmail.texi:775
 #, no-wrap
 msgid "rmail-retry-ignored-headers"
-msgstr ""
+msgstr "rmail-retry-ignored-headers"
 
 #. type: Plain text
 #: original_texis/rmail.texi:787
@@ -2189,24 +2589,33 @@ msgid ""
 "@code{rmail-ignored-headers} (@pxref{Rmail Display}), controls which headers "
 "are stripped from the failed message when retrying it."
 msgstr ""
+"メッセージが送信先に届かないこともあります。そのような場合メーラーは通常、"
+"@dfn{失敗メッセージ(failure message)}をあなたに返信します。Rmailコマンドの"
+"@kbd{M-m} (@code{rmail-retry-failure})は、同じメッセージの2回目の送信を準備を"
+"します。これは前と同じテキストとヘッダーフィールドで、メール作成バッファーを"
+"セットアップします。そこですぐに@kbd{C-c C-c}をタイプすると、初回とまったく同"
+"じメッセージを再送します。テキストやヘッダーを編集してから送信することもでき"
+"ます。変数@code{rmail-retry-ignored-headers}は、失敗したメッセージを再試行す"
+"るとき除外するヘッダーを制御し、フォーマットは@code{rmail-ignored-headers} "
+"(@ref{Rmail Display}を参照してください)と同じです。"
 
 #. type: kindex
 #: original_texis/rmail.texi:788
 #, no-wrap
 msgid "f @r{(Rmail)}"
-msgstr ""
+msgstr "f @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:789
 #, no-wrap
 msgid "rmail-forward"
-msgstr ""
+msgstr "rmail-forward"
 
 #. type: cindex
 #: original_texis/rmail.texi:790
 #, no-wrap
 msgid "forwarding a message"
-msgstr ""
+msgstr "forwarding a message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:800
@@ -2220,18 +2629,27 @@ msgid ""
 "When you forward a message, recipients get a message which is from you, and "
 "which has the original message in its contents."
 msgstr ""
+"Rmailからメールを送信する他のよくある理由に、カレントメッセージを他のユーザー"
+"に@dfn{転送(forward)}することです。@kbd{f} (@code{rmail-forward})は、メール作"
+"成バッファーのテキストとsubjectを、カレントメッセージで事前に初期化することに"
+"より、これを簡単に行なえるようにします。subjectは@code{[@var{from}: "
+"@var{subject}]}という形式で初期化されます。@var{from}と@var{subject}には、元"
+"のメッセージの送信者とsubjectが入ります。あなたが行なう必要があるのは、送信先"
+"を記述して、それを送信することだけです。メッセージを転送するとき、受信者が受"
+"け取るメッセージのfromはあなたになり、メールの内容は元のメッセージと同じにな"
+"ります。"
 
 #. type: vindex
 #: original_texis/rmail.texi:801
 #, no-wrap
 msgid "rmail-enable-mime-composing"
-msgstr ""
+msgstr "rmail-enable-mime-composing"
 
 #. type: findex
 #: original_texis/rmail.texi:802
 #, no-wrap
 msgid "unforward-rmail-message"
-msgstr ""
+msgstr "unforward-rmail-message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:818
@@ -2251,12 +2669,24 @@ msgid ""
 "inserts it into the Rmail file as a separate message immediately following "
 "the current one."
 msgstr ""
+"Rmailは転送メッセージにたいして2つのフォーマットを提供します。デフォルトは"
+"MIMEフォーマットを使用します(@ref{Rmail Display}を参照してください)。これは元"
+"のメッセージを別の部分に含めます。変数@code{rmail-enable-mime-composing}を"
+"@code{nil}にセットすることにより、もっと簡単なフォーマットを使うこともできま"
+"す。この場合、Rmailは元のメッセージを2つの区切り行で囲むだけです。これは各行"
+"の行頭に@w{@samp{- }}を挿入することにより、各行の変更も行ないます。このフォー"
+"マットによる転送メッセージを受信した場合、それに普通のテキスト以外の何か --- "
+"たとえばプログラムのソースコード --- が含まれている場合、この変更を取り消せた"
+"ら便利だと思うかもしれません。これを行なうには、転送されたメッセージを選択し"
+"て、@kbd{M-x unforward-rmail-message}とタイプします。このコマンドは、挿入され"
+"た文字列@w{@samp{- }}を削除して、転送されたメッセージのオリジナルを抽出し、カ"
+"レントメッセージの直後に、別のメッセージとしてRmailファイルに挿入します。"
 
 #. type: findex
 #: original_texis/rmail.texi:819
 #, no-wrap
 msgid "rmail-resend"
-msgstr ""
+msgstr "rmail-resend"
 
 #. type: Plain text
 #: original_texis/rmail.texi:827
@@ -2268,18 +2698,24 @@ msgid ""
 "Rmail, use @kbd{C-u f}.  (@kbd{f} runs @code{rmail-forward}, which invokes "
 "@code{rmail-resend} if you provide a numeric argument.)"
 msgstr ""
+"@dfn{再送(Resending)}は、転送と似た別の方法です。違いは、再送により送信される"
+"メッセージは、あなたが受け取ったときのように、元の送信者がfromになり、追加の"
+"ヘッダーフィールド(@samp{Resent-From}と@samp{Resent-To})により、それがあなた"
+"を通じて送られたことを示すことです。Rmailでメッセージを再送するには、@kbd{C-"
+"u f}を使用します(@kbd{f}は@code{rmail-forward}を実行し、数引数を指定すると"
+"@code{rmail-resend}を呼び出します)。"
 
 #. type: kindex
 #: original_texis/rmail.texi:828
 #, no-wrap
 msgid "m @r{(Rmail)}"
-msgstr ""
+msgstr "m @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:829
 #, no-wrap
 msgid "rmail-mail"
-msgstr ""
+msgstr "rmail-mail"
 
 #. type: Plain text
 #: original_texis/rmail.texi:834
@@ -2289,18 +2725,21 @@ msgid ""
 "difference from @kbd{C-x 4 m} is that it makes the Rmail buffer accessible "
 "for @kbd{C-c C-y}, just as @kbd{r} does."
 msgstr ""
+"@kbd{m} (@code{rmail-mail})を使用することにより、返信ではない送信用のメールの"
+"編集を開始します。これはヘッダーフィールドを空のままにします。@kbd{C-x 4 m}と"
+"の違いは、@kbd{r}のように@kbd{C-c C-y}でRmailにアクセスできることです。"
 
 #. type: kindex
 #: original_texis/rmail.texi:840
 #, no-wrap
 msgid "c @r{(Rmail)}"
-msgstr ""
+msgstr "c @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:841
 #, no-wrap
 msgid "rmail-continue"
-msgstr ""
+msgstr "rmail-continue"
 
 #. type: Plain text
 #: original_texis/rmail.texi:845
@@ -2309,12 +2748,15 @@ msgid ""
 "composition buffer, to finish editing an outgoing message you were already "
 "composing, or to alter a message you have sent."
 msgstr ""
+"@kbd{c} (@code{rmail-continue})コマンドは、既に編集を開始した送信用メッセージ"
+"の編集を終えるために、または送信したメッセージを変更するために、メール作成"
+"バッファーでの編集を再開します。"
 
 #. type: vindex
 #: original_texis/rmail.texi:846
 #, no-wrap
 msgid "rmail-mail-new-frame"
-msgstr ""
+msgstr "rmail-mail-new-frame"
 
 #. type: Plain text
 #: original_texis/rmail.texi:851
@@ -2323,6 +2765,9 @@ msgid ""
 "value, then all the Rmail commands to start sending a message create a new "
 "frame to edit it in.  This frame is deleted when you send the message."
 msgstr ""
+"変数@code{rmail-mail-new-frame}を非@code{nil}にセットした場合、メッセージの送"
+"信を開始するすべてのコマンドは、それを編集するために新しいフレームを作成しま"
+"す。このフレームは、そのメッセージを送信すると削除されます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:858
@@ -2330,24 +2775,26 @@ msgid ""
 "All the Rmail commands to send a message use the mail-composition method "
 "that you have chosen (@pxref{Mail Methods})."
 msgstr ""
+"メッセージを送信するすべてのRmailコマンドは、選択されたメール作成方法を使用し"
+"ます(@ref{Mail Methods}を参照してください)。"
 
 #. type: node
 #: original_texis/rmail.texi:859
 #, no-wrap
 msgid "Rmail Summary"
-msgstr ""
+msgstr "Rmail Summary"
 
 #. type: section
 #: original_texis/rmail.texi:860
 #, no-wrap
 msgid "Summaries"
-msgstr ""
+msgstr "Summaries"
 
 #. type: cindex
 #: original_texis/rmail.texi:861
 #, no-wrap
 msgid "summary (Rmail)"
-msgstr ""
+msgstr "summary (Rmail)"
 
 #. type: Plain text
 #: original_texis/rmail.texi:870
@@ -2360,6 +2807,12 @@ msgid ""
 "used there, they apply to the message described by the current line of the "
 "summary."
 msgstr ""
+"@dfn{サマリー(summary)}は、Rmailファイルのメールを概観するために、メッセージ"
+"ごとに1つの行を含むバッファーです。各行にはメッセージ番号、日付、送信者、行"
+"数、ラベル、subjectが表示されます。サマリーバッファーでポイントを移動すること"
+"により、そのサマリー行のメッセージを選択することができます。ほとんどのRmailコ"
+"マンドはサマリーバッファーでも有効です。それらのコマンドを使うと、サマリーの"
+"カレント行に記述されているメッセージに適用されます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:876
@@ -2369,34 +2822,38 @@ msgid ""
 "buffer name is made by appending @samp{-summary} to the Rmail buffer's "
 "name.  Normally only one summary buffer is displayed at a time."
 msgstr ""
+"サマリーバッファーは、1つのRmailファイルだけに適用されます。複数のRmailファイ"
+"ルを編集している場合、それぞれが自身のサマリーバッファーをもつことができま"
+"す。サマリーバッファーの名前は、Rmailバッファーの名前に@samp{-summary}を追加"
+"して作成されます。通常は1度に1つだけのサマリーバッファーが表示されます。"
 
 #. type: node
 #: original_texis/rmail.texi:880 original_texis/rmail.texi:882
 #, no-wrap
 msgid "Rmail Make Summary"
-msgstr ""
+msgstr "Rmail Make Summary"
 
 #. type: menuentry
 #: original_texis/rmail.texi:880
 msgid "Making various sorts of summaries."
-msgstr ""
+msgstr "さまざまな種類のサマリーの作成。"
 
 #. type: node
 #: original_texis/rmail.texi:880 original_texis/rmail.texi:965
 #, no-wrap
 msgid "Rmail Summary Edit"
-msgstr ""
+msgstr "Rmail Summary Edit"
 
 #. type: menuentry
 #: original_texis/rmail.texi:880
 msgid "Manipulating messages from the summary."
-msgstr ""
+msgstr "サマリーからのメッセージの操作。"
 
 #. type: subsection
 #: original_texis/rmail.texi:883
 #, no-wrap
 msgid "Making Summaries"
-msgstr ""
+msgstr "Making Summaries"
 
 #. type: Plain text
 #: original_texis/rmail.texi:889
@@ -2406,23 +2863,26 @@ msgid ""
 "deleting or expunging messages, and getting new mail)  automatically update "
 "the summary."
 msgstr ""
+"以下は、カレントRmailバッファーでサマリーを作成するコマンドです。Rmailバッ"
+"ファーが1度サマリーされると、Rmailバッファーでの変更(メッセージの削除や完全な"
+"削除、新しいメールの受信など)により、サマリーも自動的に更新されます。"
 
 #. type: item
 #: original_texis/rmail.texi:891
 #, no-wrap
 msgid "h"
-msgstr ""
+msgstr "h"
 
 #. type: itemx
 #: original_texis/rmail.texi:892
 #, no-wrap
 msgid "C-M-h"
-msgstr ""
+msgstr "C-M-h"
 
 #. type: table
 #: original_texis/rmail.texi:894
 msgid "Summarize all messages (@code{rmail-summary})."
-msgstr ""
+msgstr "すべてのメッセージをサマリーします(@code{rmail-summary})。"
 
 #. type: table
 #: original_texis/rmail.texi:898
@@ -2430,25 +2890,29 @@ msgid ""
 "Summarize messages that have one or more of the specified labels "
 "(@code{rmail-summary-by-labels})."
 msgstr ""
+"1つ以上の指定したラベルをもつメッセージをサマリーします(@code{rmail-summary-"
+"by-labels})。"
 
 #. type: item
 #: original_texis/rmail.texi:898
 #, no-wrap
 msgid "C-M-r @var{rcpts} @key{RET}"
-msgstr ""
+msgstr "C-M-r @var{rcpts} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:901
 msgid ""
-"Summarize messages that match the specified recipients "
-"(@code{rmail-summary-by-recipients})."
+"Summarize messages that match the specified recipients (@code{rmail-summary-"
+"by-recipients})."
 msgstr ""
+"指定した受信者にマッチするメッセージをサマリーします(@code{rmail-summary-by-"
+"recipients})。"
 
 #. type: item
 #: original_texis/rmail.texi:901
 #, no-wrap
 msgid "C-M-t @var{topic} @key{RET}"
-msgstr ""
+msgstr "C-M-t @var{topic} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:904
@@ -2456,12 +2920,14 @@ msgid ""
 "Summarize messages that have a match for the specified regexp @var{topic} in "
 "their subjects (@code{rmail-summary-by-topic})."
 msgstr ""
+"指定した正規表現@var{topic}にマッチするsubjectをもつメッセージをサマリーしま"
+"す(@code{rmail-summary-by-topic})。"
 
 #. type: item
 #: original_texis/rmail.texi:904
 #, no-wrap
 msgid "C-M-s @var{regexp} @key{RET}"
-msgstr ""
+msgstr "C-M-s @var{regexp} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:907
@@ -2469,31 +2935,35 @@ msgid ""
 "Summarize messages whose headers match the specified regular expression "
 "@var{regexp} (@code{rmail-summary-by-regexp})."
 msgstr ""
+"指定した正規表現@var{regexp}にマッチするヘッダーをもつメッセージをサマリーし"
+"ます(@code{rmail-summary-by-regexp})。"
 
 #. type: item
 #: original_texis/rmail.texi:907
 #, no-wrap
 msgid "C-M-f @var{senders} @key{RET}"
-msgstr ""
+msgstr "C-M-f @var{senders} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:910
 msgid ""
-"Summarize messages that match the specified senders.  "
-"(@code{rmail-summary-by-senders})."
+"Summarize messages that match the specified senders.  (@code{rmail-summary-"
+"by-senders})."
 msgstr ""
+"指定した送信者にマッチするメッセージをサマリーします(@code{rmail-summary-by-"
+"senders})。"
 
 #. type: kindex
 #: original_texis/rmail.texi:912
 #, no-wrap
 msgid "h @r{(Rmail)}"
-msgstr ""
+msgstr "h @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:913
 #, no-wrap
 msgid "rmail-summary"
-msgstr ""
+msgstr "rmail-summary"
 
 #. type: Plain text
 #: original_texis/rmail.texi:917
@@ -2503,24 +2973,28 @@ msgid ""
 "the buffer.  It then displays and selects the summary buffer in another "
 "window."
 msgstr ""
+"コマンド@kbd{h}または@kbd{C-M-h} (@code{rmail-summary})は、カレントRmailバッ"
+"ファーにたいする、すべてのメッセージのサマリーを、サマリーバッファーに表示し"
+"ます。その後、別のウィンドウにサマリーバッファーを表示して、それを選択しま"
+"す。"
 
 #. type: kindex
 #: original_texis/rmail.texi:918
 #, no-wrap
 msgid "l @r{(Rmail)}"
-msgstr ""
+msgstr "l @r{(Rmail)}"
 
 #. type: kindex
 #: original_texis/rmail.texi:919
 #, no-wrap
 msgid "C-M-l @r{(Rmail)}"
-msgstr ""
+msgstr "C-M-l @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:920
 #, no-wrap
 msgid "rmail-summary-by-labels"
-msgstr ""
+msgstr "rmail-summary-by-labels"
 
 #. type: Plain text
 #: original_texis/rmail.texi:925
@@ -2530,18 +3004,21 @@ msgid ""
 "labels @var{labels}.  @var{labels} should contain label names separated by "
 "commas."
 msgstr ""
+"@kbd{C-M-l @var{labels} @key{RET}} (@code{rmail-summary-by-labels})は、1つ以"
+"上のラベル@var{labels}をもつメッセージの、部分的なサマリーを作成します。"
+"@var{labels}には、カンマで区切られたラベル名を指定します。"
 
 #. type: kindex
 #: original_texis/rmail.texi:926
 #, no-wrap
 msgid "C-M-r @r{(Rmail)}"
-msgstr ""
+msgstr "C-M-r @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:927
 #, no-wrap
 msgid "rmail-summary-by-recipients"
-msgstr ""
+msgstr "rmail-summary-by-recipients"
 
 #. type: Plain text
 #: original_texis/rmail.texi:933
@@ -2552,18 +3029,22 @@ msgid ""
 "against the @samp{To}, @samp{From}, and @samp{CC} headers (supply a prefix "
 "argument to exclude this header)."
 msgstr ""
+"@kbd{C-M-r @var{rcpts} @key{RET}} (@code{rmail-summary-by-recipients})は、正"
+"規表現@var{rcpts}にマッチする、1つ以上の受信者をもつメッセージのサマリーを作"
+"成します。これはヘッダー@samp{To}、@samp{From}、@samp{CC}にたいしてマッチを行"
+"ないます(プレフィクス引数を与えた場合は、これらのヘッダーを除外します)。"
 
 #. type: kindex
 #: original_texis/rmail.texi:934
 #, no-wrap
 msgid "C-M-t @r{(Rmail)}"
-msgstr ""
+msgstr "C-M-t @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:935
 #, no-wrap
 msgid "rmail-summary-by-topic"
-msgstr ""
+msgstr "rmail-summary-by-topic"
 
 #. type: Plain text
 #: original_texis/rmail.texi:940
@@ -2573,18 +3054,22 @@ msgid ""
 "the regular expression @var{topic}.  With a prefix argument, the match is "
 "against the whole message, not just the subject."
 msgstr ""
+"@kbd{C-M-t @var{topic} @key{RET}} (@code{rmail-summary-by-topic})は、正規表現"
+"@var{topic}にマッチするsubjectをもつメッセージの、部分的なサマリーを作成しま"
+"す。プレフィクス引数を指定した場合、subjectだけでなく、メッセージ全体にたいし"
+"てマッチを行ないます。"
 
 #. type: kindex
 #: original_texis/rmail.texi:941
 #, no-wrap
 msgid "C-M-s @r{(Rmail)}"
-msgstr ""
+msgstr "C-M-s @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:942
 #, no-wrap
 msgid "rmail-summary-by-regexp"
-msgstr ""
+msgstr "rmail-summary-by-regexp"
 
 #. type: Plain text
 #: original_texis/rmail.texi:947
@@ -2593,18 +3078,21 @@ msgid ""
 "partial summary that mentions only the messages whose headers (including the "
 "date and the subject lines) match the regular expression @var{regexp}."
 msgstr ""
+"@kbd{C-M-s @var{regexp} @key{RET}} (@code{rmail-summary-by-regexp})は、正規表"
+"現@var{regexp}にマッチするヘッダー(日付とsubject行を含む)をもつメッセージの、"
+"部分的なサマリーを作成します。"
 
 #. type: kindex
 #: original_texis/rmail.texi:948
 #, no-wrap
 msgid "C-M-f @r{(Rmail)}"
-msgstr ""
+msgstr "C-M-f @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:949
 #, no-wrap
 msgid "rmail-summary-by-senders"
-msgstr ""
+msgstr "rmail-summary-by-senders"
 
 #. type: Plain text
 #: original_texis/rmail.texi:953
@@ -2613,6 +3101,9 @@ msgid ""
 "a partial summary that mentions only the messages whose @samp{From} fields "
 "match the regular expression @var{senders}."
 msgstr ""
+"@kbd{C-M-f @var{senders} @key{RET}} (@code{rmail-summary-by-senders})は、正規"
+"表現@var{senders}にマッチする@samp{From}フィールドをもつメッセージの、部分的"
+"なサマリーを作成します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:956
@@ -2620,18 +3111,20 @@ msgid ""
 "Note that there is only one summary buffer for any Rmail buffer; making any "
 "kind of summary discards any previous summary."
 msgstr ""
+"1つのRmailバッファーにたいして、1つのサマリーしか存在しないことに注意してくだ"
+"さい。他の種類のサマリーを作成すると、以前のサマリーは破棄されます。"
 
 #. type: vindex
 #: original_texis/rmail.texi:957
 #, no-wrap
 msgid "rmail-summary-window-size"
-msgstr ""
+msgstr "rmail-summary-window-size"
 
 #. type: vindex
 #: original_texis/rmail.texi:958
 #, no-wrap
 msgid "rmail-summary-line-count-flag"
-msgstr ""
+msgstr "rmail-summary-line-count-flag"
 
 #. type: Plain text
 #: original_texis/rmail.texi:964
@@ -2642,12 +3135,16 @@ msgid ""
 "count of the message.  Setting this option to @code{nil} might speed up the "
 "generation of summaries."
 msgstr ""
+"変数@code{rmail-summary-window-size}は、サマリーウィンドウに何行使用するかを"
+"指定します。変数@code{rmail-summary-line-count-flag}は、メッセージのサマリー"
+"行に、メッセージの総行数を含めるかを制御します。このオプションに@code{nil}を"
+"セットすると、サマリーの生成が速くなるかもしれません。"
 
 #. type: subsection
 #: original_texis/rmail.texi:966
 #, no-wrap
 msgid "Editing in Summaries"
-msgstr ""
+msgstr "Editing in Summaries"
 
 #. type: Plain text
 #: original_texis/rmail.texi:971
@@ -2656,6 +3153,9 @@ msgid ""
 "Rmail buffer itself.  In fact, once you have a summary buffer, there's no "
 "need to switch back to the Rmail buffer."
 msgstr ""
+"Rmailバッファーで行なえることのほとんどは、Rmailサマリーバッファーでも使用で"
+"きます。実際、1度サマリーバッファーを作成すれば、Rmailバッファーに戻る必要は"
+"ありません。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:977
@@ -2666,6 +3166,10 @@ msgid ""
 "whichever line point is on at the end of the command, that message is "
 "selected in the Rmail buffer."
 msgstr ""
+"サマリーバッファーで異なる行にポイントを移動するだけで、サマリーバッファーか"
+"らメッセージを選択して、Rmailバッファーに表示することができます。ポイントを移"
+"動するEmacsコマンドが何であるかは問題になりません。コマンドの最後でポイントの"
+"ある行のメッセージが、Rmailバッファーに表示されます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:988
@@ -2679,12 +3183,20 @@ msgid ""
 "FILE; @kbd{r} starts a reply to it; etc.  You can scroll the current message "
 "while remaining in the summary buffer using @key{SPC} and @key{DEL}."
 msgstr ""
+"ほとんどのRmailコマンドは、Rmailバッファーと同様に機能します。したがって、サ"
+"マリーバッファーでは、@kbd{d}がカレントメッセージの削除、@kbd{u}は削除の取り"
+"消し、@kbd{x}で完全に削除します(しかし、サマリーバッファーでは関連する方向に"
+"削除されていないメッセージが存在しない場合、削除コマンドはカレントメッセージ"
+"に留まるのではなく、最初または最後のメッセージに移動します)。@kbd{o}と@kbd{C-"
+"o}は、カレントメッセージをファイルに出力します。他にも、@kbd{r}はそれにたいす"
+"る返信を開始する、などです。サマリーバッファーで@key{SPC}と@key{DEL}を使用す"
+"ることにより、カレントメッセージをスクロールできます。"
 
 #. type: findex
 #: original_texis/rmail.texi:989
 #, no-wrap
 msgid "rmail-summary-undelete-many"
-msgstr ""
+msgstr "rmail-summary-undelete-many"
 
 #. type: Plain text
 #: original_texis/rmail.texi:993
@@ -2693,6 +3205,9 @@ msgid ""
 "messages in the summary.  A prefix argument means to undelete that many of "
 "the previous deleted messages."
 msgstr ""
+"@kbd{M-u} (@code{rmail-summary-undelete-many})は、サマリーで削除されたすべて"
+"のメッセージの削除を取り消します。プレフィクス引数を指定した場合、以前に削除"
+"された、指定した数のメッセージの削除を取り消すことを意味します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1000
@@ -2704,6 +3219,12 @@ msgid ""
 "don't display it in a window unless it already appears).  Here is a list of "
 "these commands:"
 msgstr ""
+"メッセージ間を移動するRmailコマンドはサマリーバッファーでも機能しますが、動作"
+"が少し異なります。これらのコマンドはサマリーに含まれる一連のメッセージ間を移"
+"動します。これらのコマンドは、常にRmailバッファーがスクリーンに表示されるよう"
+"にします(カーソル移動コマンドはRmailバッファーの内容を更新しますが、これらの"
+"コマンドはウィンドウにすでにそれが表示されているのでなければ、表示しません)。"
+"以下はそれらのコマンドのリストです:"
 
 #. type: table
 #: original_texis/rmail.texi:1005
@@ -2711,6 +3232,8 @@ msgid ""
 "Move to next line, skipping lines saying ``deleted'', and select its message "
 "(@code{rmail-summary-next-msg})."
 msgstr ""
+"``deleted''の行をスキップして次の行に移動し、その行のメッセージを選択します"
+"(@code{rmail-summary-next-msg})。"
 
 #. type: table
 #: original_texis/rmail.texi:1008
@@ -2718,38 +3241,49 @@ msgid ""
 "Move to previous line, skipping lines saying ``deleted'', and select its "
 "message (@code{rmail-summary-previous-msg})."
 msgstr ""
+"``deleted''の行をスキップして前の行に移動し、その行のメッセージを選択します"
+"(@code{rmail-summary-previous-msg})。"
 
 #. type: table
 #: original_texis/rmail.texi:1010
-msgid "Move to next line and select its message (@code{rmail-summary-next-all})."
+msgid ""
+"Move to next line and select its message (@code{rmail-summary-next-all})."
 msgstr ""
+"次の行に移動して、その行のメッセージを選択します(@code{rmail-summary-next-"
+"all})。"
 
 #. type: table
 #: original_texis/rmail.texi:1013
 msgid ""
-"Move to previous line and select its message "
-"(@code{rmail-summary-previous-all})."
+"Move to previous line and select its message (@code{rmail-summary-previous-"
+"all})."
 msgstr ""
+"前の行に移動して、その行のメッセージを選択します(@code{rmail-summary-"
+"previous-all})。"
 
 #. type: table
 #: original_texis/rmail.texi:1016
 msgid ""
-"Move to the last line, and select its message "
-"(@code{rmail-summary-last-message})."
+"Move to the last line, and select its message (@code{rmail-summary-last-"
+"message})."
 msgstr ""
+"最後の行に移動して、その行のメッセージを選択します(@code{rmail-summary-last-"
+"message})。"
 
 #. type: table
 #: original_texis/rmail.texi:1019
 msgid ""
-"Move to the first line, and select its message "
-"(@code{rmail-summary-first-message})."
+"Move to the first line, and select its message (@code{rmail-summary-first-"
+"message})."
 msgstr ""
+"最初の行に移動して、その行のメッセージを選択します(@code{rmail-summary-first-"
+"message})。"
 
 #. type: key{#1}
 #: original_texis/rmail.texi:1020 original_texis/rmail.texi:1190
 #, no-wrap
 msgid "RET"
-msgstr ""
+msgstr "RET"
 
 #. type: table
 #: original_texis/rmail.texi:1026
@@ -2760,12 +3294,17 @@ msgid ""
 "buffer; this signals an error if the message is not listed in the summary "
 "buffer."
 msgstr ""
+"(Rmailバッファーがスクリーンに確実に表示されるようにして)カレント行のメッセー"
+"ジを選択します(@code{rmail-summary-goto-msg})。引数@var{n}を指定した場合、"
+"メッセージ番号@var{n}のメッセージを選択し、サマリーバッファーのそのメッセージ"
+"の行に移動します。そのメッセージがサマリーバッファーにリストされていない場合"
+"は、エラーをシグナルします。"
 
 #. type: item
 #: original_texis/rmail.texi:1026
 #, no-wrap
 msgid "M-s @var{pattern} @key{RET}"
-msgstr ""
+msgstr "M-s @var{pattern} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:1032
@@ -2776,14 +3315,22 @@ msgid ""
 "repeat count; a negative argument means search backward (equivalent to "
 "@code{rmail-summary-search-backward}.)"
 msgstr ""
+"メッセージから@var{pattern}を検索します。検索はカレントメッセージから開始され"
+"ます。マッチが見つかったらそのメッセージを選択して、サマリーバッファーのその"
+"メッセージの行にポイントを移動します(@code{rmail-summary-search})。プレフィク"
+"ス引数は繰り返し回数として機能します。負の引数は後方に検索を行なうことを意味"
+"します(@code{rmail-summary-search-backward}と等価です)。"
 
 #. type: table
 #: original_texis/rmail.texi:1037
 msgid ""
 "Move to the next message with at least one of the specified labels "
-"(@code{rmail-summary-next-labeled-message}).  @var{labels} is a "
-"comma-separated list of labels.  A prefix argument acts as a repeat count."
+"(@code{rmail-summary-next-labeled-message}).  @var{labels} is a comma-"
+"separated list of labels.  A prefix argument acts as a repeat count."
 msgstr ""
+"指定した1つ以上のラベルのうち、少なくとも1つをもつ次のメッセージに移動します"
+"(@code{rmail-summary-next-labeled-message})。@var{labels}はカンマで区切られた"
+"ラベルのリストです。プレフィクス引数は繰り返し回数として機能します。"
 
 #. type: table
 #: original_texis/rmail.texi:1040
@@ -2791,12 +3338,14 @@ msgid ""
 "Move to the previous message with at least one of the specified labels "
 "(@code{rmail-summary-previous-labeled-message})."
 msgstr ""
+"指定した1つ以上のラベルのうち、少なくとも1つをもつ前のメッセージに移動します"
+"(@code{rmail-summary-previous-labeled-message})。"
 
 #. type: item
 #: original_texis/rmail.texi:1040
 #, no-wrap
 msgid "C-c C-n @key{RET}"
-msgstr ""
+msgstr "C-c C-n @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:1044
@@ -2805,12 +3354,15 @@ msgid ""
 "(@code{rmail-summary-next-same-subject}).  A prefix argument acts as a "
 "repeat count."
 msgstr ""
+"カレントメッセージと同じsubjectをもつ、次のメッセージに移動します"
+"(@code{rmail-summary-next-same-subject})。プレフィクス引数は繰り返し回数とし"
+"て機能します。"
 
 #. type: item
 #: original_texis/rmail.texi:1044
 #, no-wrap
 msgid "C-c C-p @key{RET}"
-msgstr ""
+msgstr "C-c C-p @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:1047
@@ -2818,251 +3370,261 @@ msgid ""
 "Move to the previous message with the same subject as the current message "
 "(@code{rmail-summary-previous-same-subject})."
 msgstr ""
+"カレントメッセージと同じsubjectをもつ、前のメッセージに移動します"
+"(@code{rmail-summary-previous-same-subject})。"
 
 #. type: vindex
 #: original_texis/rmail.texi:1049
 #, no-wrap
 msgid "rmail-redisplay-summary"
-msgstr ""
+msgstr "rmail-redisplay-summary"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1055
 msgid ""
 "Deletion, undeletion, and getting new mail, and even selection of a "
 "different message all update the summary buffer when you do them in the "
-"Rmail buffer.  If the variable @code{rmail-redisplay-summary} is "
-"non-@code{nil}, these actions also bring the summary buffer back onto the "
-"screen."
+"Rmail buffer.  If the variable @code{rmail-redisplay-summary} is non-"
+"@code{nil}, these actions also bring the summary buffer back onto the screen."
 msgstr ""
+"削除、削除の取り消し、新しいメールの取得はもちろん、異なるメッセージの選択で"
+"も、それらの操作をRmailバッファーで行なったとき、サマリーバッファーは更新され"
+"ます。変数@code{rmail-redisplay-summary}が非@code{nil}の場合、これらの操作は"
+"サマリーバッファーをスクリーンに表示します。"
 
 #. type: kindex
 #: original_texis/rmail.texi:1056
 #, no-wrap
 msgid "Q @r{(Rmail summary)}"
-msgstr ""
+msgstr "Q @r{(Rmail summary)}"
 
 #. type: findex
 #: original_texis/rmail.texi:1057
 #, no-wrap
 msgid "rmail-summary-wipe"
-msgstr ""
+msgstr "rmail-summary-wipe"
 
 #. type: kindex
 #: original_texis/rmail.texi:1058
 #, no-wrap
 msgid "q @r{(Rmail summary)}"
-msgstr ""
+msgstr "q @r{(Rmail summary)}"
 
 #. type: findex
 #: original_texis/rmail.texi:1059
 #, no-wrap
 msgid "rmail-summary-quit"
-msgstr ""
+msgstr "rmail-summary-quit"
 
 #. type: kindex
 #: original_texis/rmail.texi:1060
 #, no-wrap
 msgid "b @r{(Rmail summary)}"
-msgstr ""
+msgstr "b @r{(Rmail summary)}"
 
 #. type: findex
 #: original_texis/rmail.texi:1061
 #, no-wrap
 msgid "rmail-summary-bury"
-msgstr ""
+msgstr "rmail-summary-bury"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1069
 msgid ""
-"When you are finished using the summary, type @kbd{Q} "
-"(@code{rmail-summary-wipe}) to delete the summary buffer's window.  You can "
-"also exit Rmail while in the summary: @kbd{q} (@code{rmail-summary-quit}) "
-"deletes the summary window, then exits from Rmail by saving the Rmail file "
-"and switching to another buffer.  Alternatively, @kbd{b} "
-"(@code{rmail-summary-bury}) simply buries the Rmail summary and buffer."
+"When you are finished using the summary, type @kbd{Q} (@code{rmail-summary-"
+"wipe}) to delete the summary buffer's window.  You can also exit Rmail while "
+"in the summary: @kbd{q} (@code{rmail-summary-quit}) deletes the summary "
+"window, then exits from Rmail by saving the Rmail file and switching to "
+"another buffer.  Alternatively, @kbd{b} (@code{rmail-summary-bury}) simply "
+"buries the Rmail summary and buffer."
 msgstr ""
+"サマリーの使用を終了するときは、@kbd{Q} (@code{rmail-summary-wipe})とタイプし"
+"て、サマリーバッファーのウィンドウを削除します。サマリーからRmailを終了するこ"
+"ともできます。@kbd{q} (@code{rmail-summary-quit})はサマリーウィンドウを削除し"
+"て、Rmailファイルを保存してからRmailを終了してから、他のバッファーに切り替え"
+"ます。かわりに@kbd{b} (@code{rmail-summary-bury})とタイプすると、単にRmailと"
+"Rmailサマリーバッファーを隠し(bury)ます。"
 
 #. type: node
 #: original_texis/rmail.texi:1070
 #, no-wrap
 msgid "Rmail Sorting"
-msgstr ""
+msgstr "Rmail Sorting"
 
 #. type: section
 #: original_texis/rmail.texi:1071
 #, no-wrap
 msgid "Sorting the Rmail File"
-msgstr ""
+msgstr "Sorting the Rmail File"
 
 #. type: cindex
 #: original_texis/rmail.texi:1072
 #, no-wrap
 msgid "sorting Rmail file"
-msgstr ""
+msgstr "sorting Rmail file"
 
 #. type: cindex
 #: original_texis/rmail.texi:1073
 #, no-wrap
 msgid "Rmail file sorting"
-msgstr ""
+msgstr "Rmail file sorting"
 
 #. type: findex
 #: original_texis/rmail.texi:1076
 #, no-wrap
 msgid "rmail-sort-by-date"
-msgstr ""
+msgstr "rmail-sort-by-date"
 
 #. type: item
 #: original_texis/rmail.texi:1077
 #, no-wrap
 msgid "C-c C-s C-d"
-msgstr ""
+msgstr "C-c C-s C-d"
 
 #. type: itemx
 #: original_texis/rmail.texi:1078
 #, no-wrap
 msgid "M-x rmail-sort-by-date"
-msgstr ""
+msgstr "M-x rmail-sort-by-date"
 
 #. type: table
 #: original_texis/rmail.texi:1080
 msgid "Sort messages of current Rmail buffer by date."
-msgstr ""
+msgstr "カレントRmailバッファーのメッセージを、日付順にソートします。"
 
 #. type: findex
 #: original_texis/rmail.texi:1081
 #, no-wrap
 msgid "rmail-sort-by-subject"
-msgstr ""
+msgstr "rmail-sort-by-subject"
 
 #. type: item
 #: original_texis/rmail.texi:1082
 #, no-wrap
 msgid "C-c C-s C-s"
-msgstr ""
+msgstr "C-c C-s C-s"
 
 #. type: itemx
 #: original_texis/rmail.texi:1083
 #, no-wrap
 msgid "M-x rmail-sort-by-subject"
-msgstr ""
+msgstr "M-x rmail-sort-by-subject"
 
 #. type: table
 #: original_texis/rmail.texi:1085
 msgid "Sort messages of current Rmail buffer by subject."
-msgstr ""
+msgstr "カレントRmailバッファーのメッセージを、subject順にソートします。"
 
 #. type: findex
 #: original_texis/rmail.texi:1086
 #, no-wrap
 msgid "rmail-sort-by-author"
-msgstr ""
+msgstr "rmail-sort-by-author"
 
 #. type: item
 #: original_texis/rmail.texi:1087
 #, no-wrap
 msgid "C-c C-s C-a"
-msgstr ""
+msgstr "C-c C-s C-a"
 
 #. type: itemx
 #: original_texis/rmail.texi:1088
 #, no-wrap
 msgid "M-x rmail-sort-by-author"
-msgstr ""
+msgstr "M-x rmail-sort-by-author"
 
 #. type: table
 #: original_texis/rmail.texi:1090
 msgid "Sort messages of current Rmail buffer by author's name."
-msgstr ""
+msgstr "カレントRmailバッファーのメッセージを、送信者順にソートします。"
 
 #. type: findex
 #: original_texis/rmail.texi:1091
 #, no-wrap
 msgid "rmail-sort-by-recipient"
-msgstr ""
+msgstr "rmail-sort-by-recipient"
 
 #. type: item
 #: original_texis/rmail.texi:1092
 #, no-wrap
 msgid "C-c C-s C-r"
-msgstr ""
+msgstr "C-c C-s C-r"
 
 #. type: itemx
 #: original_texis/rmail.texi:1093
 #, no-wrap
 msgid "M-x rmail-sort-by-recipient"
-msgstr ""
+msgstr "M-x rmail-sort-by-recipient"
 
 #. type: table
 #: original_texis/rmail.texi:1095
 msgid "Sort messages of current Rmail buffer by recipient's names."
-msgstr ""
+msgstr "カレントRmailバッファーのメッセージを、受信者名順にソートします。"
 
 #. type: findex
 #: original_texis/rmail.texi:1096
 #, no-wrap
 msgid "rmail-sort-by-correspondent"
-msgstr ""
+msgstr "rmail-sort-by-correspondent"
 
 #. type: item
 #: original_texis/rmail.texi:1097
 #, no-wrap
 msgid "C-c C-s C-c"
-msgstr ""
+msgstr "C-c C-s C-c"
 
 #. type: itemx
 #: original_texis/rmail.texi:1098
 #, no-wrap
 msgid "M-x rmail-sort-by-correspondent"
-msgstr ""
+msgstr "M-x rmail-sort-by-correspondent"
 
 #. type: table
 #: original_texis/rmail.texi:1101
 msgid ""
-"Sort messages of current Rmail buffer by the name of the other "
-"correspondent."
-msgstr ""
+"Sort messages of current Rmail buffer by the name of the other correspondent."
+msgstr "カレントRmailバッファーのメッセージを、他の受信者名順にソートします。"
 
 #. type: findex
 #: original_texis/rmail.texi:1102
 #, no-wrap
 msgid "rmail-sort-by-lines"
-msgstr ""
+msgstr "rmail-sort-by-lines"
 
 #. type: item
 #: original_texis/rmail.texi:1103
 #, no-wrap
 msgid "C-c C-s C-l"
-msgstr ""
+msgstr "C-c C-s C-l"
 
 #. type: itemx
 #: original_texis/rmail.texi:1104
 #, no-wrap
 msgid "M-x rmail-sort-by-lines"
-msgstr ""
+msgstr "M-x rmail-sort-by-lines"
 
 #. type: table
 #: original_texis/rmail.texi:1106
 msgid "Sort messages of current Rmail buffer by number of lines."
-msgstr ""
+msgstr "カレントRmailバッファーのメッセージを、行数順にソートします。"
 
 #. type: findex
 #: original_texis/rmail.texi:1107
 #, no-wrap
 msgid "rmail-sort-by-labels"
-msgstr ""
+msgstr "rmail-sort-by-labels"
 
 #. type: item
 #: original_texis/rmail.texi:1108
 #, no-wrap
 msgid "C-c C-s C-k @key{RET} @var{labels} @key{RET}"
-msgstr ""
+msgstr "C-c C-s C-k @key{RET} @var{labels} @key{RET}"
 
 #. type: itemx
 #: original_texis/rmail.texi:1109
 #, no-wrap
 msgid "M-x rmail-sort-by-labels @key{RET} @var{labels} @key{RET}"
-msgstr ""
+msgstr "M-x rmail-sort-by-labels @key{RET} @var{labels} @key{RET}"
 
 #. type: table
 #: original_texis/rmail.texi:1115
@@ -3073,6 +3635,11 @@ msgid ""
 "messages with the second label come second, and so on.  Messages that have "
 "none of these labels come last."
 msgstr ""
+"カレントRmailバッファーのメッセージを、ラベル順にソートします。引数"
+"@var{labels}は、カンマで区切られたラベルのリストです。ラベルの順序は、メッ"
+"セージの順序を指定します。最初のラベルをもつメッセージが最初に、2番目のラベル"
+"をもつメッセージが次に、というようになります。ラベルをもたないメッセージは最"
+"後になります。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1123
@@ -3083,6 +3650,11 @@ msgid ""
 "@code{rmail-sort-by-date} and then @code{rmail-sort-by-author}, messages "
 "from the same author appear in order by date."
 msgstr ""
+"Rmailのソートコマンドは@emph{安定ソート(stable sort)}を行ないます。2つのメッ"
+"セージのどちらを先にするか特に理由がない場合、メッセージの順序は変更されませ"
+"ん。これを使用して複数のソート条件を使用できます。たとえば、@code{rmail-sort-"
+"by-date}の後に@code{rmail-sort-by-author}を使用すれば、メッセージは作者ごとに"
+"日付順にソートされます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1127
@@ -3091,6 +3663,9 @@ msgid ""
 "This means they sort messages from newest to oldest, from biggest to "
 "smallest, or in reverse alphabetical order."
 msgstr ""
+"プレフィクス引数を指定した場合、これらのコマンドは逆順で比較をします。これは"
+"メッセージが新しいものから古いものへ、大きいものから小さいものへ、アルファ"
+"ベットの逆順でソートされることを意味します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1132
@@ -3100,6 +3675,10 @@ msgid ""
 "commands always sort the whole Rmail buffer, even if the summary is only "
 "showing a subset of messages."
 msgstr ""
+"同じキーをサマリーバッファーで使うと、似た関数が実行されます。たとえば@kbd{C-"
+"c C-s C-l}は、@code{rmail-summary-sort-by-lines}を実行します。これらのコマン"
+"ドは、たとえサマリーがメッセージの一部しか表示していなくても、Rmailバッファー"
+"全体をソートすることに注意してください。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1135
@@ -3107,18 +3686,20 @@ msgid ""
 "Note that you cannot undo a sort, so you may wish to save the Rmail buffer "
 "before sorting it."
 msgstr ""
+"ソートのアンドゥはできないことに注意してください。そのため、ソートをする前に"
+"Rmailバッファーを保存したいと思うかもしれません。"
 
 #. type: node
 #: original_texis/rmail.texi:1136
 #, no-wrap
 msgid "Rmail Display"
-msgstr ""
+msgstr "Rmail Display"
 
 #. type: section
 #: original_texis/rmail.texi:1137
 #, no-wrap
 msgid "Display of Messages"
-msgstr ""
+msgstr "Display of Messages"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1141
@@ -3126,29 +3707,31 @@ msgid ""
 "This section describes how Rmail displays mail headers, @acronym{MIME} "
 "sections and attachments, URLs, and encrypted messages."
 msgstr ""
+"このセクションではRmailが、メールヘッダー、@acronym{MIME}のセクションと添付、"
+"URL、暗号化されたメッセージを表示する方法を説明します。"
 
 #. type: item
 #: original_texis/rmail.texi:1143
 #, no-wrap
 msgid "t"
-msgstr ""
+msgstr "t"
 
 #. type: table
 #: original_texis/rmail.texi:1145
 msgid "Toggle display of complete header (@code{rmail-toggle-header})."
-msgstr ""
+msgstr "ヘッダーの完全表示を切り替えます(@code{rmail-toggle-header})。"
 
 #. type: kindex
 #: original_texis/rmail.texi:1147
 #, no-wrap
 msgid "t @r{(Rmail)}"
-msgstr ""
+msgstr "t @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:1148
 #, no-wrap
 msgid "rmail-toggle-header"
-msgstr ""
+msgstr "rmail-toggle-header"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1157
@@ -3161,24 +3744,31 @@ msgid ""
 "with a zero or negative prefix argument, it shows the full header.  "
 "Selecting the message again also reformats it if necessary."
 msgstr ""
+"各メッセージを最初に表示する前に、Rmailは余分な物を減らすために、重要でない"
+"ヘッダーを隠して、メッセージのヘッダーを再フォーマットします。@kbd{t} "
+"(@code{rmail-toggle-header})コマンドは、これを切り替えます。つまり再フォー"
+"マットされたヘッダーフィールドと、完全な元のヘッダーの間で、表示を切り替えま"
+"す。正の引数を指定した場合、このコマンドは再フォーマットされたヘッダーを表示"
+"します。0または負の引数を指定した場合、完全なヘッダーを表示します。メッセージ"
+"を再選択することにより、必要な場合は再フォーマットします。"
 
 #. type: vindex
 #: original_texis/rmail.texi:1158
 #, no-wrap
 msgid "rmail-ignored-headers"
-msgstr ""
+msgstr "rmail-ignored-headers"
 
 #. type: vindex
 #: original_texis/rmail.texi:1159
 #, no-wrap
 msgid "rmail-displayed-headers"
-msgstr ""
+msgstr "rmail-displayed-headers"
 
 #. type: vindex
 #: original_texis/rmail.texi:1160
 #, no-wrap
 msgid "rmail-nonignored-headers"
-msgstr ""
+msgstr "rmail-nonignored-headers"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1169
@@ -3187,41 +3777,55 @@ msgid ""
 "specifying the header fields to hide; any matching header line will be "
 "hidden.  The variable @code{rmail-nonignored-headers} overrides this: any "
 "header field matching that regular expression is shown even if it matches "
-"@code{rmail-ignored-headers} too.  The variable "
-"@code{rmail-displayed-headers} is an alternative to these two variables; if "
-"non-@code{nil}, this should be a regular expression specifying which headers "
-"to display (the default is @code{nil})."
+"@code{rmail-ignored-headers} too.  The variable @code{rmail-displayed-"
+"headers} is an alternative to these two variables; if non-@code{nil}, this "
+"should be a regular expression specifying which headers to display (the "
+"default is @code{nil})."
 msgstr ""
+"変数@code{rmail-ignored-headers}は、隠すべきヘッダーフィールドを指定する正規"
+"表現を保持します。これにマッチするヘッダー行は隠されます。変数@code{rmail-"
+"nonignored-headers}は、これをオーバーライドします。この変数の正規表現にマッチ"
+"するヘッダーフィールドは、たとえそれが@code{rmail-ignored-headers}にマッチし"
+"ても、表示されます。変数@code{rmail-displayed-headers}は、これら2つの変数のか"
+"わりに使用されます。非@code{nil}の場合、その値には表示するヘッダーを指定する"
+"正規表現を指定します(デフォルトは@code{nil}です)。"
 
 #. type: vindex
 #: original_texis/rmail.texi:1170
 #, no-wrap
 msgid "rmail-highlighted-headers"
-msgstr ""
+msgstr "rmail-highlighted-headers"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1178
 msgid ""
 "Rmail highlights certain header fields that are especially interesting---by "
 "default, the @samp{From} and @samp{Subject} fields.  This highlighting uses "
-"the @code{rmail-highlight} face.  The variable "
-"@code{rmail-highlighted-headers} holds a regular expression specifying the "
-"header fields to highlight; if it matches the beginning of a header field, "
-"that whole field is highlighted.  To disable this feature, set "
-"@code{rmail-highlighted-headers} to @code{nil}."
+"the @code{rmail-highlight} face.  The variable @code{rmail-highlighted-"
+"headers} holds a regular expression specifying the header fields to "
+"highlight; if it matches the beginning of a header field, that whole field "
+"is highlighted.  To disable this feature, set @code{rmail-highlighted-"
+"headers} to @code{nil}."
 msgstr ""
+"Rmailは特に重要なヘッダーフィールド --- デフォルトでは@samp{From}と"
+"@samp{Subject}フィールドをハイライトします。ハイライトには@code{rmail-"
+"highlight}フェイスが使用されます。変数@code{rmail-highlighted-headers}は、ハ"
+"イライトするヘッダーフィールドを指定する正規表現を保持します。これがヘッダー"
+"フィールドの先頭にマッチした場合、フィールド全体がハイライトされます。この機"
+"能を無効にするには、@code{rmail-highlighted-headers}に@code{nil}をセットして"
+"ください。"
 
 #. type: cindex
 #: original_texis/rmail.texi:1179
 #, no-wrap
 msgid "MIME messages (Rmail)"
-msgstr ""
+msgstr "MIME messages (Rmail)"
 
 #. type: vindex
 #: original_texis/rmail.texi:1180
 #, no-wrap
 msgid "rmail-enable-mime"
-msgstr ""
+msgstr "rmail-enable-mime"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1187
@@ -3233,80 +3837,94 @@ msgid ""
 "one or more buttons; these perform actions such as saving the part into a "
 "file."
 msgstr ""
+"メッセージが@acronym{MIME}(Multipurpose Internet Mail Extensions)形式で、複数"
+"パート(@acronym{MIME}エンティティー)が含まれている場合、Rmailは各パートに"
+"@dfn{タグライン(tagline)}を表示します。タグラインはそのパートのインデックス、"
+"サイズ、コンテントタイプを要約します。コンテントタイプに依存して、1つ以上のボ"
+"タンが含まれる場合があります。これらのボタンは、そのパートをファイルに保存す"
+"る、などの処理を行ないます。"
 
 #. type: findex
 #: original_texis/rmail.texi:1189
 #, no-wrap
 msgid "rmail-mime-toggle-hidden"
-msgstr ""
+msgstr "rmail-mime-toggle-hidden"
 
 #. type: table
 #: original_texis/rmail.texi:1193
 msgid ""
-"Hide or show the @acronym{MIME} part at point "
-"(@code{rmail-mime-toggle-hidden})."
+"Hide or show the @acronym{MIME} part at point (@code{rmail-mime-toggle-"
+"hidden})."
 msgstr ""
+"ポイント位置の@acronym{MIME}パートを隠す、または表示します(@code{rmail-mime-"
+"toggle-hidden})。"
 
 #. type: findex
 #: original_texis/rmail.texi:1194
 #, no-wrap
 msgid "rmail-mime-next-item"
-msgstr ""
+msgstr "rmail-mime-next-item"
 
 #. type: key{#1}
 #: original_texis/rmail.texi:1195
 #, no-wrap
 msgid "TAB"
-msgstr ""
+msgstr "TAB"
 
 #. type: table
 #: original_texis/rmail.texi:1198
 msgid ""
-"Move point to the next @acronym{MIME} tagline button.  "
-"(@code{rmail-mime-next-item})."
+"Move point to the next @acronym{MIME} tagline button.  (@code{rmail-mime-"
+"next-item})."
 msgstr ""
+"次の@acronym{MIME}タグラインのボタンにポイントを移動します(@code{rmail-mime-"
+"next-item})。"
 
 #. type: findex
 #: original_texis/rmail.texi:1199
 #, no-wrap
 msgid "rmail-mime-previous-item"
-msgstr ""
+msgstr "rmail-mime-previous-item"
 
 #. type: item
 #: original_texis/rmail.texi:1200
 #, no-wrap
 msgid "S-@key{TAB}"
-msgstr ""
+msgstr "S-@key{TAB}"
 
 #. type: table
 #: original_texis/rmail.texi:1203
 msgid ""
-"Move point to the previous @acronym{MIME} part "
-"(@code{rmail-mime-previous-item})."
+"Move point to the previous @acronym{MIME} part (@code{rmail-mime-previous-"
+"item})."
 msgstr ""
+"前の@acronym{MIME}パートにポイントを移動します(@code{rmail-mime-previous-"
+"item})。"
 
 #. type: findex
 #: original_texis/rmail.texi:1204
 #, no-wrap
 msgid "rmail-mime"
-msgstr ""
+msgstr "rmail-mime"
 
 #. type: item
 #: original_texis/rmail.texi:1205
 #, no-wrap
 msgid "v"
-msgstr ""
+msgstr "v"
 
 #. type: kindex
 #: original_texis/rmail.texi:1206
 #, no-wrap
 msgid "v @r{(Rmail)}"
-msgstr ""
+msgstr "v @r{(Rmail)}"
 
 #. type: table
 #: original_texis/rmail.texi:1209
-msgid "Toggle between @acronym{MIME} display and raw message (@code{rmail-mime})."
+msgid ""
+"Toggle between @acronym{MIME} display and raw message (@code{rmail-mime})."
 msgstr ""
+"@acronym{MIME}表示とrawメッセージの表示を切り替えます(@code{rmail-mime})。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1220
@@ -3320,6 +3938,13 @@ msgid ""
 "there are any).  Type @key{RET} (or click with the mouse) to activate a "
 "tagline button, and @key{TAB} to cycle point between tagline buttons."
 msgstr ""
+"プレーンテキストの@acronym{MIME}パートは、最初タグラインの直後に表示され、"
+"Rmailバッファーの他のタイプの@acronym{MIME}パートはタグラインだけが表示され、"
+"実際のコンテンツは隠されています。どちらの場合も、@acronym{MIME}パートのどこ"
+"か、またはそれのタグラインで@key{RET}をタイプすることにより、表示と非表示を切"
+"り替えることができます(他の処理を行なうボタンがある場合を除きます)。@key{RET}"
+"とタイプするかマウスでクリックすることにより、タグラインボタンをアクティブに"
+"でき、@key{TAB}でタグラインのボタンにたいして循環的にポイントを移動できます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1225
@@ -3329,23 +3954,33 @@ msgid ""
 "undecoded @acronym{MIME} data.  With a prefix argument, this command toggles "
 "the display of only an entity at point."
 msgstr ""
+"@kbd{v} (@code{rmail-mime})コマンドは、上記で説明したデフォルトの"
+"@acronym{MIME}表示と、@acronym{MIME}でデコードされていないrawデータの表示を切"
+"り替えます。プレフィクス引数を指定した場合は、ポイント位置にあるものの表示だ"
+"けを切り替えます。"
 
 #. type: vindex
 #: original_texis/rmail.texi:1226
 #, no-wrap
 msgid "rmail-mime-prefer-html"
-msgstr ""
+msgstr "rmail-mime-prefer-html"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1234
 msgid ""
 "If the message has an @acronym{HTML} @acronym{MIME} part, Rmail displays it "
-"in preference to the plain-text part, if Emacs can render "
-"@acronym{HTML}@footnote{ This capability requires that Emacs be built with "
-"@file{libxml2} support or that you have the Lynx browser installed.}.  To "
-"prevent that, and have the plain-text part displayed instead, customize the "
-"variable @code{rmail-mime-prefer-html} to a @code{nil} value."
+"in preference to the plain-text part, if Emacs can render @acronym{HTML}"
+"@footnote{ This capability requires that Emacs be built with @file{libxml2} "
+"support or that you have the Lynx browser installed.}.  To prevent that, and "
+"have the plain-text part displayed instead, customize the variable "
+"@code{rmail-mime-prefer-html} to a @code{nil} value."
 msgstr ""
+"メッセージに@acronym{HTML}の@acronym{MIME}パートがあり、Emacsが@acronym{HTML}"
+"を表示できる場合、Rmailはそれをplain-textパートより優先して表示します"
+"@footnote{この機能は、Emacsが@file{libxml2}サポートつきでビルドされているか、"
+"Lynxブラウザーがインストールされている必要があります。}。これを抑制してかわり"
+"にplain-textパートを表示するには、変数@code{rmail-mime-prefer-html}を"
+"@code{nil}にカスタマイズしてください。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1239
@@ -3355,26 +3990,33 @@ msgid ""
 "(@code{rmail-mime}) command instead creates a temporary buffer to display "
 "the current @acronym{MIME} message."
 msgstr ""
+"RmailからMIMEでデコードされたメッセージの処理を抑止するには、変数@code{rmail-"
+"enable-mime}を@code{nil}に変更します。この場合、@kbd{v} (@code{rmail-mime})"
+"は、カレント@acronym{MIME}メッセージを表示するために、一時的なバッファーを作"
+"成します。"
 
 #. type: findex
 #: original_texis/rmail.texi:1240
 #, no-wrap
 msgid "rmail-epa-decrypt"
-msgstr ""
+msgstr "rmail-epa-decrypt"
 
 #. type: cindex
 #: original_texis/rmail.texi:1241
 #, no-wrap
 msgid "encrypted mails (reading in Rmail)"
-msgstr ""
+msgstr "encrypted mails (reading in Rmail)"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1245
 msgid ""
-"If the current message is an encrypted one, use the command @kbd{M-x "
-"rmail-epa-decrypt} to decrypt it, using the EasyPG library (@pxref{Top,, "
-"EasyPG, epa, EasyPG Assistant User's Manual})."
+"If the current message is an encrypted one, use the command @kbd{M-x rmail-"
+"epa-decrypt} to decrypt it, using the EasyPG library (@pxref{Top,, EasyPG, "
+"epa, EasyPG Assistant User's Manual})."
 msgstr ""
+"カレントメッセージが暗号化されている場合、復号化するために@kbd{M-x rmail-epa-"
+"decrypt}を使用します。これはEasyPGライブラリーを使用します(@ref{Top,, "
+"EasyPG, epa, EasyPG Assistant User's Manual}を参照してください)。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1248
@@ -3382,12 +4024,14 @@ msgid ""
 "You can highlight and activate URLs in the Rmail buffer using Goto Address "
 "mode:"
 msgstr ""
+"RmailバッファーでGoto Addressモードを使用して、URLのハイライトとアクティブ化"
+"ができます:"
 
 #. type: example
 #: original_texis/rmail.texi:1252
 #, no-wrap
 msgid "(add-hook 'rmail-show-message-hook 'goto-address-mode)\n"
-msgstr ""
+msgstr "(add-hook 'rmail-show-message-hook 'goto-address-mode)\n"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1258
@@ -3396,24 +4040,28 @@ msgid ""
 "@kbd{mouse-1} quickly) or by moving to one and typing @kbd{C-c @key{RET}}.  "
 "@xref{Goto Address mode, Activating URLs, Activating URLs}."
 msgstr ""
+"このモードを使用すると、そのURLを@kbd{mouse-2}でクリック(または@kbd{mouse-1}"
+"で素早くクリック)するか、ポイントをそこに移動して@kbd{C-c @key{RET}}とタイプ"
+"することにより、それらのURLをブラウズできます。@ref{Goto Address mode, "
+"Activating URLs, Activating URLs}を参照してください。"
 
 #. type: node
 #: original_texis/rmail.texi:1259
 #, no-wrap
 msgid "Rmail Coding"
-msgstr ""
+msgstr "Rmail Coding"
 
 #. type: section
 #: original_texis/rmail.texi:1260
 #, no-wrap
 msgid "Rmail and Coding Systems"
-msgstr ""
+msgstr "Rmail and Coding Systems"
 
 #. type: cindex
 #: original_texis/rmail.texi:1262
 #, no-wrap
 msgid "decoding mail messages (Rmail)"
-msgstr ""
+msgstr "decoding mail messages (Rmail)"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1273
@@ -3428,12 +4076,22 @@ msgid ""
 "@var{charset} is not recognized, Rmail chooses the coding system with the "
 "usual Emacs heuristics and defaults (@pxref{Recognize Coding})."
 msgstr ""
+"Rmailは、Emacsがファイルをvisitしたりサブプロセスの出力にたいして行なうよう"
+"に、非@acronym{ASCII}文字を含むメッセージを自動的にデコードします。Rmailは"
+"メッセージで標準の@samp{charset=@var{charset}}ヘッダーを使用し、もしそれがあ"
+"れば、送信者によりメッセージがどのようにエンコードされたか決定します。これは"
+"@var{charset}を、対応するEmacsコーディングシステム(@ref{Coding Systems}を参照"
+"してください)にマップして、メッセージテキストをデコードするために、そのコー"
+"ディングシステムを使います。メッセージヘッダーに@samp{charset}指定がない場"
+"合、または@var{charset}が認識されなかった場合、Rmailは通常のEmacsの経験則とデ"
+"フォルトに則ったコーディングシステムを選択します(@ref{Recognize Coding}を参照"
+"してください)。"
 
 #. type: cindex
 #: original_texis/rmail.texi:1274
 #, no-wrap
 msgid "fixing incorrectly decoded mail messages"
-msgstr ""
+msgstr "fixing incorrectly decoded mail messages"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1283
@@ -3446,12 +4104,19 @@ msgid ""
 "garbled, or some of its characters displayed as hex codes or empty boxes, "
 "this may have happened."
 msgstr ""
+"メッセージが間違ってデコードされることもあります。これは@samp{charset}指定が"
+"ないためにEmacsが間違ったコーディングシステムを推測したか、そもそも指定が間"
+"違っているかです。たとえば間違って設定されたメーラーが、メッセージが実際には"
+"@code{koi8-r}でエンコードされているのに、@samp{charset=iso-8859-1}というヘッ"
+"ダーでメッセージを送るかもしれません。メッセージテキストが文字化けしていた"
+"り、文字が16進コードや空ボックスで表示されているときは、おそらくこれが発生し"
+"ています。"
 
 #. type: findex
 #: original_texis/rmail.texi:1284
 #, no-wrap
 msgid "rmail-redecode-body"
-msgstr ""
+msgstr "rmail-redecode-body"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1291
@@ -3463,12 +4128,18 @@ msgid ""
 "you specified.  If you specified the right coding system, the result should "
 "be readable."
 msgstr ""
+"正しいコーディングシステムを解決または推測できる場合、正しいコーディングシス"
+"テムを使ってメッセージを再デコードすることにより、問題を訂正することができま"
+"す。これを行なうには@kbd{M-x rmail-redecode-body}コマンドを呼び出します。これ"
+"はコーディングシステムの名前を読み取り、指定したコーディングシステムを使っ"
+"て、メッセージを再デコードします。正しいコーディングシステムを指定した場合、"
+"デコード結果は読めるようになるでしょう。"
 
 #. type: vindex
 #: original_texis/rmail.texi:1292
 #, no-wrap
 msgid "rmail-file-coding-system"
-msgstr ""
+msgstr "rmail-file-coding-system"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1302
@@ -3482,18 +4153,26 @@ msgid ""
 "value is @code{nil}, which means that Rmail files are not translated (they "
 "are read and written in the Emacs internal character code)."
 msgstr ""
+"Rmailで新しいメールを受信したとき、各メッセージは、それらがあたかも個別のファ"
+"イルであるかのように、それぞれが記述されたコーディングシステムに自動的に変換"
+"されます。これは指定されたコーディングシステムの優先順を使用します。MIMEメッ"
+"セージが文字セットを指定している場合、Rmailはその指定にしたがいます。Rmail"
+"ファイルの読み込みと保存にたいして、Emacsは、変数@code{rmail-file-coding-"
+"system}で指定されたコーディングシステムを使用します。デフォルト値は@code{nil}"
+"で、これはRmailファイルが変換されないことを意味します(これらはEmacsの内部文字"
+"セットで読み書きされます)。"
 
 #. type: node
 #: original_texis/rmail.texi:1303
 #, no-wrap
 msgid "Rmail Editing"
-msgstr ""
+msgstr "Rmail Editing"
 
 #. type: section
 #: original_texis/rmail.texi:1304
 #, no-wrap
 msgid "Editing Within a Message"
-msgstr ""
+msgstr "Editing Within a Message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1312
@@ -3504,29 +4183,34 @@ msgid ""
 "letters are redefined as Rmail commands.  If you want to edit the text of a "
 "message, you must use the Rmail command @kbd{e}."
 msgstr ""
+"通常のEmacsのキーバインドのほとんどはRmailモードで利用可能ですが、@kbd{C-M-n}"
+"や@kbd{C-M-h}のように、他の目的のためにRmailにより再定義されているものもあり"
+"ます。しかしRmailバッファーは通常読み取り専用で、ほとんどの文字はRmailコマン"
+"ドに再定義されています。メッセージのテキストを編集したい場合、Rmailの@kbd{e}"
+"コマンドを使わなければなりません。"
 
 #. type: item
 #: original_texis/rmail.texi:1314
 #, no-wrap
 msgid "e"
-msgstr ""
+msgstr "e"
 
 #. type: table
 #: original_texis/rmail.texi:1316
 msgid "Edit the current message as ordinary text."
-msgstr ""
+msgstr "カレントメッセージを通常のテキストとして編集します。"
 
 #. type: kindex
 #: original_texis/rmail.texi:1318
 #, no-wrap
 msgid "e @r{(Rmail)}"
-msgstr ""
+msgstr "e @r{(Rmail)}"
 
 #. type: findex
 #: original_texis/rmail.texi:1319
 #, no-wrap
 msgid "rmail-edit-current-message"
-msgstr ""
+msgstr "rmail-edit-current-message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1323
@@ -3535,6 +4219,9 @@ msgid ""
 "mode into Rmail Edit mode, another major mode which is nearly the same as "
 "Text mode.  The mode line indicates this change."
 msgstr ""
+"@kbd{e} command (@code{rmail-edit-current-message})は、Rmailモードから、"
+"Rmail Editモードという、Textモードと類似した、別のメジャーモードに切り替えま"
+"す。メジャーモードの変更はモードラインに示されます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1329
@@ -3545,12 +4232,16 @@ msgid ""
 "switch back to Rmail mode.  Alternatively, you can return to Rmail mode but "
 "cancel any editing that you have done, by typing @kbd{C-c C-]}."
 msgstr ""
+"Rmail Editモードでは、文字は通常どおり文字自身を挿入し、Rmailコマンドは利用で"
+"きません。メッセージの本文とヘッダーフィールドを編集することができます。メッ"
+"セージの編集を終えたら、@kbd{C-c C-c}でRmailモードに戻ります。かわりに@kbd{C-"
+"c C-]}とタイプすれば、編集をキャンセルしてRmailモードに戻ることができます。"
 
 #. type: vindex
 #: original_texis/rmail.texi:1330
 #, no-wrap
 msgid "rmail-edit-mode-hook"
-msgstr ""
+msgstr "rmail-edit-mode-hook"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1335
@@ -3560,30 +4251,34 @@ msgid ""
 "Rmail mode adds the attribute @samp{edited} to the message, if you have made "
 "any changes in it."
 msgstr ""
+"Rmail Editモードに入ることにより、フック@code{text-mode-hook}、その後にフック"
+"@code{rmail-edit-mode-hook}が実行されます(@ref{Hooks}を参照してください)。通"
+"常のRmailモードにもどると、メッセージを変更した場合には、そのメッセージに属性"
+"@samp{edited}が追加されます。"
 
 #. type: node
 #: original_texis/rmail.texi:1336
 #, no-wrap
 msgid "Rmail Digest"
-msgstr ""
+msgstr "Rmail Digest"
 
 #. type: section
 #: original_texis/rmail.texi:1337
 #, no-wrap
 msgid "Digest Messages"
-msgstr ""
+msgstr "Digest Messages"
 
 #. type: cindex
 #: original_texis/rmail.texi:1338
 #, no-wrap
 msgid "digest message"
-msgstr ""
+msgstr "digest message"
 
 #. type: cindex
 #: original_texis/rmail.texi:1339
 #, no-wrap
 msgid "undigestify"
-msgstr ""
+msgstr "undigestify"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1349
@@ -3596,12 +4291,20 @@ msgid ""
 "individual messages even though the total size is the same, because of the "
 "per-message overhead in network mail transmission."
 msgstr ""
+"@dfn{ダイジェストメッセージ(digest message)}は、複数の他のメッセージを含み、"
+"それを運ぶために存在するメッセージです。ダイジェストは、いくつかのメーリング"
+"リストで使用されています。1日というような一定の期間の間にメーリングリストに到"
+"着したすべてのメッセージが、1つのダイジェストにまとめられて、メーリングリスト"
+"に登録した人に送られます。1つのダイジェストを送信するのにかかるコンピューター"
+"時間は、たとえ合計サイズが同じでも個別にメッセージを送信するより短くなりま"
+"す。なぜならネットワークでのメール送信において、メッセージ単位のオーバーヘッ"
+"ドがあるからです。"
 
 #. type: findex
 #: original_texis/rmail.texi:1350
 #, no-wrap
 msgid "undigestify-rmail-message"
-msgstr ""
+msgstr "undigestify-rmail-message"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1358
@@ -3609,29 +4312,36 @@ msgid ""
 "When you receive a digest message, the most convenient way to read it is to "
 "@dfn{undigestify} it: to turn it back into many individual messages.  Then "
 "you can read and delete the individual messages as it suits you.  To do "
-"this, select the digest message and type the command @kbd{M-x "
-"undigestify-rmail-message}.  This extracts the submessages as separate Rmail "
-"messages, and inserts them following the digest.  The digest message itself "
-"is flagged as deleted."
+"this, select the digest message and type the command @kbd{M-x undigestify-"
+"rmail-message}.  This extracts the submessages as separate Rmail messages, "
+"and inserts them following the digest.  The digest message itself is flagged "
+"as deleted."
 msgstr ""
+"ダイジェストメッセージを受信したとき、それを読むもっとも便利な方法は、それを"
+"@dfn{非ダイジェスト化(undigestify)}することです。これはダイジェストを複数の"
+"メッセージに戻します。それから個別にメッセージを読んだり削除できます。これを"
+"行なうにはダイジェストメッセージを選択して、コマンド@kbd{M-x undigestify-"
+"rmail-message}をタイプします。これはダイジェストに含まれるメッセージを個別の"
+"Rmailメッセージに抽出し、ダイジェストの後に挿入します。ダイジェストメッセージ"
+"自身には、削除のフラグがつけられます。"
 
 #. type: node
 #: original_texis/rmail.texi:1359
 #, no-wrap
 msgid "Rmail Rot13"
-msgstr ""
+msgstr "Rmail Rot13"
 
 #. type: section
 #: original_texis/rmail.texi:1360
 #, no-wrap
 msgid "Reading Rot13 Messages"
-msgstr ""
+msgstr "Reading Rot13 Messages"
 
 #. type: cindex
 #: original_texis/rmail.texi:1361
 #, no-wrap
 msgid "rot13 code"
-msgstr ""
+msgstr "rot13 code"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1369
@@ -3643,26 +4353,35 @@ msgid ""
 "the message.  For example, a review of a film might use rot13 to hide "
 "important plot points."
 msgstr ""
+"読む人を怒らせたり不快にするかもしれないメーリングリストのメッセージは、"
+"@dfn{rot13}と呼ばれる単純なコードでエンコードされているときがあります。この名"
+"前は、エンコードの方法がアルファベットを13文字分巡回させることに由来します。"
+"このコードに機密性はなく、それを提供もしません。むしろ、実際のテキストを見る"
+"のを避けたいと思う人のためのものです。たとえばビデオの講評などでは、重要なあ"
+"らすじを隠すためにrot13を使います。"
 
 #. type: findex
 #: original_texis/rmail.texi:1370
 #, no-wrap
 msgid "rot13-other-window"
-msgstr ""
+msgstr "rot13-other-window"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1374
 msgid ""
-"To view a buffer that uses the rot13 code, use the command @kbd{M-x "
-"rot13-other-window}.  This displays the current buffer in another window "
-"which applies the code when displaying the text."
+"To view a buffer that uses the rot13 code, use the command @kbd{M-x rot13-"
+"other-window}.  This displays the current buffer in another window which "
+"applies the code when displaying the text."
 msgstr ""
+"rot13を使ったバッファーを閲覧するには、コマンド@kbd{M-x rot13-other-window}を"
+"使用します。これはカレントバッファーを他のウィンドウで表示します。このウィン"
+"ドウではテキストを表示するときこのコードを適用します。"
 
 #. type: cindex
 #: original_texis/rmail.texi:1376 original_texis/rmail.texi:1377
 #, no-wrap
 msgid "@code{movemail} program"
-msgstr ""
+msgstr "@code{movemail} program"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1388
@@ -3677,6 +4396,14 @@ msgid ""
 "subset of options.  However, the Mailutils version offers additional "
 "features."
 msgstr ""
+"Rmailは、inboxからRmailファイルにメールを移動するために、@code{movemail}プロ"
+"グラムを使用します。最初にロードされたとき、Rmailは@code{movemail}プログラム"
+"を探して、そのバージョンを判断します。@code{movemail}プログラムには2つのバー"
+"ジョンがあります。生来のものはGNU Emacsと共に配布されるもの(Emacsバージョン)"
+"で、もう1つはGNU mailutilsに含まれるもの(mailutilsバージョン。"
+"@ref{movemail,,,mailutils,GNU mailutils}を参照してください)です。これらのコマ"
+"ンドは、同じコマンドラインシンタックスをもち、同じ基本的なサブセットオプショ"
+"ンをもちます。しかしMailutilsバージョンは、追加の機能を提供します。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1392
@@ -3684,6 +4411,8 @@ msgid ""
 "The Emacs version of @code{movemail} is able to retrieve mail from the usual "
 "Unix mailbox formats and from remote mailboxes using the POP3 protocol."
 msgstr ""
+"Emacsバージョンの@code{movemail}は、通常のUnix mailbox形式と、POP3プロトコル"
+"を使用してリモートのmailboxからメールを取得することができます。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1402
@@ -3696,23 +4425,30 @@ msgid ""
 "mailbox @acronym{URL}s can be found in @ref{URL,,,mailutils,Mailbox URL "
 "Formats}.  In short, a @acronym{URL} is:"
 msgstr ""
+"Mailutilsバージョンは、プレーンUnix mailbox、@code{maildir}および@code{MH}の"
+"メールボックスなどの、より広範なmailbox形式を処理することができます。これは"
+"POP3またはIMAP4プロトコルを使用してリモートのmailboxにアクセスでき、TLS暗号化"
+"チャンネル(TLS encrypted channel)を使用してメールを取得できます。これは"
+"@acronym{URL}形式でのmailbox引数を受けとることもできます。mailboix "
+"@acronym{URL}の詳細な説明は、@ref{URL,,,mailutils,Mailbox URL Formats}で見る"
+"ことができます。短く言うと、@acronym{URL}は以下のようなものです:"
 
 #. type: smallexample
 #: original_texis/rmail.texi:1405
 #, no-wrap
 msgid "@var{proto}://[@var{user}[:@var{password}]@@]@var{host-or-file-name}\n"
-msgstr ""
+msgstr "@var{proto}://[@var{user}[:@var{password}]@@]@var{host-or-file-name}\n"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1409
 msgid "where square brackets denote optional elements."
-msgstr ""
+msgstr "角カッコ(bracket)はオプションの要素を意味します。"
 
 #. type: item
 #: original_texis/rmail.texi:1411
 #, no-wrap
 msgid "proto"
-msgstr ""
+msgstr "proto"
 
 #. type: table
 #: original_texis/rmail.texi:1415
@@ -3721,34 +4457,37 @@ msgid ""
 "semantics of the rest of @acronym{URL} elements depends on the actual value "
 "of @var{proto} (see below)."
 msgstr ""
+"@dfn{mailboxプロトコル}、または使用する@dfn{フォーマット}を指定します。"
+"@acronym{URL}の残りの要素の正確な意味は、@var{proto}の実際の値に依存します(以"
+"下参照)。"
 
 #. type: item
 #: original_texis/rmail.texi:1416
 #, no-wrap
 msgid "user"
-msgstr ""
+msgstr "user"
 
 #. type: table
 #: original_texis/rmail.texi:1418
 msgid "User name to access the remote mailbox."
-msgstr ""
+msgstr "リモートmailboxにアクセスするためのユーザー名です。"
 
 #. type: item
 #: original_texis/rmail.texi:1419
 #, no-wrap
 msgid "password"
-msgstr ""
+msgstr "password"
 
 #. type: table
 #: original_texis/rmail.texi:1421
 msgid "User password to access the remote mailbox."
-msgstr ""
+msgstr "リモートmailboxにアクセスするためのユーザーパスワードです。"
 
 #. type: item
 #: original_texis/rmail.texi:1422
 #, no-wrap
 msgid "host-or-file-name"
-msgstr ""
+msgstr "host-or-file-name"
 
 #. type: table
 #: original_texis/rmail.texi:1425
@@ -3756,17 +4495,19 @@ msgid ""
 "Hostname of the remote server for remote mailboxes or file name of a local "
 "mailbox."
 msgstr ""
+"リモートmailboxのリモートサーバーのホスト名、またはローカルmailboxのファイル"
+"名です。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1429
 msgid "@var{Proto} can be one of:"
-msgstr ""
+msgstr "@var{Proto}には以下の1つを指定します:"
 
 #. type: item
 #: original_texis/rmail.texi:1431
 #, no-wrap
 msgid "mbox"
-msgstr ""
+msgstr "mbox"
 
 #. type: table
 #: original_texis/rmail.texi:1435
@@ -3775,12 +4516,15 @@ msgid ""
 "are used, and @var{host-or-file-name} denotes the file name of the mailbox "
 "file, e.g., @code{mbox://var/spool/mail/smith}."
 msgstr ""
+"通常のUnix mailbox形式です。この場合@var{user}と@var{pass}は使用せず、"
+"@var{host-or-file-name}はmailboxファイルのファイル名を意味します(例: "
+"@code{mbox://var/spool/mail/smith})。"
 
 #. type: item
 #: original_texis/rmail.texi:1436
 #, no-wrap
 msgid "mh"
-msgstr ""
+msgstr "mh"
 
 #. type: table
 #: original_texis/rmail.texi:1440
@@ -3789,12 +4533,15 @@ msgid ""
 "not used.  @var{Host-or-file-name} denotes the name of @acronym{MH} folder, "
 "e.g., @code{mh://Mail/inbox}."
 msgstr ""
+"@acronym{MH}形式のローカルmailboxです。@var{User}と@var{pass}は使用せず、"
+"@var{Host-or-file-name}は@acronym{MH}フォルダーのファイル名を意味します(例: "
+"@code{mh://Mail/inbox})。"
 
 #. type: item
 #: original_texis/rmail.texi:1441
 #, no-wrap
 msgid "maildir"
-msgstr ""
+msgstr "maildir"
 
 #. type: table
 #: original_texis/rmail.texi:1445
@@ -3803,12 +4550,15 @@ msgid ""
 "are not used, and @var{host-or-file-name} denotes the name of @code{maildir} "
 "mailbox, e.g., @code{maildir://mail/inbox}."
 msgstr ""
+"@acronym{maildir}形式のローカルmailboxです。@var{User}と@var{pass}は使用せ"
+"ず、@var{host-or-file-name}は@code{maildir} mailboxの名前を意味します(例: "
+"@code{maildir://mail/inbox})。"
 
 #. type: item
 #: original_texis/rmail.texi:1446
 #, no-wrap
 msgid "file"
-msgstr ""
+msgstr "file"
 
 #. type: table
 #: original_texis/rmail.texi:1449
@@ -3816,12 +4566,14 @@ msgid ""
 "Any local mailbox format.  Its actual format is detected automatically by "
 "@code{movemail}."
 msgstr ""
+"任意のmailbox形式です。実際の形式は@code{movemail}により自動的に決定されま"
+"す。"
 
 #. type: item
 #: original_texis/rmail.texi:1450
 #, no-wrap
 msgid "pop"
-msgstr ""
+msgstr "pop"
 
 #. type: table
 #: original_texis/rmail.texi:1456
@@ -3829,15 +4581,19 @@ msgid ""
 "A remote mailbox to be accessed via POP3 protocol.  @var{User} specifies the "
 "remote user name to use, @var{pass} may be used to specify the user "
 "password, @var{host-or-file-name} is the name or IP address of the remote "
-"mail server to connect to; e.g., "
-"@code{pop://smith:guessme@@remote.server.net}."
+"mail server to connect to; e.g., @code{pop://smith:guessme@@remote.server."
+"net}."
 msgstr ""
+"POP3プロトコルを通じてアクセスされるリモートmailboxです。@var{User}は使用する"
+"リモートのユーザー名を指定し、@var{pass}はユーザーパスワードを指定するのに使"
+"用され、@var{host-or-file-name}は接続するリモートメールサーバーのホスト名かIP"
+"アドレスです(例: @code{pop://smith:guessme@@remote.server.net})。"
 
 #. type: item
 #: original_texis/rmail.texi:1457
 #, no-wrap
 msgid "imap"
-msgstr ""
+msgstr "imap"
 
 #. type: table
 #: original_texis/rmail.texi:1463
@@ -3845,9 +4601,13 @@ msgid ""
 "A remote mailbox to be accessed via IMAP4 protocol.  @var{User} specifies "
 "the remote user name to use, @var{pass} may be used to specify the user "
 "password, @var{host-or-file-name} is the name or IP address of the remote "
-"mail server to connect to; e.g., "
-"@code{imap://smith:guessme@@remote.server.net}."
+"mail server to connect to; e.g., @code{imap://smith:guessme@@remote.server."
+"net}."
 msgstr ""
+"IMAP4プロトコルを通じてアクセスされるリモートmailboxです。@var{User}は使用す"
+"るリモートのユーザー名を指定し、@var{pass}はユーザーパスワードを指定するのに"
+"使用され、@var{host-or-file-name}は接続するリモートメールサーバーのホスト名か"
+"IPアドレスです(例: @code{imap://smith:guessme@@remote.server.net})。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1467
@@ -3855,24 +4615,26 @@ msgid ""
 "Alternatively, you can specify the file name of the mailbox to use.  This is "
 "equivalent to specifying the @samp{file} protocol:"
 msgstr ""
+"かわりに、使用するmailboxのファイル名を指定できます。これはプロトコルに"
+"@samp{file}を指定するのと等価です:"
 
 #. type: smallexample
 #: original_texis/rmail.texi:1470
 #, no-wrap
 msgid "/var/spool/mail/@var{user} @equiv{} file://var/spool/mail/@var{user}\n"
-msgstr ""
+msgstr "/var/spool/mail/@var{user} @equiv{} file://var/spool/mail/@var{user}\n"
 
 #. type: vindex
 #: original_texis/rmail.texi:1472
 #, no-wrap
 msgid "rmail-movemail-program"
-msgstr ""
+msgstr "rmail-movemail-program"
 
 #. type: vindex
 #: original_texis/rmail.texi:1473
 #, no-wrap
 msgid "rmail-movemail-search-path"
-msgstr ""
+msgstr "rmail-movemail-search-path"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1480
@@ -3880,22 +4642,28 @@ msgid ""
 "The variable @code{rmail-movemail-program} controls which version of "
 "@code{movemail} to use.  If that is a string, it specifies the absolute file "
 "name of the @code{movemail} executable.  If it is @code{nil}, Rmail searches "
-"for @code{movemail} in the directories listed in "
-"@code{rmail-movemail-search-path}, then in @code{exec-path} (@pxref{Shell}), "
-"then in @code{exec-directory}."
+"for @code{movemail} in the directories listed in @code{rmail-movemail-search-"
+"path}, then in @code{exec-path} (@pxref{Shell}), then in @code{exec-"
+"directory}."
 msgstr ""
+"変数@code{rmail-movemail-program}は、どのバージョンの@code{movemail}を使用す"
+"るかを制御します。文字列の場合、それは@code{movemail}実行ファイルの絶対ファイ"
+"ル名を指定します。@code{nil}の場合、Rmailは@code{rmail-movemail-search-"
+"path}、@code{exec-path}(@ref{Shell}を参照してください)、@code{exec-directory}"
+"の順で、これらの変数にリストされたディレクトリーから、@code{movemail}を検索し"
+"ます。"
 
 #. type: section
 #: original_texis/rmail.texi:1482
 #, no-wrap
 msgid "Retrieving Mail from Remote Mailboxes"
-msgstr ""
+msgstr "Retrieving Mail from Remote Mailboxes"
 
 #. type: pindex
 #: original_texis/rmail.texi:1483
 #, no-wrap
 msgid "movemail"
-msgstr ""
+msgstr "movemail"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1489
@@ -3905,6 +4673,10 @@ msgid ""
 "can work with POP (unless the Emacs @code{configure} script was run with the "
 "option @samp{--without-pop})."
 msgstr ""
+"inboxファイルにデータを格納するかわりに、ユーザーのinboxデータにアクセスする"
+"ために、POPと呼ばれる方式を使うサイトがいくつかあります。デフォルトでは、"
+"@code{Emacs movemail}はPOPで動作します(ただしEmacsの@code{configure}スクリプ"
+"トが、オプション@samp{--without-pop})を指定して実行された場合を除きます)。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1492
@@ -3912,6 +4684,8 @@ msgid ""
 "Similarly, the Mailutils @code{movemail} by default supports POP, unless it "
 "was configured with the @samp{--disable-pop} option."
 msgstr ""
+"同様にMailutils @code{movemail}も、デフォルトでPOPをサポートします(ただし"
+"@samp{--disable-pop}オプションを指定してconfigureされた場合を除きます)。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1495
@@ -3919,18 +4693,20 @@ msgid ""
 "Both versions of @code{movemail} only work with POP3, not with older "
 "versions of POP."
 msgstr ""
+"どちらのバージョンの@code{movemail}もPOP3だけで動作し、それより古いバージョン"
+"のPOPでは動作しません。"
 
 #. type: cindex
 #: original_texis/rmail.texi:1496
 #, no-wrap
 msgid "@env{MAILHOST} environment variable"
-msgstr ""
+msgstr "@env{MAILHOST} environment variable"
 
 #. type: cindex
 #: original_texis/rmail.texi:1497
 #, no-wrap
 msgid "POP mailboxes"
-msgstr ""
+msgstr "POP mailboxes"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1509
@@ -3940,51 +4716,70 @@ msgid ""
 "of the form @samp{pop://@var{username}@@@var{hostname}}, where "
 "@var{hostname} is the host name or IP address of the remote mail server and "
 "@var{username} is the user name on that server.  Additionally, you may "
-"specify the password in the mailbox @acronym{URL}: "
-"@samp{pop://@var{username}:@var{password}@@@var{hostname}}.  In this case, "
-"@var{password} takes preference over the one set by "
-"@code{rmail-remote-password} (see below).  This is especially useful if you "
-"have several remote mailboxes with different passwords."
+"specify the password in the mailbox @acronym{URL}: @samp{pop://"
+"@var{username}:@var{password}@@@var{hostname}}.  In this case, "
+"@var{password} takes preference over the one set by @code{rmail-remote-"
+"password} (see below).  This is especially useful if you have several remote "
+"mailboxes with different passwords."
 msgstr ""
+"どちらの@code{movemail}を使用するかにかかわらず、POP @dfn{URL}"
+"(@pxref{Movemail})を使用してPOP inboxを指定できます。POP @acronym{URL}は、"
+"@samp{pop://@var{username}@@@var{hostname}}という形式で、@var{hostname}はリ"
+"モートメールサーバーのホスト名かIPアドレス、@var{username}はそのサーバーでの"
+"ユーザー名です。これに加えて@samp{pop://@var{username}:@var{password}"
+"@@@var{hostname}}のようなmailbox @acronym{URL}でパスワードを指定することもで"
+"きます。この場合、@var{password}は@code{rmail-remote-password}で指定された値"
+"より優先されます(以下参照)。これは複数のリモートメールサーバーで異なるパス"
+"ワードを指定するとき、特に便利です。"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1516
 msgid ""
 "For backward compatibility, Rmail also supports an alternative way of "
 "specifying remote POP mailboxes.  Specifying an inbox name in the form "
-"@samp{po:@var{username}:@var{hostname}} is equivalent to "
-"@samp{pop://@var{username}@@@var{hostname}}.  If you omit the "
-"@var{:hostname} part, the @env{MAILHOST} environment variable specifies the "
-"machine on which to look for the POP server."
+"@samp{po:@var{username}:@var{hostname}} is equivalent to @samp{pop://"
+"@var{username}@@@var{hostname}}.  If you omit the @var{:hostname} part, the "
+"@env{MAILHOST} environment variable specifies the machine on which to look "
+"for the POP server."
 msgstr ""
+"後方互換のため、RmailはリモートのPOP mailboxを指定する他の方法もサポートしま"
+"す。@samp{po:@var{username}:@var{hostname}}によるinbox名の指定は、"
+"@samp{pop://@var{username}@@@var{hostname}}と等価です。@var{:hostname}の部分"
+"を省略した場合、環境変数@env{MAILHOST}で、どのマシンのPOPサーバーを探すか指定"
+"します。"
 
 #. type: cindex
 #: original_texis/rmail.texi:1519
 #, no-wrap
 msgid "IMAP mailboxes"
-msgstr ""
+msgstr "IMAP mailboxes"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1525
 msgid ""
 "Another method for accessing remote mailboxes is IMAP@.  This method is "
 "supported only by the Mailutils @code{movemail}.  To specify an IMAP mailbox "
-"in the inbox list, use the following mailbox @acronym{URL}: "
-"@samp{imap://@var{username}[:@var{password}]@@@var{hostname}}.  The "
-"@var{password} part is optional, as described above."
+"in the inbox list, use the following mailbox @acronym{URL}: @samp{imap://"
+"@var{username}[:@var{password}]@@@var{hostname}}.  The @var{password} part "
+"is optional, as described above."
 msgstr ""
+"リモートmailboxesにアクセスする他の方法に、IMAPがあります。この方法は"
+"Mailutils @code{movemail}だけでサポートされます。inboxリストでIMAP mailboxを"
+"指定するには、@samp{imap://@var{username}[:@var{password}]@@@var{hostname}}の"
+"形式のmailbox @acronym{URL}を使用します。上記で説明したように、@var{password}"
+"の部分はオプションです。"
 
 #. type: vindex
 #: original_texis/rmail.texi:1526
 #, no-wrap
 msgid "rmail-remote-password"
-msgstr ""
+msgstr "rmail-remote-password"
 
 #. type: vindex
 #: original_texis/rmail.texi:1527
 #, no-wrap
 msgid "rmail-remote-password-required"
-msgstr ""
+msgstr "rmail-remote-password-required"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1530
@@ -3992,11 +4787,15 @@ msgid ""
 "Accessing a remote mailbox may require a password.  Rmail uses the following "
 "algorithm to retrieve it:"
 msgstr ""
+"リモートmailboxへのアクセスにはパスワードが要求されます。これを取得するために"
+"Rmailは以下のアルゴリズムを使います:"
 
 #. type: enumerate
 #: original_texis/rmail.texi:1535
-msgid "If a @var{password} is present in the mailbox URL (see above), it is used."
+msgid ""
+"If a @var{password} is present in the mailbox URL (see above), it is used."
 msgstr ""
+"mailbox URL(上記参照)で@var{password}が与えられた場合はそれを使います。"
 
 #. type: enumerate
 #: original_texis/rmail.texi:1538
@@ -4004,6 +4803,8 @@ msgid ""
 "If the variable @code{rmail-remote-password-required} is @code{nil}, Rmail "
 "assumes no password is required."
 msgstr ""
+"変数@code{rmail-remote-password-required}が@code{nil}の場合、Rmailはパスワー"
+"ドが要求されないと想定します。"
 
 #. type: enumerate
 #: original_texis/rmail.texi:1541
@@ -4011,17 +4812,18 @@ msgid ""
 "If the variable @code{rmail-remote-password} is non-@code{nil}, its value is "
 "used."
 msgstr ""
+"変数@code{rmail-remote-password}が非@code{nil}の場合はその値を使います。"
 
 #. type: enumerate
 #: original_texis/rmail.texi:1543
 msgid "Otherwise, Rmail will ask you for the password to use."
-msgstr ""
+msgstr "上記以外の場合、Rmailはパスワードの入力を求めます。"
 
 #. type: vindex
 #: original_texis/rmail.texi:1545
 #, no-wrap
 msgid "rmail-movemail-flags"
-msgstr ""
+msgstr "rmail-movemail-flags"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1550
@@ -4031,12 +4833,16 @@ msgid ""
 "use.  Do not use this variable to pass the @samp{-p} flag to preserve your "
 "inbox contents; use @code{rmail-preserve-inbox} instead."
 msgstr ""
+"追加のコマンドラインフラグを@code{movemail}に渡す必要がある場合は、使いたいフ"
+"ラグのリストを変数@code{rmail-movemail-flags}にセットします。inboxの内容を保"
+"持するために。この変数を使ってフラグ@samp{-p}を渡さないでください。かわりに"
+"@code{rmail-preserve-inbox}を使用してください。"
 
 #. type: cindex
 #: original_texis/rmail.texi:1551
 #, no-wrap
 msgid "Kerberos POP authentication"
-msgstr ""
+msgstr "Kerberos POP authentication"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1559
@@ -4045,15 +4851,22 @@ msgid ""
 "authentication (the Emacs @code{movemail} does so if Emacs was configured "
 "with the option @code{--with-kerberos} or @code{--with-kerberos5}).  If it "
 "is supported, it is used by default whenever you attempt to retrieve POP "
-"mail when @code{rmail-remote-password} and "
-"@code{rmail-remote-password-required} are unset."
+"mail when @code{rmail-remote-password} and @code{rmail-remote-password-"
+"required} are unset."
 msgstr ""
+"あなたのサイトにインストールされた@code{movemail}プログラムは、ケルベロス認証"
+"(Kerberos authentication)をサポートするでしょう(Emacsが@code{--with-kerberos}"
+"または@code{--with-kerberos5}のオプションでconfigureされている場合、Emacs "
+"@code{movemail}はこれを行ないます)。もしサポートされている場合、@code{rmail-"
+"remote-password}および@code{rmail-remote-password-required}がセットされていな"
+"いときに、POPメールの取得を試みたときは、デフォルトでケルベロス認証を使いま"
+"す。"
 
 #. type: cindex
 #: original_texis/rmail.texi:1560
 #, no-wrap
 msgid "reverse order in POP inboxes"
-msgstr ""
+msgstr "reverse order in POP inboxes"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1566
@@ -4063,12 +4876,16 @@ msgid ""
 "you can tell @code{movemail} to reverse the order of downloaded messages by "
 "adding the @samp{-r} flag to @code{rmail-movemail-flags}."
 msgstr ""
+"メッセージを逆順に保存するPOPサーバーもあります。あなたのサーバーがこれを行"
+"なっている場合、到着した順にメールを読みたいときは、@code{rmail-movemail-"
+"flags}に@samp{-r}フラグを追加することにより、逆順でメッセージをダウンロードす"
+"るよう、@code{movemail}に指示できます。"
 
 #. type: cindex
 #: original_texis/rmail.texi:1567
 #, no-wrap
 msgid "TLS encryption (Rmail)"
-msgstr ""
+msgstr "TLS encryption (Rmail)"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1570
@@ -4076,12 +4893,15 @@ msgid ""
 "Mailutils @code{movemail} supports TLS encryption.  If you wish to use it, "
 "add the @samp{--tls} flag to @code{rmail-movemail-flags}."
 msgstr ""
+"Mailutils @code{movemail}は、TLS暗号化(TLS encryption)をサポートします。これ"
+"を使いたい場合は、@code{rmail-movemail-flags}に@samp{--tls}フラグをセットして"
+"ください。"
 
 #. type: section
 #: original_texis/rmail.texi:1572
 #, no-wrap
 msgid "Retrieving Mail from Local Mailboxes in Various Formats"
-msgstr ""
+msgstr "Retrieving Mail from Local Mailboxes in Various Formats"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1580
@@ -4093,9 +4913,14 @@ msgid ""
 "@file{/var/spool/mail/in}, you would include the following in the Rmail "
 "inbox list:"
 msgstr ""
+"受信したメールがローカルマシンのUnix mailbox以外の形式に保存される場合、これ"
+"を取得するためにMailutils @code{movemail}を使う必要があるでしょう。"
+"@code{movemail}のバージョンについての詳細な説明は、@ref{Movemail}を参照してく"
+"ださい。たとえば@file{/var/spool/mail/in}にある@code{maildir}形式のinboxの"
+"メールにアクセスするには、Rmailのinboxリストに以下を含める必要があるでしょう:"
 
 #. type: smallexample
 #: original_texis/rmail.texi:1583
 #, no-wrap
 msgid "maildir://var/spool/mail/in\n"
-msgstr ""
+msgstr "maildir://var/spool/mail/in\n"

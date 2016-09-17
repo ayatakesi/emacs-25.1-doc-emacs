@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-09-18 06:33+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-07-17 09:14+0900\n"
+"Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
+"Language-Team: Japanese <h1r0p@outlook.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,13 +19,13 @@ msgstr ""
 #: original_texis/anti.texi:6
 #, no-wrap
 msgid "Antinews"
-msgstr ""
+msgstr "Antinews"
 
 #. type: appendix
 #: original_texis/anti.texi:7
 #, no-wrap
 msgid "Emacs 24 Antinews"
-msgstr ""
+msgstr "Emacs 24 Antinews"
 
 #. type: Plain text
 #: original_texis/anti.texi:14
@@ -36,6 +35,9 @@ msgid ""
 "simplicity that results from the absence of many Emacs @value{EMACSVER} "
 "features."
 msgstr ""
+"時代に逆らって生きるユーザーのために、以下はEmacsバージョン24.5へのダウング"
+"レードに関する情報です。Emacs @value{EMACSVER}機能の不在による結果としての偉"
+"大なる単純さを、ぜひ堪能してください。"
 
 #. type: itemize
 #: original_texis/anti.texi:21
@@ -45,6 +47,10 @@ msgid ""
 "to procrastinate on the dilemma whether you do or don't want the new shiny "
 "Cairo thing.  Hail, simplicity!"
 msgstr ""
+"Cairoによる描画サポートは削除されました。今やGNUおよびUnixシステムでは、ただ1"
+"つの描画エンジン --- 伝統あるXウィンドウシステムだけになります。新しい光り輝"
+"くCairoを望むべきか、望まぬべきかというジレンマで思い悩む必要はなくなりまし"
+"た。Hail, simplicity!(単純さ、万歳!)"
 
 #. type: itemize
 #: original_texis/anti.texi:26
@@ -53,6 +59,9 @@ msgid ""
 "is actually a bonus, as IRIX systems will become more and more popular as "
 "you move farther back in time."
 msgstr ""
+"依然としてEmacsはSGI IRIXシステム上で機能します。時代に逆らって生きるあなたに"
+"とっては、これはまさにボーナスです。なぜならIRIXシステムは、時代を遡れば遡る"
+"ほど、ますますポピュラーになっていくのですから。"
 
 #. type: itemize
 #: original_texis/anti.texi:32
@@ -61,6 +70,10 @@ msgid ""
 "only the trusted Emacs codebase, with no additions.  Those external modules "
 "written by some J.R. Hacker cannot be trusted anyway.  Good riddance!"
 msgstr ""
+"動的にロードされるモジュールにたいするサポートは削除されました。これで何の追"
+"加もなしに、信頼できるEmacsコードベースだけを使用できます。どこかのJ.R. "
+"Hackerとやらによって記述されたような外部もジュールは、どちらにせよ信頼できま"
+"せんから。いい厄介払いですね!"
 
 #. type: itemize
 #: original_texis/anti.texi:42
@@ -74,6 +87,14 @@ msgid ""
 "important goal of Emacs development.  We keep that goal even as we develop "
 "Emacs back in time."
 msgstr ""
+"Network Security Managerの削除により、わたしたちはネットワークにアクセスする"
+"Emacs機能を劇的に単純化しました。このページが信用できるか、あのページは信頼で"
+"きるかなどの、煩わしい質問はもはや存在しません　---　あなた求める。あなた得"
+"る。質問なんてありません! 今では、認証が期限切れとか、最初の場所にない等の、"
+"サイトに関するセキュリティー問題は、ユーザー、つまりあなたに責任があります。"
+"ユーザーに最大限の自由を与えるのは、常にEmacs開発におけるもっとも重要なゴール"
+"でしょう。時代に逆らったEmacs開発においても、わたしたちはこのゴールを維持しま"
+"す。"
 
 #. type: itemize
 #: original_texis/anti.texi:48
@@ -83,19 +104,32 @@ msgid ""
 "lovers know their bindings by heart anyway, so why waste precious screen "
 "estate on that which is well known?"
 msgstr ""
+"わたしたちは、@kbd{C-h l}の出力から、記録されたキーストロークにより実行される"
+"コマンド名を削除することにより、出力を理解するのを単純かつ簡単にしました。い"
+"ずれにせよ、真にEmacsを愛するものは、バインディングなどハートで知るのです。な"
+"ぜ既に判っているものの表示のために、貴重なスクリーン資源を無駄にしなければな"
+"らないのでしょう?"
 
 #. type: itemize
 #: original_texis/anti.texi:59
 msgid ""
 "Selection- and clipboard-related commands and variables got their historical "
 "names back.  It's now the definitive @code{x-select-enable-clipboard} again "
-"instead of the vague @code{select-enable-clipboard}, and all those "
-"@code{gui-select-text}, @code{gui-get-primary-selection}, etc.@: got their "
-"@code{x-*} names back.  (What's a ``GUI'', anyway?)  The only true window "
-"system with selections is the X Window system, so we stopped pretending that "
-"other platforms have anything similar to that.  You now know when you invoke "
-"a command that accesses X."
+"instead of the vague @code{select-enable-clipboard}, and all those @code{gui-"
+"select-text}, @code{gui-get-primary-selection}, etc.@: got their @code{x-*} "
+"names back.  (What's a ``GUI'', anyway?)  The only true window system with "
+"selections is the X Window system, so we stopped pretending that other "
+"platforms have anything similar to that.  You now know when you invoke a "
+"command that accesses X."
 msgstr ""
+"選択機能およびクリップボードに関するコマンドと変数は、伝統的な名前に戻りまし"
+"た。今や、あいまいな@code{select-enable-clipboard}のかわりに、信頼できる"
+"@code{x-select-enable-clipboard}という名前に戻り、@code{gui-select-text}、"
+"@code{gui-get-primary-selection}などはすべて@code{x-*}という名前に戻りました"
+"(ところで、``GUI''って何ですか?)。選択機能をもつ真のウィンドウシステムはXウィ"
+"ンドウシステムだけなので、他のプラットフォームにもXのようなものがあるなどと偽"
+"るのは止めました。これであなたはコマンドを呼び出すとき、それがXにアクセスする"
+"か知ることができます。"
 
 #. type: itemize
 #: original_texis/anti.texi:69
@@ -108,6 +142,13 @@ msgid ""
 "for un-hiding the password in GUI sessions as well as we downgrade "
 "progressively to previous Emacs versions."
 msgstr ""
+"@code{-batch}モードでタイプされたパスワードは、隠されなくなりました。開始した"
+"ときは明らかではありませんでしたが、これは誤った機能でした --- タイプしたもの"
+"を見ずにタイプできる人などいますか? GUIセッションのユーザーにパスワードの非表"
+"示を諦めるよう説得はできなかったので、せめてバッチモード(これはすべてのEmacs"
+"ベテランユーザーがいつも使用するモードです)ではパスワードを表示させます。以前"
+"のEmacsバージョンへの進行的なダウングレードと同様、GUIセッションでのパスワー"
+"ドの表示については、引き続き注目していてください。"
 
 #. type: itemize
 #: original_texis/anti.texi:84
@@ -120,20 +161,35 @@ msgid ""
 "quoting method now---using the plain-@acronym{ASCII} quote characters.  And "
 "if that's not enough, the doc strings and other messages show text quoted "
 "@t{`like this'} as they were written, instead of arbitrarily replacing them "
-"with Unicode ``curved quote'' characters @t{‘like this’}.  The "
-"@code{text-quoting-style} variable becomes therefore unneeded and was "
-"removed.  As result, text produced by Emacs can be sent to those venerable "
-"teletypes again, yeah!"
+"with Unicode ``curved quote'' characters @t{‘like this’}.  The @code{text-"
+"quoting-style} variable becomes therefore unneeded and was removed.  As "
+"result, text produced by Emacs can be sent to those venerable teletypes "
+"again, yeah!"
 msgstr ""
+"至る所にひょっこり現れるUnicode文字に関する厄介事には、充分な処置がされまし"
+"た。『‘』、『 ’』、『 “』、『 ”』、『€』、『≤』などの文字、およびその他多くの"
+"文字にたいする、@kbd{C-x 8}による省略入力を、わたしたちは削除しました。これに"
+"よりもたらされた素晴らしい恩恵として、@kbd{C-h b}の出力の先頭にある、使い道の"
+"ない多くのエントリーが削除されました。@code{electric-quote-mode}は削除された"
+"ので、これからは唯一正しいクォーティング手法 --- つまりプレーン"
+"@acronym{ASCII}のクォート文字だけとなります。これで充分でない場合は、"
+"@t{‘like this’}のようにUnicodeの``curved quote''で勝手に置換されるかわりに、"
+"ドキュメント文字列や他のメッセージは@t{`like this'}のようにテキストをクォート"
+"して記述されています。したがって@code{text-quoting-style}は不要となり、削除さ"
+"れました。結果としてEmacsで生成されたテキストは、再び伝統的なテレタイプで送れ"
+"るようになりました。yeah!"
 
 #. type: itemize
 #: original_texis/anti.texi:89
 msgid ""
-"For the same reasons, the character classes @code{[:alpha:]} and "
-"@code{[:alnum:]} again match any word-constituent character, and "
-"@code{[:graph:]} and @code{[:print:]} match every multibyte character.  "
-"Confusing use of Unicode character properties is gone."
+"For the same reasons, the character classes @code{[:alpha:]} and @code{[:"
+"alnum:]} again match any word-constituent character, and @code{[:graph:]} "
+"and @code{[:print:]} match every multibyte character.  Confusing use of "
+"Unicode character properties is gone."
 msgstr ""
+"同じ理由により、文字クラス@code{[:alpha:]}、@code{[:alnum:]}は、単語構成文字"
+"にマッチし、@code{[:graph:]}、@code{[:print:]}はすべてのマルチバイト文字に"
+"マッチするように戻りました。Unicode文字の使用による混乱は去ったのです。"
 
 #. type: itemize
 #: original_texis/anti.texi:96
@@ -143,6 +199,11 @@ msgid ""
 "didn't actually type, like find @kbd{ⓐ} when you actually typed @kbd{a}.  "
 "Users who want to find some fancy character will have to type it explicitly."
 msgstr ""
+"インクリメンタル検索(I-search)、および問い合わせつき置換(query-replace)が、"
+"``character-folding''マジックの使用によりあなたを混乱させることは、もはやあり"
+"ません。実際は@kbd{a}とタイプしたのに@kbd{ⓐ}を検索するような、実際にはタイプ"
+"していない文字を検索することはなくなりました。何かfancy characterを探したい"
+"ユーザーは、それを明示的にタイプする必要があるでしょう。"
 
 #. type: itemize
 #: original_texis/anti.texi:105
@@ -150,11 +211,17 @@ msgid ""
 "The @file{desktop.el} package no longer records window and frame "
 "configuration, and doesn't attempt to restore them.  You now have back your "
 "freedom of re-arranging your windows and frames anew each time you restore a "
-"session.  This made the new backward-incompatible format of the "
-"@file{.emacs.desktop} file unnecessary, so the format was reverted back to "
-"what it was before Emacs 25.  You can now again use the desktop file with "
-"all the previous versions of Emacs."
+"session.  This made the new backward-incompatible format of the @file{.emacs."
+"desktop} file unnecessary, so the format was reverted back to what it was "
+"before Emacs 25.  You can now again use the desktop file with all the "
+"previous versions of Emacs."
 msgstr ""
+"もはや@file{desktop.el}パッケージはウィンドウやフレームの設定を記録せず、それ"
+"らの復元も試みません。これで、セッションを復元するときに、新たにウィンドウや"
+"フレームを再配置する自由が、あなたに戻りました。これによる、@file{.emacs."
+"desktop}形式にたいする新たな後方非互換は不要なので、ファイル形式はEmacs 25以"
+"前の形式に戻されました。これで再び、Emacsのすべての以前のバージョンで、"
+"desktopファイルを使用できるようになりました。"
 
 #. type: itemize
 #: original_texis/anti.texi:114
@@ -166,6 +233,13 @@ msgid ""
 "option: once prettified, always prettified! These changes make the Prettify "
 "Symbols mode quite a lot simpler and easier to use."
 msgstr ""
+"わたしたちはPrettify Symbolsモードが、デフォルトの@code{prettify-symbols-"
+"compose-predicate}だけをサポートするように書き直しました。あなたのメジャー"
+"モード(またはマイナーモード)が、独自のprettificationをもつかどうか考慮する必"
+"要はなくなりました。Emacs由来のものだけを使用してください。わたしたちは"
+"@code{prettify-symbols-unprettify-at-point}オプションも削除しました。1度"
+"prettifyされたら、常にprettifyされるのです! これらの変更によりPrettify "
+"Symbolsモードの使用は桁外れに単純で簡単になりました。"
 
 #. type: itemize
 #: original_texis/anti.texi:126
@@ -181,6 +255,15 @@ msgid ""
 "this line of simplifications as we downgrade to previous versions of Emacs; "
 "stay tuned."
 msgstr ""
+"xtermの素敵な新しい機能(X選択やクリップボードへのアクセス、``bracketed paste "
+"mode''、その他の進化した機能)にたいするサポートは削除されました。xterm上の"
+"Emacsでテキストをkillしたとき、他のアプリケーションがそれにアクセスする方法を"
+"もたないように、Emacsのkillリングだけにそのテキストが保存されます。xtermは単"
+"なるテキスト端末。それだけのことです。最低限のコンソール端末ではサポートされ"
+"ていないのに、xtermではサポートされるような機能は存在すべきではないのです。同"
+"じ理由により、xtermでのマウストラッキングにたいするサポートも削除されました。"
+"Emacsの以前のバージョンへのダウングレードと同様、わたしたちはこの一連の単純化"
+"を継続していくので、注目していてください。"
 
 #. type: itemize
 #: original_texis/anti.texi:135
@@ -192,6 +275,12 @@ msgid ""
 "similar simplifications made @code{package-menu-toggle-hiding} unnecessary, "
 "since there's nothing to unhide now."
 msgstr ""
+"@file{package.el}のさまざまな機能が単純化されました。``外部(external)''パッ"
+"ケージの状態は、もはや利用可能ではありません。これからは複数のアーカイブから"
+"提供されるパッケージは、それが見つかる度にリストされます。わたしたちは、どん"
+"な情報でも、ユーザーから隠すことを正しいとは思いません。この変更、およびその"
+"他の似たような単純化により、隠すものが存在しなくなったので、@code{package-"
+"menu-toggle-hiding}は必要なくなりました。"
 
 #. type: itemize
 #: original_texis/anti.texi:143
@@ -203,6 +292,12 @@ msgid ""
 "sure to report any that do as bugs, so that we could fix them in past "
 "versions of Emacs."
 msgstr ""
+"ミニバッファーでの@kbd{@key{UP}}(または@kbd{@key{DOWN}})キーは、ヒストリー内"
+"でアイテム間を移動するように単純化されました。前(または次)のアイテムに移動す"
+"るのか、それとも同じアイテムの別の行に移動するのか悩む必要はなくなりました。"
+"どちらにせよ、うまく記述されたコマンドは、長すぎるヒストリーエントリーを許容"
+"すべきではないのです。そうすれば、わたしたちは以前のバージョンのEmacsでそれを"
+"fixできるように、長すぎるヒストリーエントリーをバグとして報告してください。"
 
 #. type: itemize
 #: original_texis/anti.texi:151
@@ -214,17 +309,29 @@ msgid ""
 "Emacs in advance, so that you won't need to un-learn it when this command "
 "disappears, as it should."
 msgstr ""
+"``push''コマンドのサポートを削除することにより、VCモードは単純化されました。"
+"時代を遡るとは、Git、Bazaar、Mercurialなどの現代的なバージョンコントロールシ"
+"ステムを使う必要性が少なくなることを意味するので、``push''コマンドを使う必要"
+"性も次第に消滅するでしょう。わたしたちは事前にこれをEmacsから削除しておいたの"
+"で、このコマンドが消滅したとき、それを忘れるために学習しなおす必要もないで"
+"しょう。"
 
 #. type: itemize
 #: original_texis/anti.texi:160
 msgid ""
-"The support for full C/C++ expressions in macros has been removed from "
-"Hide-Ifdef mode.  It now supports only the basic literal macros.  As result, "
-"the user interface was simplified, and a number of useless commands have "
-"been removed from Hide-Ifdef mode.  Further simplifications were made "
-"possible by removing support for some fancy new preprocessor directives, "
-"such as @code{#if defined}, @code{#elif}, etc."
+"The support for full C/C++ expressions in macros has been removed from Hide-"
+"Ifdef mode.  It now supports only the basic literal macros.  As result, the "
+"user interface was simplified, and a number of useless commands have been "
+"removed from Hide-Ifdef mode.  Further simplifications were made possible by "
+"removing support for some fancy new preprocessor directives, such as "
+"@code{#if defined}, @code{#elif}, etc."
 msgstr ""
+"マクロでのC/C++式にたいする完全なサポートは、Hide-Ifdefモードから削除され、こ"
+"れからは基本的なリテラルマクロだけがサポートされます。結果としてユーザーイン"
+"ターフェースは単純化され、いくつかの無用なコマンドがHide-Ifdefモードから削除"
+"されました。@code{#if defined}、@code{#elif}などの、新たな変則的なプリプロ"
+"セッサーディレクティブにたいするサポートの削除により、更なる単純化が可能にな"
+"りました。"
 
 #. type: itemize
 #: original_texis/anti.texi:175
@@ -238,10 +345,21 @@ msgid ""
 "symbol is in TAGS or it isn't.  No more new user interfaces we never before "
 "saw in Emacs, either; if you want the next definition for the symbol you "
 "typed, just invoke @kbd{C-u M-.}---what could be simpler? As a nice side "
-"effect, you get to use your beloved @code{tags-loop-continue} and "
-"@code{pop-tag-mark} commands and their memorable bindings.  The "
-"@file{package.el} package has been removed for similar reasons."
+"effect, you get to use your beloved @code{tags-loop-continue} and @code{pop-"
+"tag-mark} commands and their memorable bindings.  The @file{package.el} "
+"package has been removed for similar reasons."
 msgstr ""
+"わたしたちは関数や変数などの定義を探すようにEtagsを書き直しました。常に行なわ"
+"れていたように@kbd{M-.}のようなコマンドはタグテーブルを使用します。これにより"
+"@file{xref.el}パッケージ全体の削除と、その他のEmacsパッケージやコマンドの中の"
+"多くの転移が可能になり、それらは著しく単純化されました。もはや、一貫しない説"
+"明や記憶するのが困難な振る舞いを提供するさまざまな``backends''に由来する複雑"
+"さはありません。シンボルがTAGSにあるか、ないのか、それだけです。もはや以前に"
+"Emacsで見たことがない新たなユーザーインターフェースはありません。タイプしたシ"
+"ンボルにたいする次の定義が欲しいときは、@kbd{C-u M-.}を呼び出すだけです。シン"
+"プルでしょう? 素晴らしい副次的影響として、あなたの最愛のコマンド@code{tags-"
+"loop-continue}、@code{pop-tag-mark}と、覚えやすいバインディングを使用できま"
+"す。同様の理由により@file{package.el}パッケージが削除されました。"
 
 #. type: itemize
 #: original_texis/anti.texi:179
@@ -249,6 +367,8 @@ msgid ""
 "@code{(/ @var{n})} once again yields just @var{n}.  Emacs Lisp is not Common "
 "Lisp, so compatibility with CL just complicates Emacs here."
 msgstr ""
+"@code{(/ @var{n})}は再び@var{n}となります。Emacs LispはCommon Lispではないの"
+"で、CLにたいする互換性はEmacsを複雑にするだけです。"
 
 #. type: itemize
 #: original_texis/anti.texi:186
@@ -258,6 +378,10 @@ msgid ""
 "position or vice versa should adapt by reading the file with no conversions "
 "and counting bytes while comparing text.  How hard can that be?"
 msgstr ""
+"関数@code{filepos-to-bufferpos}および@code{bufferpos-to-filepos}は削除されま"
+"した。バッファー内の位置からファイル内での位置を探したり、その逆を行なう必要"
+"があるコードは、変換なしでファイルを読んで、テキストを比較しながらバイトを数"
+"えるべきです。それほど難しいことですか?"
 
 #. type: itemize
 #: original_texis/anti.texi:191
@@ -266,14 +390,20 @@ msgid ""
 "@code{start-process} primitive provides all the functionality one needs, so "
 "adding more APIs just confuses users."
 msgstr ""
+"@code{make-process}プリミティブにたいする必要性が見つからなかったので、それを"
+"削除しました。@code{start-process}プリミティブは必要なすべての機能を提供する"
+"ので、さらにAPIを追加するのはユーザーを混乱させるだけです。"
 
 #. type: itemize
 #: original_texis/anti.texi:196
 msgid ""
-"The functions @code{bidi-find-overridden-directionality} and "
-"@code{buffer-substring-with-bidi-context} were removed, in preparation for "
-"removing the whole bidi support when downgrading to Emacs 23."
+"The functions @code{bidi-find-overridden-directionality} and @code{buffer-"
+"substring-with-bidi-context} were removed, in preparation for removing the "
+"whole bidi support when downgrading to Emacs 23."
 msgstr ""
+"Emacs 23へのダウングレードにおける双方向テキストサポート全体の削除に備えるた"
+"め、関数@code{bidi-find-overridden-directionality}および@code{buffer-"
+"substring-with-bidi-context}が削除されました。"
 
 #. type: itemize
 #: original_texis/anti.texi:201
@@ -282,6 +412,9 @@ msgid ""
 "frames instead, or use @code{truncate-lines} and the automatic horizontal "
 "scrolling of text that Emacs had since time immemorial."
 msgstr ""
+"もはや水平スクロールバーはサポートされません。かわりにウィンドウやフレームを"
+"拡大するか、@code{truncate-lines}と遠い昔からEmacsがもっている、テキストの自"
+"動的な水平スクロールを使用してください。"
 
 #. type: itemize
 #: original_texis/anti.texi:208
@@ -292,6 +425,11 @@ msgid ""
 "parameters are given on the Emacs command line, thus making Emacs more "
 "adventurous and less boring to use."
 msgstr ""
+"Emacsは、フレームメニューとツールバーの高さを、フレームのテキストの高さで計算"
+"するようになりました。これにより、異なるプラットフォームや異なるツールキット"
+"でのEmacs呼び出しで、コマンドラインでフレームのgeometryパラメーターが与えられ"
+"た場合に、予測可能性が減少するので、Emacsがより冒険的になり、使うとき退屈しな"
+"くなります。"
 
 #. type: itemize
 #: original_texis/anti.texi:214
@@ -301,6 +439,9 @@ msgid ""
 "before these languages were invented.  We removed support for them in "
 "anticipation for that time."
 msgstr ""
+"もはや@command{etags}プログラムはRuby言語とGo言語をサポートしません。これらの"
+"言語が考案される前まで、時代を遡る必要はなくなるでしょう。その時のために、わ"
+"たしたちはアプリケーションからそれらにたいするサポートを削除しました。"
 
 #. type: itemize
 #: original_texis/anti.texi:218
@@ -308,3 +449,5 @@ msgid ""
 "To keep up with decreasing computer memory capacity and disk space, many "
 "other functions and files have been eliminated in Emacs 24.5."
 msgstr ""
+"Emacs 24.5では、コンピューターのメモリー容量とディスク容量を削減して、良好な"
+"状態に保つために、その他多くの機能とファイルが削除されました。"
