@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-07-26 22:14+0900\n"
+"PO-Revision-Date: 2016-09-18 07:05+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
-"Language-Team: Japanese <h1r0p@outlook.jp>\n"
+"Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -4228,7 +4228,7 @@ msgstr ""
 "* Fortran Comments:: コメントの挿入と位置揃え。\n"
 "* Fortran Autofill:: FortranをサポートするAuto Fill。\n"
 "* Fortran Columns:: 有効なFortranのための列の計算。\n"
-"* Fortran Abbrev:: Fortranキーワードのためのビルトインのabbrevs。\n"
+"* Fortran Abbrev:: Fortranキーワードのためのビルトインのabbrevs。"
 
 #. type: ifnottex
 #: original_texis/emacs.texi:742
@@ -4247,7 +4247,7 @@ msgstr ""
 "* ForIndent Cont:: 継続行がインデントされる方法。\n"
 "* ForIndent Num:: 行番号が自動インデントされる方法。\n"
 "* ForIndent Conv:: トラブル防止のためにしたがわなければならない慣習。\n"
-"* ForIndent Vars:: Fortranのインデントスタイルを制御する変数。\n"
+"* ForIndent Vars:: Fortranのインデントスタイルを制御する変数。"
 
 #. type: menuentry
 #: original_texis/emacs.texi:751
@@ -4866,10 +4866,9 @@ msgid ""
 "control headers into working files."
 msgstr ""
 "* Change Logs and VC:: logエントリーからChangeLogファイルを生成する。\n"
-"* VC Delete/Rename:: バージョンコントロールされたファイルの削除とリネームと"
-"は\n"
+"* VC Delete/Rename:: バージョンコントロールされたファイルの削除とリネームとは\n"
 "* Revision Tags:: リビジョンにたいするシンボリック名。\n"
-"* Version Headers:: 作業ファイルへのバージョンコントロールヘッダーの挿入。\n"
+"* Version Headers:: 作業ファイルへのバージョンコントロールヘッダーの挿入。"
 
 #. type: ifnottex
 #: original_texis/emacs.texi:855
@@ -4884,7 +4883,7 @@ msgid ""
 msgstr ""
 "* General VC Options:: 複数のバックエンドに適用されるオプション。\n"
 "* RCS and SCCS:: RCSとSCCSのためのオプションについて。\n"
-"* CVS Options:: CVSにたいするオプションについて。\n"
+"* CVS Options:: CVSにたいするオプションについて。"
 
 #. type: menuentry
 #: original_texis/emacs.texi:862
@@ -5033,14 +5032,12 @@ msgid ""
 "issues."
 msgstr ""
 "* Overview of Emerge:: Emergeを開始する方法と基本的な概念。\n"
-"* Submodes of Emerge:: Fastモード vs. Editモード。Skip PrefersモードとAuto "
-"Advanceモード。\n"
-"* State of Difference:: 各相違にたいしてAまたはBの状態を指定することにより"
-"マージを行う。\n"
+"* Submodes of Emerge:: Fastモード vs. Editモード。Skip PrefersモードとAuto Advanceモード。\n"
+"* State of Difference:: 各相違にたいしてAまたはBの状態を指定することによりマージを行う。\n"
 "* Merge Commands:: 相違を選択したり相違の状態を変更するコマンドなど。\n"
 "* Exiting Emerge:: マージを終えた後に行うこと。\n"
 "* Combining in Emerge:: 相違にたいする両方の候補を維持する方法。\n"
-"* Fine Points of Emerge:: その他の問題。\n"
+"* Fine Points of Emerge:: その他の問題。"
 
 #. type: menuentry
 #: original_texis/emacs.texi:910
@@ -5129,7 +5126,7 @@ msgstr ""
 "* Basic Picture:: Pictureモードの基本概念と簡単なコマンド。\n"
 "* Insert in Picture:: 自己挿入文字の後のカーソル移動方向の制御。\n"
 "* Tabs in Picture:: タブストップとインデントにたいするさまざまな機能。\n"
-"* Rectangles in Picture:: 矩形領域のクリアーと重ね合わせ。\n"
+"* Rectangles in Picture:: 矩形領域のクリアーと重ね合わせ。"
 
 #. type: menuentry
 #: original_texis/emacs.texi:922
@@ -5625,9 +5622,8 @@ msgstr ""
 "* Diary Customizing:: セットできるデフォルト。\n"
 "* Non-Gregorian Diary:: 他のカレンダーにもとづくダイアリーエントリー。\n"
 "* Diary Display:: ダイアリーを表示する方法の選択。\n"
-"* Fancy Diary Display:: インクルードされたダイアリーファイルを使ったダイア"
-"リーエントリーのソート。\n"
-"* Sexp Diary Entries:: より柔軟なダイアリーエントリー。\n"
+"* Fancy Diary Display:: インクルードされたダイアリーファイルを使ったダイアリーエントリーのソート。\n"
+"* Sexp Diary Entries:: より柔軟なダイアリーエントリー。"
 
 #. type: menuentry
 #: original_texis/emacs.texi:1012
@@ -7321,7 +7317,7 @@ msgstr ""
 "* MS-DOS File Names:: MS-DOSでのファイル名の慣習。\n"
 "* MS-DOS Printing:: MS-DOSでの印刷の特性。\n"
 "* MS-DOS and MULE:: MS-DOSでの国際化のサポート。\n"
-"* MS-DOS Processes:: MS-DOSでのサブプロセスの実行。\n"
+"* MS-DOS Processes:: MS-DOSでのサブプロセスの実行。"
 
 #. type: unnumbered
 #: original_texis/emacs.texi:1266

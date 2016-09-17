@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-07-17 00:31+0900\n"
+"PO-Revision-Date: 2016-09-18 07:10+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
-"Language-Team: Japanese <h1r0p@outlook.jp>\n"
+"Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1588,11 +1588,7 @@ msgid ""
 "system, register the VC fileset.  @xref{Registering}.  If Emacs cannot find "
 "a system to register under, it prompts for a repository type, creates a new "
 "repository, and registers the VC fileset with it."
-msgstr ""
-"VCファイルセットに、バージョンコントロールシステムに登録されたファイルがない"
-"場合、VCファイルセットを登録します。@ref{Registering}を参照してください。"
-"Emacsが登録すべきシステムを見つけられない場合、リポジトリータイプの入力を求"
-"め、新しいリポジトリーを作成して、VCファイルセットをそれに登録します。\n"
+msgstr "VCファイルセットに、バージョンコントロールシステムに登録されたファイルがない場合、VCファイルセットを登録します。@ref{Registering}を参照してください。Emacsが登録すべきシステムを見つけられない場合、リポジトリータイプの入力を求め、新しいリポジトリーを作成して、VCファイルセットをそれに登録します。"
 
 #. type: itemize
 #: original_texis/maintaining.texi:573

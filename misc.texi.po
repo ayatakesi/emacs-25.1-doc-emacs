@@ -5,11 +5,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-07-26 21:51+0900\n"
+"PO-Revision-Date: 2016-09-18 07:13+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
-"Language-Team: Japanese <h1r0p@outlook.jp>\n"
+"Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7560,7 +7560,7 @@ msgid ""
 "@code{crisp-load-scroll-all} to emulate CRiSP's scroll-all feature\n"
 "(scrolling all windows together).\n"
 "\n"
-msgstr "@kbd{M-x crisp-mode}はCRiSP/Briefエディターをエミュレートするキーバインドを有効にします。変数@code{crisp-override-meta-x}をセットしない場合、@kbd{M-x}はEmacsの終了にリバインドされることに注意してください。CRiSPのscroll-all機能(すべてのウィンドウを一緒にスクロールする)をエミュレートするために、コマンド@kbd{M-x scroll-all-mode}を使用したり、変数@code{crisp-load-scroll-all}をセットすることもできます。"
+msgstr "@kbd{M-x crisp-mode}はCRiSP/Briefエディターをエミュレートするキーバインドを有効にします。変数@code{crisp-override-meta-x}をセットしない場合、@kbd{M-x}はEmacsの終了にリバインドされることに注意してください。CRiSPのscroll-all機能(すべてのウィンドウを一緒にスクロールする)をエミュレートするために、コマンド@kbd{M-x scroll-all-mode}を使用したり、変数@code{crisp-load-scroll-all}をセットすることもできます。\n"
 
 #. type: item
 #: original_texis/misc.texi:2487
@@ -7587,7 +7587,7 @@ msgid ""
 "Turn on EDT emulation with @kbd{M-x edt-emulation-on}; restore normal\n"
 "command bindings with @kbd{M-x edt-emulation-off}.\n"
 "\n"
-msgstr "@kbd{M-x edt-emulation-on}はEDTエミュレーションをオンにします。@kbd{M-x edt-emulation-off}で通常のコマンドバインディングに復元します。"
+msgstr "@kbd{M-x edt-emulation-on}はEDTエミュレーションをオンにします。@kbd{M-x edt-emulation-off}で通常のコマンドバインディングに復元します。\n"
 
 #. type: table
 #: original_texis/misc.texi:2497
@@ -7598,7 +7598,7 @@ msgid ""
 "are done in the global keymap, so there is no problem switching\n"
 "buffers or major modes while in EDT emulation.\n"
 "\n"
-msgstr "ほとんどのEDTエミュレーションコマンドはキーパッドキーで、標準のEmacsのキーバインディングのほとんどは有効です。EDTエミュレーションのリバインディングはグローバルキーマップにより行なわれるので、EDTエミュレーション中にバッファーを切り替えたりメジャーモードを変更しても問題はありません。"
+msgstr "ほとんどのEDTエミュレーションコマンドはキーパッドキーで、標準のEmacsのキーバインディングのほとんどは有効です。EDTエミュレーションのリバインディングはグローバルキーマップにより行なわれるので、EDTエミュレーション中にバッファーを切り替えたりメジャーモードを変更しても問題はありません。\n"
 
 #. type: item
 #: original_texis/misc.texi:2498
@@ -7624,7 +7624,7 @@ msgstr "TPU"
 msgid ""
 "@kbd{M-x tpu-edt-on} turns on emulation of the TPU editor emulating EDT.\n"
 "\n"
-msgstr "@kbd{M-x tpu-edt-on}はEDTをエミュレートするTPUエディターのエミュレートをオンにします。"
+msgstr "@kbd{M-x tpu-edt-on}はEDTをエミュレートするTPUエディターのエミュレートをオンにします。\n"
 
 #. type: item
 #: original_texis/misc.texi:2503
@@ -7649,7 +7649,7 @@ msgid ""
 "the rest of the way and ask for the emulation level.  @inforef{Top,\n"
 "Viper, viper}.\n"
 "\n"
-msgstr "Viperはviにたいするエミュレーターです。これは複数レベルのエミュレーションを実装します。レベル1はvi自身とほぼ同じで、レベル5はシビアなエミュレーションからは外れるが、Emacsの能力による利点を生かせます。Viperを呼び出すには、@kbd{M-x viper-mode}とタイプします。これは使い方のガイドを表示して、エミュレーションのレベルを尋ねます。@inforef{Top, Viper, viper}."
+msgstr "Viperはviにたいするエミュレーターです。これは複数レベルのエミュレーションを実装します。レベル1はvi自身とほぼ同じで、レベル5はシビアなエミュレーションからは外れるが、Emacsの能力による利点を生かせます。Viperを呼び出すには、@kbd{M-x viper-mode}とタイプします。これは使い方のガイドを表示して、エミュレーションのレベルを尋ねます。@inforef{Top, Viper, viper}.\n"
 
 #. type: item
 #: original_texis/misc.texi:2512
@@ -7686,7 +7686,7 @@ msgid ""
 "Because vi emulation works through major modes, it does not work\n"
 "to switch buffers during emulation.  Return to normal Emacs first.\n"
 "\n"
-msgstr "viエミュレーションはメジャーモードを通じて機能するので、エミュレーションの間にバッファーを切り替えると機能しません。先に通常のEmacsに戻るようにしてください。"
+msgstr "viエミュレーションはメジャーモードを通じて機能するので、エミュレーションの間にバッファーを切り替えると機能しません。先に通常のEmacsに戻るようにしてください。\n"
 
 #. type: table
 #: original_texis/misc.texi:2524
@@ -7695,7 +7695,7 @@ msgid ""
 "If you plan to use vi emulation much, you probably want to bind a key\n"
 "to the @code{vi-mode} command.\n"
 "\n"
-msgstr "viエミュレーションを多用したい場合は、おそらく@code{vi-mode}コマンドにキーをバインドしたいと思うでしょう。"
+msgstr "viエミュレーションを多用したい場合は、おそらく@code{vi-mode}コマンドにキーをバインドしたいと思うでしょう。\n"
 
 #. type: item
 #: original_texis/misc.texi:2525
@@ -7737,7 +7737,7 @@ msgid ""
 "it is with @code{vi-mode} because terminating insert mode does\n"
 "not use it.\n"
 "\n"
-msgstr "このエミュレーションはメジャーモードを通じて機能しないので、エミュレーター内でさまざまな方法でバッファーを切り替えることが可能です。@code{vi-mode}モードとは異なり、挿入モードを終了しても終了しないので、@code{vip-mode}にキーを割り当てる必要はありません。"
+msgstr "このエミュレーションはメジャーモードを通じて機能しないので、エミュレーター内でさまざまな方法でバッファーを切り替えることが可能です。@code{vi-mode}モードとは異なり、挿入モードを終了しても終了しないので、@code{vip-mode}にキーを割り当てる必要はありません。\n"
 
 #. type: table
 #: original_texis/misc.texi:2540
@@ -7767,7 +7767,7 @@ msgstr "wordstar-mode"
 msgid ""
 "@kbd{M-x wordstar-mode} provides a major mode with WordStar-like\n"
 "key bindings.\n"
-msgstr "@kbd{M-x wordstar-mode}はWordStarのようなキーバインドを提供するメジャーモードです。"
+msgstr "@kbd{M-x wordstar-mode}はWordStarのようなキーバインドを提供するメジャーモードです。\n"
 
 #. type: node
 #: original_texis/misc.texi:2549
