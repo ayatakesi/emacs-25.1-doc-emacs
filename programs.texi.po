@@ -1,0 +1,4671 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-09-18 06:34+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: node
+#: original_texis/programs.texi:6
+#, no-wrap
+msgid "Programs"
+msgstr ""
+
+#. type: chapter
+#: original_texis/programs.texi:7
+#, no-wrap
+msgid "Editing Programs"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:8
+#, no-wrap
+msgid "Lisp editing"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:9
+#, no-wrap
+msgid "C editing"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:10
+#, no-wrap
+msgid "program editing"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:14
+msgid ""
+"This chapter describes Emacs features for facilitating editing programs.  "
+"Some of the things these features can do are:"
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:18
+msgid "Find or move over top-level definitions (@pxref{Defuns})."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:21
+msgid ""
+"Apply the usual indentation conventions of the language (@pxref{Program "
+"Indent})."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:23
+msgid "Balance parentheses (@pxref{Parentheses})."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:25
+msgid "Insert, kill or align comments (@pxref{Comments})."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:27
+msgid "Highlight program syntax (@pxref{Font Lock})."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:50
+#, no-wrap
+msgid "Program Modes"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Major modes for editing programs."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:134
+#, no-wrap
+msgid "Defuns"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Commands to operate on major top-level parts of a program."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:337
+#, no-wrap
+msgid "Program Indent"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Adjusting indentation to show the nesting."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:612
+#, no-wrap
+msgid "Parentheses"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Commands that operate on parentheses."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:904
+#, no-wrap
+msgid "Comments"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45 original_texis/programs.texi:934
+msgid "Inserting, killing, and aligning comments."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:1145
+#, no-wrap
+msgid "Documentation"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Getting documentation of functions you plan to call."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:1275
+#, no-wrap
+msgid "Hideshow"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Displaying blocks selectively."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:1346
+#, no-wrap
+msgid "Symbol Completion"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Completion on symbol names of your program or language."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:45 original_texis/programs.texi:1383 original_texis/programs.texi:1384
+#, no-wrap
+msgid "MixedCase Words"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Dealing with identifiersLikeThis."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:45 original_texis/programs.texi:1414 original_texis/programs.texi:1415
+#, no-wrap
+msgid "Semantic"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Suite of editing tools based on source code parsing."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:1482
+#, no-wrap
+msgid "Misc for Programs"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Other Emacs features useful for editing programs."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:45 original_texis/programs.texi:1550
+#, no-wrap
+msgid "C Modes"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Special commands of C, C++, Objective-C, Java, IDL, Pike and AWK modes."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:45 original_texis/programs.texi:1869 original_texis/programs.texi:1870
+#, no-wrap
+msgid "Asm Mode"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:45
+msgid "Asm mode and its special features."
+msgstr ""
+
+#. type: ifnottex
+#: original_texis/programs.texi:47
+msgid "* Fortran:: Fortran mode and its special features."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:51
+#, no-wrap
+msgid "Major Modes for Programming Languages"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:52
+#, no-wrap
+msgid "modes for programming languages"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:62
+msgid ""
+"Emacs has specialized major modes (@pxref{Major Modes}) for many programming "
+"languages.  A programming language mode typically specifies the syntax of "
+"expressions, the customary rules for indentation, how to do syntax "
+"highlighting for the language, and how to find the beginning or end of a "
+"function definition.  It often has features for compiling and debugging "
+"programs as well.  The major mode for each language is named after the "
+"language; for instance, the major mode for the C programming language is "
+"@code{c-mode}."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:63
+#, no-wrap
+msgid "Perl mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:64
+#, no-wrap
+msgid "Icon mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:65
+#, no-wrap
+msgid "Makefile mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:66
+#, no-wrap
+msgid "Tcl mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:67
+#, no-wrap
+msgid "CPerl mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:68
+#, no-wrap
+msgid "DSSSL mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:69
+#, no-wrap
+msgid "Octave mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:70
+#, no-wrap
+msgid "Metafont mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:71
+#, no-wrap
+msgid "Modula2 mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:72
+#, no-wrap
+msgid "Prolog mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:73
+#, no-wrap
+msgid "Python mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:74
+#, no-wrap
+msgid "Ruby mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:75
+#, no-wrap
+msgid "Simula mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:76
+#, no-wrap
+msgid "VHDL mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:77
+#, no-wrap
+msgid "M4 mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:78
+#, no-wrap
+msgid "Shell-script mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:79
+#, no-wrap
+msgid "OPascal mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:80
+#, no-wrap
+msgid "PostScript mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:81
+#, no-wrap
+msgid "Conf mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:82
+#, no-wrap
+msgid "DNS mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:83
+#, no-wrap
+msgid "Javascript mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:93
+msgid ""
+"Emacs has programming language modes for Lisp, Scheme, the Scheme-based "
+"DSSSL expression language, Ada, ASM, AWK, C, C++, Fortran, Icon, IDL "
+"(CORBA), IDLWAVE, Java, Javascript, Metafont (@TeX{}'s companion for font "
+"creation), Modula2, Object Pascal, Objective-C, Octave, Pascal, Perl, Pike, "
+"PostScript, Prolog, Python, Ruby, Simula, Tcl, and VHDL@.  An alternative "
+"mode for Perl is called CPerl mode.  Modes are also available for the "
+"scripting languages of the common GNU and Unix shells, and MS-DOS/MS-Windows "
+"@samp{BAT} files, and for makefiles, DNS master files, and various sorts of "
+"configuration files."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:98
+msgid ""
+"Ideally, Emacs should have a major mode for each programming language that "
+"you might want to edit.  If it doesn't have a mode for your favorite "
+"language, the mode might be implemented in a package not distributed with "
+"Emacs (@pxref{Packages}); or you can contribute one."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:99
+#, no-wrap
+msgid "DEL @r{(programming modes)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:100
+#, no-wrap
+msgid "backward-delete-char-untabify"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:109
+msgid ""
+"In most programming languages, indentation should vary from line to line to "
+"illustrate the structure of the program.  Therefore, in most programming "
+"language modes, typing @key{TAB} updates the indentation of the current line "
+"(@pxref{Program Indent}).  Furthermore, @key{DEL} is usually bound to "
+"@code{backward-delete-char-untabify}, which deletes backward treating each "
+"tab as if it were the equivalent number of spaces, so that you can delete "
+"one column of indentation without worrying whether the whitespace consists "
+"of spaces or tabs."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:110
+#, no-wrap
+msgid "mode hook"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:111
+#, no-wrap
+msgid "c-mode-hook"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:112
+#, no-wrap
+msgid "lisp-mode-hook"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:113
+#, no-wrap
+msgid "emacs-lisp-mode-hook"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:114
+#, no-wrap
+msgid "lisp-interaction-mode-hook"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:115
+#, no-wrap
+msgid "scheme-mode-hook"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:121
+msgid ""
+"Entering a programming language mode runs the custom Lisp functions "
+"specified in the hook variable @code{prog-mode-hook}, followed by those "
+"specified in the mode's own mode hook (@pxref{Major Modes}).  For instance, "
+"entering C mode runs the hooks @code{prog-mode-hook} and "
+"@code{c-mode-hook}.  @xref{Hooks}, for information about hooks."
+msgstr ""
+
+#. type: ifnottex
+#: original_texis/programs.texi:127
+msgid ""
+"Separate manuals are available for the modes for Ada (@pxref{Top,, Ada Mode, "
+"ada-mode, Ada Mode}), C/C++/Objective C/Java/Corba IDL/Pike/AWK (@pxref{Top, "
+", CC Mode, ccmode, CC Mode}), and IDLWAVE (@pxref{Top,, IDLWAVE, idlwave, "
+"IDLWAVE User Manual})."
+msgstr ""
+
+#. type: iftex
+#: original_texis/programs.texi:132
+msgid ""
+"The Emacs distribution contains Info manuals for the major modes for Ada, "
+"C/C++/Objective C/Java/Corba IDL/Pike/AWK, and IDLWAVE@.  For Fortran mode, "
+"@pxref{Fortran,,, emacs-xtra, Specialized Emacs Features}."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:135
+#, no-wrap
+msgid "Top-Level Definitions, or Defuns"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:140
+msgid ""
+"In Emacs, a major definition at the top level in the buffer, such as a "
+"function, is called a @dfn{defun}.  The name comes from Lisp, but in Emacs "
+"we use it for all languages."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:147 original_texis/programs.texi:149
+#, no-wrap
+msgid "Left Margin Paren"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:147
+msgid ""
+"An open-paren or similar opening delimiter starts a defun if it is at the "
+"left margin."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:147 original_texis/programs.texi:205 original_texis/programs.texi:206
+#, no-wrap
+msgid "Moving by Defuns"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:147
+msgid "Commands to move over or mark a major definition."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:147 original_texis/programs.texi:266 original_texis/programs.texi:267
+#, no-wrap
+msgid "Imenu"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:147
+msgid "Making buffer indexes as menus."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:147 original_texis/programs.texi:318
+#, no-wrap
+msgid "Which Function"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:147
+msgid "Which Function mode shows which function you are in."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:150
+#, no-wrap
+msgid "Left Margin Convention"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:152
+#, no-wrap
+msgid "open-parenthesis in leftmost column"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:153
+#, no-wrap
+msgid "( in leftmost column"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:160
+msgid ""
+"Many programming-language modes assume by default that any opening delimiter "
+"found at the left margin is the start of a top-level definition, or defun.  "
+"Therefore, @strong{don't put an opening delimiter at the left margin unless "
+"it should have that significance}.  For instance, never put an "
+"open-parenthesis at the left margin in a Lisp file unless it is the start of "
+"a top-level list."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:164
+msgid ""
+"The convention speeds up many Emacs operations, which would otherwise have "
+"to scan back to the beginning of the buffer to analyze the syntax of the "
+"code."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:170
+msgid ""
+"If you don't follow this convention, not only will you have trouble when you "
+"explicitly use the commands for motion by defuns; other features that use "
+"them will also give you trouble.  This includes the indentation commands "
+"(@pxref{Program Indent}) and Font Lock mode (@pxref{Font Lock})."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:177
+msgid ""
+"The most likely problem case is when you want an opening delimiter at the "
+"start of a line inside a string.  To avoid trouble, put an escape character "
+"(@samp{\\}, in C and Emacs Lisp, @samp{/} in some other Lisp dialects) "
+"before the opening delimiter.  This will not affect the contents of the "
+"string, but will prevent that opening delimiter from starting a defun.  "
+"Here's an example:"
+msgstr ""
+
+#. type: example
+#: original_texis/programs.texi:182
+#, no-wrap
+msgid ""
+"  (insert \"Foo:\n"
+"\\(bar)\n"
+"\")\n"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:187
+msgid ""
+"To help you catch violations of this convention, Font Lock mode highlights "
+"confusing opening delimiters (those that ought to be quoted) in bold red."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:188
+#, no-wrap
+msgid "open-paren-in-column-0-is-defun-start"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:195
+msgid ""
+"If you need to override this convention, you can do so by setting the "
+"variable @code{open-paren-in-column-0-is-defun-start}.  If this user option "
+"is set to @code{t} (the default), opening parentheses or braces at column "
+"zero always start defuns.  When it is @code{nil}, defuns are found by "
+"searching for parens or braces at the outermost level."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:204
+msgid ""
+"Usually, you should leave this option at its default value of @code{t}.  If "
+"your buffer contains parentheses or braces in column zero which don't start "
+"defuns, and it is somehow impractical to remove these parentheses or braces, "
+"it might be helpful to set the option to @code{nil}.  Be aware that this "
+"might make scrolling and display in large buffers quite sluggish.  "
+"Furthermore, the parentheses and braces must be correctly matched throughout "
+"the buffer for it to work properly."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:207
+#, no-wrap
+msgid "defuns"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:211
+msgid ""
+"These commands move point or set up the region based on top-level major "
+"definitions, also called @dfn{defuns}."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:213 original_texis/programs.texi:224 original_texis/programs.texi:1594
+#, no-wrap
+msgid "C-M-a"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:216
+msgid "Move to beginning of current or preceding defun (@code{beginning-of-defun})."
+msgstr ""
+
+#. type: itemx
+#: original_texis/programs.texi:216 original_texis/programs.texi:225 original_texis/programs.texi:1595
+#, no-wrap
+msgid "C-M-e"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:218
+msgid "Move to end of current or following defun (@code{end-of-defun})."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:218 original_texis/programs.texi:226 original_texis/programs.texi:1765
+#, no-wrap
+msgid "C-M-h"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:220
+msgid "Put region around whole current or following defun (@code{mark-defun})."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:222
+#, no-wrap
+msgid "move to beginning or end of function"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:223
+#, no-wrap
+msgid "function, move to beginning or end"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:227
+#, no-wrap
+msgid "beginning-of-defun"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:228
+#, no-wrap
+msgid "end-of-defun"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:229
+#, no-wrap
+msgid "mark-defun"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:235
+msgid ""
+"The commands to move to the beginning and end of the current defun are "
+"@kbd{C-M-a} (@code{beginning-of-defun}) and @kbd{C-M-e} "
+"(@code{end-of-defun}).  If you repeat one of these commands, or use a "
+"positive numeric argument, each repetition moves to the next defun in the "
+"direction of motion."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:244
+msgid ""
+"@kbd{C-M-a} with a negative argument @minus{}@var{n} moves forward @var{n} "
+"times to the next beginning of a defun.  This is not exactly the same place "
+"that @kbd{C-M-e} with argument @var{n} would move to; the end of this defun "
+"is not usually exactly the same place as the beginning of the following "
+"defun.  (Whitespace, comments, and perhaps declarations can separate them.)  "
+"Likewise, @kbd{C-M-e} with a negative argument moves back to an end of a "
+"defun, which is not quite the same as @kbd{C-M-a} with a positive argument."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:245
+#, no-wrap
+msgid "C-M-h @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:246
+#, no-wrap
+msgid "c-mark-function"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:256
+msgid ""
+"To operate on the current defun, use @kbd{C-M-h} (@code{mark-defun}), which "
+"sets the mark at the end of the current defun and puts point at its "
+"beginning.  @xref{Marking Objects}.  This is the easiest way to get ready to "
+"kill the defun in order to move it to a different place in the file.  If you "
+"use the command while point is between defuns, it uses the following defun.  "
+"If you use the command while the mark is already active, it sets the mark "
+"but does not move point; furthermore, each successive use of @kbd{C-M-h} "
+"extends the end of the region to include one more defun."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:265
+msgid ""
+"In C mode, @kbd{C-M-h} runs the function @code{c-mark-function}, which is "
+"almost the same as @code{mark-defun}; the difference is that it backs up "
+"over the argument declarations, function name and returned data type so that "
+"the entire C function is inside the region.  This is an example of how major "
+"modes adjust the standard key bindings so that they do their standard jobs "
+"in a way better fitting a particular language.  Other major modes may "
+"replace any or all of these key bindings for that purpose."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:268
+#, no-wrap
+msgid "index of buffer definitions"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:269
+#, no-wrap
+msgid "buffer definitions index"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:276
+msgid ""
+"The Imenu facility offers a way to find the major definitions in a file by "
+"name.  It is also useful in text formatter major modes, where it treats each "
+"chapter, section, etc., as a definition.  (@xref{Xref}, for a more powerful "
+"feature that handles multiple files together.)"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:277
+#, no-wrap
+msgid "imenu"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:282
+msgid ""
+"If you type @kbd{M-x imenu}, it reads the name of a definition using the "
+"minibuffer, then moves point to that definition.  You can use completion to "
+"specify the name; the command always displays the whole list of valid names."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:283
+#, no-wrap
+msgid "imenu-add-menubar-index"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:293
+msgid ""
+"Alternatively, you can bind the command @code{imenu} to a mouse click.  Then "
+"it displays mouse menus for you to select a definition name.  You can also "
+"add the buffer's index to the menu bar by calling "
+"@code{imenu-add-menubar-index}.  If you want to have this menu bar item "
+"available for all buffers in a certain major mode, you can do this by adding "
+"@code{imenu-add-menubar-index} to its mode hook.  But if you have done that, "
+"you will have to wait a little while each time you visit a file in that "
+"mode, while Emacs finds all the definitions in that buffer."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:294
+#, no-wrap
+msgid "imenu-auto-rescan"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:301
+msgid ""
+"When you change the contents of a buffer, if you add or delete definitions, "
+"you can update the buffer's index based on the new contents by invoking the "
+"@samp{*Rescan*} item in the menu.  Rescanning happens automatically if you "
+"set @code{imenu-auto-rescan} to a non-@code{nil} value.  There is no need to "
+"rescan because of small changes in the text."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:302
+#, no-wrap
+msgid "imenu-sort-function"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:308
+msgid ""
+"You can customize the way the menus are sorted by setting the variable "
+"@code{imenu-sort-function}.  By default, names are ordered as they occur in "
+"the buffer; if you want alphabetic sorting, use the symbol "
+"@code{imenu--sort-by-name} as the value.  You can also define your own "
+"comparison function by writing Lisp code."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:310
+msgid "Imenu provides the information to guide Which Function mode"
+msgstr ""
+
+#. type: ifnottex
+#: original_texis/programs.texi:312
+msgid "(@pxref{Which Function})."
+msgstr ""
+
+#. type: iftex
+#: original_texis/programs.texi:315
+msgid "(see below)."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:317
+msgid "The Speedbar can also use it (@pxref{Speedbar})."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:319
+#, no-wrap
+msgid "Which Function Mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:320
+#, no-wrap
+msgid "current function name in mode line"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:325
+msgid ""
+"Which Function mode is a global minor mode (@pxref{Minor Modes})  which "
+"displays the current function name in the mode line, updating it as you move "
+"around in a buffer."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:326
+#, no-wrap
+msgid "which-function-mode"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:327
+#, no-wrap
+msgid "which-func-modes"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:336
+msgid ""
+"To either enable or disable Which Function mode, use the command @kbd{M-x "
+"which-function-mode}.  Which Function mode is a global minor mode.  By "
+"default, it takes effect in all major modes major modes that know how to "
+"support it (i.e., all the major modes that support Imenu).  You can restrict "
+"it to a specific list of major modes by changing the value of the variable "
+"@code{which-func-modes} from @code{t} (which means to support all available "
+"major modes) to a list of major mode names."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:338
+#, no-wrap
+msgid "Indentation for Programs"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:339
+#, no-wrap
+msgid "indentation for programs"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:345
+msgid ""
+"The best way to keep a program properly indented is to use Emacs to reindent "
+"it as you change it.  Emacs has commands to indent either a single line, a "
+"specified number of lines, or all of the lines inside a single parenthetical "
+"grouping."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:349
+msgid ""
+"@xref{Indentation}, for general information about indentation.  This section "
+"describes indentation features specific to programming language modes."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:356 original_texis/programs.texi:362
+#, no-wrap
+msgid "Basic Indent"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:356
+msgid "Indenting a single line."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:356 original_texis/programs.texi:402
+#, no-wrap
+msgid "Multi-line Indent"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:356
+msgid "Commands to reindent many lines at once."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:356 original_texis/programs.texi:457
+#, no-wrap
+msgid "Lisp Indent"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:356
+msgid "Specifying how each Lisp function should be indented."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:356 original_texis/programs.texi:492
+#, no-wrap
+msgid "C Indent"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:356
+msgid "Extra features for indenting C and related modes."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:356 original_texis/programs.texi:536
+#, no-wrap
+msgid "Custom C Indent"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:356
+msgid "Controlling indentation style for C and related modes."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:358
+#, no-wrap
+msgid "pretty-printer"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:361
+msgid ""
+"Emacs also provides a Lisp pretty-printer in the @code{pp} package, which "
+"reformats Lisp objects with nice-looking indentation."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:363
+#, no-wrap
+msgid "Basic Program Indentation Commands"
+msgstr ""
+
+#. type: key{#1}
+#: original_texis/programs.texi:366 original_texis/programs.texi:511 original_texis/programs.texi:1878
+#, no-wrap
+msgid "TAB"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:368
+msgid "Adjust indentation of current line (@code{indent-for-tab-command})."
+msgstr ""
+
+#. type: key{#1}
+#: original_texis/programs.texi:368
+#, no-wrap
+msgid "RET"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:371
+msgid ""
+"Insert a newline, then adjust indentation of following line "
+"(@code{newline})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:373
+#, no-wrap
+msgid "TAB @r{(programming modes)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:374 original_texis/programs.texi:512
+#, no-wrap
+msgid "c-indent-command"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:375
+#, no-wrap
+msgid "indent-line-function"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:376
+#, no-wrap
+msgid "indent-for-tab-command"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:383
+msgid ""
+"The basic indentation command is @key{TAB} (@code{indent-for-tab-command}), "
+"which was documented in @ref{Indentation}.  In programming language modes, "
+"@key{TAB} indents the current line, based on the indentation and syntactic "
+"content of the preceding lines; if the region is active, @key{TAB} indents "
+"each line within the region, not just the current line."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:387
+msgid ""
+"The command @key{RET} (@code{newline}), which was documented in "
+"@ref{Inserting Text}, does the same as @kbd{C-j} followed by @key{TAB}: it "
+"inserts a new line, then adjusts the line's indentation."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:393
+msgid ""
+"When indenting a line that starts within a parenthetical grouping, Emacs "
+"usually places the start of the line under the preceding line within the "
+"group, or under the text after the parenthesis.  If you manually give one of "
+"these lines a nonstandard indentation (e.g., for aesthetic purposes), the "
+"lines below will follow it."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:401
+msgid ""
+"The indentation commands for most programming language modes assume that a "
+"open-parenthesis, open-brace or other opening delimiter at the left margin "
+"is the start of a function.  If the code you are editing violates this "
+"assumption---even if the delimiters occur in strings or comments---you must "
+"set @code{open-paren-in-column-0-is-defun-start} to @code{nil} for "
+"indentation to work properly.  @xref{Left Margin Paren}."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:403
+#, no-wrap
+msgid "Indenting Several Lines"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:411
+msgid ""
+"Sometimes, you may want to reindent several lines of code at a time.  One "
+"way to do this is to use the mark; when the mark is active and the region is "
+"non-empty, @key{TAB} indents every line in the region.  Alternatively, the "
+"command @kbd{C-M-\\} (@code{indent-region}) indents every line in the "
+"region, whether or not the mark is active (@pxref{Indentation Commands})."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:414
+msgid ""
+"In addition, Emacs provides the following commands for indenting large "
+"chunks of code:"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:416 original_texis/programs.texi:426 original_texis/programs.texi:504
+#, no-wrap
+msgid "C-M-q"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:418
+msgid "Reindent all the lines within one parenthetical grouping."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:418
+#, no-wrap
+msgid "C-u @key{TAB}"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:421
+msgid ""
+"Shift an entire parenthetical grouping rigidly sideways so that its first "
+"line is properly indented."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:421
+#, no-wrap
+msgid "M-x indent-code-rigidly"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:424
+msgid ""
+"Shift all the lines in the region rigidly sideways, but do not alter lines "
+"that start inside comments and strings."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:427
+#, no-wrap
+msgid "indent-pp-sexp"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:437
+msgid ""
+"To reindent the contents of a single parenthetical grouping, position point "
+"before the beginning of the grouping and type @kbd{C-M-q}.  This changes the "
+"relative indentation within the grouping, without affecting its overall "
+"indentation (i.e., the indentation of the line where the grouping starts).  "
+"The function that @kbd{C-M-q} runs depends on the major mode; it is "
+"@code{indent-pp-sexp} in Lisp mode, @code{c-indent-exp} in C mode, etc.  To "
+"correct the overall indentation as well, type @key{TAB} first."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:438
+#, no-wrap
+msgid "C-u TAB"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:448
+msgid ""
+"If you like the relative indentation within a grouping but not the "
+"indentation of its first line, move point to that first line and type "
+"@kbd{C-u @key{TAB}}.  In Lisp, C, and some other major modes, @key{TAB} with "
+"a numeric argument reindents the current line as usual, then reindents by "
+"the same amount all the lines in the parenthetical grouping starting on the "
+"current line.  It is clever, though, and does not alter lines that start "
+"inside strings.  Neither does it alter C preprocessor lines when in C mode, "
+"but it does reindent any continuation lines that may be attached to them."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:449
+#, no-wrap
+msgid "indent-code-rigidly"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:456
+msgid ""
+"The command @kbd{M-x indent-code-rigidly} rigidly shifts all the lines in "
+"the region sideways, like @code{indent-rigidly} does (@pxref{Indentation "
+"Commands}).  It doesn't alter the indentation of lines that start inside a "
+"string, unless the region also starts inside that string.  The prefix arg "
+"specifies the number of columns to indent."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:458
+#, no-wrap
+msgid "Customizing Lisp Indentation"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:459
+#, no-wrap
+msgid "customizing Lisp indentation"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:465
+msgid ""
+"The indentation pattern for a Lisp expression can depend on the function "
+"called by the expression.  For each Lisp function, you can choose among "
+"several predefined patterns of indentation, or define an arbitrary one with "
+"a Lisp program."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:471
+msgid ""
+"The standard pattern of indentation is as follows: the second line of the "
+"expression is indented under the first argument, if that is on the same line "
+"as the beginning of the expression; otherwise, the second line is indented "
+"underneath the function name.  Each following line is indented under the "
+"previous line whose nesting depth is the same."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:472
+#, no-wrap
+msgid "lisp-indent-offset"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:477
+msgid ""
+"If the variable @code{lisp-indent-offset} is non-@code{nil}, it overrides "
+"the usual indentation pattern for the second line of an expression, so that "
+"such lines are always indented @code{lisp-indent-offset} more columns than "
+"the containing list."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:478
+#, no-wrap
+msgid "lisp-body-indent"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:484
+msgid ""
+"Certain functions override the standard pattern.  Functions whose names "
+"start with @code{def} treat the second lines as the start of a @dfn{body}, "
+"by indenting the second line @code{lisp-body-indent} additional columns "
+"beyond the open-parenthesis that starts the expression."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:485
+#, no-wrap
+msgid "@code{lisp-indent-function} property"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:491
+msgid ""
+"You can override the standard pattern in various ways for individual "
+"functions, according to the @code{lisp-indent-function} property of the "
+"function name.  This is normally done for macro definitions, using the "
+"@code{declare} construct.  @xref{Defining Macros,,, elisp, the Emacs Lisp "
+"Reference Manual}."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:493
+#, no-wrap
+msgid "Commands for C Indentation"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:496
+msgid "Here are special features for indentation in C mode and related modes:"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:498
+#, no-wrap
+msgid "C-c C-q"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:499
+#, no-wrap
+msgid "C-c C-q @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:500
+#, no-wrap
+msgid "c-indent-defun"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:503
+msgid ""
+"Reindent the current top-level function definition or aggregate type "
+"declaration (@code{c-indent-defun})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:505
+#, no-wrap
+msgid "C-M-q @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:506
+#, no-wrap
+msgid "c-indent-exp"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:510
+msgid ""
+"Reindent each line in the balanced expression that follows point "
+"(@code{c-indent-exp}).  A prefix argument inhibits warning messages about "
+"invalid syntax."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:515
+msgid ""
+"Reindent the current line, and/or in some cases insert a tab character "
+"(@code{c-indent-command})."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:516
+#, no-wrap
+msgid "c-tab-always-indent"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:519
+msgid ""
+"If @code{c-tab-always-indent} is @code{t}, this command always reindents the "
+"current line and does nothing else.  This is the default."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:524
+msgid ""
+"If that variable is @code{nil}, this command reindents the current line only "
+"if point is at the left margin or in the line's indentation; otherwise, it "
+"inserts a tab (or the equivalent number of spaces, if "
+"@code{indent-tabs-mode} is @code{nil})."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:527
+msgid ""
+"Any other value (not @code{nil} or @code{t}) means always reindent the line, "
+"and also insert a tab if within a comment or a string."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:532
+msgid ""
+"To reindent the whole current buffer, type @kbd{C-x h C-M-\\}.  This first "
+"selects the whole buffer as the region, then reindents that region."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:535
+msgid ""
+"To reindent the current block, use @kbd{C-M-u C-M-q}.  This moves to the "
+"front of the block and then reindents it all."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:537
+#, no-wrap
+msgid "Customizing C Indentation"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:538
+#, no-wrap
+msgid "style (for indentation)"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:546
+msgid ""
+"C mode and related modes use a flexible mechanism for customizing "
+"indentation.  C mode indents a source line in two steps: first it classifies "
+"the line syntactically according to its contents and context; second, it "
+"determines the indentation offset associated by your selected @dfn{style} "
+"with the syntactic construct and adds this onto the indentation of the "
+"@dfn{anchor statement}."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:548
+#, no-wrap
+msgid "C-c . @var{style} @key{RET}"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:550
+msgid "Select a predefined style @var{style} (@code{c-set-style})."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:562
+msgid ""
+"A @dfn{style} is a named collection of customizations that can be used in C "
+"mode and the related modes.  @ref{Styles,,, ccmode, The CC Mode Manual}, for "
+"a complete description.  Emacs comes with several predefined styles, "
+"including @code{gnu}, @code{k&r}, @code{bsd}, @code{stroustrup}, "
+"@code{linux}, @code{python}, @code{java}, @code{whitesmith}, "
+"@code{ellemtel}, and @code{awk}.  Some of these styles are primarily "
+"intended for one language, but any of them can be used with any of the "
+"languages supported by these modes.  To find out what a style looks like, "
+"select it and reindent some code, e.g., by typing @kbd{C-M-q} at the start "
+"of a function definition."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:563
+#, no-wrap
+msgid "C-c . @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:564
+#, no-wrap
+msgid "c-set-style"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:571
+msgid ""
+"To choose a style for the current buffer, use the command @w{@kbd{C-c .}}.  "
+"Specify a style name as an argument (case is not significant).  This command "
+"affects the current buffer only, and it affects only future invocations of "
+"the indentation commands; it does not reindent the code already in the "
+"buffer.  To reindent the whole buffer in the new style, you can type "
+"@kbd{C-x h C-M-\\}."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:572
+#, no-wrap
+msgid "c-default-style"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:578
+msgid ""
+"You can also set the variable @code{c-default-style} to specify the default "
+"style for various major modes.  Its value should be either the style's name "
+"(a string) or an alist, in which each element specifies one major mode and "
+"which indentation style to use for it.  For example,"
+msgstr ""
+
+#. type: example
+#: original_texis/programs.texi:584
+#, no-wrap
+msgid ""
+"(setq c-default-style\n"
+"      '((java-mode . \"java\")\n"
+"        (awk-mode . \"awk\")\n"
+"        (other . \"gnu\")))\n"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:593
+msgid ""
+"specifies explicit choices for Java and AWK modes, and the default "
+"@samp{gnu} style for the other C-like modes.  (These settings are actually "
+"the defaults.)  This variable takes effect when you select one of the C-like "
+"major modes; thus, if you specify a new default style for Java mode, you can "
+"make it take effect in an existing Java mode buffer by typing @kbd{M-x "
+"java-mode} there."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:597
+msgid ""
+"The @code{gnu} style specifies the formatting recommended by the GNU Project "
+"for C; it is the default, so as to encourage use of our recommended style."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:603
+msgid ""
+"@xref{Indentation Engine Basics,,, ccmode, the CC Mode Manual}, and "
+"@ref{Customizing Indentation,,, ccmode, the CC Mode Manual}, for more "
+"information on customizing indentation for C and related modes, including "
+"how to override parts of an existing style and how to define your own "
+"styles."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:604
+#, no-wrap
+msgid "c-guess"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:605
+#, no-wrap
+msgid "c-guess-install"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:611
+msgid ""
+"As an alternative to specifying a style, you can tell Emacs to guess a style "
+"by typing @kbd{M-x c-guess} in a sample code buffer.  You can then apply the "
+"guessed style to other buffers with @kbd{M-x c-guess-install}.  "
+"@xref{Guessing the Style,,, ccmode, the CC Mode Manual}, for details."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:613
+#, no-wrap
+msgid "Commands for Editing with Parentheses"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:615
+#, no-wrap
+msgid "check-parens"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:616
+#, no-wrap
+msgid "unbalanced parentheses and quotes"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:620
+msgid ""
+"This section describes the commands and features that take advantage of the "
+"parenthesis structure in a program, or help you keep it balanced."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:627
+msgid ""
+"When talking about these facilities, the term ``parenthesis'' also includes "
+"braces, brackets, or whatever delimiters are defined to match in pairs.  The "
+"major mode controls which delimiters are significant, through the syntax "
+"table (@pxref{Syntax Tables,, Syntax Tables, elisp, The Emacs Lisp Reference "
+"Manual}).  In Lisp, only parentheses count; in C, these commands apply to "
+"braces and brackets too."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:630
+msgid ""
+"You can use @kbd{M-x check-parens} to find any unbalanced parentheses and "
+"unbalanced string quotes in the buffer."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:636 original_texis/programs.texi:638
+#, no-wrap
+msgid "Expressions"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:636
+msgid "Expressions with balanced parentheses."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:636 original_texis/programs.texi:732
+#, no-wrap
+msgid "Moving by Parens"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:636
+msgid "Commands for moving up, down and across in the structure of parentheses."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:636 original_texis/programs.texi:789
+#, no-wrap
+msgid "Matching"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:636
+msgid "Insertion of a close-delimiter flashes matching open."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:639
+#, no-wrap
+msgid "Expressions with Balanced Parentheses"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:641
+#, no-wrap
+msgid "sexp"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:642
+#, no-wrap
+msgid "expression"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:643
+#, no-wrap
+msgid "balanced expression"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:651
+msgid ""
+"Each programming language mode has its own definition of a @dfn{balanced "
+"expression}.  Balanced expressions typically include individual symbols, "
+"numbers, and string constants, as well as pieces of code enclosed in a "
+"matching pair of delimiters.  The following commands deal with balanced "
+"expressions (in Emacs, such expressions are referred to internally as "
+"@dfn{sexps}@footnote{The word ``sexp'' is used to refer to an expression in "
+"Lisp.})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:653 original_texis/programs.texi:666
+#, no-wrap
+msgid "C-M-f"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:655
+msgid "Move forward over a balanced expression (@code{forward-sexp})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:655 original_texis/programs.texi:667
+#, no-wrap
+msgid "C-M-b"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:657
+msgid "Move backward over a balanced expression (@code{backward-sexp})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:657 original_texis/programs.texi:692
+#, no-wrap
+msgid "C-M-k"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:659
+msgid "Kill balanced expression forward (@code{kill-sexp})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:659 original_texis/programs.texi:699
+#, no-wrap
+msgid "C-M-t"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:661
+msgid "Transpose expressions (@code{transpose-sexps})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:661 original_texis/programs.texi:710
+#, no-wrap
+msgid "C-M-@@"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:662 original_texis/programs.texi:711
+#, no-wrap
+msgid "C-M-@key{SPC}"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:664
+msgid "Put mark after following expression (@code{mark-sexp})."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:668
+#, no-wrap
+msgid "forward-sexp"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:669
+#, no-wrap
+msgid "backward-sexp"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:676
+msgid ""
+"To move forward over a balanced expression, use @kbd{C-M-f} "
+"(@code{forward-sexp}).  If the first significant character after point is an "
+"opening delimiter (e.g., @samp{(}, @samp{[} or @samp{@{} in C), this command "
+"moves past the matching closing delimiter.  If the character begins a "
+"symbol, string, or number, the command moves over that."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:682
+msgid ""
+"The command @kbd{C-M-b} (@code{backward-sexp}) moves backward over a "
+"balanced expression---like @kbd{C-M-f}, but in the reverse direction.  If "
+"the expression is preceded by any prefix characters (single-quote, backquote "
+"and comma, in Lisp), the command moves back over them as well."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:690
+msgid ""
+"@kbd{C-M-f} or @kbd{C-M-b} with an argument repeats that operation the "
+"specified number of times; with a negative argument means to move in the "
+"opposite direction.  In most modes, these two commands move across comments "
+"as if they were whitespace.  Note that their keys, @kbd{C-M-f} and "
+"@kbd{C-M-b}, are analogous to @kbd{C-f} and @kbd{C-b}, which move by "
+"characters (@pxref{Moving Point}), and @kbd{M-f} and @kbd{M-b}, which move "
+"by words (@pxref{Words})."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:691
+#, no-wrap
+msgid "killing expressions"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:693
+#, no-wrap
+msgid "kill-sexp"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:697
+msgid ""
+"To kill a whole balanced expression, type @kbd{C-M-k} (@code{kill-sexp}).  "
+"This kills the text that @kbd{C-M-f} would move over."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:698
+#, no-wrap
+msgid "transposition of expressions"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:700
+#, no-wrap
+msgid "transpose-sexps"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:709
+msgid ""
+"@kbd{C-M-t} (@code{transpose-sexps}) switches the positions of the previous "
+"balanced expression and the next one.  It is analogous to the @kbd{C-t} "
+"command, which transposes characters (@pxref{Transpose}).  An argument to "
+"@kbd{C-M-t} serves as a repeat count, moving the previous expression over "
+"that many following ones.  A negative argument moves the previous balanced "
+"expression backwards across those before it.  An argument of zero, rather "
+"than doing nothing, transposes the balanced expressions ending at or after "
+"point and the mark."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:712
+#, no-wrap
+msgid "mark-sexp"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:722
+msgid ""
+"To operate on balanced expressions with a command which acts on the region, "
+"type @kbd{C-M-@key{SPC}} (@code{mark-sexp}).  This sets the mark where "
+"@kbd{C-M-f} would move to.  While the mark is active, each successive call "
+"to this command extends the region by shifting the mark by one expression.  "
+"Positive or negative numeric arguments move the mark forward or backward by "
+"the specified number of expressions.  The alias @kbd{C-M-@@} is equivalent "
+"to @kbd{C-M-@key{SPC}}.  @xref{Marking Objects}, for more information about "
+"this and related commands."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:731
+msgid ""
+"In languages that use infix operators, such as C, it is not possible to "
+"recognize all balanced expressions because there can be multiple "
+"possibilities at a given position.  For example, C mode does not treat "
+"@samp{foo + bar} as a single expression, even though it @emph{is} one C "
+"expression; instead, it recognizes @samp{foo} as one expression and "
+"@samp{bar} as another, with the @samp{+} as punctuation between them.  "
+"However, C mode recognizes @samp{(foo + bar)} as a single expression, "
+"because of the parentheses."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:733
+#, no-wrap
+msgid "Moving in the Parenthesis Structure"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:735
+#, no-wrap
+msgid "parenthetical groupings"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:736
+#, no-wrap
+msgid "parentheses, moving across"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:737
+#, no-wrap
+msgid "matching parenthesis and braces, moving to"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:738
+#, no-wrap
+msgid "braces, moving across"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:739
+#, no-wrap
+msgid "list commands"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:749
+msgid ""
+"The following commands move over groupings delimited by parentheses (or "
+"whatever else serves as delimiters in the language you are working with).  "
+"They ignore strings and comments, including any parentheses within them, and "
+"also ignore parentheses that are quoted with an escape character.  These "
+"commands are mainly intended for editing programs, but can be useful for "
+"editing any text containing parentheses.  They are referred to internally as "
+"``list commands'' because in Lisp these groupings are lists."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:753
+msgid ""
+"These commands assume that the starting point is not inside a string or a "
+"comment.  If you invoke them from inside a string or comment, the results "
+"are unreliable."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:755 original_texis/programs.texi:765
+#, no-wrap
+msgid "C-M-n"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:757
+msgid "Move forward over a parenthetical group (@code{forward-list})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:757 original_texis/programs.texi:766
+#, no-wrap
+msgid "C-M-p"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:759
+msgid "Move backward over a parenthetical group (@code{backward-list})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:759 original_texis/programs.texi:773
+#, no-wrap
+msgid "C-M-u"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:761
+msgid "Move up in parenthesis structure (@code{backward-up-list})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:761 original_texis/programs.texi:782
+#, no-wrap
+msgid "C-M-d"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:763
+msgid "Move down in parenthesis structure (@code{down-list})."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:767
+#, no-wrap
+msgid "forward-list"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:768
+#, no-wrap
+msgid "backward-list"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:772
+msgid ""
+"The list commands @kbd{C-M-n} (@code{forward-list}) and @kbd{C-M-p} "
+"(@code{backward-list}) move forward or backward over one (or @var{n}) "
+"parenthetical groupings."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:774
+#, no-wrap
+msgid "backward-up-list"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:781
+msgid ""
+"@kbd{C-M-n} and @kbd{C-M-p} try to stay at the same level in the parenthesis "
+"structure.  To move @emph{up} one (or @var{n}) levels, use @kbd{C-M-u} "
+"(@code{backward-up-list}).  @kbd{C-M-u} moves backward up past one unmatched "
+"opening delimiter.  A positive argument serves as a repeat count; a negative "
+"argument reverses the direction of motion, so that the command moves forward "
+"and up one or more levels."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:783
+#, no-wrap
+msgid "down-list"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:788
+msgid ""
+"To move @emph{down} in the parenthesis structure, use @kbd{C-M-d} "
+"(@code{down-list}).  In Lisp mode, where @samp{(} is the only opening "
+"delimiter, this is nearly the same as searching for a @samp{(}.  An argument "
+"specifies the number of levels to go down."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:790
+#, no-wrap
+msgid "Matching Parentheses"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:791
+#, no-wrap
+msgid "matching parentheses"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:792
+#, no-wrap
+msgid "parentheses, displaying matches"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:797
+msgid ""
+"Emacs has a number of @dfn{parenthesis matching} features, which make it "
+"easy to see how and whether parentheses (or other delimiters)  match up."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:805
+msgid ""
+"Whenever you type a self-inserting character that is a closing delimiter, "
+"Emacs briefly indicates the location of the matching opening delimiter, "
+"provided that is on the screen.  If it is not on the screen, Emacs displays "
+"some of the text near it in the echo area.  Either way, you can tell which "
+"grouping you are closing off.  If the opening delimiter and closing "
+"delimiter are mismatched---such as in @samp{[x)}---a warning message is "
+"displayed in the echo area."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:806
+#, no-wrap
+msgid "blink-matching-paren"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:807
+#, no-wrap
+msgid "blink-matching-paren-distance"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:808
+#, no-wrap
+msgid "blink-matching-delay"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:810
+msgid "Three variables control the display of matching parentheses:"
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:818
+msgid ""
+"@code{blink-matching-paren} turns the feature on or off: @code{nil} disables "
+"it, but the default is @code{t} to enable it.  Set it to @code{jump} to make "
+"indication work by momentarily moving the cursor to the matching opening "
+"delimiter.  Set it to @code{jump-offscreen} to make the cursor jump, even if "
+"the opening delimiter is off screen."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:823
+msgid ""
+"@code{blink-matching-delay} says how many seconds to keep indicating the "
+"matching opening delimiter.  This may be an integer or floating-point "
+"number; the default is 1."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:829
+msgid ""
+"@code{blink-matching-paren-distance} specifies how many characters back to "
+"search to find the matching opening delimiter.  If the match is not found in "
+"that distance, Emacs stops scanning and nothing is displayed.  The default "
+"is 102400."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:831
+#, no-wrap
+msgid "Show Paren mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:832
+#, no-wrap
+msgid "highlighting matching parentheses"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:833
+#, no-wrap
+msgid "show-paren-mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:841
+msgid ""
+"Show Paren mode, a global minor mode, provides a more powerful kind of "
+"automatic matching.  Whenever point is before an opening delimiter or after "
+"a closing delimiter, the delimiter, its matching delimiter, and optionally "
+"the text between them are highlighted.  To toggle Show Paren mode, type "
+"@kbd{M-x show-paren-mode}.  To customize it, type @kbd{M-x customize-group "
+"@key{RET} paren-showing}.  The customizable options which control the "
+"operation of this mode include:"
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:847
+msgid ""
+"@code{show-paren-highlight-open-paren} controls whether to highlight an open "
+"paren when point stands just before it, and hence its position is marked by "
+"the cursor anyway.  The default is non-@code{nil} (yes)."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:855
+msgid ""
+"@code{show-paren-style} controls whether just the two parens, or also the "
+"space between them get highlighted.  The valid options here are "
+"@code{parenthesis} (show the matching paren), @code{expression} (highlight "
+"the entire expression enclosed by the parens), and @code{mixed} (highlight "
+"the matching paren if it is visible, the expression otherwise)."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:859
+msgid ""
+"@code{show-paren-when-point-inside-paren}, when non-@code{nil}, causes "
+"highlighting also when point is on the inside of a parenthesis."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:865
+msgid ""
+"@code{show-paren-when-point-in-periphery}, when non-@code{nil}, causes "
+"highlighting also when point is in whitespace at the beginning or end of a "
+"line, and there is a paren at, respectively, the first or last, or the last, "
+"non-whitespace position on the line."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:867
+#, no-wrap
+msgid "Electric Pair mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:868
+#, no-wrap
+msgid "inserting matching parentheses"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:869
+#, no-wrap
+msgid "electric-pair-mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:877
+msgid ""
+"Electric Pair mode, a global minor mode, provides a way to easily insert "
+"matching delimiters.  Whenever you insert an opening delimiter, the matching "
+"closing delimiter is automatically inserted as well, leaving point between "
+"the two.  Conversely, when you insert a closing delimiter over an existing "
+"one, no inserting takes places and that position is simply skipped over.  "
+"These variables control additional features of Electric Pair mode:"
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:883
+msgid ""
+"@code{electric-pair-preserve-balance}, when non-@code{nil}, makes the "
+"default pairing logic balance out the number of opening and closing "
+"delimiters."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:888
+msgid ""
+"@code{electric-pair-delete-adjacent-pairs}, when non-@code{nil}, makes "
+"backspacing between two adjacent delimiters also automatically delete the "
+"closing delimiter."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:893
+msgid ""
+"@code{electric-pair-open-newline-between-pairs}, when non-@code{nil}, makes "
+"inserting inserting a newline between two adjacent pairs also automatically "
+"open and extra newline after point."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:898
+msgid ""
+"@code{electric-pair-skip-whitespace}, when non-@code{nil}, causes the minor "
+"mode to skip whitespace forward before deciding whether to skip over the "
+"closing delimiter."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:903
+msgid ""
+"To toggle Electric Pair mode, type @kbd{M-x electric-pair-mode}.  To toggle "
+"the mode in a single buffer, use @kbd{M-x electric-pair-local-mode}."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:905
+#, no-wrap
+msgid "Manipulating Comments"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:906
+#, no-wrap
+msgid "comments"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:912
+msgid ""
+"Because comments are such an important part of programming, Emacs provides "
+"special commands for editing and inserting comments.  It can also do spell "
+"checking on comments with Flyspell Prog mode (@pxref{Spelling})."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:920
+msgid ""
+"Some major modes have special rules for indenting different kinds of "
+"comments.  For example, in Lisp code, comments starting with two semicolons "
+"are indented as if they were lines of code, while those starting with three "
+"semicolons are supposed to be aligned to the left margin and are often used "
+"for sectioning purposes.  Emacs understand these conventions; for instance, "
+"typing @key{TAB} on a comment line will indent the comment to the "
+"appropriate position."
+msgstr ""
+
+#. type: example
+#: original_texis/programs.texi:928
+#, no-wrap
+msgid ""
+";; This function is just an example.\n"
+";;; Here either two or three semicolons are appropriate.\n"
+"(defun foo (x)\n"
+";;;  And now, the first part of the function:\n"
+"  ;; The following line adds one.\n"
+"  (1+ x))           ; This line adds one.\n"
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:934 original_texis/programs.texi:936 original_texis/programs.texi:937
+#, no-wrap
+msgid "Comment Commands"
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:934 original_texis/programs.texi:1045
+#, no-wrap
+msgid "Multi-Line Comments"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:934
+msgid "Commands for adding and editing multi-line comments."
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:934
+msgid "Options for Comments::Customizing the comment features."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:938
+#, no-wrap
+msgid "indentation for comments"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:939
+#, no-wrap
+msgid "alignment for comments"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:942
+msgid "The following commands operate on comments:"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:944 original_texis/programs.texi:962
+#, no-wrap
+msgid "M-;"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:947
+msgid ""
+"Insert or realign comment on current line; if the region is active, comment "
+"or uncomment the region instead (@code{comment-dwim})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:947 original_texis/programs.texi:1004
+#, no-wrap
+msgid "C-x C-;"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:949
+msgid "Comment or uncomment the current line (@code{comment-line})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:949 original_texis/programs.texi:1016
+#, no-wrap
+msgid "C-u M-;"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:951
+msgid "Kill comment on current line (@code{comment-kill})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:951 original_texis/programs.texi:1087
+#, no-wrap
+msgid "C-x ;"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:953
+msgid "Set comment column (@code{comment-set-column})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:953 original_texis/programs.texi:1048
+#, no-wrap
+msgid "C-M-j"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:954 original_texis/programs.texi:1049
+#, no-wrap
+msgid "M-j"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:957
+msgid ""
+"Like @key{RET} followed by inserting and aligning a comment "
+"(@code{comment-indent-new-line}).  @xref{Multi-Line Comments}."
+msgstr ""
+
+#. type: kbd{#1}
+#: original_texis/programs.texi:957
+#, no-wrap
+msgid "M-x comment-region"
+msgstr ""
+
+#. type: itemx
+#: original_texis/programs.texi:958
+#, no-wrap
+msgid "@kbd{C-c C-c} (in C-like modes)"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:960
+msgid "Add comment delimiters to all the lines in the region."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:963
+#, no-wrap
+msgid "comment-dwim"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:969
+msgid ""
+"The command to create or align a comment is @kbd{M-;} "
+"(@code{comment-dwim}).  The word ``dwim'' is an acronym for ``Do What I "
+"Mean''; it indicates that this command can be used for many different jobs "
+"relating to comments, depending on the situation where you use it."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:975
+msgid ""
+"When a region is active (@pxref{Mark}), @kbd{M-;} either adds comment "
+"delimiters to the region, or removes them.  If every line in the region is "
+"already a comment, it uncomments each of those lines by removing their "
+"comment delimiters.  Otherwise, it adds comment delimiters to enclose the "
+"text in the region."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:980
+msgid ""
+"If you supply a prefix argument to @kbd{M-;} when a region is active, that "
+"specifies the number of comment delimiters to add or delete.  A positive "
+"argument @var{n} adds @var{n} delimiters, while a negative argument @var{-n} "
+"removes @var{n} delimiters."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:994
+msgid ""
+"If the region is not active, and there is no existing comment on the current "
+"line, @kbd{M-;} adds a new comment to the current line.  If the line is "
+"blank (i.e., empty or containing only whitespace characters), the comment is "
+"indented to the same position where @key{TAB} would indent to (@pxref{Basic "
+"Indent}).  If the line is non-blank, the comment is placed after the last "
+"non-whitespace character on the line; normally, Emacs tries putting it at "
+"the column specified by the variable @code{comment-column} (@pxref{Options "
+"for Comments}), but if the line already extends past that column, it puts "
+"the comment at some suitable position, usually separated from the "
+"non-comment text by at least one space.  In each case, Emacs places point "
+"after the comment's starting delimiter, so that you can start typing the "
+"comment text right away."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1002
+msgid ""
+"You can also use @kbd{M-;} to align an existing comment.  If a line already "
+"contains the comment-start string, @kbd{M-;} realigns it to the conventional "
+"alignment and moves point after the comment's starting delimiter.  As an "
+"exception, comments starting in column 0 are not moved.  Even when an "
+"existing comment is properly aligned, @kbd{M-;} is still useful for moving "
+"directly to the start of the comment text."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1003
+#, no-wrap
+msgid "comment-line"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1014
+msgid ""
+"@kbd{C-x C-;} (@code{comment-line}) comments or uncomments complete lines.  "
+"When a region is active (@pxref{Mark}), @kbd{C-x C-;} either comments or "
+"uncomments the lines in the region.  If the region is not active, this "
+"command comments or uncomments the line point is on.  With a positive prefix "
+"argument @var{n}, it operates on @var{n} lines starting with the current "
+"one; with a negative @var{n}, it affects @var{n} preceding lines.  After "
+"invoking this command with a negative argument, successive invocations with "
+"a positive argument will operate on preceding lines as if the argument were "
+"negated."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1015
+#, no-wrap
+msgid "comment-kill"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1025
+msgid ""
+"@kbd{C-u M-;} (@code{comment-dwim} with a prefix argument) kills any comment "
+"on the current line, along with the whitespace before it.  Since the comment "
+"is saved to the kill ring, you can reinsert it on another line by moving to "
+"the end of that line, doing @kbd{C-y}, and then @kbd{M-;} to realign the "
+"comment.  You can achieve the same effect as @kbd{C-u M-;} by typing "
+"@kbd{M-x comment-kill} (@code{comment-dwim} actually calls "
+"@code{comment-kill} as a subroutine when it is given a prefix argument)."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1026
+#, no-wrap
+msgid "C-c C-c (C mode)"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1027
+#, no-wrap
+msgid "comment-region"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1028
+#, no-wrap
+msgid "uncomment-region"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1037
+msgid ""
+"The command @kbd{M-x comment-region} is equivalent to calling @kbd{M-;} on "
+"an active region, except that it always acts on the region, even if the mark "
+"is inactive.  In C mode and related modes, this command is bound to @kbd{C-c "
+"C-c}.  The command @kbd{M-x uncomment-region} uncomments each line in the "
+"region; a numeric prefix argument specifies the number of comment delimiters "
+"to remove (negative arguments specify the number of comment to delimiters to "
+"add)."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1044
+msgid ""
+"For C-like modes, you can configure the exact effect of @kbd{M-;} by setting "
+"the variables @code{c-indent-comment-alist} and "
+"@code{c-indent-comments-syntactically-p}.  For example, on a line ending in "
+"a closing brace, @kbd{M-;} puts the comment one space after the brace rather "
+"than at @code{comment-column}.  For full details see @ref{Comment "
+"Commands,,, ccmode, The CC Mode Manual}."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:1046
+#, no-wrap
+msgid "Multiple Lines of Comments"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1050
+#, no-wrap
+msgid "blank lines in programs"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1051
+#, no-wrap
+msgid "comment-indent-new-line"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1052
+#, no-wrap
+msgid "comment-multi-line"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1057
+msgid ""
+"If you are typing a comment and wish to continue it to another line, type "
+"@kbd{M-j} or @kbd{C-M-j} (@code{comment-indent-new-line}).  This breaks the "
+"current line, and inserts the necessary comment delimiters and indentation "
+"to continue the comment."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1064
+msgid ""
+"For languages with closing comment delimiters (e.g., @samp{*/} in C), the "
+"exact behavior of @kbd{M-j} depends on the value of the variable "
+"@code{comment-multi-line}.  If the value is @code{nil}, the command closes "
+"the comment on the old line and starts a new comment on the new line.  "
+"Otherwise, it opens a new line within the current comment delimiters."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1068
+msgid ""
+"When Auto Fill mode is on, going past the fill column while typing a comment "
+"also continues the comment, in the same way as an explicit invocation of "
+"@kbd{M-j}."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1071
+msgid ""
+"To turn existing lines into comment lines, use @kbd{M-;} with the region "
+"active, or use @kbd{M-x comment-region}"
+msgstr ""
+
+#. type: ifinfo
+#: original_texis/programs.texi:1073
+msgid "(@pxref{Comment Commands})."
+msgstr ""
+
+#. type: ifnotinfo
+#: original_texis/programs.texi:1076
+msgid "as described in the preceding section."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1082
+msgid ""
+"You can configure C Mode such that when you type a @samp{/} at the start of "
+"a line in a multi-line block comment, this closes the comment.  Enable the "
+"@code{comment-close-slash} clean-up for this.  @xref{Clean-ups,,, ccmode, "
+"The CC Mode Manual}."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:1083
+#, no-wrap
+msgid "Options for Comments"
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:1084
+#, no-wrap
+msgid "Options Controlling Comments"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1086
+#, no-wrap
+msgid "comment-column"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1088
+#, no-wrap
+msgid "comment-set-column"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1099
+msgid ""
+"As mentioned in @ref{Comment Commands}, when the @kbd{M-j} command adds a "
+"comment to a line, it tries to place the comment at the column specified by "
+"the buffer-local variable @code{comment-column}.  You can set either the "
+"local value or the default value of this buffer-local variable in the usual "
+"way (@pxref{Locals}).  Alternatively, you can type @kbd{C-x ;} "
+"(@code{comment-set-column}) to set the value of @code{comment-column} in the "
+"current buffer to the column where point is currently located.  @kbd{C-u C-x "
+";} sets the comment column to match the last comment before point in the "
+"buffer, and then does a @kbd{M-;} to align the current line's comment under "
+"the previous one."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1100
+#, no-wrap
+msgid "comment-start-skip"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1112
+msgid ""
+"The comment commands recognize comments based on the regular expression that "
+"is the value of the variable @code{comment-start-skip}.  Make sure this "
+"regexp does not match the null string.  It may match more than the comment "
+"starting delimiter in the strictest sense of the word; for example, in C "
+"mode the value of the variable is @code{@w{\"\\\\(//+\\\\|/\\\\*+\\\\)\\\\s "
+"*\"}}, which matches extra stars and spaces after the @samp{/*} itself, and "
+"accepts C++ style comments also.  (Note that @samp{\\\\} is needed in Lisp "
+"syntax to include a @samp{\\} in the string, which is needed to deny the "
+"first star its special meaning in regexp syntax.  @xref{Regexp Backslash}.)"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1113
+#, no-wrap
+msgid "comment-start"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1114
+#, no-wrap
+msgid "comment-end"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1122
+msgid ""
+"When a comment command makes a new comment, it inserts the value of "
+"@code{comment-start} as an opening comment delimiter.  It also inserts the "
+"value of @code{comment-end} after point, as a closing comment delimiter.  "
+"For example, in Lisp mode, @code{comment-start} is @samp{\";\"} and "
+"@code{comment-end} is @code{\"\"} (the empty string).  In C mode, "
+"@code{comment-start} is @code{\"/* \"} and @code{comment-end} is @code{\" "
+"*/\"}."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1123
+#, no-wrap
+msgid "comment-padding"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1129
+msgid ""
+"The variable @code{comment-padding} specifies a string that the commenting "
+"commands should insert between the comment delimiter(s) and the comment "
+"text.  The default, @samp{\" \"}, specifies a single space.  Alternatively, "
+"the value can be a number, which specifies that number of spaces, or "
+"@code{nil}, which means no spaces at all."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1133
+msgid ""
+"The variable @code{comment-multi-line} controls how @kbd{M-j} and Auto Fill "
+"mode continue comments over multiple lines.  @xref{Multi-Line Comments}."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1134
+#, no-wrap
+msgid "comment-indent-function"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1144
+msgid ""
+"The variable @code{comment-indent-function} should contain a function that "
+"will be called to compute the alignment for a newly inserted comment or for "
+"aligning an existing comment.  It is set differently by various major "
+"modes.  The function is called with no arguments, but with point at the "
+"beginning of the comment, or at the end of a line if a new comment is to be "
+"inserted.  It should return the column in which the comment ought to start.  "
+"For example, in Lisp mode, the indent hook function bases its decision on "
+"how many semicolons begin an existing comment, and on the code in the "
+"preceding lines."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:1146
+#, no-wrap
+msgid "Documentation Lookup"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1151
+msgid ""
+"Emacs provides several features you can use to look up the documentation of "
+"functions, variables and commands that you plan to use in your program."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:1156 original_texis/programs.texi:1158
+#, no-wrap
+msgid "Info Lookup"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:1156
+msgid "Looking up library functions and commands in Info files."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:1156 original_texis/programs.texi:1182
+#, no-wrap
+msgid "Man Page"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:1156
+msgid "Looking up man pages of library functions and commands."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:1156 original_texis/programs.texi:1254
+#, no-wrap
+msgid "Lisp Doc"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:1156
+msgid "Looking up Emacs Lisp functions, etc."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:1159
+#, no-wrap
+msgid "Info Documentation Lookup"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1161
+#, no-wrap
+msgid "info-lookup-symbol"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1162
+#, no-wrap
+msgid "info-lookup-file"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1163
+#, no-wrap
+msgid "C-h S"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1171
+msgid ""
+"For major modes that apply to languages which have documentation in Info, "
+"you can use @kbd{C-h S} (@code{info-lookup-symbol}) to view the Info "
+"documentation for a symbol used in the program.  You specify the symbol with "
+"the minibuffer; the default is the symbol appearing in the buffer at point.  "
+"For example, in C mode this looks for the symbol in the C Library Manual.  "
+"The command only works if the appropriate manual's Info files are installed."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1176
+msgid ""
+"The major mode determines where to look for documentation for the "
+"symbol---which Info files to look in, and which indices to search.  You can "
+"also use @kbd{M-x info-lookup-file} to look for documentation for a file "
+"name."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1181
+msgid ""
+"If you use @kbd{C-h S} in a major mode that does not support it, it asks you "
+"to specify the symbol help mode.  You should enter a command such as "
+"@code{c-mode} that would select a major mode which @kbd{C-h S} does support."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:1183
+#, no-wrap
+msgid "Man Page Lookup"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1185
+#, no-wrap
+msgid "man page"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1191
+msgid ""
+"On Unix, the main form of on-line documentation was the @dfn{manual page} or "
+"@dfn{man page}.  In the GNU operating system, we aim to replace man pages "
+"with better-organized manuals that you can browse with Info (@pxref{Misc "
+"Help}).  This process is not finished, so it is still useful to read manual "
+"pages."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1192
+#, no-wrap
+msgid "manual-entry"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1203
+msgid ""
+"You can read the man page for an operating system command, library function, "
+"or system call, with the @kbd{M-x man} command.  This prompts for a topic, "
+"with completion (@pxref{Completion}), and runs the @command{man} program to "
+"format the corresponding man page.  If the system permits, it runs "
+"@command{man} asynchronously, so that you can keep on editing while the page "
+"is being formatted.  The result goes in a buffer named @file{*Man "
+"@var{topic}*}.  These buffers use a special major mode, Man mode, that "
+"facilitates scrolling and jumping to other manual pages.  For details, type "
+"@kbd{C-h m} while in a Man mode buffer."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1204
+#, no-wrap
+msgid "sections of manual pages"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1214
+msgid ""
+"Each man page belongs to one of ten or more @dfn{sections}, each named by a "
+"digit or by a digit and a letter.  Sometimes there are man pages with the "
+"same name in different sections.  To read a man page from a specific "
+"section, type @samp{@var{topic}(@var{section})} or @samp{@var{section} "
+"@var{topic}} when @kbd{M-x manual-entry} prompts for the topic.  For "
+"example, the man page for the C library function @code{chmod} is in section "
+"2, but there is a shell command of the same name, whose man page is in "
+"section 1; to view the former, type @kbd{M-x manual-entry @key{RET} chmod(2) "
+"@key{RET}}."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1215
+#, no-wrap
+msgid "Man-switches"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1216
+#, no-wrap
+msgid "M-n @r{(Man mode)}"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1217
+#, no-wrap
+msgid "M-p @r{(Man mode)}"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1226
+msgid ""
+"If you do not specify a section, @kbd{M-x man} normally displays only the "
+"first man page found.  On some systems, the @code{man} program accepts a "
+"@samp{-a} command-line option, which tells it to display all the man pages "
+"for the specified topic.  To make use of this, change the value of the "
+"variable @code{Man-switches} to @samp{\"-a\"}.  Then, in the Man mode "
+"buffer, you can type @kbd{M-n} and @kbd{M-p} to switch between man pages in "
+"different sections.  The mode line shows how many manual pages are "
+"available."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1227
+#, no-wrap
+msgid "woman"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1228
+#, no-wrap
+msgid "manual pages, on MS-DOS/MS-Windows"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1235
+msgid ""
+"An alternative way of reading manual pages is the @kbd{M-x woman} command.  "
+"Unlike @kbd{M-x man}, it does not run any external programs to format and "
+"display the man pages; the formatting is done by Emacs, so it works on "
+"systems such as MS-Windows where the @command{man} program may be "
+"unavailable.  It prompts for a man page, and displays it in a buffer named "
+"@file{*WoMan @var{section} @var{topic}}."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1239
+msgid ""
+"@kbd{M-x woman} computes the completion list for manpages the first time you "
+"invoke the command.  With a numeric argument, it recomputes this list; this "
+"is useful if you add or delete manual pages."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1244
+msgid ""
+"If you type a name of a manual page and @kbd{M-x woman} finds that several "
+"manual pages by the same name exist in different sections, it pops up a "
+"window with possible candidates asking you to choose one of them."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1246
+msgid "For more information about setting up and using @kbd{M-x woman}, see"
+msgstr ""
+
+#. type: ifinfo
+#: original_texis/programs.texi:1249
+msgid ""
+"@ref{Top, WoMan, Browse UN*X Manual Pages WithOut Man, woman, The WoMan "
+"Manual}."
+msgstr ""
+
+#. type: ifnotinfo
+#: original_texis/programs.texi:1252
+msgid "the WoMan Info manual, which is distributed with Emacs."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:1255
+#, no-wrap
+msgid "Emacs Lisp Documentation Lookup"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1261
+msgid ""
+"When editing Emacs Lisp code, you can use the commands @kbd{C-h f} "
+"(@code{describe-function}) and @kbd{C-h v} (@code{describe-variable})  to "
+"view the built-in documentation for the Lisp functions and variables that "
+"you want to use.  @xref{Name Help}."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1262
+#, no-wrap
+msgid "Eldoc mode"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1263
+#, no-wrap
+msgid "eldoc-mode"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1264
+#, no-wrap
+msgid "global-eldoc-mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1274
+msgid ""
+"Eldoc is a buffer-local minor mode that helps with looking up Lisp "
+"documentation.  When it is enabled, the echo area displays some useful "
+"information whenever there is a Lisp function or variable at point; for a "
+"function, it shows the argument list, and for a variable it shows the first "
+"line of the variable's documentation string.  To toggle Eldoc mode, type "
+"@kbd{M-x eldoc-mode}.  There's also a Global Eldoc mode, which is turned on "
+"by default, and affects buffers, such as @samp{*scratch*}, whose major mode "
+"is Emacs Lisp or Lisp Interaction (@w{@kbd{M-x global-eldoc-mode}} to turn "
+"it off globally)."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:1276
+#, no-wrap
+msgid "Hideshow minor mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1277
+#, no-wrap
+msgid "Hideshow mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1278
+#, no-wrap
+msgid "mode, Hideshow"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1280 original_texis/programs.texi:1301
+#, no-wrap
+msgid "hs-minor-mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1285
+msgid ""
+"Hideshow mode is a buffer-local minor mode that allows you to selectively "
+"display portions of a program, which are referred to as @dfn{blocks}.  Type "
+"@kbd{M-x hs-minor-mode} to toggle this minor mode (@pxref{Minor Modes})."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1292
+msgid ""
+"When you use Hideshow mode to hide a block, the block disappears from the "
+"screen, to be replaced by an ellipsis (three periods in a row).  Just what "
+"constitutes a block depends on the major mode.  In C mode and related modes, "
+"blocks are delimited by braces, while in Lisp mode they are delimited by "
+"parentheses.  Multi-line comments also count as blocks."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1294
+msgid "Hideshow mode provides the following commands:"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1295
+#, no-wrap
+msgid "hs-hide-all"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1296
+#, no-wrap
+msgid "hs-hide-block"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1297
+#, no-wrap
+msgid "hs-show-all"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1298
+#, no-wrap
+msgid "hs-show-block"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1299
+#, no-wrap
+msgid "hs-show-region"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1300
+#, no-wrap
+msgid "hs-hide-level"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1302 original_texis/programs.texi:1310
+#, no-wrap
+msgid "C-c @@ C-h"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1303 original_texis/programs.texi:1312
+#, no-wrap
+msgid "C-c @@ C-s"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1304 original_texis/programs.texi:1318
+#, no-wrap
+msgid "C-c @@ C-M-h"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1305 original_texis/programs.texi:1320
+#, no-wrap
+msgid "C-c @@ C-M-s"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1306
+#, no-wrap
+msgid "C-c @@ C-r"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1307 original_texis/programs.texi:1322
+#, no-wrap
+msgid "C-c @@ C-l"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1308 original_texis/programs.texi:1316
+#, no-wrap
+msgid "S-mouse-2"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1312
+msgid "Hide the current block (@code{hs-hide-block})."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1314
+msgid "Show the current block (@code{hs-show-block})."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1314
+#, no-wrap
+msgid "C-c @@ C-c"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1316
+msgid "Either hide or show the current block (@code{hs-toggle-hiding})."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1318
+msgid "Toggle hiding for the block you click on (@code{hs-mouse-toggle-hiding})."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1320
+msgid "Hide all top-level blocks (@code{hs-hide-all})."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1322
+msgid "Show all blocks in the buffer (@code{hs-show-all})."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1325
+msgid "Hide all blocks @var{n} levels below this block (@code{hs-hide-level})."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1327 original_texis/programs.texi:1333
+#, no-wrap
+msgid "hs-hide-comments-when-hiding-all"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1328 original_texis/programs.texi:1337
+#, no-wrap
+msgid "hs-isearch-open"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1329
+#, no-wrap
+msgid "hs-special-modes-alist"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1331
+msgid "These variables can be used to customize Hideshow mode:"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1336
+msgid ""
+"If non-@code{nil}, @kbd{C-c @@ C-M-h} (@code{hs-hide-all}) hides comments "
+"too."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1344
+msgid ""
+"This variable specifies the conditions under which incremental search should "
+"unhide a hidden block when matching text occurs within the block.  Its value "
+"should be either @code{code} (unhide only code blocks), @code{comment} "
+"(unhide only comments), @code{t} (unhide both code blocks and comments), or "
+"@code{nil} (unhide neither code blocks nor comments).  The default value is "
+"@code{code}."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:1347
+#, no-wrap
+msgid "Completion for Symbol Names"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1348
+#, no-wrap
+msgid "completion (symbol names)"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1352
+msgid ""
+"Completion is normally done in the minibuffer (@pxref{Completion}), but you "
+"can also complete symbol names in ordinary Emacs buffers."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1353
+#, no-wrap
+msgid "M-TAB"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1354
+#, no-wrap
+msgid "C-M-i"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1360
+msgid ""
+"In programming language modes, type @kbd{C-M-i} or @kbd{M-@key{TAB}} to "
+"complete the partial symbol before point.  On graphical displays, the "
+"@kbd{M-@key{TAB}} key is usually reserved by the window manager for "
+"switching graphical windows, so you should type @kbd{C-M-i} or "
+"@kbd{@key{ESC} @key{TAB}} instead."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1361
+#, no-wrap
+msgid "tags-based completion"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1362
+#, no-wrap
+msgid "completion-at-point"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1363
+#, no-wrap
+msgid "Lisp symbol completion"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1364
+#, no-wrap
+msgid "completion (Lisp symbols)"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1374
+msgid ""
+"In most programming language modes, @kbd{C-M-i} (or @kbd{M-@key{TAB}}) "
+"invokes the command @code{completion-at-point}, which generates its "
+"completion list in a flexible way.  If Semantic mode is enabled, it tries to "
+"use the Semantic parser data for completion (@pxref{Semantic}).  If Semantic "
+"mode is not enabled or fails at performing completion, it tries to complete "
+"using the selected tags table (@pxref{Tags Tables}).  If in Emacs Lisp mode, "
+"it performs completion using the function, variable, or property names "
+"defined in the current Emacs session."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1379
+msgid ""
+"In all other respects, in-buffer symbol completion behaves like minibuffer "
+"completion.  For instance, if Emacs cannot complete to a unique symbol, it "
+"displays a list of completion alternatives in another window.  "
+"@xref{Completion}."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1382
+msgid ""
+"In Text mode and related modes, @kbd{M-@key{TAB}} completes words based on "
+"the spell-checker's dictionary.  @xref{Spelling}."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1385
+#, no-wrap
+msgid "camel case"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1392
+msgid ""
+"Some programming styles make use of mixed-case (or ``CamelCase'')  symbols "
+"like @samp{unReadableSymbol}.  (In the GNU project, we recommend using "
+"underscores to separate words within an identifier, rather than using case "
+"distinctions.)  Emacs has various features to make it easier to deal with "
+"such symbols."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1393
+#, no-wrap
+msgid "Glasses mode"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1394
+#, no-wrap
+msgid "mode, Glasses"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1400
+msgid ""
+"Glasses mode is a buffer-local minor mode that makes it easier to read such "
+"symbols, by altering how they are displayed.  By default, it displays extra "
+"underscores between each lower-case letter and the following capital "
+"letter.  This does not alter the buffer text, only how it is displayed."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1405
+msgid ""
+"To toggle Glasses mode, type @kbd{M-x glasses-mode} (@pxref{Minor Modes}).  "
+"When Glasses mode is enabled, the minor mode indicator @samp{o^o} appears in "
+"the mode line.  For more information about Glasses mode, type @kbd{C-h P "
+"glasses @key{RET}}."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1406
+#, no-wrap
+msgid "Subword mode"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1407
+#, no-wrap
+msgid "subword-mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1413
+msgid ""
+"Subword mode is another buffer-local minor mode.  In subword mode, Emacs's "
+"word commands recognize upper case letters in @samp{StudlyCapsIdentifiers} "
+"as word boundaries.  When Subword mode is enabled, the minor mode indicator "
+"@samp{,} appears in the mode line.  See also the similar "
+"@code{superword-mode} (@pxref{Misc for Programs})."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1416
+#, no-wrap
+msgid "Semantic package"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1421
+msgid ""
+"Semantic is a package that provides language-aware editing commands based on "
+"@code{source code parsers}.  This section provides a brief description of "
+"Semantic; for full details,"
+msgstr ""
+
+#. type: ifnottex
+#: original_texis/programs.texi:1423
+msgid "see @ref{Top, Semantic,, semantic, Semantic}."
+msgstr ""
+
+#. type: iftex
+#: original_texis/programs.texi:1426
+msgid "see the Semantic Info manual, which is distributed with Emacs."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1435
+msgid ""
+"Most of the language-aware features in Emacs, such as Font Lock mode "
+"(@pxref{Font Lock}), rely on rules of thumb@footnote{Regular expressions and "
+"syntax tables.} that usually give good results but are never completely "
+"exact.  In contrast, the parsers used by Semantic have an exact "
+"understanding of programming language syntax.  This allows Semantic to "
+"provide search, navigation, and completion commands that are powerful and "
+"precise."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1436
+#, no-wrap
+msgid "Semantic mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1437
+#, no-wrap
+msgid "mode, Semantic"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1441
+msgid ""
+"To begin using Semantic, type @kbd{M-x semantic-mode} or click on the menu "
+"item named @samp{Source Code Parsers (Semantic)} in the @samp{Tools} menu.  "
+"This enables Semantic mode, a global minor mode."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1446
+msgid ""
+"When Semantic mode is enabled, Emacs automatically attempts to parse each "
+"file you visit.  Currently, Semantic understands C, C++, Scheme, Javascript, "
+"Java, HTML, and Make.  Within each parsed buffer, the following commands are "
+"available:"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1448 original_texis/programs.texi:1449
+#, no-wrap
+msgid "C-c , j"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1452
+msgid ""
+"Prompt for the name of a function defined in the current file, and move "
+"point there (@code{semantic-complete-jump-local})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1453 original_texis/programs.texi:1454
+#, no-wrap
+msgid "C-c , J"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1457
+msgid ""
+"Prompt for the name of a function defined in any file Emacs has parsed, and "
+"move point there (@code{semantic-complete-jump})."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1458 original_texis/programs.texi:1459
+#, no-wrap
+msgid "C-c , @key{SPC}"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1466
+msgid ""
+"Display a list of possible completions for the symbol at point "
+"(@code{semantic-complete-analyze-inline}).  This also activates a set of "
+"special key bindings for choosing a completion: @key{RET} accepts the "
+"current completion, @kbd{M-n} and @kbd{M-p} cycle through possible "
+"completions, @key{TAB} completes as far as possible and then cycles, and "
+"@kbd{C-g} or any other key aborts completion."
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1467 original_texis/programs.texi:1468
+#, no-wrap
+msgid "C-c , l"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1471
+msgid ""
+"Display a list of the possible completions of the symbol at point, in "
+"another window (@code{semantic-analyze-possible-completions})."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1478
+msgid ""
+"In addition to the above commands, the Semantic package provides a variety "
+"of other ways to make use of parser information.  For instance, you can use "
+"it to display a list of completions when Emacs is idle."
+msgstr ""
+
+#. type: ifnottex
+#: original_texis/programs.texi:1480
+msgid "@xref{Top, Semantic,, semantic, Semantic}, for details."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:1483
+#, no-wrap
+msgid "Other Features Useful for Editing Programs"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1487
+msgid ""
+"Some Emacs commands that aren't designed specifically for editing programs "
+"are useful for that nonetheless."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1498
+msgid ""
+"The Emacs commands that operate on words, sentences and paragraphs are "
+"useful for editing code.  Most symbols names contain words (@pxref{Words}), "
+"while sentences can be found in strings and comments (@pxref{Sentences}).  "
+"As for paragraphs, they are defined in most programming language modes to "
+"begin and end at blank lines (@pxref{Paragraphs}).  Therefore, judicious use "
+"of blank lines to make the program clearer will also provide useful chunks "
+"of text for the paragraph commands to work on.  Auto Fill mode, if enabled "
+"in a programming language major mode, indents the new lines which it "
+"creates."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1499
+#, no-wrap
+msgid "superword-mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1503
+msgid ""
+"Superword mode is a buffer-local minor mode that causes editing and motion "
+"commands to treat symbols (e.g., @samp{this_is_a_symbol}) as words.  When "
+"Superword mode is enabled, the minor mode indicator"
+msgstr ""
+
+#. type: math{#1}
+#: original_texis/programs.texi:1505
+msgid "^2"
+msgstr ""
+
+#. type: samp{#1}
+#: original_texis/programs.texi:1508
+msgid "²"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1511
+msgid ""
+"appears in the mode line.  See also the similar @code{subword-mode} "
+"(@pxref{MixedCase Words})."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1512
+#, no-wrap
+msgid "electric-layout-mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1517
+msgid ""
+"Electric Layout mode (@kbd{M-x electric-layout-mode}) is a global minor mode "
+"that automatically inserts newlines when you type certain characters; for "
+"example, @samp{@{}, @samp{@}} and @samp{;} in Javascript mode."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1523
+msgid ""
+"Apart from Hideshow mode (@pxref{Hideshow}), another way to selectively "
+"display parts of a program is to use the selective display feature "
+"(@pxref{Selective Display}).  Programming modes often also support Outline "
+"minor mode (@pxref{Outline Mode}), which can be used with the Foldout "
+"package (@pxref{Foldout})."
+msgstr ""
+
+#. type: ifinfo
+#: original_texis/programs.texi:1527
+msgid ""
+"The automatic typing features may be useful for writing programs.  "
+"@xref{Top,,Autotyping, autotype, Autotyping}."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1529
+#, no-wrap
+msgid "prettify-symbols-mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1543
+msgid ""
+"Prettify Symbols mode is a buffer-local minor mode that replaces certain "
+"strings with more attractive versions for display purposes.  For example, in "
+"Emacs Lisp mode, it replaces the string @samp{lambda} with the Greek lambda "
+"character @samp{λ}.  In a @TeX{} buffer, it will replace @samp{\\alpha} "
+"@dots{} @samp{\\omega} and other math macros with their Unicode characters.  "
+"You may wish to use this in non-programming modes as well.  You can "
+"customize the mode by adding more entries to @code{prettify-symbols-alist}.  "
+"More elaborate customization is available via customizing "
+"@code{prettify-symbols-compose-predicate} if its default value "
+"@code{prettify-symbols-default-compose-p} is not appropriate.  There is also "
+"a global version, @code{global-prettify-symbols-mode}, which enables the "
+"mode in all buffers that support it."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1548
+msgid ""
+"The symbol at point can be shown in its original form.  This is controlled "
+"by the variable @code{prettify-symbols-unprettify-at-point}: if "
+"non-@code{nil}, the original form of symbol at point will be restored for as "
+"long as point is at it."
+msgstr ""
+
+#. type: section
+#: original_texis/programs.texi:1551
+#, no-wrap
+msgid "C and Related Modes"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1552
+#, no-wrap
+msgid "C mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1553
+#, no-wrap
+msgid "Java mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1554
+#, no-wrap
+msgid "Pike mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1555
+#, no-wrap
+msgid "IDL mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1556
+#, no-wrap
+msgid "CORBA IDL mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1557
+#, no-wrap
+msgid "Objective C mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1558
+#, no-wrap
+msgid "C++ mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1559
+#, no-wrap
+msgid "AWK mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1560
+#, no-wrap
+msgid "mode, Java"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1561
+#, no-wrap
+msgid "mode, C"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1562
+#, no-wrap
+msgid "mode, C++"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1563
+#, no-wrap
+msgid "mode, Objective C"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1564
+#, no-wrap
+msgid "mode, CORBA IDL"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1565
+#, no-wrap
+msgid "mode, Pike"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1566
+#, no-wrap
+msgid "mode, AWK"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1571
+msgid ""
+"This section gives a brief description of the special features available in "
+"C, C++, Objective-C, Java, CORBA IDL, Pike and AWK modes.  (These are called "
+"``C mode and related modes''.)"
+msgstr ""
+
+#. type: ifinfo
+#: original_texis/programs.texi:1573
+msgid "@xref{Top,, CC Mode, ccmode, CC Mode}, for more details."
+msgstr ""
+
+#. type: ifnotinfo
+#: original_texis/programs.texi:1577
+msgid ""
+"For more details, see the CC mode Info manual, which is distributed with "
+"Emacs."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:1585 original_texis/programs.texi:1587
+#, no-wrap
+msgid "Motion in C"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:1585
+msgid "Commands to move by C statements, etc."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:1585 original_texis/programs.texi:1651
+#, no-wrap
+msgid "Electric C"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:1585
+msgid "Colon and other chars can automatically reindent."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:1585 original_texis/programs.texi:1694
+#, no-wrap
+msgid "Hungry Delete"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:1585
+msgid "A more powerful DEL command."
+msgstr ""
+
+#. type: node
+#: original_texis/programs.texi:1585 original_texis/programs.texi:1741
+#, no-wrap
+msgid "Other C Commands"
+msgstr ""
+
+#. type: menuentry
+#: original_texis/programs.texi:1585
+msgid "Filling comments, viewing expansion of macros, and other neat features."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:1588
+#, no-wrap
+msgid "C Mode Motion Commands"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1592
+msgid ""
+"This section describes commands for moving point, in C mode and related "
+"modes."
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1596
+#, no-wrap
+msgid "c-beginning-of-defun"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1597
+#, no-wrap
+msgid "c-end-of-defun"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1605
+msgid ""
+"Move point to the beginning or end of the current function or top-level "
+"definition.  In languages with enclosing scopes (such as C++'s classes) the "
+"@dfn{current function} is the immediate one, possibly inside a scope.  "
+"Otherwise it is the one defined by the least enclosing braces.  (By "
+"contrast, @code{beginning-of-defun} and @code{end-of-defun} search for "
+"braces in column zero.)  @xref{Moving by Defuns}."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1606
+#, no-wrap
+msgid "C-c C-u"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1607
+#, no-wrap
+msgid "C-c C-u @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1608
+#, no-wrap
+msgid "c-up-conditional"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1613
+msgid ""
+"Move point back to the containing preprocessor conditional, leaving the mark "
+"behind.  A prefix argument acts as a repeat count.  With a negative "
+"argument, move point forward to the end of the containing preprocessor "
+"conditional."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1617
+msgid ""
+"@samp{#elif} is equivalent to @samp{#else} followed by @samp{#if}, so the "
+"function will stop at a @samp{#elif} when going backward, but not when going "
+"forward."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1618
+#, no-wrap
+msgid "C-c C-p"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1619
+#, no-wrap
+msgid "C-c C-p @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1620
+#, no-wrap
+msgid "c-backward-conditional"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1624
+msgid ""
+"Move point back over a preprocessor conditional, leaving the mark behind.  A "
+"prefix argument acts as a repeat count.  With a negative argument, move "
+"forward."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1625
+#, no-wrap
+msgid "C-c C-n"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1626
+#, no-wrap
+msgid "C-c C-n @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1627
+#, no-wrap
+msgid "c-forward-conditional"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1631
+msgid ""
+"Move point forward across a preprocessor conditional, leaving the mark "
+"behind.  A prefix argument acts as a repeat count.  With a negative "
+"argument, move backward."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1632
+#, no-wrap
+msgid "M-a"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1633
+#, no-wrap
+msgid "M-a (C mode)"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1634
+#, no-wrap
+msgid "c-beginning-of-statement"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1639
+msgid ""
+"Move point to the beginning of the innermost C statement "
+"(@code{c-beginning-of-statement}).  If point is already at the beginning of "
+"a statement, move to the beginning of the preceding statement.  With prefix "
+"argument @var{n}, move back @var{n} @minus{} 1 statements."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1642
+msgid ""
+"In comments or in strings which span more than one line, this command moves "
+"by sentences instead of statements."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1643
+#, no-wrap
+msgid "M-e"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1644
+#, no-wrap
+msgid "M-e (C mode)"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1645
+#, no-wrap
+msgid "c-end-of-statement"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1649
+msgid ""
+"Move point to the end of the innermost C statement or sentence; like "
+"@kbd{M-a} except that it moves in the other direction "
+"(@code{c-end-of-statement})."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:1652
+#, no-wrap
+msgid "Electric C Characters"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1660
+msgid ""
+"In C mode and related modes, certain printing characters are "
+"@dfn{electric}---in addition to inserting themselves, they also reindent the "
+"current line, and optionally also insert newlines.  The electric characters "
+"are @kbd{@{}, @kbd{@}}, @kbd{:}, @kbd{#}, @kbd{;}, @kbd{,}, @kbd{<}, "
+"@kbd{>}, @kbd{/}, @kbd{*}, @kbd{(}, and @kbd{)}."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1666
+msgid ""
+"You might find electric indentation inconvenient if you are editing "
+"chaotically indented code.  If you are new to CC Mode, you might find it "
+"disconcerting.  You can toggle electric action with the command @kbd{C-c "
+"C-l}; when it is enabled, @samp{/l} appears in the mode line after the mode "
+"name:"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1668
+#, no-wrap
+msgid "C-c C-l"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1669
+#, no-wrap
+msgid "C-c C-l @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1670
+#, no-wrap
+msgid "c-toggle-electric-state"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1674
+msgid ""
+"Toggle electric action (@code{c-toggle-electric-state}).  With a positive "
+"prefix argument, this command enables electric action, with a negative one "
+"it disables it."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1680
+msgid ""
+"Electric characters insert newlines only when, in addition to the electric "
+"state, the @dfn{auto-newline} feature is enabled (indicated by @samp{/la} in "
+"the mode line after the mode name).  You can turn this feature on or off "
+"with the command @kbd{C-c C-a}:"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1682
+#, no-wrap
+msgid "C-c C-a"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1683
+#, no-wrap
+msgid "C-c C-a @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1684
+#, no-wrap
+msgid "c-toggle-auto-newline"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1688
+msgid ""
+"Toggle the auto-newline feature (@code{c-toggle-auto-newline}).  With a "
+"prefix argument, this command turns the auto-newline feature on if the "
+"argument is positive, and off if it is negative."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1693
+msgid ""
+"Usually the CC Mode style configures the exact circumstances in which Emacs "
+"inserts auto-newlines.  You can also configure this directly.  @xref{Custom "
+"Auto-newlines,,, ccmode, The CC Mode Manual}."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:1695
+#, no-wrap
+msgid "Hungry Delete Feature in C"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1696
+#, no-wrap
+msgid "hungry deletion (C Mode)"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1703
+msgid ""
+"If you want to delete an entire block of whitespace at point, you can use "
+"@dfn{hungry deletion}.  This deletes all the contiguous whitespace either "
+"before point or after point in a single operation.  @dfn{Whitespace} here "
+"includes tabs and newlines, but not comments or preprocessor commands."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1705
+#, no-wrap
+msgid "C-c C-@key{DEL}"
+msgstr ""
+
+#. type: itemx
+#: original_texis/programs.texi:1706
+#, no-wrap
+msgid "C-c @key{DEL}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1707
+#, no-wrap
+msgid "c-hungry-delete-backwards"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1708
+#, no-wrap
+msgid "C-c C-@key{DEL} (C Mode)"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1709
+#, no-wrap
+msgid "C-c @key{DEL} (C Mode)"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1711
+msgid ""
+"Delete the entire block of whitespace preceding point "
+"(@code{c-hungry-delete-backwards})."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1712
+#, no-wrap
+msgid "C-c C-d"
+msgstr ""
+
+#. type: itemx
+#: original_texis/programs.texi:1713
+#, no-wrap
+msgid "C-c C-@key{Delete}"
+msgstr ""
+
+#. type: itemx
+#: original_texis/programs.texi:1714
+#, no-wrap
+msgid "C-c @key{Delete}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1715
+#, no-wrap
+msgid "c-hungry-delete-forward"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1716
+#, no-wrap
+msgid "C-c C-d (C Mode)"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1717
+#, no-wrap
+msgid "C-c C-@key{Delete} (C Mode)"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1718
+#, no-wrap
+msgid "C-c @key{Delete} (C Mode)"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1720
+msgid ""
+"Delete the entire block of whitespace after point "
+"(@code{c-hungry-delete-forward})."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1727
+msgid ""
+"As an alternative to the above commands, you can enable @dfn{hungry delete "
+"mode}.  When this feature is enabled (indicated by @samp{/h} in the mode "
+"line after the mode name), a single @key{DEL} deletes all preceding "
+"whitespace, not just one space, and a single @kbd{C-d} (but @emph{not} plain "
+"@key{Delete}) deletes all following whitespace."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1729
+#, no-wrap
+msgid "M-x c-toggle-hungry-state"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1730
+#, no-wrap
+msgid "c-toggle-hungry-state"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1735
+msgid ""
+"Toggle the hungry-delete feature (@code{c-toggle-hungry-state}).  With a "
+"prefix argument, this command turns the hungry-delete feature on if the "
+"argument is positive, and off if it is negative."
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1737
+#, no-wrap
+msgid "c-hungry-delete-key"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1740
+msgid ""
+"The variable @code{c-hungry-delete-key} controls whether the hungry-delete "
+"feature is enabled."
+msgstr ""
+
+#. type: subsection
+#: original_texis/programs.texi:1742
+#, no-wrap
+msgid "Other Commands for C Mode"
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1745
+#, no-wrap
+msgid "M-x c-context-line-break"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1746
+#, no-wrap
+msgid "c-context-line-break"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1752
+msgid ""
+"This command inserts a line break and indents the new line in a manner "
+"appropriate to the context.  In normal code, it does the work of @key{RET} "
+"(@code{newline}), in a C preprocessor line it additionally inserts a "
+"@samp{\\} at the line break, and within comments it's like @kbd{M-j} "
+"(@code{c-indent-new-comment-line})."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1757
+msgid ""
+"@code{c-context-line-break} isn't bound to a key by default, but it needs a "
+"binding to be useful.  The following code will bind it to @key{RET}.  We use "
+"@code{c-initialization-hook} here to make sure the keymap is loaded before "
+"we try to change it."
+msgstr ""
+
+#. type: example
+#: original_texis/programs.texi:1763
+#, no-wrap
+msgid ""
+"(defun my-bind-clb ()\n"
+"  (define-key c-mode-base-map \"\\C-m\"\n"
+"              'c-context-line-break))\n"
+"(add-hook 'c-initialization-hook 'my-bind-clb)\n"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1768
+msgid ""
+"Put mark at the end of a function definition, and put point at the beginning "
+"(@code{c-mark-function})."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1769
+#, no-wrap
+msgid "M-q"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1770
+#, no-wrap
+msgid "M-q @r{(C mode)}"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1771
+#, no-wrap
+msgid "c-fill-paragraph"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1776
+msgid ""
+"Fill a paragraph, handling C and C++ comments (@code{c-fill-paragraph}).  If "
+"any part of the current line is a comment or within a comment, this command "
+"fills the comment or the paragraph of it that point is in, preserving the "
+"comment indentation and comment delimiters."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1777
+#, no-wrap
+msgid "C-c C-e"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1778
+#, no-wrap
+msgid "macro expansion in C"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1779
+#, no-wrap
+msgid "expansion of C macros"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1780
+#, no-wrap
+msgid "c-macro-expand"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1781
+#, no-wrap
+msgid "C-c C-e @r{(C mode)}"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1787
+msgid ""
+"Run the C preprocessor on the text in the region, and show the result, which "
+"includes the expansion of all the macro calls (@code{c-macro-expand}).  The "
+"buffer text before the region is also included in preprocessing, for the "
+"sake of macros defined there, but the output from this part isn't shown."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1791
+msgid ""
+"When you are debugging C code that uses macros, sometimes it is hard to "
+"figure out precisely how the macros expand.  With this command, you don't "
+"have to figure it out; you can see the expansions."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1792
+#, no-wrap
+msgid "C-c C-\\"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1793
+#, no-wrap
+msgid "c-backslash-region"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1794
+#, no-wrap
+msgid "C-c C-\\ @r{(C mode)}"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1798
+msgid ""
+"Insert or align @samp{\\} characters at the ends of the lines of the region "
+"(@code{c-backslash-region}).  This is useful after writing or editing a C "
+"macro definition."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1803
+msgid ""
+"If a line already ends in @samp{\\}, this command adjusts the amount of "
+"whitespace before it.  Otherwise, it inserts a new @samp{\\}.  However, the "
+"last line in the region is treated specially; no @samp{\\} is inserted on "
+"that line, and any @samp{\\} there is deleted."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1804
+#, no-wrap
+msgid "M-x cpp-highlight-buffer"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1805
+#, no-wrap
+msgid "preprocessor highlighting"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1806
+#, no-wrap
+msgid "cpp-highlight-buffer"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1813
+msgid ""
+"Highlight parts of the text according to its preprocessor conditionals.  "
+"This command displays another buffer named @file{*CPP Edit*}, which serves "
+"as a graphic menu for selecting how to display particular kinds of "
+"conditionals and their contents.  After changing various settings, click on "
+"@samp{[A]pply these settings} (or go to that buffer and type @kbd{a}) to "
+"rehighlight the C mode buffer accordingly."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1814
+#, no-wrap
+msgid "C-c C-s"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1815
+#, no-wrap
+msgid "c-show-syntactic-information"
+msgstr ""
+
+#. type: kindex
+#: original_texis/programs.texi:1816
+#, no-wrap
+msgid "C-c C-s @r{(C mode)}"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1820
+msgid ""
+"Display the syntactic information about the current source line "
+"(@code{c-show-syntactic-information}).  This information directs how the "
+"line is indented."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1821
+#, no-wrap
+msgid "M-x cwarn-mode"
+msgstr ""
+
+#. type: itemx
+#: original_texis/programs.texi:1822
+#, no-wrap
+msgid "M-x global-cwarn-mode"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1823
+#, no-wrap
+msgid "cwarn-mode"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1824 original_texis/programs.texi:1825
+#, no-wrap
+msgid "global-cwarn-mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1826
+#, no-wrap
+msgid "CWarn mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1827
+#, no-wrap
+msgid "suspicious constructions in C, C++"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1829
+msgid "CWarn minor mode highlights certain suspicious C and C++ constructions:"
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:1833
+msgid "Assignments inside expressions."
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:1836
+msgid ""
+"Semicolon following immediately after @samp{if}, @samp{for}, and "
+"@samp{while} (except after a @samp{do @dots{} while} statement);"
+msgstr ""
+
+#. type: itemize
+#: original_texis/programs.texi:1838
+msgid "C++ functions with reference parameters."
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1846
+msgid ""
+"You can enable the mode for one buffer with the command @kbd{M-x "
+"cwarn-mode}, or for all suitable buffers with the command @kbd{M-x "
+"global-cwarn-mode} or by customizing the variable @code{global-cwarn-mode}.  "
+"You must also enable Font Lock mode to make it work."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1847
+#, no-wrap
+msgid "M-x hide-ifdef-mode"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1848
+#, no-wrap
+msgid "hide-ifdef-mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1849
+#, no-wrap
+msgid "Hide-ifdef mode"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1850
+#, no-wrap
+msgid "hide-ifdef-shadow"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1857
+msgid ""
+"Hide-ifdef minor mode hides selected code within @samp{#if} and "
+"@samp{#ifdef} preprocessor blocks.  If you change the variable "
+"@code{hide-ifdef-shadow} to @code{t}, Hide-ifdef minor mode shadows "
+"preprocessor blocks by displaying them with a less prominent face, instead "
+"of hiding them entirely.  See the documentation string of "
+"@code{hide-ifdef-mode} for more information."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1858
+#, no-wrap
+msgid "M-x ff-find-related-file"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1859
+#, no-wrap
+msgid "related files"
+msgstr ""
+
+#. type: findex
+#: original_texis/programs.texi:1860
+#, no-wrap
+msgid "ff-find-related-file"
+msgstr ""
+
+#. type: vindex
+#: original_texis/programs.texi:1861
+#, no-wrap
+msgid "ff-related-file-alist"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1867
+msgid ""
+"Find a file related in a special way to the file visited by the current "
+"buffer.  Typically this will be the header file corresponding to a C/C++ "
+"source file, or vice versa.  The variable @code{ff-related-file-alist} "
+"specifies how to compute related file names."
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1872
+#, no-wrap
+msgid "Asm mode"
+msgstr ""
+
+#. type: cindex
+#: original_texis/programs.texi:1873
+#, no-wrap
+msgid "assembler mode"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1876
+msgid ""
+"Asm mode is a major mode for editing files of assembler code.  It defines "
+"these commands:"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1881
+msgid "@code{tab-to-tab-stop}."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1881
+#, no-wrap
+msgid "C-j"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1883
+msgid "Insert a newline and then indent using @code{tab-to-tab-stop}."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1883
+#, no-wrap
+msgid ":"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1886
+msgid ""
+"Insert a colon and then remove the indentation from before the label "
+"preceding colon.  Then do @code{tab-to-tab-stop}."
+msgstr ""
+
+#. type: item
+#: original_texis/programs.texi:1886
+#, no-wrap
+msgid ";"
+msgstr ""
+
+#. type: table
+#: original_texis/programs.texi:1888
+msgid "Insert or align a comment."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/programs.texi:1892
+msgid ""
+"The variable @code{asm-comment-char} specifies which character starts "
+"comments in assembler syntax."
+msgstr ""
+
+#. type: include
+#: original_texis/programs.texi:1894
+#, no-wrap
+msgid "fortran-xtra.texi"
+msgstr ""
