@@ -76,6 +76,8 @@ mark.texi \
 mini.texi \
 misc.texi \
 modes.texi \
+msdos-xtra.texi \
+msdos.texi \
 mule.texi \
 package.texi \
 picture-xtra.texi \
@@ -102,6 +104,7 @@ clean:
 	rm -f emacs.txt
 	rm -f emacs.texis.tar.gz
 	rm -fR emacs.texis/
+	rm -f *.bak
 
 %.texi:
 	if [ -f $@.po ]; \
