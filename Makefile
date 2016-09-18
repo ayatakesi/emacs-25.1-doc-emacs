@@ -44,6 +44,7 @@ tar: emacs.texis.tar.gz
 
 TEXIS := \
 abbrevs.texi \
+ack.texi \
 anti.texi \
 arevert-xtra.texi \
 basic.texi \
@@ -57,14 +58,20 @@ custom.texi \
 dired-xtra.texi \
 dired.texi \
 display.texi \
+doclicense.texi \
+docstyle.texi \
 emacs-xtra.texi \
 emacs.texi \
+emacsver.texi \
 emerge-xtra.texi \
 entering.texi \
 files.texi \
 fixit.texi \
 fortran-xtra.texi \
 frames.texi \
+glossary.texi \
+gnu.texi \
+gpl.texi \
 help.texi \
 indent.texi \
 killing.texi \
@@ -122,9 +129,9 @@ html/index.html: $(TEXIS)
 	./translate_25.1.sh
 	makeinfo -o html/ --html emacs.texi
 
-emacs245-ja.info: $(TEXIS)
+emacs251-ja.info: $(TEXIS)
 	./translate_25.1.sh
-	makeinfo --no-split -o emacs245-ja.info emacs.texi
+	makeinfo --no-split -o emacs251-ja.info emacs.texi
 
 emacs.pdf emacs-xtra.pdf: $(TEXIS)
 	./translate_25.1.sh
