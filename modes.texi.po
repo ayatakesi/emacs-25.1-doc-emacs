@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-09-18 07:14+0900\n"
+"PO-Revision-Date: 2016-10-02 16:04+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr "Modes"
 #: original_texis/modes.texi:7
 #, no-wrap
 msgid "Major and Minor Modes"
-msgstr "Major and Minor Modes"
+msgstr "メジャーモードとマイナーモード"
 
 #. type: Plain text
 #: original_texis/modes.texi:12
@@ -748,7 +748,7 @@ msgstr ""
 #: original_texis/modes.texi:300
 #, no-wrap
 msgid "Choosing File Modes"
-msgstr "Choosing File Modes"
+msgstr "ファイルのモードを選択する"
 
 #. type: cindex
 #: original_texis/modes.texi:302
