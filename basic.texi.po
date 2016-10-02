@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:33+0900\n"
-"PO-Revision-Date: 2016-09-18 06:51+0900\n"
+"PO-Revision-Date: 2016-10-02 12:06+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr "Basic"
 #: original_texis/basic.texi:7
 #, no-wrap
 msgid "Basic Editing Commands"
-msgstr "Basic Editing Commands"
+msgstr "基本的な編集コマンド"
 
 #. type: kindex
 #: original_texis/basic.texi:9
@@ -494,7 +494,7 @@ msgstr ""
 #: original_texis/basic.texi:155
 #, no-wrap
 msgid "Changing the Location of Point"
-msgstr "Changing the Location of Point"
+msgstr "ポイント位置の変更"
 
 #. type: cindex
 #: original_texis/basic.texi:157
@@ -1238,7 +1238,7 @@ msgstr ""
 #: original_texis/basic.texi:387
 #, no-wrap
 msgid "Erasing Text"
-msgstr "Erasing Text"
+msgstr "テキストの消去"
 
 #. type: cindex
 #: original_texis/basic.texi:388
@@ -1431,7 +1431,7 @@ msgstr ""
 #: original_texis/basic.texi:450
 #, no-wrap
 msgid "Undoing Changes"
-msgstr "Undoing Changes"
+msgstr "変更のアンドゥ"
 
 #. type: item
 #: original_texis/basic.texi:453
@@ -1521,7 +1521,7 @@ msgstr "Basic Files"
 #: original_texis/basic.texi:481
 #, no-wrap
 msgid "Files"
-msgstr "Files"
+msgstr "ファイル"
 
 #. type: Plain text
 #: original_texis/basic.texi:486
@@ -1610,7 +1610,7 @@ msgstr "Basic Help"
 #: original_texis/basic.texi:517
 #, no-wrap
 msgid "Help"
-msgstr "Help"
+msgstr "ヘルプ"
 
 #. type: cindex
 #: original_texis/basic.texi:519
@@ -1885,7 +1885,7 @@ msgstr ""
 #: original_texis/basic.texi:622
 #, no-wrap
 msgid "Cursor Position Information"
-msgstr "Cursor Position Information"
+msgstr "カーソル位置の情報"
 
 #. type: Plain text
 #: original_texis/basic.texi:626
@@ -2167,7 +2167,7 @@ msgstr ""
 #: original_texis/basic.texi:720
 #, no-wrap
 msgid "Numeric Arguments"
-msgstr "Numeric Arguments"
+msgstr "数引数"
 
 #. type: cindex
 #: original_texis/basic.texi:721
@@ -2428,7 +2428,7 @@ msgstr ""
 #: original_texis/basic.texi:827
 #, no-wrap
 msgid "Repeating a Command"
-msgstr "Repeating a Command"
+msgstr "コマンドの繰り返し"
 
 #. type: cindex
 #: original_texis/basic.texi:828
