@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-09-18 07:16+0900\n"
+"PO-Revision-Date: 2016-10-02 11:59+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr "Screen"
 #: original_texis/screen.texi:6
 #, no-wrap
 msgid "The Organization of the Screen"
-msgstr "The Organization of the Screen"
+msgstr "画面の構成"
 
 #. type: cindex
 #: original_texis/screen.texi:7
@@ -262,7 +262,7 @@ msgstr ""
 #: original_texis/screen.texi:98
 #, no-wrap
 msgid "The Echo Area"
-msgstr "The Echo Area"
+msgstr "エコーエリア"
 
 #. type: cindex
 #: original_texis/screen.texi:99
@@ -434,7 +434,7 @@ msgstr ""
 #: original_texis/screen.texi:162
 #, no-wrap
 msgid "The Mode Line"
-msgstr "The Mode Line"
+msgstr "モードライン"
 
 #. type: cindex
 #: original_texis/screen.texi:163
@@ -719,7 +719,7 @@ msgstr ""
 #: original_texis/screen.texi:281
 #, no-wrap
 msgid "The Menu Bar"
-msgstr "The Menu Bar"
+msgstr "メニューバー"
 
 #. type: cindex
 #: original_texis/screen.texi:282
