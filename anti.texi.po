@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:33+0900\n"
-"PO-Revision-Date: 2016-09-18 06:50+0900\n"
+"PO-Revision-Date: 2016-10-02 19:21+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr "Antinews"
 #: original_texis/anti.texi:7
 #, no-wrap
 msgid "Emacs 24 Antinews"
-msgstr "Emacs 24 Antinews"
+msgstr "Emacs 24 アンチニュース"
 
 #. type: Plain text
 #: original_texis/anti.texi:14
