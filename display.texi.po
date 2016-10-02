@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:33+0900\n"
-"PO-Revision-Date: 2016-09-18 07:00+0900\n"
+"PO-Revision-Date: 2016-10-02 12:57+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr "Display"
 #: original_texis/display.texi:8
 #, no-wrap
 msgid "Controlling the Display"
-msgstr "Controlling the Display"
+msgstr "ディスプレーの制御"
 
 #. type: Plain text
 #: original_texis/display.texi:14
@@ -795,7 +795,7 @@ msgstr ""
 #: original_texis/display.texi:228
 #, no-wrap
 msgid "Automatic Scrolling"
-msgstr "Automatic Scrolling"
+msgstr "自動スクロール"
 
 #. type: cindex
 #: original_texis/display.texi:230
@@ -1510,7 +1510,7 @@ msgstr ""
 #: original_texis/display.texi:486
 #, no-wrap
 msgid "Text Faces"
-msgstr "Text Faces"
+msgstr "テキストのフェイス"
 
 #. type: cindex
 #: original_texis/display.texi:487
@@ -1670,7 +1670,7 @@ msgstr ""
 #: original_texis/display.texi:546
 #, no-wrap
 msgid "Colors for Faces"
-msgstr "Colors for Faces"
+msgstr "フェイスのカラー"
 
 #. type: cindex
 #: original_texis/display.texi:547
@@ -2870,7 +2870,7 @@ msgstr ""
 #: original_texis/display.texi:909
 #, no-wrap
 msgid "Interactive Highlighting"
-msgstr "Interactive Highlighting"
+msgstr "インタラクティブなハイライト"
 
 #. type: cindex
 #: original_texis/display.texi:910
@@ -3356,7 +3356,7 @@ msgstr ""
 #: original_texis/display.texi:1054
 #, no-wrap
 msgid "Window Fringes"
-msgstr "Window Fringes"
+msgstr "ウィンドウのフリンジ"
 
 #. type: cindex
 #: original_texis/display.texi:1055
@@ -4024,7 +4024,7 @@ msgstr ""
 #: original_texis/display.texi:1294
 #, no-wrap
 msgid "Optional Mode Line Features"
-msgstr "Optional Mode Line Features"
+msgstr "モードラインのオプション"
 
 #. type: cindex
 #: original_texis/display.texi:1296
@@ -4453,7 +4453,7 @@ msgstr ""
 #: original_texis/display.texi:1437
 #, no-wrap
 msgid "How Text Is Displayed"
-msgstr "How Text Is Displayed"
+msgstr "テキストが表示される方法"
 
 #. type: cindex
 #: original_texis/display.texi:1438
@@ -4704,7 +4704,7 @@ msgstr ""
 #: original_texis/display.texi:1525
 #, no-wrap
 msgid "Displaying the Cursor"
-msgstr "Displaying the Cursor"
+msgstr "カーソルの表示"
 
 #. type: cindex
 #: original_texis/display.texi:1526
@@ -5124,7 +5124,7 @@ msgstr ""
 #: original_texis/display.texi:1681
 #, no-wrap
 msgid "Customization of Display"
-msgstr "Customization of Display"
+msgstr "ディスプレーのカスタマイズ"
 
 #. type: Plain text
 #: original_texis/display.texi:1685
