@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-09-18 07:10+0900\n"
+"PO-Revision-Date: 2016-10-02 16:53+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr "Maintaining"
 #: original_texis/maintaining.texi:6
 #, no-wrap
 msgid "Maintaining Large Programs"
-msgstr "Maintaining Large Programs"
+msgstr "大きなプログラムの保守"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:10
@@ -363,7 +363,7 @@ msgstr ""
 #: original_texis/maintaining.texi:105
 #, no-wrap
 msgid "Introduction to Version Control"
-msgstr "Introduction to Version Control"
+msgstr "バージョンコントロールの紹介"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:111
@@ -480,7 +480,7 @@ msgstr "VCS logとChangeLogの違い。"
 #: original_texis/maintaining.texi:132
 #, no-wrap
 msgid "Understanding the problems it addresses"
-msgstr "Understanding the problems it addresses"
+msgstr "問題の背景を理解する"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:136
@@ -524,7 +524,7 @@ msgstr ""
 #: original_texis/maintaining.texi:156
 #, no-wrap
 msgid "Supported Version Control Systems"
-msgstr "Supported Version Control Systems"
+msgstr "サポートされるバージョンコントロールシステム"
 
 #. type: cindex
 #: original_texis/maintaining.texi:158
@@ -745,7 +745,7 @@ msgstr ""
 #: original_texis/maintaining.texi:237
 #, no-wrap
 msgid "Concepts of Version Control"
-msgstr "Concepts of Version Control"
+msgstr "バージョンコントロールの概念"
 
 #. type: cindex
 #: original_texis/maintaining.texi:239
@@ -865,7 +865,7 @@ msgstr ""
 #: original_texis/maintaining.texi:274
 #, no-wrap
 msgid "Merge-based vs lock-based Version Control"
-msgstr "Merge-based vs lock-based Version Control"
+msgstr "バージョンコントロールにおけるマージベースとロックベース"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:279
@@ -979,7 +979,7 @@ msgstr ""
 #: original_texis/maintaining.texi:321
 #, no-wrap
 msgid "Changeset-based vs File-based Version Control"
-msgstr "Changeset-based vs File-based Version Control"
+msgstr "バージョンコントロールに置ける変更セットベースとファイルベース"
 
 #. type: cindex
 #: original_texis/maintaining.texi:323
@@ -1027,7 +1027,7 @@ msgstr ""
 #: original_texis/maintaining.texi:339
 #, no-wrap
 msgid "Decentralized vs Centralized Repositories"
-msgstr "Decentralized vs Centralized Repositories"
+msgstr "リポジトリーにおける分散型と集中型"
 
 #. type: cindex
 #: original_texis/maintaining.texi:341
@@ -1199,7 +1199,7 @@ msgstr "(@ref{Change Logs and VC}を参照してください)。"
 #: original_texis/maintaining.texi:409
 #, no-wrap
 msgid "Version Control and the Mode Line"
-msgstr "Version Control and the Mode Line"
+msgstr "バージョンコントロールとモードライン"
 
 #. type: cindex
 #: original_texis/maintaining.texi:410
@@ -1307,7 +1307,7 @@ msgstr ""
 #: original_texis/maintaining.texi:452
 #, no-wrap
 msgid "Basic Editing under Version Control"
-msgstr "Basic Editing under Version Control"
+msgstr "バージョンコントロール下での基本的な編集"
 
 #. type: cindex
 #: original_texis/maintaining.texi:454
@@ -1445,7 +1445,7 @@ msgstr "プレフィクス引数で利用可能な上級機能。"
 #: original_texis/maintaining.texi:499
 #, no-wrap
 msgid "Basic Version Control with Merging"
-msgstr "Basic Version Control with Merging"
+msgstr "マージでの基本的なバージョンコントロール"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:503
@@ -1561,7 +1561,7 @@ msgstr ""
 #: original_texis/maintaining.texi:553
 #, no-wrap
 msgid "Basic Version Control with Locking"
-msgstr "Basic Version Control with Locking"
+msgstr "ロックでの基本的なバージョンコントロール"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:557
@@ -1645,7 +1645,7 @@ msgstr ""
 #: original_texis/maintaining.texi:595
 #, no-wrap
 msgid "Advanced Control in @kbd{C-x v v}"
-msgstr "Advanced Control in @kbd{C-x v v}"
+msgstr "@kbd{C-x v v}の高度な制御"
 
 #. type: cindex
 #: original_texis/maintaining.texi:597
@@ -1729,7 +1729,7 @@ msgstr ""
 #: original_texis/maintaining.texi:629
 #, no-wrap
 msgid "Features of the Log Entry Buffer"
-msgstr "Features of the Log Entry Buffer"
+msgstr "Log Entryバッファーの機能"
 
 #. type: cindex
 #: original_texis/maintaining.texi:631
@@ -1967,7 +1967,7 @@ msgstr ""
 #: original_texis/maintaining.texi:714
 #, no-wrap
 msgid "Registering a File for Version Control"
-msgstr "Registering a File for Version Control"
+msgstr "バージョンコントロールへのファイルの登録"
 
 #. type: kindex
 #: original_texis/maintaining.texi:717 original_texis/maintaining.texi:721
@@ -2082,7 +2082,7 @@ msgstr ""
 #: original_texis/maintaining.texi:761
 #, no-wrap
 msgid "Examining And Comparing Old Revisions"
-msgstr "Examining And Comparing Old Revisions"
+msgstr "古いリビジョンの調査と比較"
 
 #. type: kindex
 #: original_texis/maintaining.texi:764 original_texis/maintaining.texi:791
@@ -2893,7 +2893,7 @@ msgstr "このコマンドは現在のところGitだけで利用可能です。
 #: original_texis/maintaining.texi:1069
 #, no-wrap
 msgid "Undoing Version Control Actions"
-msgstr "Undoing Version Control Actions"
+msgstr "バージョンコントロール操作のアンドゥ"
 
 #. type: kindex
 #: original_texis/maintaining.texi:1072 original_texis/maintaining.texi:1077
@@ -2960,7 +2960,7 @@ msgstr ""
 #: original_texis/maintaining.texi:1096
 #, no-wrap
 msgid "Ignore Version Control Files"
-msgstr "Ignore Version Control Files"
+msgstr "バージョンコントロールファイルを無視する"
 
 #. type: kindex
 #: original_texis/maintaining.texi:1099 original_texis/maintaining.texi:1103
@@ -3133,7 +3133,7 @@ msgstr "VC Directory Buffer"
 #: original_texis/maintaining.texi:1158
 #, no-wrap
 msgid "The VC Directory Buffer"
-msgstr "The VC Directory Buffer"
+msgstr "VC Directoryバッファー"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:1168
@@ -3633,7 +3633,7 @@ msgstr ""
 #: original_texis/maintaining.texi:1345
 #, no-wrap
 msgid "Version Control Branches"
-msgstr "Version Control Branches"
+msgstr "バージョンコントロールのブランチ"
 
 #. type: cindex
 #: original_texis/maintaining.texi:1346
@@ -3720,7 +3720,7 @@ msgstr "新しいブランチを開始する方法。"
 #: original_texis/maintaining.texi:1370
 #, no-wrap
 msgid "Switching between Branches"
-msgstr "Switching between Branches"
+msgstr "ブランチ間の切り替え"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:1374
@@ -3813,7 +3813,7 @@ msgstr ""
 #: original_texis/maintaining.texi:1409
 #, no-wrap
 msgid "Pulling/Pushing Changes into/from a Branch"
-msgstr "Pulling/Pushing Changes into/from a Branch"
+msgstr "ブランチへ/からの変更のpull/push"
 
 #. type: kindex
 #: original_texis/maintaining.texi:1412 original_texis/maintaining.texi:1425
@@ -3983,7 +3983,7 @@ msgstr ""
 #: original_texis/maintaining.texi:1477
 #, no-wrap
 msgid "Merging Branches"
-msgstr "Merging Branches"
+msgstr "ブランチのマージ"
 
 #. type: cindex
 #: original_texis/maintaining.texi:1478
@@ -4098,7 +4098,7 @@ msgstr ""
 #: original_texis/maintaining.texi:1524
 #, no-wrap
 msgid "Creating New Branches"
-msgstr "Creating New Branches"
+msgstr "新しいブランチの作成"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:1534
@@ -4179,7 +4179,7 @@ msgstr "vc1-xtra.texi"
 #: original_texis/maintaining.texi:1559
 #, no-wrap
 msgid "Change Logs"
-msgstr "Change Logs"
+msgstr "変更ログ"
 
 #. type: cindex
 #: original_texis/maintaining.texi:1561
@@ -4534,7 +4534,7 @@ msgstr "これはもちろん、正しい年と版権所有者に置き換えて
 #: original_texis/maintaining.texi:1689
 #, no-wrap
 msgid "Find Identifier References"
-msgstr "Find Identifier References"
+msgstr "識別子のリファレンスを探す"
 
 #. type: cindex
 #: original_texis/maintaining.texi:1690
@@ -5016,7 +5016,7 @@ msgstr ""
 #: original_texis/maintaining.texi:1852
 #, no-wrap
 msgid "Commands Available in the @file{*xref*} Buffer"
-msgstr "Commands Available in the @file{*xref*} Buffer"
+msgstr "@file{*xref*}バッファーで利用可能なコマンド"
 
 #. type: cindex
 #: original_texis/maintaining.texi:1853
@@ -5165,7 +5165,7 @@ msgstr ""
 #: original_texis/maintaining.texi:1893
 #, no-wrap
 msgid "Searching and Replacing with Identifiers"
-msgstr "Searching and Replacing with Identifiers"
+msgstr "識別子の検索と置換"
 
 #. type: cindex
 #: original_texis/maintaining.texi:1894
@@ -5432,7 +5432,7 @@ msgstr ""
 #: original_texis/maintaining.texi:1988
 #, no-wrap
 msgid "Identifier Inquiries"
-msgstr "Identifier Inquiries"
+msgstr "識別子の照会"
 
 #. type: item
 #: original_texis/maintaining.texi:1991
@@ -5723,7 +5723,7 @@ msgstr "正規表現を使用した任意タグの作成。"
 #: original_texis/maintaining.texi:2094
 #, no-wrap
 msgid "Source File Tag Syntax"
-msgstr "Source File Tag Syntax"
+msgstr "ソースファイルタグの構文"
 
 #. type: Plain text
 #: original_texis/maintaining.texi:2097
@@ -6132,7 +6132,7 @@ msgstr ""
 #: original_texis/maintaining.texi:2277
 #, no-wrap
 msgid "Creating Tags Tables"
-msgstr "Creating Tags Tables"
+msgstr "タグテーブルの作成"
 
 #. type: cindex
 #: original_texis/maintaining.texi:2278
@@ -6673,7 +6673,7 @@ msgstr ""
 #: original_texis/maintaining.texi:2536
 #, no-wrap
 msgid "Selecting a Tags Table"
-msgstr "Selecting a Tags Table"
+msgstr "タグテーブルの選択"
 
 #. type: findex
 #: original_texis/maintaining.texi:2538
