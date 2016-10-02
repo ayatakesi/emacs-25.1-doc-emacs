@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-09-18 07:00+0900\n"
+"PO-Revision-Date: 2016-10-02 11:52+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: original_texis/emacs-xtra.texi:46
 #, no-wrap
 msgid "Specialized Emacs Features"
-msgstr "Specialized Emacs Features"
+msgstr "Specialized Emacs Features(Japanese Translation)"
 
 #. type: include
 #: original_texis/emacs-xtra.texi:5
