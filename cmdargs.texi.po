@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:33+0900\n"
-"PO-Revision-Date: 2016-09-18 06:53+0900\n"
+"PO-Revision-Date: 2016-10-02 19:15+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr "Emacs Invocation"
 #: original_texis/cmdargs.texi:6
 #, no-wrap
 msgid "Command Line Arguments for Emacs Invocation"
-msgstr "Command Line Arguments for Emacs Invocation"
+msgstr "Emacs呼び出しにたいするコマンドライン引数"
 
 #. type: cindex
 #: original_texis/cmdargs.texi:7
@@ -1259,7 +1259,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:363
 #, no-wrap
 msgid "Command Argument Example"
-msgstr "Command Argument Example"
+msgstr "コマンド引数の例"
 
 #. type: Plain text
 #: original_texis/cmdargs.texi:369
@@ -1301,7 +1301,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:384
 #, no-wrap
 msgid "Environment Variables"
-msgstr "Environment Variables"
+msgstr "環境変数"
 
 #. type: cindex
 #: original_texis/cmdargs.texi:385
@@ -2310,7 +2310,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:654
 #, no-wrap
 msgid "Miscellaneous Variables"
-msgstr "Miscellaneous Variables"
+msgstr "その他の変数"
 
 #. type: Plain text
 #: original_texis/cmdargs.texi:657
@@ -2458,7 +2458,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:713
 #, no-wrap
 msgid "The MS-Windows System Registry"
-msgstr "The MS-Windows System Registry"
+msgstr "MS-Windowsのシステムレジストリー"
 
 #. type: pindex
 #: original_texis/cmdargs.texi:714
@@ -2538,7 +2538,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:746
 #, no-wrap
 msgid "Specifying the Display Name"
-msgstr "Specifying the Display Name"
+msgstr "ディスプレー名の指定"
 
 #. type: cindex
 #: original_texis/cmdargs.texi:747
@@ -2658,7 +2658,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:796
 #, no-wrap
 msgid "Font Specification Options"
-msgstr "Font Specification Options"
+msgstr "フォント指定オプション"
 
 #. type: cindex
 #: original_texis/cmdargs.texi:797
@@ -2741,7 +2741,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:825
 #, no-wrap
 msgid "Window Color Options"
-msgstr "Window Color Options"
+msgstr "ウィンドウカラーオプション"
 
 #. type: cindex
 #: original_texis/cmdargs.texi:826
@@ -3159,7 +3159,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:926
 #, no-wrap
 msgid "Options for Window Size and Position"
-msgstr "Options for Window Size and Position"
+msgstr "ウィンドウのサイズと位置にたいするオプション"
 
 #. type: cindex
 #: original_texis/cmdargs.texi:927
@@ -3499,7 +3499,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:1048
 #, no-wrap
 msgid "Internal and External Borders"
-msgstr "Internal and External Borders"
+msgstr "内枠ボーダーと外枠ボーダー"
 
 #. type: cindex
 #: original_texis/cmdargs.texi:1049
@@ -3625,7 +3625,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:1086
 #, no-wrap
 msgid "Frame Titles"
-msgstr "Frame Titles"
+msgstr "フレームタイトル"
 
 #. type: Plain text
 #: original_texis/cmdargs.texi:1094
@@ -3700,7 +3700,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:1111
 #, no-wrap
 msgid "Icons"
-msgstr "Icons"
+msgstr "アイコン"
 
 #. type: cindex
 #: original_texis/cmdargs.texi:1112
@@ -3797,7 +3797,7 @@ msgstr ""
 #: original_texis/cmdargs.texi:1146
 #, no-wrap
 msgid "Other Display Options"
-msgstr "Other Display Options"
+msgstr "その他のディスプレーオプション"
 
 #. type: item
 #: original_texis/cmdargs.texi:1157
