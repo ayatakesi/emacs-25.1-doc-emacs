@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-09-18 07:10+0900\n"
+"PO-Revision-Date: 2016-10-02 12:28+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr "Mark"
 #: original_texis/mark.texi:6
 #, no-wrap
 msgid "The Mark and the Region"
-msgstr "The Mark and the Region"
+msgstr "マークとリージョン"
 
 #. type: cindex
 #: original_texis/mark.texi:7
@@ -224,7 +224,7 @@ msgstr "デフォルトでリージョンをハイライトせずにおく。"
 #: original_texis/mark.texi:60
 #, no-wrap
 msgid "Setting the Mark"
-msgstr "Setting the Mark"
+msgstr "マークのセット"
 
 #. type: Plain text
 #: original_texis/mark.texi:63
@@ -493,7 +493,7 @@ msgstr ""
 #: original_texis/mark.texi:157
 #, no-wrap
 msgid "Commands to Mark Textual Objects"
-msgstr "Commands to Mark Textual Objects"
+msgstr "テキストオブジェクトをマークするコマンド"
 
 #. type: cindex
 #: original_texis/mark.texi:159
@@ -695,7 +695,7 @@ msgstr ""
 #: original_texis/mark.texi:221
 #, no-wrap
 msgid "Operating on the Region"
-msgstr "Operating on the Region"
+msgstr "リージョンを操作する"
 
 #. type: cindex
 #: original_texis/mark.texi:223
@@ -901,7 +901,7 @@ msgstr ""
 #: original_texis/mark.texi:298
 #, no-wrap
 msgid "The Mark Ring"
-msgstr "The Mark Ring"
+msgstr "マークリング"
 
 #. type: cindex
 #: original_texis/mark.texi:300
@@ -1065,7 +1065,7 @@ msgstr ""
 #: original_texis/mark.texi:357
 #, no-wrap
 msgid "The Global Mark Ring"
-msgstr "The Global Mark Ring"
+msgstr "グローバルマークリング"
 
 #. type: cindex
 #: original_texis/mark.texi:358
@@ -1200,7 +1200,7 @@ msgstr ""
 #: original_texis/mark.texi:412
 #, no-wrap
 msgid "Disabling Transient Mark Mode"
-msgstr "Disabling Transient Mark Mode"
+msgstr "Transient Markモードを無効にする"
 
 #. type: cindex
 #: original_texis/mark.texi:413
