@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-09-18 07:07+0900\n"
+"PO-Revision-Date: 2016-10-02 12:36+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -724,7 +724,7 @@ msgstr ""
 #: original_texis/help.texi:181
 #, no-wrap
 msgid "Documentation for a Key"
-msgstr "Documentation for a Key"
+msgstr "キーのドキュメント"
 
 #. type: findex
 #: original_texis/help.texi:183
@@ -850,7 +850,7 @@ msgstr ""
 #: original_texis/help.texi:218
 #, no-wrap
 msgid "Help by Command or Variable Name"
-msgstr "Help by Command or Variable Name"
+msgstr "コマンドと変数名のヘルプ"
 
 #. type: kindex
 #: original_texis/help.texi:220
@@ -1328,7 +1328,7 @@ msgstr ""
 #: original_texis/help.texi:393
 #, no-wrap
 msgid "Help Mode Commands"
-msgstr "Help Mode Commands"
+msgstr "ヘルプモードのコマンド"
 
 #. type: Plain text
 #: original_texis/help.texi:399
@@ -1588,7 +1588,7 @@ msgstr ""
 #: original_texis/help.texi:461
 #, no-wrap
 msgid "Keyword Search for Packages"
-msgstr "Keyword Search for Packages"
+msgstr "パッケージのキーワード検索"
 
 #. type: cindex
 #: original_texis/help.texi:462
@@ -1663,7 +1663,7 @@ msgstr ""
 #: original_texis/help.texi:487
 #, no-wrap
 msgid "Help for International Language Support"
-msgstr "Help for International Language Support"
+msgstr "国際化言語のサポートに関するヘルプ"
 
 #. type: Plain text
 #: original_texis/help.texi:495
@@ -1718,7 +1718,7 @@ msgstr ""
 #: original_texis/help.texi:509
 #, no-wrap
 msgid "Other Help Commands"
-msgstr "Other Help Commands"
+msgstr "その他のヘルプコマンド"
 
 #. type: findex
 #: original_texis/help.texi:512
@@ -2157,7 +2157,7 @@ msgstr ""
 #: original_texis/help.texi:651
 #, no-wrap
 msgid "Help on Active Text and Tooltips"
-msgstr "Help on Active Text and Tooltips"
+msgstr "アクティブテキストのヘルプとツールチップ"
 
 #. type: cindex
 #: original_texis/help.texi:653
