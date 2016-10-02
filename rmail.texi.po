@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:34+0900\n"
-"PO-Revision-Date: 2016-09-18 07:16+0900\n"
+"PO-Revision-Date: 2016-10-02 18:18+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr "Rmail"
 #: original_texis/rmail.texi:6
 #, no-wrap
 msgid "Reading Mail with Rmail"
-msgstr "Reading Mail with Rmail"
+msgstr "Rmailでメールを読む"
 
 #. type: cindex
 #: original_texis/rmail.texi:8
@@ -278,7 +278,7 @@ msgstr "Rmail Basics"
 #: original_texis/rmail.texi:42
 #, no-wrap
 msgid "Basic Concepts of Rmail"
-msgstr "Basic Concepts of Rmail"
+msgstr "Rmailの基本的な概念"
 
 #. type: cindex
 #: original_texis/rmail.texi:44
@@ -435,7 +435,7 @@ msgstr "Rmail Scrolling"
 #: original_texis/rmail.texi:93
 #, no-wrap
 msgid "Scrolling Within a Message"
-msgstr "Scrolling Within a Message"
+msgstr "メッセージのスクロール"
 
 #. type: Plain text
 #: original_texis/rmail.texi:99
@@ -583,7 +583,7 @@ msgstr "Rmail Motion"
 #: original_texis/rmail.texi:134
 #, no-wrap
 msgid "Moving Among Messages"
-msgstr "Moving Among Messages"
+msgstr "メッセージ間の移動"
 
 #. type: Plain text
 #: original_texis/rmail.texi:144
@@ -989,7 +989,7 @@ msgstr "Rmail Deletion"
 #: original_texis/rmail.texi:245
 #, no-wrap
 msgid "Deleting Messages"
-msgstr "Deleting Messages"
+msgstr "メッセージの削除"
 
 #. type: cindex
 #: original_texis/rmail.texi:247
@@ -1243,7 +1243,7 @@ msgstr "Rmail Inbox"
 #: original_texis/rmail.texi:327
 #, no-wrap
 msgid "Rmail Files and Inboxes"
-msgstr "Rmail Files and Inboxes"
+msgstr "Rmailファイルとinbox"
 
 #. type: cindex
 #: original_texis/rmail.texi:328
@@ -1466,7 +1466,7 @@ msgstr "Rmail Files"
 #: original_texis/rmail.texi:418
 #, no-wrap
 msgid "Multiple Rmail Files"
-msgstr "Multiple Rmail Files"
+msgstr "複数のRmailファイル"
 
 #. type: Plain text
 #: original_texis/rmail.texi:425
@@ -1691,7 +1691,7 @@ msgstr "Rmail Output"
 #: original_texis/rmail.texi:501
 #, no-wrap
 msgid "Copying Messages Out to Files"
-msgstr "Copying Messages Out to Files"
+msgstr "外部ファイルへのメッセージのコピー"
 
 #. type: Plain text
 #: original_texis/rmail.texi:504
@@ -1968,7 +1968,7 @@ msgstr "Rmail Labels"
 #: original_texis/rmail.texi:604
 #, no-wrap
 msgid "Labels"
-msgstr "Labels"
+msgstr "ラベル"
 
 #. type: cindex
 #: original_texis/rmail.texi:605
@@ -2367,7 +2367,7 @@ msgstr "Rmail Reply"
 #: original_texis/rmail.texi:714
 #, no-wrap
 msgid "Sending Replies"
-msgstr "Sending Replies"
+msgstr "返信の送信"
 
 #. type: Plain text
 #: original_texis/rmail.texi:722
@@ -2788,7 +2788,7 @@ msgstr "Rmail Summary"
 #: original_texis/rmail.texi:860
 #, no-wrap
 msgid "Summaries"
-msgstr "Summaries"
+msgstr "サマリー"
 
 #. type: cindex
 #: original_texis/rmail.texi:861
@@ -2853,7 +2853,7 @@ msgstr "サマリーからのメッセージの操作。"
 #: original_texis/rmail.texi:883
 #, no-wrap
 msgid "Making Summaries"
-msgstr "Making Summaries"
+msgstr "サマリーの作成"
 
 #. type: Plain text
 #: original_texis/rmail.texi:889
@@ -3144,7 +3144,7 @@ msgstr ""
 #: original_texis/rmail.texi:966
 #, no-wrap
 msgid "Editing in Summaries"
-msgstr "Editing in Summaries"
+msgstr "サマリーでの編集"
 
 #. type: Plain text
 #: original_texis/rmail.texi:971
@@ -3455,7 +3455,7 @@ msgstr "Rmail Sorting"
 #: original_texis/rmail.texi:1071
 #, no-wrap
 msgid "Sorting the Rmail File"
-msgstr "Sorting the Rmail File"
+msgstr "Rmailファイルのソート"
 
 #. type: cindex
 #: original_texis/rmail.texi:1072
@@ -3699,7 +3699,7 @@ msgstr "Rmail Display"
 #: original_texis/rmail.texi:1137
 #, no-wrap
 msgid "Display of Messages"
-msgstr "Display of Messages"
+msgstr "メッセージの表示"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1141
@@ -4055,7 +4055,7 @@ msgstr "Rmail Coding"
 #: original_texis/rmail.texi:1260
 #, no-wrap
 msgid "Rmail and Coding Systems"
-msgstr "Rmail and Coding Systems"
+msgstr "Rmailとコーディングシステム"
 
 #. type: cindex
 #: original_texis/rmail.texi:1262
@@ -4172,7 +4172,7 @@ msgstr "Rmail Editing"
 #: original_texis/rmail.texi:1304
 #, no-wrap
 msgid "Editing Within a Message"
-msgstr "Editing Within a Message"
+msgstr "メッセージの編集"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1312
@@ -4266,7 +4266,7 @@ msgstr "Rmail Digest"
 #: original_texis/rmail.texi:1337
 #, no-wrap
 msgid "Digest Messages"
-msgstr "Digest Messages"
+msgstr "ダイジェストメッセージ"
 
 #. type: cindex
 #: original_texis/rmail.texi:1338
@@ -4335,7 +4335,7 @@ msgstr "Rmail Rot13"
 #: original_texis/rmail.texi:1360
 #, no-wrap
 msgid "Reading Rot13 Messages"
-msgstr "Reading Rot13 Messages"
+msgstr "Rot13メッセージを読む"
 
 #. type: cindex
 #: original_texis/rmail.texi:1361
@@ -4657,7 +4657,7 @@ msgstr ""
 #: original_texis/rmail.texi:1482
 #, no-wrap
 msgid "Retrieving Mail from Remote Mailboxes"
-msgstr "Retrieving Mail from Remote Mailboxes"
+msgstr "リモートmailboxからのメールの取得"
 
 #. type: pindex
 #: original_texis/rmail.texi:1483
@@ -4901,7 +4901,7 @@ msgstr ""
 #: original_texis/rmail.texi:1572
 #, no-wrap
 msgid "Retrieving Mail from Local Mailboxes in Various Formats"
-msgstr "Retrieving Mail from Local Mailboxes in Various Formats"
+msgstr "さまざまな形式のローカルmailboxからのメールの取得"
 
 #. type: Plain text
 #: original_texis/rmail.texi:1580
