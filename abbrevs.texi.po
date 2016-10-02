@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:33+0900\n"
-"PO-Revision-Date: 2016-09-18 06:50+0900\n"
+"PO-Revision-Date: 2016-10-02 17:09+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -460,7 +460,7 @@ msgstr ""
 #: original_texis/abbrevs.texi:140
 #, no-wrap
 msgid "Controlling Abbrev Expansion"
-msgstr "Controlling Abbrev Expansion"
+msgstr "abbrev展開の制御"
 
 #. type: Plain text
 #: original_texis/abbrevs.texi:149
@@ -665,7 +665,7 @@ msgstr ""
 #: original_texis/abbrevs.texi:216
 #, no-wrap
 msgid "Examining and Editing Abbrevs"
-msgstr "Examining and Editing Abbrevs"
+msgstr "abbrevのテストと編集"
 
 #. type: item
 #: original_texis/abbrevs.texi:219
@@ -983,7 +983,7 @@ msgstr ""
 #: original_texis/abbrevs.texi:329
 #, no-wrap
 msgid "Dynamic Abbrev Expansion"
-msgstr "Dynamic Abbrev Expansion"
+msgstr "動的abbrev展開"
 
 #. type: Plain text
 #: original_texis/abbrevs.texi:336
@@ -1162,7 +1162,7 @@ msgstr ""
 #: original_texis/abbrevs.texi:398
 #, no-wrap
 msgid "Customizing Dynamic Abbreviation"
-msgstr "Customizing Dynamic Abbreviation"
+msgstr "動的abbrevのカスタマイズ"
 
 #. type: Plain text
 #: original_texis/abbrevs.texi:403
