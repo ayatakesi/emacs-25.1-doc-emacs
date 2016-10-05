@@ -26,7 +26,7 @@
 all: single-html multi-html info
 
 # 単一html用のターゲット
-single-html: emacs.html
+single-html: emacs-ja.html
 
 # 分割html用のターゲット
 # html/*.htmlが生成されます
@@ -36,13 +36,13 @@ multi-html: html/index.html
 info: emacs-ja.info
 
 # ASCII text用のターゲット
-txt: emacs.txt
+txt: emacs-ja.txt
 
 # pdf用のターゲット(オプション)
-pdf: emacs.pdf emacs-xtra.pdf
+pdf: emacs-ja.pdf emacs-xtra-ja.pdf
 
 # tar.gz用のターゲット(オプション)
-tar: emacs.texis.tar.gz
+tar: emacs-ja.texis.tar.gz
 
 TEXIS := \
 abbrevs.texi \
@@ -103,44 +103,48 @@ vc1-xtra.texi \
 windows.texi \
 xresources.texi
 
+JA_SUFFIX := "-ja"
+
 clean:
 	rm -f *.texi
 	rm -f emacs.html
 	rm -fR html/
-	rm -f emacs-ja.info
-	rm -f emacs.pdf
-	rm -f emacs-xtra.pdf
-	rm -f emacs.txt
-	rm -f emacs.texis.tar.gz
+	rm -f *.info
+	rm -f *.pdf
+	rm -f *.txt
+	rm -f *.tar.gz
 	rm -fR emacs.texis/
 
 %.texi:
 	if [ -f $@.po ]; \
 	then \
-		po4a-translate -f texinfo -k 0 -M utf8 -m original_texis/$@ -p $@.po -l $@; \
-		case "$@" in \
-		"screen.texi" ) perl -pe 's/\@section Point$$/\@section ポイント/' -i screen.texi ;; \
-		"commands.texi" ) perl -pe 's/\@section Keys$$/\@section キー/' -i commands.texi ;; \
-		"entering.texi" ) perl -pe 's/\@section Entering Emacs$$/\@section Emacsの起動/' -i entering.texi ;; \
-		"basic.texi" ) perl -pe \
+		JA_TEXI=$$(printf "%s%s%s" $* ${JA_SUFFIX} .texi); \
+		po4a-translate -f texinfo -k 0 -M utf8 -m original_texis/$@ -p $@.po -l $${JA_TEXI}; \
+		case $${JA_TEXI} in \
+		"emacs-ja.texi" ) perl -pe 's{\@setfilename \.\./\.\./info/emacs\.info}{\@setfilename emacs-ja.info}' -i emacs-ja.texi ;; \
+		"emacs-xtra-ja.texi" ) perl -pe 's{\@setfilename \.\./\.\./info/emacs-xtra\.info}{\@setfilename emacs-xtra-ja.info}' -i emacs-xtra-ja.texi ;; \
+		"screen-ja.texi" ) perl -pe 's/\@section Point$$/\@section ポイント/' -i screen-ja.texi ;; \
+		"commands-ja.texi" ) perl -pe 's/\@section Keys$$/\@section キー/' -i commands-ja.texi ;; \
+		"entering-ja.texi" ) perl -pe 's/\@section Entering Emacs$$/\@section Emacsの起動/' -i entering-ja.texi ;; \
+		"basic-ja.texi" ) perl -pe \
 's/\@section Inserting Text/\@section テキストの挿入/;'\
 's/\@section Blank Lines/\@section 空行/;'\
-'s/\@section Continuation Lines/\@section 継続行/;' -i basic.texi ;; \
-		"mini.texi" ) perl -pe \
+'s/\@section Continuation Lines/\@section 継続行/;' -i basic-ja.texi ;; \
+		"mini-ja.texi" ) perl -pe \
 's/\@section Completion/\@section 補完/;'\
 's/\@subsection Completion Example/\@subsection 補完の例/;'\
 's/\@subsection Completion Commands/\@subsection 補完コマンド/;'\
 's/\@subsection Completion Exit/\@subsection 補完の終了/;'\
 's/\@subsection Completion Options/\@subsection 補完オプション/;'\
 's/\@section Minibuffer History/\@section ミニバッファーヒストリー/;'\
-'s/\@section Yes or No Prompts/\@section Yes or No プロンプト/;' -i mini.texi ;; \
-		"help.texi" ) perl -pe \
+'s/\@section Yes or No Prompts/\@section Yes or No プロンプト/;' -i mini-ja.texi ;; \
+		"help-ja.texi" ) perl -pe \
 's/\@chapter Help$$/\@chapter ヘルプ/;'\
 's/\@section Help Summary$$/\@section ヘルプの概要/;'\
 's/\@section Apropos$$/\@section Apropos\(適切な\)/;'\
-'s/\@section Help Files$$/\@section ヘルプファイル/;' -i help.texi ;; \
-		"mark.texi" ) perl -pe 's/\@section Shift Selection$$/\@section シフト選択/' -i mark.texi ;; \
-		"killing.texi" ) perl -pe \
+'s/\@section Help Files$$/\@section ヘルプファイル/;' -i help-ja.texi ;; \
+		"mark-ja.texi" ) perl -pe 's/\@section Shift Selection$$/\@section シフト選択/' -i mark-ja.texi ;; \
+		"killing-ja.texi" ) perl -pe \
 's/\@section Deletion and Killing$$/\@section 削除とkill/;'\
 's/\@subsection Deletion$$/\@subsection 削除/;'\
 's/\@subsection Killing by Lines$$/\@subsection 行のkill/;'\
@@ -150,12 +154,12 @@ clean:
 's/\@subsection Secondary Selection$$/\@subsection セカンダリー選択/;'\
 's/\@section Accumulating Text$$/\@section テキストの追加/;'\
 's/\@section Rectangles$$/\@section 矩形領域(Rectangles)/;'\
-'s/\@section CUA Bindings$$/\@section CUAバインド/;' -i killing.texi ;; \
-		"regs.texi" ) perl -pe \
+'s/\@section CUA Bindings$$/\@section CUAバインド/;' -i killing-ja.texi ;; \
+		"regs-ja.texi" ) perl -pe \
 's/\@chapter Registers$$/\@chapter レジスター/;'\
 's/\@section Keyboard Macro Registers/\@section キーボードマクロのレジスター/;'\
-'s/\@section Bookmarks/\@section ブックマーク/;' -i regs.texi ;; \
-		"display.texi" ) perl -pe \
+'s/\@section Bookmarks/\@section ブックマーク/;' -i regs-ja.texi ;; \
+		"display-ja.texi" ) perl -pe \
 's/\@section Scrolling$$/\@section スクロール/;'\
 's/\@section Recentering$$/\@section センタリング/;'\
 's/\@section Horizontal Scrolling$$/\@section 水平スクロール/;'\
@@ -169,16 +173,16 @@ clean:
 's/\@section Useless Whitespace$$/\@section 不要なスペース/;'\
 's/\@section Selective Display$$/\@section 選択的な表示/;'\
 's/\@section Line Truncation$$/\@section 行の切り詰め/;'\
-'s/\@section Visual Line Mode$$/\@section Visual Lineモード/;' -i display.texi ;; \
-		"search.texi" ) perl -pe \
+'s/\@section Visual Line Mode$$/\@section Visual Lineモード/;' -i display-ja.texi ;; \
+		"search-ja.texi" ) perl -pe \
 's/\@section Incremental Search$$/\@section インクリメンタル検索/;'\
 's/\@section Nonincremental Search$$/\@section 非インクリメンタル検索/;'\
 's/\@section Word Search$$/\@section 単語検索/;'\
 's/\@section Symbol Search$$/\@section シンボル検索/;'\
-'s/\@subsection Query Replace$$/\@subsection 問い合わせつき置換/;' -i search.texi ;; \
-		"fixit.texi" ) perl -pe 's/\@section Undo$$/\@section Undo(取り消し)/' -i fixit.texi ;; \
-		"kmacro.texi" ) perl -pe 's/\@chapter Keyboard Macros$$/\@chapter キーボードマクロ/' -i kmacro.texi ;; \
-		"files.texi" ) perl -pe \
+'s/\@subsection Query Replace$$/\@subsection 問い合わせつき置換/;' -i search-ja.texi ;; \
+		"fixit-ja.texi" ) perl -pe 's/\@section Undo$$/\@section Undo(取り消し)/' -i fixit-ja.texi ;; \
+		"kmacro-ja.texi" ) perl -pe 's/\@chapter Keyboard Macros$$/\@chapter キーボードマクロ/' -i kmacro-ja.texi ;; \
+		"files-ja.texi" ) perl -pe \
 's/\@section File Names$$/\@section ファイルの名前/;'\
 's/\@section Comparing Files$$/\@section ファイルの比較/;'\
 's/\@section Diff Mode$$/\@section Diffモード/;'\
@@ -186,10 +190,10 @@ clean:
 's/\@section Remote Files$$/\@section リモートファイル/;'\
 's/\@section Quoted File Names$$/\@section ファイル名のクォート/;'\
 's/\@section File Name Cache$$/\@section ファイル名キャッシュ/;'\
-'s/\@section Filesets$$/\@section ファイルセット/;' -i files.texi ;; \
-		"arevert-xtra.texi" ) perl -pe 's/\@subsection Auto Reverting the Buffer Menu$$/\@subsection Buffer Menuの自動リバート/' -i arevert-xtra.texi ;; \
-		"buffers.texi" ) perl -pe 's/\@section Indirect Buffers$$/\@section インダイレクトバッファー/' -i buffers.texi ;; \
-		"frames.texi" ) perl -pe \
+'s/\@section Filesets$$/\@section ファイルセット/;' -i files-ja.texi ;; \
+		"arevert-xtra-ja.texi" ) perl -pe 's/\@subsection Auto Reverting the Buffer Menu$$/\@subsection Buffer Menuの自動リバート/' -i arevert-xtra-ja.texi ;; \
+		"buffers-ja.texi" ) perl -pe 's/\@section Indirect Buffers$$/\@section インダイレクトバッファー/' -i buffers-ja.texi ;; \
+		"frames-ja.texi" ) perl -pe \
 's/\@section Creating Frames$$/\@section フレームの作成/;'\
 's/\@section Frame Commands$$/\@section フレームコマンド/;'\
 's/\@section Fonts$$/\@section フォント/;'\
@@ -202,8 +206,8 @@ clean:
 's/\@section Tool Bars$$/\@section ツールバー/;'\
 's/\@section Tooltips$$/\@section ツールチップ/;'\
 's/\@section Mouse Avoidance$$/\@section マウスの回避/;'\
-'s/\@section Non-Window Terminals$$/\@section 非ウィンドウ端末/;' -i frames.texi ;; \
-		"mule.texi" ) perl -pe \
+'s/\@section Non-Window Terminals$$/\@section 非ウィンドウ端末/;' -i frames-ja.texi ;; \
+		"mule-ja.texi" ) perl -pe \
 's/\@section Language Environments$$/\@section 言語環境/;'\
 's/\@section Input Methods$$/\@section インプットメソッド/;'\
 's/\@section Coding Systems$$/\@section コーディングシステム/;'\
@@ -211,15 +215,15 @@ clean:
 's/\@section Modifying Fontsets$$/\@section フォントセットの修正/;'\
 's/\@section Undisplayable Characters$$/\@section 表示できない文字/;'\
 's/\@section Charsets$$/\@section 文字セット/;'\
-'s/\@section Bidirectional Editing$$/\@section 双方向の編集/;' -i mule.texi ;; \
-		"modes.texi" ) perl -pe \
+'s/\@section Bidirectional Editing$$/\@section 双方向の編集/;' -i mule-ja.texi ;; \
+		"modes-ja.texi" ) perl -pe \
 's/\@section Major Modes$$/\@section メジャーモード/;'\
-'s/\@section Minor Modes$$/\@section マイナーモード/;' -i modes.texi ;; \
-		"indent.texi" ) perl -pe \
+'s/\@section Minor Modes$$/\@section マイナーモード/;' -i modes-ja.texi ;; \
+		"indent-ja.texi" ) perl -pe \
 's/\@chapter Indentation$$/\@chapter インデント/;'\
 's/\@section Indentation Commands$$/\@section インデントコマンド/;'\
-'s/\@section Tab Stops$$/\@section タブストップ/;' -i indent.texi ;; \
-		"text.texi" ) perl -pe \
+'s/\@section Tab Stops$$/\@section タブストップ/;' -i indent-ja.texi ;; \
+		"text-ja.texi" ) perl -pe \
 's/\@section Words$$/\@section 単語/;'\
 's/\@section Sentences$$/\@section センテンス/;'\
 's/\@section Paragraphs$$/\@section パラグラフ/;'\
@@ -233,16 +237,16 @@ clean:
 's/\@subsection Hard and Soft Newlines$$/\@subsection ハード改行とソフト改行/;'\
 's/\@subsection Table Recognition$$/\@subsection テーブルの認識/;'\
 's/\@subsection Cell Justification$$/\@subsection セルの位置調整/;'\
-'s/\@subsection Table Rows and Columns$$/\@subsection テーブルの行と列/;' -i text.texi ;; \
-		"programs.texi" ) perl -pe \
+'s/\@subsection Table Rows and Columns$$/\@subsection テーブルの行と列/;' -i text-ja.texi ;; \
+		"programs-ja.texi" ) perl -pe \
 's/\@subsection Moving by Defuns$$/\@subsection defunの移動/;'\
 's/\@subsection Imenu$$/\@subsection Imenuとは/;'\
 's/\@subsection Comment Commands$$/\@subsection コメントコマンド/;'\
 's/\@section MixedCase Words$$/\@section 大文字小文字の混ざった単語/;'\
 's/\@section Semantic$$/\@section Semanticとは/;'\
-'s/\@section Asm Mode$$/\@section Asmモード/;' -i programs.texi ;; \
-		"fortran-xtra.texi" ) perl -pe 's/\@subsection Fortran Comments$$/\@subsection Fortranのコメント/;' -i fortran-xtra.texi ;; \
-		"building.texi" ) perl -pe \
+'s/\@section Asm Mode$$/\@section Asmモード/;' -i programs-ja.texi ;; \
+		"fortran-xtra-ja.texi" ) perl -pe 's/\@subsection Fortran Comments$$/\@subsection Fortranのコメント/;' -i fortran-xtra-ja.texi ;; \
+		"building-ja.texi" ) perl -pe \
 's/\@section Compilation Mode$$/\@section Compilationモード/;'\
 's/\@subsection Starting GUD$$/\@subsection GUDの開始/;'\
 's/\@subsection Debugger Operation$$/\@subsection デバッガーの操作/;'\
@@ -256,8 +260,8 @@ clean:
 's/\@subsubsection Stack Buffer$$/\@subsubsection Stackバッファー/;'\
 's/\@subsubsection Other GDB Buffers$$/\@subsubsection その他のGDBバッファー/;'\
 's/\@subsubsection Watch Expressions$$/\@subsubsection ウォッチ式/;'\
-'s/\@subsubsection Multithreaded Debugging$$/\@subsubsection マルチスレッドのデバッグ/;' -i building.texi ;; \
-		"maintaining.texi" ) perl -pe \
+'s/\@subsubsection Multithreaded Debugging$$/\@subsubsection マルチスレッドのデバッグ/;' -i building-ja.texi ;; \
+		"maintaining-ja.texi" ) perl -pe \
 's/\@section Version Control$$/\@section バージョンコントロール/;'\
 's/\@subsubsection Types of Log File$$/\@subsubsection ログファイルのタイプ/;'\
 's/\@subsection VC Change Log$$/\@subsection VC Change Log/;'\
@@ -269,28 +273,28 @@ clean:
 's/\@subsubsection Looking Up Identifiers$$/\@subsubsection 識別子のルックアップ/;'\
 's/\@subsection Tags Tables$$/\@subsection タグテーブル/;'\
 's/\@subsubsection Etags Regexps$$/\@subsubsection EtagsのRegexps/;'\
-'s/\@section Emacs Development Environment$$/\@section Emacs開発環境/;'  -i maintaining.texi ;; \
-		"vc1-xtra.texi" ) perl -pe \
+'s/\@section Emacs Development Environment$$/\@section Emacs開発環境/;'  -i maintaining-ja.texi ;; \
+		"vc1-xtra-ja.texi" ) perl -pe \
 's/\@subsubsection Change Logs and VC$$/\@subsubsection 変更ログとVC/;'\
 's/\@subsubsection Revision Tags$$/\@subsubsection リビジョンタグ/;'\
-'s/\@subsection Customizing VC$$/\@subsection VCのカスタマイズ/;' -i vc1-xtra.texi ;; \
-		"emerge-xtra.texi" ) perl -pe \
+'s/\@subsection Customizing VC$$/\@subsection VCのカスタマイズ/;' -i vc1-xtra-ja.texi ;; \
+		"emerge-xtra-ja.texi" ) perl -pe \
 's/\@subsection Overview of Emerge$$/\@subsection Emergeの概要/;'\
 's/\@subsection Submodes of Emerge$$/\@subsection Emergeのサブモード/;'\
 's/\@subsection Merge Commands$$/\@subsection マージコマンド/;'\
 's/\@subsection Exiting Emerge$$/\@subsection Emergeの終了/;'\
-'s/\@subsection Fine Points of Emerge$$/\@subsection Emergeの細かい注意点/;' -i emerge-xtra.texi ;; \
-		"abbrevs.texi" ) perl -pe \
+'s/\@subsection Fine Points of Emerge$$/\@subsection Emergeの細かい注意点/;' -i emerge-xtra-ja.texi ;; \
+		"abbrevs-ja.texi" ) perl -pe \
 's/\@chapter Abbrevs$$/\@chapter abbrev\(略語\)/;'\
 's/\@section Abbrev Concepts$$/\@section abbrevの概念/;'\
 's/\@section Defining Abbrevs$$/\@section abbrevの定義/;'\
-'s/\@section Saving Abbrevs$$/\@section abbrevの保存/;' -i abbrevs.texi ;; \
-		"dired.texi" ) perl -pe \
+'s/\@section Saving Abbrevs$$/\@section abbrevの保存/;' -i abbrevs-ja.texi ;; \
+		"dired-ja.texi" ) perl -pe \
 's/\@section Operating on Files$$/\@section ファイルにたいする操作/;'\
 's/\@section Shell Commands in Dired$$/\@section Diredでのシェルコマンド/;'\
 's/\@section Subdirectories in Dired$$/\@section Diredでのサブディレクトリー/;'\
-'s/\@section Hiding Subdirectories$$/\@section サブディレクトリーを隠す/;' -i dired.texi ;; \
-		"calendar.texi" ) perl -pe \
+'s/\@section Hiding Subdirectories$$/\@section サブディレクトリーを隠す/;' -i dired-ja.texi ;; \
+		"calendar-ja.texi" ) perl -pe \
 's/\@subsection Specified Dates$$/\@subsection 日付の指定/;'\
 's/\@section Counting Days$$/\@section 日付のカウント/;'\
 's/\@section Writing Calendar Files$$/\@section カレンダーファイルの記述/;'\
@@ -298,24 +302,24 @@ clean:
 's/\@subsection Displaying the Diary$$/\@subsection ダイアリーの表示/;'\
 's/\@subsection Date Formats$$/\@subsection 日付のフォーマット/;'\
 's/\@subsection Special Diary Entries$$/\@subsection 特別なダイアリーエントリー/;'\
-'s/\@section Appointments$$/\@section アポイントメント/;' -i calendar.texi ;; \
-		"cal-xtra.texi" ) perl -pe \
+'s/\@section Appointments$$/\@section アポイントメント/;' -i calendar-ja.texi ;; \
+		"cal-xtra-ja.texi" ) perl -pe \
 's/\@subsection Date Display Format$$/\@subsection 日付の表示フォーマット/;'\
 's/\@subsection Time Display Format$$/\@subsection 時刻の表示フォーマット/;'\
 's/\@subsection Diary Display$$/\@subsection ダイアリーの表示/;'\
-'s/\@subsection Fancy Diary Display$$/\@subsection Fancy Diary表示/;' -i cal-xtra.texi ;; \
-		"sending.texi" ) perl -pe \
+'s/\@subsection Fancy Diary Display$$/\@subsection Fancy Diary表示/;' -i cal-xtra-ja.texi ;; \
+		"sending-ja.texi" ) perl -pe \
 's/\@chapter Sending Mail$$/\@chapter メールの送信/;'\
 's/\@section Mail Aliases$$/\@section メールエイリアス/;'\
 's/\@section Mail Commands$$/\@section メールコマンド/;'\
 's/\@subsection Mail Sending$$/\@subsection メールの送信/;'\
 's/\@subsection Citing Mail$$/\@subsection メールの引用/;'\
 's/\@section Mail Signature$$/\@section メール署名/;'\
-'s/\@section Mail Amusements$$/\@section アミューズメント/;' -i sending.texi ;; \
-		"rmail.texi" ) perl -pe \
+'s/\@section Mail Amusements$$/\@section アミューズメント/;' -i sending-ja.texi ;; \
+		"rmail-ja.texi" ) perl -pe \
 's/\@section Rmail Attributes$$/\@section Rmailの属性/;'\
-'s/\@section \@code\{movemail\} program$$/\@section \@code\{movemail\}プログラム/;' -i rmail.texi ;; \
-		"misc.texi" ) perl -pe \
+'s/\@section \@code\{movemail\} program$$/\@section \@code\{movemail\}プログラム/;' -i rmail-ja.texi ;; \
+		"misc-ja.texi" ) perl -pe \
 's/\@section Gnus$$/\@section Gnus/;'\
 's/\@section Host Security$$/\@section ホストセキュリティー/;'\
 's/\@section Network Security$$/\@section ネットワークセキュリティー/;'\
@@ -333,9 +337,9 @@ clean:
 's/\@subsection Printing Package$$/\@subsection 印刷のためのパッケージ/;'\
 's/\@section Editing Binary Files$$/\@section バイナリーファイルの編集/;'\
 's/\@section Saving Emacs Sessions$$/\@section Emacsセッションの保存/;'\
-'s/\@section Emulation$$/\@section エミュレーション/;' -i misc.texi ;; \
-		"package.texi" ) perl -pe 's/\@section Package Installation$$/\@section パッケージのインストール/' -i package.texi ;; \
-		"custom.texi" ) perl -pe \
+'s/\@section Emulation$$/\@section エミュレーション/;' -i misc-ja.texi ;; \
+		"package-ja.texi" ) perl -pe 's/\@section Package Installation$$/\@section パッケージのインストール/' -i package-ja.texi ;; \
+		"custom-ja.texi" ) perl -pe \
 's/\@chapter Customization$$/\@chapter カスタマイズ/;'\
 's/\@subsection Customization Groups$$/\@subsection カスタマイズグループ/;'\
 's/\@subsection Changing a Variable$$/\@subsection 変数の変更/;'\
@@ -348,56 +352,56 @@ clean:
 's/\@subsection Keymaps$$/\@subsection キーマップ/;'\
 's/\@subsection Prefix Keymaps$$/\@subsection プレフィクスキーマップ/;'\
 's/\@subsection Local Keymaps$$/\@subsection ローカルキーマップ/;'\
-'s/\@subsection Modifier Keys$$/\@subsection 修飾キー/;' -i custom.texi ;; \
-		"trouble.texi" ) perl -pe \
+'s/\@subsection Modifier Keys$$/\@subsection 修飾キー/;' -i custom-ja.texi ;; \
+		"trouble-ja.texi" ) perl -pe \
 's/\@subsection Emergency Escape$$/\@subsection 緊急エスケープ/;'\
 's/\@subsection Understanding Bug Reporting$$/\@subsection バグレポートの理解/;'\
 's/\@subsection Coding Standards$$/\@subsection コーディング規約/;'\
-'s/\@subsection Copyright Assignment$$/\@subsection 著作権の譲渡/;' -i trouble.texi ;; \
-		"cmdargs.texi" ) perl -pe \
+'s/\@subsection Copyright Assignment$$/\@subsection 著作権の譲渡/;' -i trouble-ja.texi ;; \
+		"cmdargs-ja.texi" ) perl -pe \
 's/\@appendixsec Action Arguments$$/\@appendixsec 動作引数/;'\
 's/\@appendixsec Initial Options$$/\@appendixsec 初期化オプション/;'\
-'s/\@appendixsubsec General Variables$$/\@appendixsubsec 一般的な変数/;' -i cmdargs.texi ;; \
-		"xresources.texi" ) perl -pe \
+'s/\@appendixsubsec General Variables$$/\@appendixsubsec 一般的な変数/;' -i cmdargs-ja.texi ;; \
+		"xresources-ja.texi" ) perl -pe \
 's/\@appendixsec X Resources$$/\@appendixsec Xリソース/;'\
 's/\@appendixsec GTK resources$$/\@appendixsec GTKリソース/;'\
 's/\@appendixsubsec GTK Resource Basics$$/\@appendixsubsec GTKリソースの基本/;'\
 's/\@appendixsubsec GTK widget names$$/\@appendixsubsec GTKウィジェット名/;'\
-'s/\@appendixsubsec GTK styles$$/\@appendixsubsec GTKスタイル/;' -i xresources.texi ;; \
-		"macos.texi" ) perl -pe \
+'s/\@appendixsubsec GTK styles$$/\@appendixsubsec GTKスタイル/;' -i xresources-ja.texi ;; \
+		"macos-ja.texi" ) perl -pe \
 's/\@section Mac \/ GNUstep Customization$$/\@section Mac \/ GNUstepでのカスタマイズ/;'\
-'s/\@section GNUstep Support$$/\@section GNUstepにたいするサポート/;' -i macos.texi ;; \
+'s/\@section GNUstep Support$$/\@section GNUstepにたいするサポート/;' -i macos-ja.texi ;; \
 		esac \
 	else \
 		cp -pf original_texis/$@ $@; \
 	fi; \
 
-emacs.html: $(TEXIS)
-	texi2any --set-customization-variable TEXI2HTML=1 emacs.texi
+emacs-ja.html: $(TEXIS)
+	texi2any --set-customization-variable TEXI2HTML=1 emacs-ja.texi
 
 html/index.html: $(TEXIS)
-	makeinfo -o html/ --html emacs.texi
+	makeinfo -o html/ --html emacs-ja.texi
 
 emacs-ja.info: $(TEXIS)
-	makeinfo --no-split -o emacs-ja.info emacs.texi
+	makeinfo --no-split -o emacs-ja.info emacs-ja.texi
 
 emacs.pdf emacs-xtra.pdf: $(TEXIS)
-	TEX=ptex texi2dvi -c emacs.texi
-	dvipdfmx emacs.dvi
-	rm -f emacs.dvi
+	TEX=ptex texi2dvi -c emacs-ja.texi
+	dvipdfmx emacs-ja.dvi
+	rm -f emacs-ja.dvi
 
-	TEX=ptex texi2dvi -c emacs-xtra.texi
-	dvipdfmx emacs-xtra.dvi
-	rm emacs-xtra.dvi
+	TEX=ptex texi2dvi -c emacs-xtra-ja.texi
+	dvipdfmx emacs-xtra-ja.dvi
+	rm emacs-xtra-ja.dvi
 
 emacs.txt: $(TEXI)
-	texi2any --plaintext emacs.texi > emacs.txt
+	texi2any --plaintext emacs-ja.texi > emacs-ja.txt
 
 emacs.texis.tar.gz: $(TEXIS)
-	if [ ! -d emacs.texis ]; \
+	if [ ! -d emacs-ja.texis ]; \
 	then \
-		mkdir emacs.texis/; \
+		mkdir emacs-ja.texis/; \
 	fi
 
-	cp -fp *.texi emacs.texis
-	tar cvfz ./emacs.texis.tar.gz ./emacs.texis
+	cp -fp *.texi emacs-ja.texis
+	tar cvfz ./emacs-ja.texis.tar.gz ./emacs-ja.texis
