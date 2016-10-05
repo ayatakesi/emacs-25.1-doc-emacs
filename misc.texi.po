@@ -6884,7 +6884,7 @@ msgstr ""
 #: original_texis/misc.texi:2250
 #, no-wrap
 msgid "picture-xtra.texi"
-msgstr "picture-xtra.texi"
+msgstr "picture-xtra-ja.texi"
 
 #. type: section
 #: original_texis/misc.texi:2254 original_texis/misc.texi:2255

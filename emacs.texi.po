@@ -7900,205 +7900,205 @@ msgstr ""
 #: original_texis/emacs.texi:1546
 #, no-wrap
 msgid "screen.texi"
-msgstr "screen.texi"
+msgstr "screen-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1547
 #, no-wrap
 msgid "commands.texi"
-msgstr "commands.texi"
+msgstr "commands-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1548
 #, no-wrap
 msgid "entering.texi"
-msgstr "entering.texi"
+msgstr "entering-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1549
 #, no-wrap
 msgid "basic.texi"
-msgstr "basic.texi"
+msgstr "basic-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1550
 #, no-wrap
 msgid "mini.texi"
-msgstr "mini.texi"
+msgstr "mini-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1551
 #, no-wrap
 msgid "m-x.texi"
-msgstr "m-x.texi"
+msgstr "m-x-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1552
 #, no-wrap
 msgid "help.texi"
-msgstr "help.texi"
+msgstr "help-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1553
 #, no-wrap
 msgid "mark.texi"
-msgstr "mark.texi"
+msgstr "mark-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1554
 #, no-wrap
 msgid "killing.texi"
-msgstr "killing.texi"
+msgstr "killing-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1555
 #, no-wrap
 msgid "regs.texi"
-msgstr "regs.texi"
+msgstr "regs-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1556
 #, no-wrap
 msgid "display.texi"
-msgstr "display.texi"
+msgstr "display-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1557
 #, no-wrap
 msgid "search.texi"
-msgstr "search.texi"
+msgstr "search-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1558
 #, no-wrap
 msgid "fixit.texi"
-msgstr "fixit.texi"
+msgstr "fixit-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1559
 #, no-wrap
 msgid "kmacro.texi"
-msgstr "kmacro.texi"
+msgstr "kmacro-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1561
 #, no-wrap
 msgid "files.texi"
-msgstr "files.texi"
+msgstr "files-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1562
 #, no-wrap
 msgid "buffers.texi"
-msgstr "buffers.texi"
+msgstr "buffers-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1563
 #, no-wrap
 msgid "windows.texi"
-msgstr "windows.texi"
+msgstr "windows-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1564
 #, no-wrap
 msgid "frames.texi"
-msgstr "frames.texi"
+msgstr "frames-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1565
 #, no-wrap
 msgid "mule.texi"
-msgstr "mule.texi"
+msgstr "mule-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1566
 #, no-wrap
 msgid "modes.texi"
-msgstr "modes.texi"
+msgstr "modes-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1567
 #, no-wrap
 msgid "indent.texi"
-msgstr "indent.texi"
+msgstr "indent-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1568
 #, no-wrap
 msgid "text.texi"
-msgstr "text.texi"
+msgstr "text-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1570
 #, no-wrap
 msgid "programs.texi"
-msgstr "programs.texi"
+msgstr "programs-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1571
 #, no-wrap
 msgid "building.texi"
-msgstr "building.texi"
+msgstr "building-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1573
 #, no-wrap
 msgid "maintaining.texi"
-msgstr "maintaining.texi"
+msgstr "maintaining-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1574
 #, no-wrap
 msgid "abbrevs.texi"
-msgstr "abbrevs.texi"
+msgstr "abbrevs-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1576
 #, no-wrap
 msgid "dired.texi"
-msgstr "dired.texi"
+msgstr "dired-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1578
 #, no-wrap
 msgid "calendar.texi"
-msgstr "calendar.texi"
+msgstr "calendar-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1579
 #, no-wrap
 msgid "sending.texi"
-msgstr "sending.texi"
+msgstr "sending-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1580
 #, no-wrap
 msgid "rmail.texi"
-msgstr "rmail.texi"
+msgstr "rmail-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1582
 #, no-wrap
 msgid "misc.texi"
-msgstr "misc.texi"
+msgstr "misc-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1583
 #, no-wrap
 msgid "package.texi"
-msgstr "package.texi"
+msgstr "package-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1584
 #, no-wrap
 msgid "custom.texi"
-msgstr "custom.texi"
+msgstr "custom-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1585
 #, no-wrap
 msgid "trouble.texi"
-msgstr "trouble.texi"
+msgstr "trouble-ja.texi"
 
 #. type: appendix
 #: original_texis/emacs.texi:1588
@@ -8122,31 +8122,31 @@ msgstr "doclicense.texi"
 #: original_texis/emacs.texi:1595
 #, no-wrap
 msgid "cmdargs.texi"
-msgstr "cmdargs.texi"
+msgstr "cmdargs-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1596
 #, no-wrap
 msgid "xresources.texi"
-msgstr "xresources.texi"
+msgstr "xresources-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1598
 #, no-wrap
 msgid "anti.texi"
-msgstr "anti.texi"
+msgstr "anti-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1599
 #, no-wrap
 msgid "macos.texi"
-msgstr "macos.texi"
+msgstr "macos-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1601
 #, no-wrap
 msgid "msdos.texi"
-msgstr "msdos.texi"
+msgstr "msdos-ja.texi"
 
 #. type: include
 #: original_texis/emacs.texi:1602

@@ -202,49 +202,49 @@ msgstr "@raisesections"
 #: original_texis/emacs-xtra.texi:108
 #, no-wrap
 msgid "picture-xtra.texi"
-msgstr "picture-xtra.texi"
+msgstr "picture-xtra-ja.texi"
 
 #. type: include
 #: original_texis/emacs-xtra.texi:110
 #, no-wrap
 msgid "arevert-xtra.texi"
-msgstr "arevert-xtra.texi"
+msgstr "arevert-xtra-ja.texi"
 
 #. type: include
 #: original_texis/emacs-xtra.texi:112
 #, no-wrap
 msgid "dired-xtra.texi"
-msgstr "dired-xtra.texi"
+msgstr "dired-xtra-ja.texi"
 
 #. type: include
 #: original_texis/emacs-xtra.texi:114
 #, no-wrap
 msgid "cal-xtra.texi"
-msgstr "cal-xtra.texi"
+msgstr "cal-xtra-ja.texi"
 
 #. type: include
 #: original_texis/emacs-xtra.texi:116
 #, no-wrap
 msgid "emerge-xtra.texi"
-msgstr "emerge-xtra.texi"
+msgstr "emerge-xtra-ja.texi"
 
 #. type: include
 #: original_texis/emacs-xtra.texi:118
 #, no-wrap
 msgid "vc-xtra.texi"
-msgstr "vc-xtra.texi"
+msgstr "vc-xtra-ja.texi"
 
 #. type: include
 #: original_texis/emacs-xtra.texi:120
 #, no-wrap
 msgid "fortran-xtra.texi"
-msgstr "fortran-xtra.texi"
+msgstr "fortran-xtra-ja.texi"
 
 #. type: include
 #: original_texis/emacs-xtra.texi:122
 #, no-wrap
 msgid "msdos-xtra.texi"
-msgstr "msdos-xtra.texi"
+msgstr "msdos-xtra-ja.texi"
 
 #. type: iftex
 #: original_texis/emacs-xtra.texi:125

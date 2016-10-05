@@ -2778,4 +2778,4 @@ msgstr ""
 #: original_texis/msdos.texi:1034
 #, no-wrap
 msgid "msdos-xtra.texi"
-msgstr "msdos-xtra.texi"
+msgstr "msdos-xtra-ja.texi"

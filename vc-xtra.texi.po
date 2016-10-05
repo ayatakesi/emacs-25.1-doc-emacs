@@ -77,4 +77,4 @@ msgstr "Variables that change VC's behavior."
 #: original_texis/vc-xtra.texi:24
 #, no-wrap
 msgid "vc1-xtra.texi"
-msgstr "vc1-xtra.texi"
+msgstr "vc1-xtra-ja.texi"

@@ -3648,7 +3648,7 @@ msgstr ""
 #: original_texis/dired.texi:1058
 #, no-wrap
 msgid "dired-xtra.texi"
-msgstr "dired-xtra.texi"
+msgstr "dired-xtra-ja.texi"
 
 #. type: section
 #: original_texis/dired.texi:1062

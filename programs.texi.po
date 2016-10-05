@@ -5567,4 +5567,4 @@ msgstr ""
 #: original_texis/programs.texi:1894
 #, no-wrap
 msgid "fortran-xtra.texi"
-msgstr "fortran-xtra.texi"
+msgstr "fortran-xtra-ja.texi"

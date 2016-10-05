@@ -2938,7 +2938,7 @@ msgstr ""
 #: original_texis/files.texi:963
 #, no-wrap
 msgid "arevert-xtra.texi"
-msgstr "arevert-xtra.texi"
+msgstr "arevert-xtra-ja.texi"
 
 #. type: section
 #: original_texis/files.texi:967

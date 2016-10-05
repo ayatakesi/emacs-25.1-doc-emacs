@@ -5150,4 +5150,4 @@ msgstr ""
 #: original_texis/calendar.texi:1633
 #, no-wrap
 msgid "cal-xtra.texi"
-msgstr "cal-xtra.texi"
+msgstr "cal-xtra-ja.texi"

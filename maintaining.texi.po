@@ -4173,7 +4173,7 @@ msgstr ""
 #: original_texis/maintaining.texi:1555
 #, no-wrap
 msgid "vc1-xtra.texi"
-msgstr "vc1-xtra.texi"
+msgstr "vc1-xtra-ja.texi"
 
 #. type: section
 #: original_texis/maintaining.texi:1559
@@ -6931,4 +6931,4 @@ msgstr ""
 #: original_texis/maintaining.texi:2644
 #, no-wrap
 msgid "emerge-xtra.texi"
-msgstr "emerge-xtra.texi"
+msgstr "emerge-xtra-ja.texi"
