@@ -107,7 +107,7 @@ JA_SUFFIX := "-ja"
 
 clean:
 	rm -f *.texi
-	rm -f emacs.html
+	rm -f *.html
 	rm -fR html/
 	rm -f *.info
 	rm -f *.pdf
@@ -385,7 +385,7 @@ html/index.html: $(TEXIS)
 emacs-ja.info: $(TEXIS)
 	makeinfo --no-split -o emacs-ja.info emacs-ja.texi
 
-emacs.pdf emacs-xtra.pdf: $(TEXIS)
+emacs-ja.pdf emacs-xtra-ja.pdf: $(TEXIS)
 	TEX=ptex texi2dvi -c emacs-ja.texi
 	dvipdfmx emacs-ja.dvi
 	rm -f emacs-ja.dvi
@@ -394,10 +394,10 @@ emacs.pdf emacs-xtra.pdf: $(TEXIS)
 	dvipdfmx emacs-xtra-ja.dvi
 	rm emacs-xtra-ja.dvi
 
-emacs.txt: $(TEXI)
+emacs-ja.txt: $(TEXI)
 	texi2any --plaintext emacs-ja.texi > emacs-ja.txt
 
-emacs.texis.tar.gz: $(TEXIS)
+emacs-ja.texis.tar.gz: $(TEXIS)
 	if [ ! -d emacs-ja.texis ]; \
 	then \
 		mkdir emacs-ja.texis/; \
