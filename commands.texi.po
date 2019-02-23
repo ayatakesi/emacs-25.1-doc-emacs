@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 25.1\n"
 "POT-Creation-Date: 2016-09-18 06:33+0900\n"
-"PO-Revision-Date: 2016-09-18 06:53+0900\n"
+"PO-Revision-Date: 2019-02-24 00:34+0900\n"
 "Last-Translator: Ayanokoji Takesi <ayanokoji.takesi@gmail.com>\n"
 "Language-Team: HIRO project <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -47,7 +47,7 @@ msgstr "User Input"
 #: original_texis/commands.texi:19
 #, no-wrap
 msgid "Kinds of User Input"
-msgstr "Kinds of User Input"
+msgstr "ユーザー入力の種類"
 
 #. type: cindex
 #: original_texis/commands.texi:20
@@ -378,7 +378,7 @@ msgstr "Commands"
 #: original_texis/commands.texi:137
 #, no-wrap
 msgid "Keys and Commands"
-msgstr "Keys and Commands"
+msgstr "キーとコマンド"
 
 #. type: cindex
 #: original_texis/commands.texi:139
